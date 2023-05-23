@@ -1,0 +1,15 @@
+{
+    "loading_priority": 1,
+    "powers": [
+        "upgraded:sharkbait"
+    ],
+    "icon": {
+        "item": "minecraft:barrier"
+    },
+    "order": 7,
+    "impact": 3,
+    "name": "Baseline",
+    "description": ""
+}
+
+// Go further here, last updated: 23 - 05 - 2023 - 16:31

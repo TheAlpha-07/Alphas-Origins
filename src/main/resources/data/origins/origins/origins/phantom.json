@@ -1,0 +1,26 @@
+{
+    "loading_priority": 1,
+    "powers": [
+        "roubar:phantomize",
+        "origins:translucent",
+        "roubar:phasing",
+        "roubar:invisibility",
+        "roubar:burn_in_daylight",
+        "roubar:phantominteract",
+        "roubar:hunger_over_time",
+        "roubar:reset",
+        "roubar:scalereset"
+    ],
+    "icon": {
+        "item": "minecraft:phantom_membrane"
+    },
+    "order": 8,
+    "impact": 3,
+    "name": "Phantom",
+    "description": "As half-human and half-phantom offspring, these creatures can switch between a Phantom and a normal form.",
+    "upgrades": {
+        "condition": "minecraft:end/kill_dragon",
+        "origin": "upgraded:adapted_phantom",
+        "announcement": "You have evolved... Best check your origin again..."
+    }
+}
