@@ -3,7 +3,7 @@
   "id": "OriginsEvolved",
   "version": "${version}",
   "name": "Origins Evolved",
-  "description": "Adds the adapted origins. Adds new origins",
+  "description": "Origins Evolved is an addon for the original origins mod. Origins Evolved adds an evolving system to the normal origins in the game, and the added origins with this mod.",
   "authors": [
     "TheAlpha_07"
   ],
@@ -27,6 +27,8 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "${minecraft_version}",
+    "java": ">=17",
+    "origins": ">=1.9.0"
   }
 }
