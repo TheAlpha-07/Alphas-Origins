@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "OriginsEvolved",
+  "version": "${version}",
+  "name": "Origins Evolved",
+  "description": "Adds the adapted origins. Adds new origins",
+  "authors": [
+    "TheAlpha_07"
+  ],
+  "contact": {
+    "repo": "https://github.com/alfredmeuleman/Origins Evolved"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/OriginsEvolved/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "origins.evolved.originsevolved.client.OriginsEvolvedClient"
+    ],
+    "main": [
+      "origins.evolved.originsevolved.OriginsEvolved"
+    ]
+  },
+  "mixins": [
+    "OriginsEvolved.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
