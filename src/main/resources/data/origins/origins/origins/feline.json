@@ -3,13 +3,12 @@
     "powers": [
         "origins:fall_immunity",
         "origins:sprint_jump",
+        "origins:velvet_paws",
         "origins:nine_lives",
+        "origins:weak_arms",
         "origins:scare_creepers",
-        "origins:cat_vision",
-        "roubar:reset",
-        "roubar:scalereset",
-        "roubar:fishes",
-        "roubar:insomnia"
+        "origins:cat_vision"
+
     ],
     "icon": {
         "item": "minecraft:orange_wool"
@@ -21,6 +20,6 @@
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
         "origin": "upgraded:adapted_feline",
-        "announcement": "You have evolved... Best check your origin again..."
+        "announcement": "Evolving... Evolved!"
     }
 }

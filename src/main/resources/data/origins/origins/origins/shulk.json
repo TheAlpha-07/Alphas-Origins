@@ -1,15 +1,12 @@
 {
     "loading_priority": 1,
     "powers": [
-        "roubar:shulker_inventory",
+        "origins:shulker_inventory",
         "origins:natural_armor",
         "origins:strong_arms",
         "origins:strong_arms_break_speed",
         "origins:no_shield",
-        "roubar:more_exhaustion",
-        "roubar:reset",
-        "roubar:scalereset",
-        "roubar:insomnia"
+        "origins:more_exhaustion"
     ],
     "icon": {
         "item": "minecraft:shulker_shell"
@@ -21,6 +18,7 @@
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
         "origin": "upgraded:adapted_shulk",
-        "announcement": "You have evolved... Best check your origin again..."
+        "announcement": "Evolving... Evolved!"
     }
 }
+

@@ -19,6 +19,6 @@
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
         "origin": "upgraded:adapted_arachnid",
-        "announcement": "You have evolved... Best check your origin again..."
+        "announcement": "Evolving... Evolved!"
     }
 }

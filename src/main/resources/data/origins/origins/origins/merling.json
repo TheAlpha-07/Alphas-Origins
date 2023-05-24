@@ -8,11 +8,7 @@
         "origins:like_water",
         "origins:aquatic",
         "origins:conduit_power_on_land",
-        "origins:air_from_potions",
-        "roubar:reset",
-        "roubar:scalereset",
-        "roubar:merling_hp",
-        "roubar:insomnia"
+        "origins:air_from_potions"
     ],
     "icon": {
         "item": "minecraft:cod"
@@ -24,6 +20,6 @@
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
         "origin": "upgraded:adapted_merling",
-        "announcement": "You have evolved... Best check your origin again..."
+        "announcement": "Evolving... Evolved!"
     }
 }

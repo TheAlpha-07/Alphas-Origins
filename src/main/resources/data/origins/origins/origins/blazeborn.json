@@ -8,11 +8,8 @@
         "origins:water_vulnerability",
         "origins:flame_particles",
         "origins:damage_from_snowballs",
-        "origins:damage_from_potions",
-        "roubar:reset",
-        "roubar:scalereset",
-        "roubar:keepburning",
-        "roubar:insomnia"
+        "origins:damage_from_potions"
+
     ],
     "icon": {
         "item": "minecraft:blaze_powder"
@@ -24,6 +21,6 @@
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
         "origin": "upgraded:adapted_blazeborn",
-        "announcement": "You have evolved... Best check your origin again..."
+        "announcement": "Evolving... Evolved!"
     }
 }

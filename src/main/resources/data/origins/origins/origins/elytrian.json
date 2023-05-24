@@ -3,16 +3,11 @@
     "powers": [
         "origins:elytra",
         "origins:launch_into_air",
-        "roubar:aerial_combatant",
+        "origins:aerial_combatant",
         "origins:light_armor",
         "origins:claustrophobia",
-        "origins:more_kinetic_damage",
-        "roubar:reset",
-        "roubar:scalereset",
-        "roubar:freebird",
-        "roubar:elytriantag",
-        "roubar:elytriannerf",
-        "roubar:insomnia"
+        "origins:more_kinetic_damage"
+
     ],
     "icon": {
         "item": "minecraft:elytra"
@@ -24,6 +19,6 @@
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
         "origin": "upgraded:adapted_elytrian",
-        "announcement": "You have evolved... Best check your origin again..."
+        "announcement": "Evolving... Evolved!"
     }
 }
