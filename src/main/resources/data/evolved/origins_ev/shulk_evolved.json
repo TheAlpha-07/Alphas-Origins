@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "origins:shulker_inventory",
+    "origins:strong_arms",
+    "origins:strong_arms_break_speed",
+    "origins:no_shield",
+    "origins:more_exhaustion",
+    "evolved:shulk_evolved_powers/harder_shell_ev",
+    "evolved:shulk_evolved_powers/juggernaut_ev",
+    "evolved:shulk_evolved_powers/juggernaut_toggle_ev",
+    "evolved:shulk_evolved_powers/juggernaut_slowness_ev",
+    "evolved:shulk_evolved_powers/juggernaut_blindness_ev",
+    "evolved:shulk_evolved_powers/choruseat_ev",
+    "alpha:insomnia"
+  ],
+  "icon": "minecraft:shulker_shell",
+  "unchoosable": true,
+  "order": 11,
+  "impact": 1,
+  "name": "Evolved Shulk",
+  "description": "You feel like a new connection has been made between you and the End after killing the dragon, evolving you into an Adapted Shulk."
+}

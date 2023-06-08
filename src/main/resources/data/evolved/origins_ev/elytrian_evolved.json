@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "origins:elytra",
+    "evolved:elytrian_evolved_powers/medium_armor_ev",
+    "origins:launch_into_air",
+    "origins:claustrophobia",
+    "evolved:elytrian_evolved_powers/less_kinetic_damage_ev",
+    "evolved:elytrian_evolved_powers/boost_ev",
+    "alpha:insomnia"
+  ],
+  "icon": "minecraft:elytra",
+  "unchoosable": true,
+  "order": 11,
+  "impact": 2,
+  "name": "Evolved Elytrian",
+  "description": "You and only you shall own the skies now. Killing the dragon has granted you mastery of your wings, evolving you into an Adapted Elytrian."
+}

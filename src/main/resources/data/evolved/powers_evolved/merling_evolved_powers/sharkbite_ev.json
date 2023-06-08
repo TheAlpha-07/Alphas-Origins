@@ -1,0 +1,23 @@
+{
+  "name": "SharkBite",
+  "description": "When hitting another player that is in the water give them bleed for 16 seconds. ",
+  "type": "origins:target_action_on_hit",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "evolved:merling_evolved_powers/sharkbite_resource_ev",
+    "change": 8,
+    "operation": "set"
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 5,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png"
+  },
+  "condition": {
+    "type": "origins:fluid_height",
+    "fluid": "minecraft:water",
+    "comparison": "==",
+    "compare_to": 0
+  }
+}

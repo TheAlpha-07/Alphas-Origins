@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "OriginsEvolved",
+  "id": "originsevolved",
   "version": "${version}",
   "name": "Origins Evolved",
   "description": "Origins Evolved is an addon for the original origins mod. Origins Evolved adds an evolving system to the normal origins in the game, and the added origins with this mod.",
@@ -11,11 +11,11 @@
     "repo": "https://github.com/alfredmeuleman/Origins Evolved"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/OriginsEvolved/icon.png",
+  "icon": "assets/evolved.origins/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "origins.evolved.originsevolved.client.OriginsEvolvedClient"
+      "origins.evolved.originsevolved.OriginsEvolvedClient"
     ],
     "main": [
       "origins.evolved.originsevolved.OriginsEvolved"

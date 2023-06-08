@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "origins:fall_immunity",
+    "origins:sprint_jump",
+    "origins:nine_lives",
+    "origins:scare_creepers",
+    "origins:cat_vision",
+    "evolved:feline_evolved_powers/freehand_ev",
+    "evolved:feline_evolved_powers/faster_attacks_ev",
+    "evolved:feline_evolved_powers/attack_stop_ev",
+    "evolved:feline_evolved_powers/pounce_ev",
+    "evolved:feline_evolved_powers/feline_resource_ev",
+    "evolved:feline_evolved_powers/change_feline_resource_ev",
+    "alpha:insomnia"
+  ],
+  "icon": "minecraft:orange_wool",
+  "unchoosable": true,
+  "order": 11,
+  "impact": 2,
+  "name": "Adapted Feline",
+  "description": "You killed the giant flying mouse! Now you just feel grumpy and aggressive as an Adapted Feline."
+}

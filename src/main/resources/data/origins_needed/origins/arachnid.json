@@ -1,0 +1,26 @@
+{
+    "loading_priority": 1,
+    "powers": [
+        "origins:climbing",
+        "origins:master_of_webs",
+        "origins:carnivore",
+        "origins:fragile",
+        "origins:arthropod",
+        "alpha:reset",
+        "alpha:scale_reset",
+        "alpha:insomnia"
+
+    ],
+    "icon": {
+        "item": "minecraft:cobweb"
+    },
+    "order": 6,
+    "impact": 2,
+    "name": "Arachnid Evolved",
+    "description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
+    "upgrades": {
+        "condition": "minecraft:end/kill_dragon",
+        "origin": "evolved:arachnid_evolved",
+        "announcement": "Evolving... Evolved!"
+    }
+}
