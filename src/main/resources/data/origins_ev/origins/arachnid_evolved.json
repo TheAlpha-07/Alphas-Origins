@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "origins:climbing",
+    "powers_evolved:master_of_webs_ev",
+    "powers_evolved:carnivore_ev",
+    "origins:no_cobweb_slowdown",
+    "origins:arthropod",
+    "origins:fragile",
+    "powers_evolved:neutral_spider_ev",
+    "powers_evolved:neutral_cave_spider_ev",
+    "powers_evolved:summon_cave_spiders_ev",
+    "alpha:rng_ev",
+    "alpha:insomnia"
+
+  ],
+  "icon": {
+    "item": "minecraft:cobweb"
+  },
+  "unchoosable": false,
+  "order": 11,
+  "impact": 1
+}

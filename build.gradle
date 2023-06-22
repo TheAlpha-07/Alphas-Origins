@@ -48,8 +48,9 @@ dependencies {
     modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${cca_version}"
     modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${cca_version}"
     modImplementation "com.github.apace100:apoli:${apoli_version}"
-    include "com.github.apace100:apoli:${apoli_version}"
+    modImplementation "com.github.apace100:apoli:${apoli_version}"
     modImplementation "com.github.apace100:calio:v${calio_version}"
+    modImplementation "com.github.virtuoel:pehkui:${pehkui_version}"
 
     modImplementation "com.github.apace100:origins-fabric:${origins_version}"
 

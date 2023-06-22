@@ -3,6 +3,7 @@
     "order": 0,
     "enabled": true,
     "origins": [
+        "alpha:assassin",
         "evolved:arachnid_evolved",
         "evolved:avian_evolved",
         "evolved:blazeborn_evolved",
@@ -14,12 +15,19 @@
         "evolved:shulk_evolved"
 
     ],
-    "missing_name": "Administrator",
-    "missing_description": "you are the adm",
     "allow_random": true,
     "exclude_random": [
-        "origins:human"
-
+        "origins:human",
+        "evolved:arachnid_evolved",
+        "evolved:avian_evolved",
+        "evolved:blazeborn_evolved",
+        "evolved:elytrian_evolved",
+        "evolved:enderian_evolved",
+        "evolved:feline_evolved",
+        "evolved:merling_evolved",
+        "evolved:phantom_evolved",
+        "evolved:shulk_evolved"
     ],
-    "allow_random_unchoosable": false
+    "allow_random_unchoosable": false,
+    "hidden": false
 }

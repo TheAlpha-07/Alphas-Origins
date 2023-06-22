@@ -1,0 +1,17 @@
+{
+    "powers": [
+
+    ],
+    "icon": {
+        "item": "minecraft:iron_sword"
+    },
+    "upgrades": [
+        {
+            "condition": "minecraft:end/kill_dragon",
+            "origin": "assassin_evolved",
+            "announcement": "You have evolved"
+        }
+    ],
+    "order": 2,
+    "impact": 1
+}

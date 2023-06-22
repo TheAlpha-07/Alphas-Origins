@@ -29,6 +29,7 @@
     "fabric": "*",
     "minecraft": "${minecraft_version}",
     "java": ">=17",
-    "origins": ">=1.9.0"
+    "origins": ">=1.9.0",
+    "pehkui": ">=3.7.2"
   }
 }

@@ -15,12 +15,10 @@
         "item": "minecraft:cobweb"
     },
     "order": 6,
-    "impact": 2,
-    "name": "Arachnid Evolved",
-    "description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
+    "impact": 1,
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "evolved:arachnid_evolved",
+        "origin": "origins_ev:arachnid_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

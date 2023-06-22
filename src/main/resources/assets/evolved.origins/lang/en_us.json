@@ -1,0 +1,17 @@
+{
+  // Names, Description and powers
+  // Assassin
+  "origin.alpha.assassin.name": "Assassin",
+  "origin.alpha.assassin.description": "This is an assassin",
+
+  // Arachnid
+  "origin.origins.arachnid.name": "Arachnid",
+  "origin.origins.arachnid.description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
+
+  // Arachnid Evolved
+  "origin.origins_ev.arachnid_evolved.name": "Arachnid Evolved",
+  "origin.origins_ev.arachnid_evolved.description": "You've conquered the End Dimension and stood up for your entire race. Go forth and craft your own domain now.",
+
+  // Other
+  "layer.origins_needed.origin.name": "Origin"
+}
