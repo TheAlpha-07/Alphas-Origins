@@ -1,14 +1,14 @@
 {
-  // Names, Description and powers
-  // Assassin
+  // Names, Description and powers.
+  // Assassin.
   "origin.alpha.assassin.name": "Assassin",
   "origin.alpha.assassin.description": "This is an assassin",
 
-  // Arachnid
+  // Arachnid.
   "origin.origins.arachnid.name": "Arachnid",
   "origin.origins.arachnid.description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
 
-  // Arachnid Evolved
+  // Arachnid Evolved.
   "origin.origins_ev.arachnid_evolved.name": "Arachnid Evolved",
   "origin.origins_ev.arachnid_evolved.description": "Now that you've conquered the end, you feel the power through all your eight legs. This power feels magnificent this power makes you evolve, could there be a way to become even stronger?",
 
@@ -42,6 +42,6 @@
   "power.powers_evolved.tailwind_ev.name": "Tailwind+",
   "power.powers_evolved.tailwind_ev.description": "You're slightly faster than before",
 
-  // Other
+  // Other.
   "layer.origins_needed.origin.name": "Origin"
 }
