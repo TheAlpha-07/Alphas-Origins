@@ -1,8 +1,5 @@
 {
   "type": "origins:multiple",
-  "description": "See cobweb",
-  "name": "Master of Webs+",
-  "hidden": false,
   "sense": {
     "type": "origins:entity_glow",
     "entity_condition": {

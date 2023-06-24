@@ -32,8 +32,5 @@
         "command": "/summon minecraft:cave_spider ~ ~ ~"
       }
     ]
-  },
-  "hidden": false,
-  "name": "Broodmother",
-  "description": "All spiders are now passive towards you unless you attack them. You can press your secondary key to summon four cave spiders."
+  }
 }

@@ -1,0 +1,20 @@
+{
+  "powers": [
+    "origins:fresh_air",
+    "powers_ev:tailwind_ev",
+    "origins:lay_eggs",
+    "origins:vegetarian",
+    "powers_ev:gain_air_ev",
+    "powers_ev:avian_resource_ev",
+    "powers_ev:avian_resource_2_ev",
+    "powers_ev:change_avian_resource_ev",
+    "powers_ev:absolute_velocity_ev",
+    "alpha:insomnia"
+  ],
+  "icon": {
+    "item": "minecraft:feather"
+  },
+  "unchoosable": false,
+  "order": 11,
+  "impact": 1
+}

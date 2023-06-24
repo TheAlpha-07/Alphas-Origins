@@ -1,7 +1,5 @@
 {
   "type": "origins:multiple",
-  "name": "Cobweb Shot",
-  "description": "You have the ability to launch large burts of silk at your foes, allowing you to ensnare groups temporarily.",
   "shot": {
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:armor_stand",

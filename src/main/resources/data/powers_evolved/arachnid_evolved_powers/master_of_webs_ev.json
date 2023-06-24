@@ -1,7 +1,5 @@
 {
   "type": "origins:multiple",
-  "name": "Master of Webs+",
-  "description": "Make the world your territory. You retain all previous abilities, but now, the battle with the dragon has left you with new territorial instincts. You gain movement speed and stronger attacks in accordance to the number of cobwebs nearby.",
   "webbing": {
     "type": "origins:target_action_on_hit",
     "cooldown": 120,
