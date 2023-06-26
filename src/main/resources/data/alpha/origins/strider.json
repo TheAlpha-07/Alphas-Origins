@@ -1,0 +1,19 @@
+{
+  "loading_priority": 1,
+  "powers": [
+    "alpha:lava_walk",
+    "alpha:nether_spawn"
+  ],
+  "icon": {
+    "item": "minecraft:warped_fungus"
+  },
+  "upgrades": [
+    {
+      "condition": "minecraft:end/kill_dragon",
+      "origin": "originsevolved:strider_evolved",
+      "announcement": "You have evolved"
+    }
+  ],
+  "order": 2,
+  "impact": 2
+}

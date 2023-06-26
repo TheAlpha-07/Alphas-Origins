@@ -4,43 +4,58 @@
   "origin.alpha.assassin.name": "Assassin",
   "origin.alpha.assassin.description": "This is an assassin",
 
+  // Strider.
+  "origin.alpha.strider.name": "Strider",
+  "origin.alpha.strider.description": "",
+
+  "power.alpha.lava_walk.name": "It's just lava.",
+  "power.alpha.lava_walk.description": "You can walk over lava if you'd like, toggle to activate or to turn it of.",
+
+  "power.alpha.nether_spawn.name": "This is where I'll stay.",
+  "power.alpha.nether_spawn.description": "You will spawn in the nether at a warped forest. These forests contain warped fungus, your favourite food",
+
   // Arachnid.
   "origin.origins.arachnid.name": "Arachnid",
   "origin.origins.arachnid.description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
 
   // Arachnid Evolved.
-  "origin.origins_ev.arachnid_evolved.name": "Arachnid Evolved",
-  "origin.origins_ev.arachnid_evolved.description": "Now that you've conquered the end, you feel the power through all your eight legs. This power feels magnificent this power makes you evolve, could there be a way to become even stronger?",
+  "origin.originsevolved.arachnid_evolved.name": "Arachnid Evolved",
+  "origin.originsevolved.arachnid_evolved.description": "Now that you've conquered the end, you feel the power through all your eight legs. This power feels magnificent this power makes you evolve, could there be a way to become even stronger?",
 
-  "power.powers_evolved.master_of_webs_ev.name": "Master of Webs+",
-  "power.powers_evolved.master_of_webs_ev.description": "Create your own territory. After you've killed the dragon your instincts got higher than ever before, you gain speed and strength according to the number of cobwebs around you.",
+  "power.originsevolved.master_of_webs_ev.name": "Master of Webs+",
+  "power.originsevolved.master_of_webs_ev.description": "Create your own territory. After you've killed the dragon your instincts got higher than ever before, you gain speed and strength according to the number of cobwebs around you.",
 
-  "power.powers_evolved.combweb_vedette.name": "Master of Webs+",
-  "power.powers_evolved.combweb_vedette.description": "See cobweb",
+  "power.originsevolved.combweb_vedette.name": "Master of Webs+",
+  "power.originsevolved.combweb_vedette.description": "See cobweb",
 
-  "power.powers_evolved.cobwebshot_ev.name": "Cobweb Shot",
-  "power.powers_evolved.cobwebshot_ev.description": "You have the ability to shoot webs at your enemies, allowing you to block your enemies and take them down.",
+  "power.originsevolved.cobwebshot_ev.name": "Cobweb Shot",
+  "power.originsevolved.cobwebshot_ev.description": "You have the ability to shoot webs at your enemies, allowing you to block your enemies and take them down.",
 
-  "power.powers_evolved.summon_cave_spider_ev.name": "The mother of all spiders",
-  "power.powers_evolved.summon_cave_spider_ev.description": "All spiders are passive towards you unless you hit them. You can now even summon 4 cave spiders to make them fight for you and protect yourself.",
+  "power.originsevolved.summon_cave_spider_ev.name": "The mother of all spiders",
+  "power.originsevolved.summon_cave_spider_ev.description": "All spiders are passive towards you unless you hit them. You can now even summon 4 cave spiders to make them fight for you and protect yourself.",
 
-  "power.powers_evolved.prey_ev.name": "Prey the weak, take them all down.",
-  "power.powers_evolved.prey_ev.description": "See cobweb",
+  "power.originsevolved.prey_ev.name": "Prey the weak, take them all down.",
+  "power.originsevolved.prey_ev.description": "See cobweb",
 
   // Avian
 
   // Avian Evolved
-  "origin.origins_ev.avian_evolved.name": "Avian Evolved",
-  "origin.origins_ev.avian_evolved.description": "You killed the Ender Dragon, the Beast of the Sky, you feel pride umpon your heart making you evolve into an Evolved Avian",
+  "origin.originsevolved.avian_evolved.name": "Avian Evolved",
+  "origin.originsevolved.avian_evolved.description": "You killed the Ender Dragon, the Beast of the Sky, you feel pride umpon your heart making you evolve into an Evolved Avian",
 
-  "power.powers_evolved.absolute_velocity.name": "Absolute Velocity",
-  "power.powers_evolved.absolute_velocity.description": "As you sprint, your velocity bar increases. The higher the velocity bar the more movement speed you gain. At maximum movement speed, you take no knockback and will knock up anyone that damages you. Velocity will rapidly decrease while not sprinting.",
+  "power.originsevolved.absolute_velocity.name": "Absolute Velocity",
+  "power.originsevolved.absolute_velocity.description": "As you sprint, your velocity bar increases. The higher the velocity bar the more movement speed you gain. At maximum movement speed, you take no knockback and will knock up anyone that damages you. Velocity will rapidly decrease while not sprinting.",
 
-  "power.powers_evolved.gain_air_ev.name": "Leap of Faith",
-  "power.powers_evolved.gain_air_ev.description": "Maybe you can fly now so you try as hard as you can... nope... still can't... At least you're making progress!",
+  "power.originsevolved.gain_air_ev.name": "Leap of Faith",
+  "power.originsevolved.gain_air_ev.description": "Maybe you can fly now so you try as hard as you can... nope... still can't... At least you're making progress!",
 
-  "power.powers_evolved.tailwind_ev.name": "Tailwind+",
-  "power.powers_evolved.tailwind_ev.description": "You're slightly faster than before",
+  "power.originsevolved.tailwind_ev.name": "Tailwind+",
+  "power.originsevolved.tailwind_ev.description": "You're slightly faster than before",
+
+  // Phantom
+
+  // Phantom Evolved
+
 
   // Other.
   "layer.origins_needed.origin.name": "Origin"

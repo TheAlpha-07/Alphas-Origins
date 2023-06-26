@@ -5,7 +5,7 @@
     "origins:phasing",
     "origins:invisibility",
     "origins:burn_in_daylight",
-    "evolved:phantom_evolved_powers/stacking_effect_positive",
+    "originsevolved:stacking_effect_positive",
     "origins-classes:sneaky",
     "origins-classes:stealth",
     "origins-classes:stealth_descriptor"

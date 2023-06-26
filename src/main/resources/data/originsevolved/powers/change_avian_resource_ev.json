@@ -8,22 +8,22 @@
     },
     "if_action": {
       "type": "origins:change_resource",
-      "resource": "powers_evolved:avian_resource_ev",
+      "resource": "originsevolved:avian_resource_ev",
       "change": 2,
       "condition": {
         "type": "origins:resource",
-        "resource": "powers_evolved:avian_resource_ev",
+        "resource": "originsevolved:avian_resource_ev",
         "comparison": "<",
         "compare_to": 160
       }
     },
     "else_action": {
       "type": "origins:change_resource",
-      "resource": "powers_evolved:avian_resource_ev",
+      "resource": "originsevolved:avian_resource_ev",
       "change": -6,
       "condition": {
         "type": "origins:resource",
-        "resource": "powers_evolved:avian_resource_ev",
+        "resource": "originsevolved:avian_resource_ev",
         "comparison": "<",
         "compare_to": 160
       }

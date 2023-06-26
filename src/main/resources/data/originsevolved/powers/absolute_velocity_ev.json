@@ -11,7 +11,7 @@
     },
     "condition": {
       "type": "origins:resource",
-      "resource": "powers_evolved:avian_resource_ev",
+      "resource": "originsevolved:avian_resource_ev",
       "comparison": ">=",
       "compare_to": 32
     }
@@ -25,7 +25,7 @@
     },
     "condition": {
       "type": "origins:resource",
-      "resource": "powers_evolved:avian_resource_ev",
+      "resource": "originsevolved:avian_resource_ev",
       "comparison": ">=",
       "compare_to": 64
     }
@@ -39,7 +39,7 @@
     },
     "condition": {
       "type": "origins:resource",
-      "resource": "powers_evolved:avian_resource_ev",
+      "resource": "originsevolved:avian_resource_ev",
       "comparison": ">=",
       "compare_to": 96
     }
@@ -53,7 +53,7 @@
     },
     "condition": {
       "type": "origins:resource",
-      "resource": "powers_evolved:avian_resource_ev",
+      "resource": "originsevolved:avian_resource_ev",
       "comparison": ">=",
       "compare_to": 128
     }
@@ -67,7 +67,7 @@
     },
     "condition": {
       "type": "origins:resource",
-      "resource": "powers_evolved:avian_resource_ev",
+      "resource": "originsevolved:avian_resource_ev",
       "comparison": ">=",
       "compare_to": 155
     }
@@ -81,7 +81,7 @@
     },
     "condition": {
       "type": "origins:resource",
-      "resource": "powers_evolved:avian_resource_ev",
+      "resource": "originsevolved:avian_resource_ev",
       "comparison": "==",
       "compare_to": 160
     }
@@ -95,7 +95,7 @@
     "cooldown": 0,
     "condition": {
       "type": "origins:resource",
-      "resource": "powers_evolved:avian_resource_ev",
+      "resource": "originsevolved:avian_resource_ev",
       "comparison": "==",
       "compare_to": 160
     }
@@ -106,7 +106,7 @@
     "frequency": 10,
     "condition": {
       "type": "origins:resource",
-      "resource": "powers_evolved:avian_resource_ev",
+      "resource": "originsevolved:avian_resource_ev",
       "comparison": "==",
       "compare_to": 160
     }

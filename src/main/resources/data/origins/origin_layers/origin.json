@@ -4,29 +4,30 @@
     "enabled": true,
     "origins": [
         "alpha:assassin",
-        "origins_ev:arachnid_evolved",
-        "origins_ev:avian_evolved",
-        "origins_ev:blazeborn_evolved",
-        "origins_ev:elytrian_evolved",
-        "origins_ev:enderian_evolved",
-        "origins_ev:feline_evolved",
-        "origins_ev:merling_evolved",
-        "origins_ev:phantom_evolved",
-        "origins_ev:shulk_evolved"
+        "alpha:strider",
+        "originsevolved:arachnid_evolved",
+        "originsevolved:avian_evolved",
+        "originsevolved:blazeborn_evolved",
+        "originsevolved:elytrian_evolved",
+        "originsevolved:enderian_evolved",
+        "originsevolved:feline_evolved",
+        "originsevolved:merling_evolved",
+        "originsevolved:phantom_evolved",
+        "originsevolved:shulk_evolved"
 
     ],
     "allow_random": true,
     "exclude_random": [
         "origins:human",
-        "origins_ev:arachnid_evolved",
-        "origins_ev:avian_evolved",
-        "origins_ev:blazeborn_evolved",
-        "origins_ev:elytrian_evolved",
-        "origins_ev:enderian_evolved",
-        "origins_ev:feline_evolved",
-        "origins_ev:merling_evolved",
-        "origins_ev:phantom_evolved",
-        "origins_ev:shulk_evolved"
+        "originsevolved:arachnid_evolved",
+        "originsevolved:avian_evolved",
+        "originsevolved:blazeborn_evolved",
+        "originsevolved:elytrian_evolved",
+        "originsevolved:enderian_evolved",
+        "originsevolved:feline_evolved",
+        "originsevolved:merling_evolved",
+        "originsevolved:phantom_evolved",
+        "originsevolved:shulk_evolved"
     ],
     "allow_random_unchoosable": false,
     "hidden": false

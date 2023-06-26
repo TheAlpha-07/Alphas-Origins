@@ -2,16 +2,16 @@
   "hidden": true,
   "type": "origins:resource",
   "min": 0,
-  "max": 1,
-  "start_value": 1,
+  "max": 160,
+  "start_value": 0,
   "hud_render": {
     "should_render": true,
     "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
-    "bar_index": 10,
+    "bar_index": 13,
     "condition": {
       "type": "origins:resource",
-      "resource": "powers_evolved:avian_resource_ev",
-      "comparison": "==",
+      "resource": "originsevolved:avian_resource_ev",
+      "comparison": "<",
       "compare_to": 160
     }
   }
