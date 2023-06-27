@@ -56,7 +56,14 @@
 
   // Phantom Evolved
 
+  // Blazeborn
 
+  // Blazeborn Evolved
+  "origin.originsevolved.blazeborn_evolved,name": "Blazeborn Evolved",
+  "origin.originsevolved.blazeborn_evolved.description": "Incredible. After slaying that beast, you evolved into an Adapted Blaze. This power, it feels good, it feels reborn, it feels... ablaze.",
+
+  "power.originsevolved.inferno_ev.name": "Inferno",
+  "power.originsevolved.inferno_ev.description": "Burn brighter than the sun! While on fire you can release eight fireballs that set fire to anything they touch!",
   // Other.
   "layer.origins_needed.origin.name": "Origin"
 }

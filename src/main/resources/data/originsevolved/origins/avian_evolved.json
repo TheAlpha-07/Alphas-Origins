@@ -9,7 +9,8 @@
     "originsevolved:avian_resource_ev",
     "originsevolved:avian_resource_2_ev",
     "originsevolved:change_avian_resource_ev",
-    "originsevolved:absolute_velocity_ev"
+    "originsevolved:absolute_velocity_ev",
+    "alpha:insomnia"
   ],
   "icon": {
     "item": "minecraft:feather"

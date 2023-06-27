@@ -10,10 +10,10 @@
     "origins:damage_from_potions",
     "origins:slow_falling",
     "origins:tailwind",
-    "evolved:blazeborn_evolved_powers/inferno_ev",
-    "evolved:blazeborn_evolved_powers/levitate_ev",
-    "evolved:blazeborn_evolved_powers/levitate_toggle_ev",
-    "evolved:blazeborn_evolved_powers/fireball_clear_ev",
+    "originsevolved:inferno_ev",
+    "originsevolved:levitate_ev",
+    "originsevolved:levitate_toggle_ev",
+    "originsevolved:fireball_clear_ev",
     "alpha:insomnia"
   ],
   "icon": {
@@ -21,7 +21,5 @@
   },
   "unchoosable": true,
   "order": 11,
-  "impact": 3,
-  "name": "Evolved Blazeborn",
-  "description": "Incredible. After slaying that beast, you evolved into an Adapted Blaze. This power, it feels good, it feels reborn, it feels... ablaze."
+  "impact": 3
 }
