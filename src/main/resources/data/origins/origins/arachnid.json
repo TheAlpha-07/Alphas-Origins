@@ -18,7 +18,7 @@
     "impact": 1,
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "origins_ev:arachnid_evolved",
+        "origin": "originsvolved:arachnid_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

@@ -41,7 +41,7 @@
 
   // Avian Evolved
   "origin.originsevolved.avian_evolved.name": "Avian Evolved",
-  "origin.originsevolved.avian_evolved.description": "You killed the Ender Dragon, the Beast of the Sky, you feel pride umpon your heart making you evolve into an Evolved Avian",
+  "origin.originsevolved.avian_evolved.description": "You killed the Ender Dragon, the Beast of the Sky, you feel pride upon your heart making you evolve into an Evolved Avian",
 
   "power.originsevolved.absolute_velocity.name": "Absolute Velocity",
   "power.originsevolved.absolute_velocity.description": "As you sprint, your velocity bar increases. The higher the velocity bar the more movement speed you gain. At maximum movement speed, you take no knockback and will knock up anyone that damages you. Velocity will rapidly decrease while not sprinting.",
@@ -52,18 +52,59 @@
   "power.originsevolved.tailwind_ev.name": "Tailwind+",
   "power.originsevolved.tailwind_ev.description": "You're slightly faster than before",
 
-  // Phantom
-
-  // Phantom Evolved
-
   // Blazeborn
 
   // Blazeborn Evolved
-  "origin.originsevolved.blazeborn_evolved,name": "Blazeborn Evolved",
-  "origin.originsevolved.blazeborn_evolved.description": "Incredible. After slaying that beast, you evolved into an Adapted Blaze. This power, it feels good, it feels reborn, it feels... ablaze.",
-
+  "origin.originsevolved.blazeborn_evolved.name": "Blazeborn Evolved",
+  "origin.originsevolved.blazeborn_evolved.description": "After killing the Beast of the End you feel a part of the End magic combine with your Nether magic. This power feels strong and powerful like pure fire, this power makes you evolve into an Evolved Blazeborn.",
   "power.originsevolved.inferno_ev.name": "Inferno",
   "power.originsevolved.inferno_ev.description": "Burn brighter than the sun! While on fire you can release eight fireballs that set fire to anything they touch!",
+
+  "power.originsevolved.levitate_toggle_ev.name": "Levitation",
+  "power.originsevolved.levitate_toggle_ev.description": "Fly like a blaze, well.. sort of..",
+
+  // Elytrian
+
+  // Elytrian Evolved
+  "origin.originsevolved.elytrian_evolved.name": "Elytrian Evolved",
+  "origin.originsevolved.elytrian_evolved.description": "Now that you've killed the Ender Dragon, you're the Master of the Skies. You feel a part of your wind magic awaken inside you, evolving you into an Evolved Elytrian",
+
+  "power.originsevolved.medium_armor_ev.name": "Need For Mobility+",
+  "power.originsevolved.medium_armor_ev.description": "You are able to wear slightly heavier armor now, with the value of iron and a diamond helmet.",
+
+  "power.originsevolved.less_kinetic_damage_ev.name": "Less Kinetic Damage",
+  "power.originsevolved.less_kinetic_damage_ev.description": "You take less kinetic damage than you used to do, but it's still a danger..",
+
+  "power.originsevolved.boost_ev.name": "Air Control",
+  "power.originsevolved.boost_ev.description": "You're now able to control the air currents around you and give yourself a boost while flying.",
+
+  // Enderian
+
+  // Enderian Evolved
+  "origin.originsevolved.enderian_evolved.name": "Enderian Evolved",
+  "origin.originsevolved.enderian_evolved.description": "After killing the monster your ancestors had to hold in the end, you are awarded with their grace, you feel a power rising inside of you, evolving you into an Evolved Enderian.",
+
+  "power.originsevolved.arrow_immunity_ev.name": "Arrow immunity",
+  "power.originsevolved.arrow_immunity_ev.description": "Now that you've evolved into a stronger version of yourself, you're more like a real enderman. Now no arrows can hit you.",
+
+  "power.originsevolved.eyes_of_the_end_ev.name": "Ender Eyes",
+  "power.originsevolved.eyes_of_the_end_ev.description": "Your already good eyes got even better, even though you are now more like an enderman, even normal enderman can't see this good. You are now able to see your enemies from afar and see through the night.",
+
+  // Feline
+
+  // Feline Evolved
+  "origin.originsevolved.feline_evolved.name": "Feline Evolved",
+  "origin.originsevolved.feline_evolved.description": "Now that you've killed that big bird, you take a bite of his flesh. The moment you taste the pure magic in the Ender Dragons flesh you feel the your inner beast awakening making you evolve.",
+
+  "power.originsevolved.freehand_ev.name": "Tiger Claws",
+  "power.originsevolved.freehand_ev.description": "After evolving your claws got sharper and tougher, you're now able to do a significant amount of damage with just your fists,",
+
+  "power.originsevolved.faster_attacks_ev.name": "Fast Attacks",
+  "power.originsevolved.faster_attacks_ev.description": "The magic from the Ender Dragon flesh makes you attack faster with only your claws.",
+
+  "power.originsevolved.pounce_ev.name": "Dragon's Rage",
+  "power.originsevolved.pounce_ev.description": "The magic from the Ender Dragon's flesh also gives you a taste of his hate, his rage. This makes you bloodthirsty, giving you Bloodlust, with 4 stacks of bloodlust you become faster, gives you increased range and your next attack makes you jump towards your enemy doing more damage than usual. After that the blood you got heals you and your bloodlust will fade.",
+
   // Other.
   "layer.origins_needed.origin.name": "Origin"
 }

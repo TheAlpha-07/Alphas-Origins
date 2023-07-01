@@ -17,7 +17,5 @@
         "name": "flyIntoWall"
       }
     ]
-  },
-  "name": "Less Kinetic Damage",
-  "description": "You now take slightly less kinetic damage..."
+  }
 }

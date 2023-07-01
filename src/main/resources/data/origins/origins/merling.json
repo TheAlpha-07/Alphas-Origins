@@ -22,7 +22,7 @@
     "description": "These natural inhabitants of the ocean are not used to being out of the water for too long.",
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "evolved:merling_evolved",
+        "origin": "originsvolved:merling_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

@@ -2,16 +2,16 @@
   "powers": [
     "origins:water_breathing",
     "origins:water_vision",
-    "evolved:merling_evolved_powers/aqua_affinity_ev",
+    "originsevolved:aqua_affinity_ev",
     "origins:swim_speed",
     "origins:like_water",
-    "evolved:merling_evolved_powers/sharkbite_ev",
+    "originsevolved:sharkbite_ev",
     "origins:aquatic",
     "origins:conduit_power_on_land",
     "origins:air_from_potions",
-    "evolved:merling_evolved_powers/reinforced_scale_ev",
-    "evolved:merling_evolved_powers/neptune_blessing_ev",
-    "roubar:insomnia"
+    "originsevolved:reinforced_scale_ev",
+    "originsevolved:neptune_blessing_ev",
+    "alpha:insomnia"
   ],
   "icon": {
     "item": "minecraft:cod"

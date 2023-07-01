@@ -18,6 +18,6 @@
   },
   "hidden": true,
   "cooldown": 10,
-  "name": "fast attacks off",
-  "description": "turns attack speed back to normal after attacking with item"
+  "name": "stop attack",
+  "description": "whenever selecting an item the fast attacks wear off"
 }

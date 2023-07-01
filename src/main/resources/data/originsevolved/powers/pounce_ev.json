@@ -1,6 +1,4 @@
 {
-  "name": "Thrill of the Hunt",
-  "description": "Everytime you attack with your claws, you gain bloodlust. At 4 stacks of bloodlust, you gain slight movement speed, increased reach, and your next attack makes you pounce towards the enemy. This pounce deals extra damage, heals you, and resets your bloodlust.",
   "type": "origins:multiple",
   "pounce": {
     "type": "origins:self_action_on_hit",
@@ -50,7 +48,7 @@
         },
         {
           "type": "origins:resource",
-          "resource": "evolved:feline_evolved_powers/feline_resource",
+          "resource": "originsevolved:feline_resource_ev",
           "comparison": "==",
           "compare_to": 4
         }
@@ -80,7 +78,7 @@
         },
         {
           "type": "origins:resource",
-          "resource": "evolved:feline_evolved_powers/feline_resource",
+          "resource": "originsevolved:feline_resource_ev",
           "comparison": "==",
           "compare_to": 4
         }
@@ -110,7 +108,7 @@
         },
         {
           "type": "origins:resource",
-          "resource": "evolved:feline_evolved_powers/feline_resource",
+          "resource": "originsevolved:feline_resource_ev",
           "comparison": "==",
           "compare_to": 4
         }
@@ -139,7 +137,7 @@
         },
         {
           "type": "origins:resource",
-          "resource": "evolved:feline_evolved_powers/feline_resource",
+          "resource": "originsevolved:feline_resource_ev",
           "comparison": "==",
           "compare_to": 4
         }
@@ -168,7 +166,7 @@
         },
         {
           "type": "origins:resource",
-          "resource": "evolved:feline_evolved_powers/feline_resource",
+          "resource": "originsevolved:feline_resource_ev",
           "comparison": "==",
           "compare_to": 4
         }
@@ -196,7 +194,7 @@
         },
         {
           "type": "origins:resource",
-          "resource": "evolved:feline_evolved_powers/feline_resource",
+          "resource": "originsevolved:feline_resource_ev",
           "comparison": "==",
           "compare_to": 4
         }
@@ -208,7 +206,7 @@
     "type": "origins:self_action_on_hit",
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "evolved:feline_evolved_powers/feline_resource",
+      "resource": "originsevolved:feline_resource_ev",
       "change": -4
     },
     "cooldown": 0,
@@ -227,7 +225,7 @@
         },
         {
           "type": "origins:resource",
-          "resource": "evolved:feline_evolved_powers/feline_resource",
+          "resource": "originsevolved:feline_resource_ev",
           "comparison": "==",
           "compare_to": 4
         }

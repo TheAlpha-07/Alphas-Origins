@@ -7,10 +7,10 @@
     "origins:ender_particles",
     "origins:damage_from_potions",
     "origins:strong_arms_break_speed",
-    "evolved:elytrian_evolved_powers/arrow_immunity_ev",
-    "evolved:elytrian_evolved_powers/eyes_of_the_end_ev",
-    "evolved:elytrian_evolved_powers/entity_glow_ev",
-    "evolved:elytrian_evolved_powers/glowtoggle_ev",
+    "originsevolved:arrow_immunity_ev",
+    "originsevolved:eyes_of_the_end_ev",
+    "originsevolved:entity_glow_ev",
+    "originsevolved:glowtoggle_ev",
     "alpha:insomnia"
   ],
   "icon": {
@@ -18,7 +18,5 @@
   },
   "unchoosable": true,
   "order": 11,
-  "impact": 2,
-  "name": "Evolved Enderian",
-  "description": "After slaying the Ender Dragon, the remorse of slaying your own origin rushes over you like a tidal wave, transforming you into an Adapted Enderian."
+  "impact": 2
 }

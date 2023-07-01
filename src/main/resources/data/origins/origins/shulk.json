@@ -20,7 +20,7 @@
     "description": "Related to Shulkers, the bodies of the Shulk are outfitted with a protective shell-like skin.",
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "evolved:shulk_evolved",
+        "origin": "originsvolved:shulk_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

@@ -52,7 +52,6 @@
         "command": "/summon minecraft:small_fireball ~ ~1 ~ {life:100,pickup:0,Motion:[-0.5,0.0,-0.5]}"
       }
     ]
-  },
-  "name": "The Inferno",
-  "description": "Burn brighter than the sun! While on fire you can release eight fireballs that set fire to anything they touch!"
+  }
+
 }

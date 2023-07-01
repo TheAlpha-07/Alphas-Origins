@@ -27,8 +27,7 @@
   "condition": {
     "type": "origins:fall_flying"
   },
-  "name": "Sonic Boom",
-  "description": "You've masterd the arts of flight. Now while in flight, you're able to grant yourself a boost in velocity.",
+
   "key": {
     "key": "key.origins.secondary_active",
     "continuous": false

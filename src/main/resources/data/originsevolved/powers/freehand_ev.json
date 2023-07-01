@@ -18,7 +18,5 @@
     "value": 5,
     "operation": "addition"
   },
-  "hidden": false,
-  "name": "Serrated Claws",
-  "description": "Dealing damage with your fists now do extra damage due to your extremely sharp claws."
+  "hidden": false
 }

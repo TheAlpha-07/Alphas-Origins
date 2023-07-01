@@ -3,7 +3,7 @@
   "type": "origins:self_action_on_hit",
   "entity_action": {
     "type": "origins:change_resource",
-    "resource": "evolved:feline_evolved_powers/feline_resource",
+    "resource": "originsevolved:feline_resource_ev",
     "change": 1,
     "operation": "add"
   },
@@ -23,7 +23,7 @@
       },
       {
         "type": "origins:resource",
-        "resource": "evolved:feline_evolved_powers/feline_resource",
+        "resource": "originsevolved:feline_resource_ev",
         "comparison": "<",
         "compare_to": 4
       }

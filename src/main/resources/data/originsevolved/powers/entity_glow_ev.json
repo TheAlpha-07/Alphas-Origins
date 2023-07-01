@@ -3,7 +3,7 @@
   "inverted": true,
   "condition": {
     "type": "origins:power_active",
-    "power": "*:glowtoggle"
+    "power": "*:glowtoggle_ev"
   },
   "hidden": true
 }

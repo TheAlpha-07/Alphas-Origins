@@ -9,11 +9,11 @@
     "amplifier": 2,
     "is_ambient": true,
     "show_particles": false,
-    "show_icon": true
+    "show_icon": false
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "*:levitate_toggle"
+    "power": "*:levitate_toggle_ev"
   },
   "name": "Levitate",
   "description": "This makes you levitate while it's toggled.",

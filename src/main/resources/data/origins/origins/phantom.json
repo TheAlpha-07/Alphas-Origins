@@ -23,7 +23,7 @@
     "description": "As half-human and half-phantom offspring, these creatures can switch between a Phantom and a normal form.",
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "evolved:phantom_evolved",
+        "origin": "originsvolved:phantom_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

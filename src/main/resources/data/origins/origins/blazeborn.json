@@ -23,7 +23,7 @@
     "description": "Late descendants of the Blaze, the Blazeborn are naturally immune to the perils of the Nether.",
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "evolved:blazeborn_evolved",
+        "origin": "originsvolved:blazeborn_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

@@ -1,6 +1,4 @@
 {
-  "name": "Need for Mobility+",
-  "description": "You can now wear slightly heavier armor (armor with protection values of iron and a diamond helmet).",
   "type": "origins:restrict_armor",
   "head": {
     "type": "origins:armor_value",

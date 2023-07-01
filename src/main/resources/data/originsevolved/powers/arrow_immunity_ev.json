@@ -1,11 +1,7 @@
 {
-  "type": "origins:toggle",
-  "name": "ToggleGlow",
-  "hidden": true,
-  "description": "I dunno",
-  "key": {
-    "continuous": false,
-    "key": "secondary"
-  },
-  "active_by_default": true
+  "type": "origins:invulnerability",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "arrow"
+  }
 }

@@ -21,7 +21,7 @@
     "description": "Often flying around in the winds, Elytrians are uncomfortable when they don't have enough space above their head.",
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "evolved:elytrian_evolved",
+        "origin": "originsvolved:elytrian_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }
