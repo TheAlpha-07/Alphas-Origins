@@ -52,6 +52,9 @@
   "power.originsevolved.tailwind_ev.name": "Tailwind+",
   "power.originsevolved.tailwind_ev.description": "You're slightly faster than before",
 
+  "power.originsevolved.wind_speed.name": "Speed of the Wind",
+  "power.originsevolved.wind_speed.description": "You can use the wind to increase your speed, but because of your lack of wind magic your power will drain while using it giving you slowness afterwards.",
+
   // Blazeborn
 
   // Blazeborn Evolved
@@ -84,7 +87,7 @@
   "origin.originsevolved.enderian_evolved.name": "Enderian Evolved",
   "origin.originsevolved.enderian_evolved.description": "After killing the monster your ancestors had to hold in the end, you are awarded with their grace, you feel a power rising inside of you, evolving you into an Evolved Enderian.",
 
-  "power.originsevolved.arrow_immunity_ev.name": "Arrow immunity",
+  "power.originsevolved.arrow_immunity_ev.name": "Arrow Immunity",
   "power.originsevolved.arrow_immunity_ev.description": "Now that you've evolved into a stronger version of yourself, you're more like a real enderman. Now no arrows can hit you.",
 
   "power.originsevolved.eyes_of_the_end_ev.name": "Ender Eyes",
@@ -104,6 +107,24 @@
 
   "power.originsevolved.pounce_ev.name": "Dragon's Rage",
   "power.originsevolved.pounce_ev.description": "The magic from the Ender Dragon's flesh also gives you a taste of his hate, his rage. This makes you bloodthirsty, giving you Bloodlust, with 4 stacks of bloodlust you become faster, gives you increased range and your next attack makes you jump towards your enemy doing more damage than usual. After that the blood you got heals you and your bloodlust will fade.",
+
+  // Merling
+
+  // Merling Evolved
+  "origin.originsevolved.merling_evolved.name": "Merling Evolved",
+  "origin.originsevolved.merling_evolved.description": "",
+
+  "power.originsevolved.sharkbite_ev.name": "Strong Teeth",
+  "power.originsevolved.sharkbite_ev.description": "Now that you've slayed the dragon your teeth have gotten tougher and sharper. Now when you hit someone under water they will bleed for 16 seconds",
+
+  "power.originsevolved.reinforced_scale_ev.name": "Tougher Scales",
+  "power.originsevolved.reinforced_scale_ev.description": "Not only your teeth got tougher, your scales also got a small upgrade. ",
+
+  "power.originsevolved.neptune_blessing_ev.name": "Reversal Water",
+  "power.originsevolved.neptune_blessing_ev.description": "Like before your system works quite different than the other, you're almost litterly reversed. Now that you've gained more experience from the outside world, you used the dragons magic to make the enchantments reverse, or give you buffs. If you use the Water Breathing enchantment you will gain dolphins grace. If you use an turtle helmet you will gain water breathing when above water.",
+
+  "power.originsevolved.rain_summoning_ev.name": "Rain summoning",
+  "power.originsevolved.rain_summoning_ev.description": "The dragons magic has awakened the elemental power inside you, you're now able to summon water in the form of rain.",
 
   // Other.
   "layer.origins_needed.origin.name": "Origin"

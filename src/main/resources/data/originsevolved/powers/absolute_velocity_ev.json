@@ -1,6 +1,4 @@
 {
-  "name": "Absloute Velocity",
-  "description": "As you sprint, your velocity bar increases. The higher the velocity bar the more movement speed you gain. At maximum movement speed, you take no knockback and will knock up anyone that damages you. Velocity will rapidly decrease while not sprinting.",
   "type": "origins:multiple",
   "speed1": {
     "type": "origins:conditioned_attribute",

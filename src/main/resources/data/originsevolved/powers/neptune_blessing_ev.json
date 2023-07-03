@@ -1,6 +1,4 @@
 {
-  "name": "Neptune's Blessing",
-  "description": "Neptune has answered! While having Water Breathing underwater, you will gain Dolphin's Grace. While wearing a turtle shell above water, you will gain Water Breathing.",
   "type": "origins:multiple",
   "dolphines_grace": {
     "type": "origins:stacking_status_effect",

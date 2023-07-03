@@ -9,11 +9,11 @@
     "amplifier": 4,
     "is_ambient": true,
     "show_particles": false,
-    "show_icon": true
+    "show_icon": false
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "*:juggernaut_toggle"
+    "power": "*:juggernaut_toggle_ev"
   },
   "name": "Juggernaut",
   "description": "This makes you gain effects while it's toggled.",

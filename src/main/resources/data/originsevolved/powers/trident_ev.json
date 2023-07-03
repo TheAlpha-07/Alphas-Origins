@@ -17,7 +17,7 @@
           },
           {
             "type": "origins:execute_command",
-            "command": "/execute at @s run particle minecraft:bubble_pop ~ ~1 ~ .4 .4 .4 0 1000 normal",
+            "command": "execute at @s run particle minecraft:bubble_pop ~ ~1 ~ .4 .4 .4 0 1000 normal",
             "permission_level": 4
           }
         ]

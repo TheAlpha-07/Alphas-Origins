@@ -13,7 +13,7 @@
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "*:juggernaut_toggle"
+    "power": "*:juggernaut_toggle_ev"
   },
   "name": "Juggernaut",
   "description": "This makes you gain effects while it's toggled.",

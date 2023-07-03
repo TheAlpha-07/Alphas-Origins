@@ -10,6 +10,7 @@
     "originsevolved:avian_resource_2_ev",
     "originsevolved:change_avian_resource_ev",
     "originsevolved:absolute_velocity_ev",
+    "originsevolved:wind_speed",
     "alpha:insomnia"
   ],
   "icon": {
