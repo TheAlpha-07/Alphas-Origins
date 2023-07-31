@@ -5,13 +5,12 @@
     "icon": {
         "item": "minecraft:iron_sword"
     },
-    "upgrades": [
+    "upgrades":
         {
             "condition": "minecraft:end/kill_dragon",
-            "origin": "assassin_evolved",
+            "origin": "",
             "announcement": "You have evolved"
-        }
-    ],
+        },
     "order": 2,
-    "impact": 1
+    "impact": 0
 }

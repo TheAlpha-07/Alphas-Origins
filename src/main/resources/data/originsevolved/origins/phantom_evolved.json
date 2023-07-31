@@ -5,17 +5,15 @@
     "origins:phasing",
     "origins:invisibility",
     "origins:burn_in_daylight",
-    "originsevolved:stacking_effect_positive",
-    "origins-classes:sneaky",
-    "origins-classes:stealth",
-    "origins-classes:stealth_descriptor"
+    "origins:phantomize_overlay",
+    "originsevolved:phantom_flight_ev",
+    "originsevolved:stacking_effect_ev",
+    "originsevolved:sneaky_ev"
   ],
   "icon": {
     "item": "minecraft:phantom_membrane"
   },
   "unchoosable": true,
   "order": 11,
-  "impact": 3,
-  "name": "Evolved Phantom",
-  "description": "You've slain the terror of the skies! You feel stronger as the darkness enshrouds you..."
+  "impact": 3
 }

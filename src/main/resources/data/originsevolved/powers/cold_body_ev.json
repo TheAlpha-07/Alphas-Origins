@@ -1,0 +1,21 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:shaking",
+    "duration": 4
+
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:on_fire",
+    "inverted": true
+  },
+  "cooldown": 4800,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 15
+  }
+}
+
+// If the blazeborn evolved hasn't been on fire in the past 4 minutes (4.800 ticks) he will shake and gain debuffs. (Not finished, not working so far)

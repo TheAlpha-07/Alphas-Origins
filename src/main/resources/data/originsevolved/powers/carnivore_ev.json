@@ -24,7 +24,17 @@
       {
         "type": "origins:ingredient",
         "ingredient": {
-          "tag": "snow:gapple"
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      },
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "alpha:carnivore_allowed"
         },
         "inverted": true
       }

@@ -9,7 +9,7 @@
     "amplifier": 4,
     "is_ambient": true,
     "show_particles": false,
-    "show_icon": false
+    "show_icon": true
   },
   "condition": {
     "type": "origins:power_active",

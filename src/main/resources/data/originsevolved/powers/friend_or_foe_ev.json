@@ -1,0 +1,24 @@
+{
+  "bientity_condition": {
+    "type": "origins:either",
+    "condition": {
+      "type": "origins:daytime",
+      "action": {
+        "type": "origins:apply_effect",
+        "effects": [
+          {
+            "effect": "minecraft:strength",
+            "duration": 400,
+            "amplifier": 1
+          },
+          {
+            "effect": "minecraft:speed",
+            "duration": 400,
+            "amplifier": 1
+          }
+        ]
+      }
+
+    }
+  }
+}

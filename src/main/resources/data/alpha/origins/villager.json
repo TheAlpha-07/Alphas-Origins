@@ -1,0 +1,17 @@
+{
+  "powers": [
+
+  ],
+  "icon": {
+    "item": "minecraft:lectern"
+  },
+  "upgrades": [
+    {
+      "condition": "minecraft:end/kill_dragon",
+      "origin": "magical_villager",
+      "announcement": "You have evolved"
+    }
+  ],
+  "order": 2,
+  "impact": 1
+}

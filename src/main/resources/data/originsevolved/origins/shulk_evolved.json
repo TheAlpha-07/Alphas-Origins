@@ -9,14 +9,12 @@
     "originsevolved:juggernaut_ev",
     "originsevolved:juggernaut_toggle_ev",
     "originsevolved:juggernaut_slowness_ev",
-    "originsevolved:juggernaut_blindness_ev",
+    "originsevolved:juggernaut_blindness",
     "originsevolved:choruseat_ev",
     "alpha:insomnia"
   ],
   "icon": "minecraft:shulker_shell",
   "unchoosable": true,
   "order": 11,
-  "impact": 1,
-  "name": "Evolved Shulk",
-  "description": "You feel like a new connection has been made between you and the End after killing the dragon, evolving you into an Adapted Shulk."
+  "impact": 1
 }

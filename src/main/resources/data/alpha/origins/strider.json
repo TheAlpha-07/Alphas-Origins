@@ -7,13 +7,12 @@
   "icon": {
     "item": "minecraft:warped_fungus"
   },
-  "upgrades": [
+  "upgrades":
     {
       "condition": "minecraft:end/kill_dragon",
       "origin": "originsevolved:strider_evolved",
       "announcement": "You have evolved"
-    }
-  ],
+    },
   "order": 2,
   "impact": 2
 }

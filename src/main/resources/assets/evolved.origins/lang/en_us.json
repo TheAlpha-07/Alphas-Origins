@@ -20,22 +20,28 @@
 
   // Arachnid Evolved.
   "origin.originsevolved.arachnid_evolved.name": "Arachnid Evolved",
-  "origin.originsevolved.arachnid_evolved.description": "Now that you've conquered the end, you feel the power through all your eight legs. This power feels magnificent this power makes you evolve, could there be a way to become even stronger?",
+  "origin.originsevolved.arachnid_evolved.description": "The end magic has blessed your existence and made you even more stronger than before, now that you've evolved, the spiders made you their leader.",
 
   "power.originsevolved.master_of_webs_ev.name": "Master of Webs+",
-  "power.originsevolved.master_of_webs_ev.description": "Create your own territory. After you've killed the dragon your instincts got higher than ever before, you gain speed and strength according to the number of cobwebs around you.",
-
-  "power.originsevolved.combweb_vedette.name": "Master of Webs+",
-  "power.originsevolved.combweb_vedette.description": "See cobweb",
+  "power.originsevolved.master_of_webs_ev.description": "After you've killed the dragon and gained end magic, your instincts got higher than ever before, you gain speed and strength according to the number of cobwebs around you.",
 
   "power.originsevolved.cobwebshot_ev.name": "Cobweb Shot",
   "power.originsevolved.cobwebshot_ev.description": "You have the ability to shoot webs at your enemies, allowing you to block your enemies and take them down.",
 
-  "power.originsevolved.summon_cave_spider_ev.name": "The mother of all spiders",
+  "power.originsevolved.summon_cave_spider_ev.name": "Their leader",
   "power.originsevolved.summon_cave_spider_ev.description": "All spiders are passive towards you unless you hit them. You can now even summon 4 cave spiders to make them fight for you and protect yourself.",
 
-  "power.originsevolved.prey_ev.name": "Prey the weak, take them all down.",
-  "power.originsevolved.prey_ev.description": "See cobweb",
+  "power.originsevolved.prey_ev.name": "Prey the weak.",
+  "power.originsevolved.prey_ev.description": "Only the strongest can survive.",
+
+  "power.originsevolved.more_health_arach_ev.name": "Less fragile",
+  "power.originsevolved.more_health_arach_ev.description": "Not only your extincts have grown better, so did your body, you're now able to withstand more damage than before.",
+
+  "power.originsevolved.carnivore_ev.name": "Carnivore+",
+  "power.originsevolved.carnivore_ev.description": "Now that you've evolved the ends magic allows you to eat magic itself, in fact, golden apples, enchanted golden apples and other are seen as food that gives you magical buffs.",
+
+  "power.originsevolved.friend_or_foe_ev.name": "Friend or Foe",
+  "power.originsevolved.friend_or_foe_ev.description": "As a hunter you're way more flexible and deadly at night, but in daytime you're weak and vulnerable",
 
   // Avian
 
@@ -52,19 +58,23 @@
   "power.originsevolved.tailwind_ev.name": "Tailwind+",
   "power.originsevolved.tailwind_ev.description": "You're slightly faster than before",
 
-  "power.originsevolved.wind_speed.name": "Speed of the Wind",
-  "power.originsevolved.wind_speed.description": "You can use the wind to increase your speed, but because of your lack of wind magic your power will drain while using it giving you slowness afterwards.",
+  "power.originsevolved.muscle_power.name": "Speed of the Wind",
+  "power.originsevolved.muscle_power.description": "You can use the wind to increase your speed, but because of your lack of wind magic your power will drain while using it giving you slowness afterwards.",
 
   // Blazeborn
 
   // Blazeborn Evolved
   "origin.originsevolved.blazeborn_evolved.name": "Blazeborn Evolved",
   "origin.originsevolved.blazeborn_evolved.description": "After killing the Beast of the End you feel a part of the End magic combine with your Nether magic. This power feels strong and powerful like pure fire, this power makes you evolve into an Evolved Blazeborn.",
+
   "power.originsevolved.inferno_ev.name": "Inferno",
-  "power.originsevolved.inferno_ev.description": "Burn brighter than the sun! While on fire you can release eight fireballs that set fire to anything they touch!",
+  "power.originsevolved.inferno_ev.description": "Now that the evolution is completed, the nether magic inside you is awakened even more. Now set your enemies in fire and make them suffer, burn everything around you, this power is almost unstoppable.",
 
   "power.originsevolved.levitate_toggle_ev.name": "Levitation",
   "power.originsevolved.levitate_toggle_ev.description": "Fly like a blaze, well.. sort of..",
+
+  "power.originsevolved.cold_body_ev.name": "Cold Body",
+  "power.originsevolved.cold_body_ev.description": "You're a purer form of the blaze you once were, you need to keep your body warmth once in a while.",
 
   // Elytrian
 
@@ -106,16 +116,13 @@
   "power.originsevolved.faster_attacks_ev.description": "The magic from the Ender Dragon flesh makes you attack faster with only your claws.",
 
   "power.originsevolved.pounce_ev.name": "Dragon's Rage",
-  "power.originsevolved.pounce_ev.description": "The magic from the Ender Dragon's flesh also gives you a taste of his hate, his rage. This makes you bloodthirsty, giving you Bloodlust, with 4 stacks of bloodlust you become faster, gives you increased range and your next attack makes you jump towards your enemy doing more damage than usual. After that the blood you got heals you and your bloodlust will fade.",
+  "power.originsevolved.pounce_ev.description": "The magic from the Ender Dragon's flesh also gives you a taste of his hate, his rage. This makes you bloodthirsty, giving you bloodlust, with 4 stacks of bloodlust you become faster, gives you increased range and your next attack makes you jump towards your enemy doing more damage than usual. After that the blood you got heals you and your bloodlust will fade.",
 
   // Merling
 
   // Merling Evolved
   "origin.originsevolved.merling_evolved.name": "Merling Evolved",
-  "origin.originsevolved.merling_evolved.description": "",
-
-  "power.originsevolved.sharkbite_ev.name": "Strong Teeth",
-  "power.originsevolved.sharkbite_ev.description": "Now that you've slayed the dragon your teeth have gotten tougher and sharper. Now when you hit someone under water they will bleed for 16 seconds",
+  "origin.originsevolved.merling_evolved.description": "End magic rushed through your blood and stroke down into the locked pool of water magic deep inside you, you now feel the seal break a little and are able to use a little of the water magic your ancestors once used.",
 
   "power.originsevolved.reinforced_scale_ev.name": "Tougher Scales",
   "power.originsevolved.reinforced_scale_ev.description": "Not only your teeth got tougher, your scales also got a small upgrade. ",
@@ -125,6 +132,38 @@
 
   "power.originsevolved.rain_summoning_ev.name": "Rain summoning",
   "power.originsevolved.rain_summoning_ev.description": "The dragons magic has awakened the elemental power inside you, you're now able to summon water in the form of rain.",
+
+  "power.originsevolved.trident_ev.name": "The first trident",
+  "power.originsevolved.trident_ev.description": "Long ago the water elementals used the trident as their weapon which was the best choice according to their power. Now whenever you hit someone a trident in the form of water will fall down from the sky",
+
+  // Phantom
+
+  // Phantom Evolved
+  "origin.originsevolved.phantom_evolved.name": "Phantom Evolved",
+  "origin.originsevolved.phantom_evolved.description": "An interesting conquer, you slayed the greatest darkness you've ever seen, not even within yourself, but wait... Now you feel the darkness rising inside you, increasing your power.",
+
+  "power.originsevolved.phantom_flight_ev.name": "Dragon's Flight",
+  "power.originsevolved.phantom_flight_ev.description": "After you slayed the dragon the end magic gave you more darkness in your abilities, when phantomized you're able to fly through the skies.",
+
+  "power.originsevolved.sneaky_ev.name": "Jumpscare",
+  "power.originsevolved.sneaky_ev.description": "After some experiments and drinking all sorts of poisons, this end magic was the last ingredient to this magnificent power, you're able to make others feel your existence when you're phantomized, you can do this whenever you want to making others scared whenever doing this.",
+
+  // Shulk
+
+  // Shulk Evolved
+  "origin.originsevolved.shulk_evolved.name": "Shulk Evolved",
+  "origin.originsevolved.shulk_evolved.description": "As the warden of the end city and creature of the end, after killing the monster in your dimension you gain a little from his end magic which makes you evolve into a stronger version of yourself.",
+
+  "power.originsevolved.harder_shell_ev.name": "Natural Armor+",
+  "power.originsevolved.harder_shell_ev.description": "The end magic that you gained stabilizes your already strong armor, now more durability is added gibing you more armor.",
+
+  "power.originsevolved.choruseat_ev.name": "Food of the End",
+  "power.originsevolved.choruseat_ev.description": "You're now able to eat chorusfruit, normally you will teleport away, but because you're now very heavy with your new armor, whenever you crouch and eat it you will receive a little health.",
+
+  "power.originsevolved.juggernaut_toggle_ev.name": "The Juggernaut",
+  "power.originsevolved.juggernaut_toggle_ev.description": "Now that your armor is stabilized you're able to use it more efficiently, you can now retreat into your armor and use it as the ultimate defense. Your armor will protect you from much damage at the cost of your vision and your movement.",
+
+
 
   // Other.
   "layer.origins_needed.origin.name": "Origin"

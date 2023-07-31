@@ -3,11 +3,13 @@
     "origins:climbing",
     "originsevolved:master_of_webs_ev",
     "originsevolved:carnivore_ev",
+    "originsevolved:more_health_arach_ev",
     "origins:no_cobweb_slowdown",
     "origins:arthropod",
     "originsevolved:neutral_spider_ev",
     "originsevolved:neutral_cave_spider_ev",
-    "originsevolved:summon_cave_spiders_ev",
+    "originsevolved:summon_cave_spider_ev",
+    "originsevolved:friend_or_foe_ev",
     "originsevolved:rng_ev",
     "alpha:insomnia"
 
@@ -21,4 +23,3 @@
 }
 
 
-// Not working so far.

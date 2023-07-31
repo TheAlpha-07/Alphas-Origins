@@ -10,7 +10,7 @@
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
       "condition": {
         "type": "origins:resource",
-        "resource": "originsevolved:sharkbite_resource_ev",
+        "resource": "originsevolved:sharkbleed",
         "comparison": ">",
         "compare_to": 0
       }
@@ -26,7 +26,7 @@
       },
       "if_action": {
         "type": "origins:change_resource",
-        "resource": "originsevolved:sharkbite_resource_ev",
+        "resource": "originsevolved:sharkbleed",
         "change": 0,
         "operation": "set"
       },
@@ -54,7 +54,7 @@
       "actions": [
         {
           "type": "origins:change_resource",
-          "resource": "originsevolved:sharkbite_resource_ev",
+          "resource": "originsevolved:sharkbleed",
           "change": -1
         },
         {
@@ -72,7 +72,7 @@
     "interval": 40,
     "condition": {
       "type": "origins:resource",
-      "resource": "originsevolved:sharkbite_resource_ev",
+      "resource": "originsevolved:sharkbleed",
       "comparison": ">",
       "compare_to": 0
     }

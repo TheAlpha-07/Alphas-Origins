@@ -13,7 +13,8 @@
     "originsevolved:inferno_ev",
     "originsevolved:levitate_ev",
     "originsevolved:levitate_toggle_ev",
-    "originsevolved:fireball_clear_ev",
+    "originsevolved:fireball_ev",
+    "originsevolved:cold_body_ev",
     "alpha:insomnia"
   ],
   "icon": {

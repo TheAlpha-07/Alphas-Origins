@@ -10,13 +10,13 @@
     "originsevolved:avian_resource_2_ev",
     "originsevolved:change_avian_resource_ev",
     "originsevolved:absolute_velocity_ev",
-    "originsevolved:wind_speed",
+    "originsevolved:muscle_power",
     "alpha:insomnia"
   ],
   "icon": {
     "item": "minecraft:feather"
   },
-  "unchoosable": false,
+  "unchoosable": true,
   "order": 11,
   "impact": 1
 }

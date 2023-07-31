@@ -15,7 +15,5 @@
       "block": "minecraft:air",
       "inverted": true
     }
-  },
-  "name": "Leap of Faith",
-  "description": "Maybe you can fly now so you try as hard as you can... nope... still can't... At least you're making progress!"
+  }
 }

@@ -1,6 +1,4 @@
 {
-  "name": "Poseidon's Tact",
-  "description": "The gods seem to have taken notice of your accomplishments. Now whenever you hit something, a trident strikes down from the heavens.",
   "type": "origins:multiple",
   "trident_summon": {
     "type": "origins:target_action_on_hit",
@@ -23,7 +21,7 @@
         ]
       }
     },
-    "cooldown": 20,
+    "cooldown": 40,
     "hud_render": {
       "should_render": true,
       "bar_index": 5
