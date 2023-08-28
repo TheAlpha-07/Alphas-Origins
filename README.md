@@ -1,4 +1,4 @@
-# OriginEvolved
+# OriginsEvolved
 
 ### Priority list: (Errors are to be fixed asap.)
 1. Shulk Evolved (<Done>)
