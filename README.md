@@ -20,6 +20,7 @@
   - Feline Evolved (Sort of)
   - Blazeborn Evolved
   - Arachnid Evolved
+  - Phantom Evolved
 
 ### Work in progress:
 - Origins:
@@ -39,10 +40,23 @@
 ### Errors:
 - Evolved origins:
   - Small Errors: 
-  - Feline (Doesnt heal after pounce.)
-  - Merling (Bleeding doest work.)
+  - 
 
-
+### In progress files:
+- Origin files:
+- Power files:
+  - Active:
+  - Passive:
+    - "originsevolved:adrenaline_ev" (Elytrian Ev) (Passive + Disadvantage combo)
+    - "originsevolved:eyes_of_the_glance_ev" (Enderian Ev) (Passive + Disadvantage combo with "originsevolved:no_water_ev")
+  - Disadvantage:
+    - "originsevolved:friend_or_foe_ev" (Arachnid Ev)
+    - "originsevolved:cold_body_ev" + "originsevolved:cold_body_effects_ev" (Blazeborn Ev)
+    - "originsevolved:hurtfull_feathers_ev" (Avian Ev)
+    - "originsevolved:natural_enemy_ev" (Feline Ev)
+    - "originsevolved:hot_places_ev" (Merling Ev)
+    - "originsevolved:no_water_ev" (Enderian Ev)
+- Other files:
 
 ## Important:
 This mod is a work in progress or is still being updated, only the owner and creator of this mod is able to see this. If your're not the owner and don't have any known permission to be here, please go away. If you have permission to see this, welcome to be here! You can message the creator if there's something in the code you don't understand.

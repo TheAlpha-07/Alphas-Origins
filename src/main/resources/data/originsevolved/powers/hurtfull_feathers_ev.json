@@ -1,5 +1,41 @@
 {
-
+  "type": "apoli:modify_falling",
+  "velocity": 0.01,
+  "take_fall_damage": false,
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:sneaking"
+              },
+              {
+                "type": "origins:fall_flying"
+              }
+            ]
+          },
+          {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:sneaking",
+                "inverted": true
+              },
+              {
+                "type": "origins:fall_flying",
+                "inverted": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
 
-// Whenever the avian evolved health goes under 5 hearts (10 health) levitation won't work until the avian is above 8 hearts (16 health).
+

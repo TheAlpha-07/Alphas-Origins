@@ -3,6 +3,7 @@
     "order": 0,
     "enabled": true,
     "origins": [
+        "alpha:thealpha",
         "alpha:assassin",
         "alpha:strider",
         "originsevolved:arachnid_evolved",

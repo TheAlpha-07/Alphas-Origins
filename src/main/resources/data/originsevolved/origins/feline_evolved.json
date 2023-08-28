@@ -11,6 +11,7 @@
     "originsevolved:pounce_ev",
     "originsevolved:feline_resource_ev",
     "originsevolved:change_feline_resource_ev",
+    "originsevolved:natural_enemy_ev",
     "alpha:insomnia"
   ],
   "icon": "minecraft:orange_wool",
@@ -19,4 +20,3 @@
   "impact": 2
 }
 
-// Additional: heal after bloodlust.

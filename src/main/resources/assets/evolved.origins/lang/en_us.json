@@ -1,5 +1,10 @@
 {
   // Names, Description and powers.
+
+  // Alpha
+  "origin.alpha.thealpha.name": "The Alpha",
+  "origin.alpha.thealpha.description": "Don't mess with me",
+
   // Assassin.
   "origin.alpha.assassin.name": "Assassin",
   "origin.alpha.assassin.description": "This is an assassin",
@@ -61,6 +66,9 @@
   "power.originsevolved.muscle_power.name": "Speed of the Wind",
   "power.originsevolved.muscle_power.description": "You can use the wind to increase your speed, but because of your lack of wind magic your power will drain while using it giving you slowness afterwards.",
 
+  "power.originsevolved.hurtfull_feathers_ev.name": "Bloody Feathers",
+  "power.originsevolved.hurtfull_feathers_ev.description": "test",
+
   // Blazeborn
 
   // Blazeborn Evolved
@@ -75,6 +83,10 @@
 
   "power.originsevolved.cold_body_ev.name": "Cold Body",
   "power.originsevolved.cold_body_ev.description": "You're a purer form of the blaze you once were, you need to keep your body warmth once in a while.",
+
+  "power.originsevolved.cold_body_effects_ev.name": "Cold Body test",
+  "power.originsevolved.cold_body_effects_ev.description": "test",
+
 
   // Elytrian
 
@@ -103,6 +115,9 @@
   "power.originsevolved.eyes_of_the_end_ev.name": "Ender Eyes",
   "power.originsevolved.eyes_of_the_end_ev.description": "Your already good eyes got even better, even though you are now more like an enderman, even normal enderman can't see this good. You are now able to see your enemies from afar and see through the night.",
 
+  "power.originsevolved.no_water_ev.name": "No Water",
+  "power.originsevolved.no_water_ev.description": "No potions",
+
   // Feline
 
   // Feline Evolved
@@ -117,6 +132,10 @@
 
   "power.originsevolved.pounce_ev.name": "Dragon's Rage",
   "power.originsevolved.pounce_ev.description": "The magic from the Ender Dragon's flesh also gives you a taste of his hate, his rage. This makes you bloodthirsty, giving you bloodlust, with 4 stacks of bloodlust you become faster, gives you increased range and your next attack makes you jump towards your enemy doing more damage than usual. After that the blood you got heals you and your bloodlust will fade.",
+
+  "power.originsevolved.natural_enemy_ev.name": "Natural Enemy",
+  "power.originsevolved.natural_enemy_ev.description": "Wolves don't really like you.",
+
 
   // Merling
 
@@ -133,6 +152,9 @@
   "power.originsevolved.rain_summoning_ev.name": "Rain summoning",
   "power.originsevolved.rain_summoning_ev.description": "The dragons magic has awakened the elemental power inside you, you're now able to summon water in the form of rain.",
 
+  "power.originsevolved.hot_places_ev.name": "Hot Places",
+  "power.originsevolved.hot_places_ev.description": "There's no rain in places like the desert or the badlands, it's way to dry around there, because of this you're not able to use your rain summoning power.",
+
   "power.originsevolved.trident_ev.name": "The first trident",
   "power.originsevolved.trident_ev.description": "Long ago the water elementals used the trident as their weapon which was the best choice according to their power. Now whenever you hit someone a trident in the form of water will fall down from the sky",
 
@@ -147,6 +169,9 @@
 
   "power.originsevolved.sneaky_ev.name": "Jumpscare",
   "power.originsevolved.sneaky_ev.description": "After some experiments and drinking all sorts of poisons, this end magic was the last ingredient to this magnificent power, you're able to make others feel your existence when you're phantomized, you can do this whenever you want to making others scared whenever doing this.",
+
+  "power.originsevolved.hell_fire_ev.name": "Hell Fire",
+  "power.originsevolved.hell_fire_ev.description": "Fire 2x damage",
 
   // Shulk
 

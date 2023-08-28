@@ -1,21 +1,35 @@
 {
-  "type": "origins:action_over_time",
-  "entity_action": {
-    "type": "origins:shaking",
-    "duration": 4
-
+  "type": "origins:power",
+  "conditions": [
+    {
+      "type": "origins:biome",
+      "biomes": [
+        "minecraft:basalt_deltas",
+        "minecraft:crimson_forest",
+        "minecraft:nether_wastes",
+        "minecraft:soul_sand_valley",
+        "minecraft:warped_forest"
+      ],
+      "inverted": true
+    },
+    {
+      "type": "origins:in_block",
+      "block": "minecraft:lava"
+    },
+    {
+      "type": "origins:in_block",
+      "block": "minecraft:fire"
+    }
+  ],
+  "shaking": {
+    "frequency": 40,
+    "amplitude": 0.1
   },
-  "interval": 20,
-  "condition": {
-    "type": "origins:on_fire",
-    "inverted": true
-  },
-  "cooldown": 4800,
+  "cooldown": 100,
   "hud_render": {
-    "should_render": true,
-    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-    "bar_index": 15
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 7
   }
 }
 
-// If the blazeborn evolved hasn't been on fire in the past 4 minutes (4.800 ticks) he will shake and gain debuffs. (Not finished, not working so far)
+

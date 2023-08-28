@@ -14,7 +14,8 @@
     "originsevolved:levitate_ev",
     "originsevolved:levitate_toggle_ev",
     "originsevolved:fireball_ev",
-    "originsevolved:cold_body_ev",
+   // "originsevolved:cold_body_ev",
+    "originsevolved:cold_body_effects_ev",
     "alpha:insomnia"
   ],
   "icon": {
