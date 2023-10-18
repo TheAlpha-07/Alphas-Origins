@@ -1,0 +1,70 @@
+{
+  "type": "origins:multiple",
+
+  "attacktoggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.denary_active"
+    }
+  },
+
+  "attackglow": {
+    "type": "origins:action_over_time",
+    "rising_action": {
+      "type": "origins:revoke_power",
+      "power": "alpha:attack_entity_glow",
+      "source": "alpha:hunter"
+    },
+    "falling_action": {
+      "type": "origins:grant_power",
+      "power": "alpha:attack_entity_glow",
+      "source": "alpha:hunter"
+    },
+
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "alpha:toggle_hunt_attack",
+          "inverted": true
+        },
+        {
+          "type": "origins:power_active",
+          "power": "*:*_attacktoggle"
+        }
+      ]
+    }
+  },
+
+  "huntglow": {
+    "type": "origins:action_over_time",
+    "rising_action": {
+      "type": "origins:revoke_power",
+      "power": "alpha:hunter_entity_glow",
+      "source": "alpha:hunter"
+    },
+    "falling_action": {
+      "type": "origins:grant_power",
+      "power": "alpha:hunter_entity_glow",
+      "source": "alpha:hunter"
+    },
+
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "alpha:toggle_hunt_attack",
+          "inverted": true
+        },
+        {
+          "type": "origins:power_active",
+          "power": "*:*_attacktoggle",
+          "inverted": true
+        }
+      ]
+    }
+  }
+}

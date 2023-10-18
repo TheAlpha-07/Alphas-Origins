@@ -1,5 +1,5 @@
 
-package origins.evolved.originsevolved.mixin;
+package com.thealpha07.alphasorigins.mixin;
 
 import io.github.apace100.apoli.ApoliClient;
 import net.fabricmc.api.EnvType;

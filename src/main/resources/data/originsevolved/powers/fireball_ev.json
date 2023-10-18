@@ -17,7 +17,5 @@
       "command": "/kill @e[type= minecraft:small_fireball]"
     }
   },
-  "hidden": true,
-  "name": "Inferno",
-  "description": "Burn brighter than the sun! While on fire you can release a fiery nova that sets everything near you on fire."
+  "hidden": true
 }

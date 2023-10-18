@@ -15,8 +15,7 @@
     "originsevolved:levitate_toggle_ev",
     "originsevolved:fireball_ev",
    // "originsevolved:cold_body_ev",
-    "originsevolved:cold_body_effects_ev",
-    "alpha:insomnia"
+    "originsevolved:cold_body_effects_ev"
   ],
   "icon": {
     "item": "minecraft:blaze_powder"

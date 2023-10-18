@@ -11,8 +11,7 @@
     "originsevolved:arrow_immunity_ev",
     "originsevolved:eyes_of_the_end_ev",
     "originsevolved:entity_glow_ev",
-    "originsevolved:glowtoggle_ev",
-    "alpha:insomnia"
+    "originsevolved:glowtoggle_ev"
   ],
   "icon": {
     "item": "minecraft:ender_pearl"

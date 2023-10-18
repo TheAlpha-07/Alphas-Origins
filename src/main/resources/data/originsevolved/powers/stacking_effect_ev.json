@@ -1,7 +1,5 @@
 {
   "type": "origins:stacking_status_effect",
-  "description": "You gain great speed while shrouded in darkness.",
-  "name": "Shadow Riata",
   "hidden": false,
   "min_stacks": 0,
   "max_stacks": 2,

@@ -1,0 +1,31 @@
+{
+  "type": "origins:multiple",
+
+  "crossbow": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "alpha:hunter"
+    }
+  },
+
+  "bow": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:bow"
+      }
+    },
+    "condition": {
+      "type": "origins:origin",
+      "origin": "alpha:assassin"
+    }
+  }
+}

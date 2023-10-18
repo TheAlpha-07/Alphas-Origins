@@ -1,4 +1,11 @@
 {
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "cooldown": 200,
+  "hud_render": {
+    "should_render": false
+  },
   "type": "origins:swimming",
   "condition": {
     "type": "origins:fluid_height",
@@ -7,7 +14,5 @@
     "compare_to": 0,
     "inverted": false
   },
-  "name": "Like Lava",
-  "description": "You're able to swim through lava like water.",
-  "hidden": false
+  "hidden": true
 }

@@ -1,0 +1,40 @@
+{
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:arrow",
+  "count": 1,
+  "speed": 4,
+  "key": "key.use",
+  "tag": "{crit:1b, damage:3b, PierceLevel:3b}",
+  "projectile_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:set_on_fire",
+        "duration": 1200
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking"
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:bow"
+          }
+        }
+      }
+    ]
+  },
+  "cooldown": 60,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 5
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "rising_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:attack_nightvis",
+        "source": "alpha:hunter"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:attack_entity_glow",
+        "source": "alpha:hunter"
+      }
+    ]
+  },
+  "falling_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:attack_nightvis",
+        "source": "alpha:hunter"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:attack_entity_glow",
+        "source": "alpha:hunter"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "alpha:toggle_hunt_attack",
+    "inverted": true
+  }
+}

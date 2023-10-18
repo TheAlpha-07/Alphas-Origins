@@ -1,0 +1,12 @@
+{
+  "type": "origins:entity_glow",
+  "bientity_condition": {
+    "type": "origins:can_see",
+    "shape_type": "visual",
+    "fluid_handling": "any"
+  },
+  "use_teams": false,
+  "red": 0.0,
+  "green": 0.0,
+  "blue": 1.0
+}

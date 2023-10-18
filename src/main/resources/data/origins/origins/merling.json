@@ -10,8 +10,7 @@
         "origins:conduit_power_on_land",
         "origins:air_from_potions",
         "alpha:reset",
-        "alpha:scale_reset",
-        "alpha:insomnia"
+        "alpha:scale_reset"
     ],
     "icon": {
         "item": "minecraft:cod"
@@ -22,7 +21,7 @@
     "description": "These natural inhabitants of the ocean are not used to being out of the water for too long.",
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "originsvolved:merling_evolved",
+        "origin": "originsevolved:merling_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

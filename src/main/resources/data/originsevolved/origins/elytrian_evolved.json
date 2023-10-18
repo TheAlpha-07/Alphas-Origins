@@ -6,8 +6,7 @@
     "origins:aerial_combatant",
     "origins:claustrophobia",
     "originsevolved:less_kinetic_damage_ev",
-    "originsevolved:boost_ev",
-    "alpha:insomnia"
+    "originsevolved:boost_ev"
   ],
   "icon": "minecraft:elytra",
   "unchoosable": true,

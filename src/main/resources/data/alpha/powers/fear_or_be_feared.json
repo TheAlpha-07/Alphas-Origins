@@ -1,0 +1,52 @@
+{
+  "type": "origins:multiple",
+
+  "actor": {
+    "type": "origins:action_when_hit",
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 6
+      }
+    },
+
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "duration": 600,
+          "amplifier": 0
+        }
+      }
+    }
+  },
+
+
+  "target": {
+    "type": "origins:action_when_hit",
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 6
+      }
+    },
+
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "duration": 600,
+          "amplifier": 0
+        }
+      }
+    }
+  }
+}

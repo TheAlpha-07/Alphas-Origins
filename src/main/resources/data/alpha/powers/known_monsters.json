@@ -1,0 +1,27 @@
+{
+  "type": "origins:multiple",
+
+  "undeaddmg": {
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+      "type": "origins:in_tag",
+      "tag": "alpha:known_monster"
+    },
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.5
+    }
+  },
+
+  "origindmg": {
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+      "type": "origins:in_tag",
+      "tag": "alpha:known_origin"
+    },
+    "modifier": {
+      "operation": "multiply_base",
+      "value": -0.5
+    }
+  }
+}

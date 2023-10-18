@@ -1,0 +1,40 @@
+{
+  "type": "origins:fire_projectile",
+  "entity_type": "minecraft:arrow",
+  "count": 10,
+  "speed": 2,
+  "divergence": 5,
+  "key": "key.use",
+  "projectile_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:set_on_fire",
+        "duration": 300
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking"
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:bow"
+          }
+        }
+      }
+    ]
+  },
+  "cooldown": 60,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 5
+  }
+}

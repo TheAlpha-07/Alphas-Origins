@@ -10,8 +10,7 @@
         "origins:fragile",
         "origins:phantomize_overlay",
         "alpha:reset",
-        "alpha:scale_reset",
-        "alpha:insomnia"
+        "alpha:scale_reset"
 
     ],
     "icon": {
@@ -23,7 +22,7 @@
     "description": "As half-human and half-phantom offspring, these creatures can switch between a Phantom and a normal form.",
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "originsvolved:phantom_evolved",
+        "origin": "originsevolved:phantom_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

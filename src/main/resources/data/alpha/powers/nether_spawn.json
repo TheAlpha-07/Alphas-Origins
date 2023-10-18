@@ -1,6 +1,6 @@
 {
   "type": "origins:modify_player_spawn",
-  "dimension": "minecraft:nether",
+  "dimension": "the_nether",
   "biome": "minecraft:warped_forest",
   "spawn_strategy": "center"
 }

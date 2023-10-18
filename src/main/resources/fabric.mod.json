@@ -1,35 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "originsevolved",
+  "id": "alphasorigins",
   "version": "${version}",
-  "name": "Origins Evolved",
-  "description": "Origins Evolved is an addon for the original origins mod. Origins Evolved adds an evolving system to the normal origins in the game, and the added origins with this mod.",
+  "name": "Alpha's Origins",
+  "description": "Alpha's origins is an addon for the original origins mod. Alpha's origins adds new origins in part 1. Alpha's origins also adds an evolution system in part 1.",
   "authors": [
     "TheAlpha_07"
   ],
   "contact": {
-    "repo": "https://github.com/alfredmeuleman/Origins Evolved"
+    "repo": "https://github.com/alfredmeuleman/Alpha's Origins"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/evolved.origins/icon.png",
+  "icon": "assets/evolved.origins/Alphas-origins1.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "origins.evolved.originsevolved.OriginsEvolvedClient"
+      "com.thealpha07.alphasorigins.AlphasOriginsClient"
     ],
     "main": [
-      "origins.evolved.originsevolved.OriginsEvolved"
+      "com.thealpha07.alphasorigins.AlphasOrigins"
     ]
   },
   "mixins": [
     "OriginsEvolved.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.14.22",
     "fabric": "*",
-    "minecraft": "${minecraft_version}",
+    "minecraft": "1.20.1",
     "java": ">=17",
-    "origins": ">=1.9.0",
-    "pehkui": ">=3.7.2"
+    "origins": ">=1.10.0"
   }
 }

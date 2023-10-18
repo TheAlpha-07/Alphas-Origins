@@ -10,8 +10,8 @@
         "origins:damage_from_snowballs",
         "origins:damage_from_potions",
         "alpha:reset",
-        "alpha:scale_reset",
-        "alpha:insomnia"
+        "alpha:scale_reset"
+
 
     ],
     "icon": {
@@ -23,7 +23,7 @@
     "description": "Late descendants of the Blaze, the Blazeborn are naturally immune to the perils of the Nether.",
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "originsvolved:blazeborn_evolved",
+        "origin": "originsevolved:blazeborn_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

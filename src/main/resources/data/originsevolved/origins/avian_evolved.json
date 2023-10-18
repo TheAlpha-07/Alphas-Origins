@@ -11,8 +11,7 @@
     "originsevolved:change_avian_resource_ev",
     "originsevolved:absolute_velocity_ev",
     "originsevolved:muscle_power",
-    "originsevolved:hurtfull_feathers_ev",
-    "alpha:insomnia"
+    "originsevolved:hurtfull_feathers_ev"
   ],
   "icon": {
     "item": "minecraft:feather"

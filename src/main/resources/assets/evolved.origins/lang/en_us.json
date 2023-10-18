@@ -9,15 +9,57 @@
   "origin.alpha.assassin.name": "Assassin",
   "origin.alpha.assassin.description": "This is an assassin",
 
-  // Strider.
+  // Hunter
+  "origin.alpha.hunter.name": "Hunter",
+  "origin.alpha.hunter.description": "later",
+
+  // Villager
+  "origin.alpha.villager.name": "Villager",
+  "origin.alpha.villager.description": "Once you were a normal villager, but the moment you walked into that abandoned house, in that swamp next to your old village, everything changed. Even your diet changed.",
+
+  "power.alpha.brew_cooldown1.name": "Raw Potions",
+  "power.alpha.brew_cooldown1.description": "Talking about a weird diet, when you ate some sugar before, you felt weirdly fast, this could this have to do something with that feeling last time? You might want to try some more ingredients to figure that out...",
+
+  "power.alpha.brew_cooldown2.name": "Raw Healing Potions",
+  "power.alpha.brew_cooldown2.description": "My first time eating a glistering melon was an interesting experience, after that sugar you ate you tried some more ingredients, turns out that it wasn't just a coincidence...",
+
+  "power.alpha.last_ingredient.name": "The Last Ingredient",
+  "power.alpha.last_ingredient.description": "I'm pretty sure something is going on, I wasn't sure that it would work back then, but the combination of night vision and the worst food ever, fermented spider eye, made me the best at hide and seek.",
+
+  "power.alpha.last_resort.name": "Last Resort",
+  "power.alpha.last_resort.description": "Not so long ago the village got attacked and I tried to defend it, not sure why. I got hurt, a lot... I wasn't sure how I survived back then, even the enemies thought I was dead, but no, I got way tougher the moment I was near death, something I should remember.",
+
+  "power.alpha.illage_and_zombified.name": "Illage and Zombifobia",
+  "power.alpha.illage_and_zombified.description": "Those people, or monster who attacked my village. I did some research, they call them illagers, well whatever they are, they scare the hell out of me, just like zombies. I rather stay away from them.",
+
+
+  // Strider
   "origin.alpha.strider.name": "Strider",
   "origin.alpha.strider.description": "",
 
-  "power.alpha.lava_walk.name": "It's just lava.",
+  "power.alpha.lava_walk.name": "It's just lava",
   "power.alpha.lava_walk.description": "You can walk over lava if you'd like, toggle to activate or to turn it of.",
 
-  "power.alpha.nether_spawn.name": "This is where I'll stay.",
-  "power.alpha.nether_spawn.description": "You will spawn in the nether at a warped forest. These forests contain warped fungus, your favourite food",
+  "power.alpha.nether_spawn.name": "Home",
+  "power.alpha.nether_spawn.description": "You will spawn in the nether at a warped forest.",
+
+  "power.alpha.warped_food.name": "Warped Food",
+  "power.alpha.warped_food.description": "You're addicted to that small blue mushroom that spawns at some places in the nether.",
+
+  "power.alpha.lava_boost.name": "Lava Boost",
+  "power.alpha.lava_boost.description": "You gain a massive speed boost in lava and you're able to swim in lava.",
+
+  "power.alpha.water_vulnerability_s.name": "Water Vulnerability",
+  "power.alpha.water_vulnerability_s.description": "Water hurts you, it almost freezes you.",
+
+  "power.alpha.fire_immuun.name": "Fire Immunity",
+  "power.alpha.fire_immuun.description":"You are, obviously, immuun to fire damage.",
+
+  "power.alpha.blood_of_fire.name": "Blood of Fire",
+  "power.alpha.blood_of_fire.description": "You're genes are made out of lava, without fire you're nothing. When in fire or lava you gain massive buffs.",
+
+  "power.alpha.no_fire.name": "Cold Dimensions",
+  "power.alpha.no_fire.description": "When you're not in fire in the nether you're fine, just a little cold, But when you're outside the nether you're freezing and you can barely move.",
 
   // Arachnid.
   "origin.origins.arachnid.name": "Arachnid",
@@ -188,6 +230,15 @@
   "power.originsevolved.juggernaut_toggle_ev.name": "The Juggernaut",
   "power.originsevolved.juggernaut_toggle_ev.description": "Now that your armor is stabilized you're able to use it more efficiently, you can now retreat into your armor and use it as the ultimate defense. Your armor will protect you from much damage at the cost of your vision and your movement.",
 
+  // More Keybinds
+  "key.origins.denary_active": "Active Power (Third)",
+  "key.origins.nonary_active": "Active Power (Fourth)",
+  "key.origins.octonary_active": "Active Power (Fifth)",
+  "key.origins.septenary_active": "Active Power (Sixth)",
+  "key.origins.senary_active": "Active Power (Seventh)",
+  "key.origins.quinary_active": "Active Power (Eight)",
+  "key.origins.quaternary_active": "Active Power (Ninth)",
+  "key.origins.ternary_active": "Active Power (Tenth)",
 
 
   // Other.

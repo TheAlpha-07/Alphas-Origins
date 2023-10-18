@@ -1,0 +1,25 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+
+  "rising_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+
+      }
+    ]
+  },
+  "falling_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "alpha:toggle_assassin_attack"
+  }
+}

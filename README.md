@@ -48,7 +48,7 @@
   - Active:
   - Passive:
     - "originsevolved:adrenaline_ev" (Elytrian Ev) (Passive + Disadvantage combo)
-    - "originsevolved:eyes_of_the_glance_ev" (Enderian Ev) (Passive + Disadvantage combo with "originsevolved:no_water_ev")
+    - "originsevolved:eyes_of_the_glance_ev" (Enderian Ev) (Active + Disadvantage combo with "originsevolved:no_water_ev")
   - Disadvantage:
     - "originsevolved:friend_or_foe_ev" (Arachnid Ev)
     - "originsevolved:cold_body_ev" + "originsevolved:cold_body_effects_ev" (Blazeborn Ev)
@@ -57,6 +57,22 @@
     - "originsevolved:hot_places_ev" (Merling Ev)
     - "originsevolved:no_water_ev" (Enderian Ev)
 - Other files:
+
+### Hunter:
+- Active powers:
+  - SlowSpeed
+  - ..
+- Passive Powers:
+  - Camouflage
+  - ...
+- Disadvantage powers:
+  - ..
+
+### Non-Priority List:
+- Power files:
+  - Rideable (Strider)
+  - Patchouli books
+
 
 ## Important:
 This mod is a work in progress or is still being updated, only the owner and creator of this mod is able to see this. If your're not the owner and don't have any known permission to be here, please go away. If you have permission to see this, welcome to be here! You can message the creator if there's something in the code you don't understand.

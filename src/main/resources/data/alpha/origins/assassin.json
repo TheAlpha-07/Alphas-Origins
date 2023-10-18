@@ -1,5 +1,9 @@
 {
     "powers": [
+        "alpha:toggle_assassin_attack",
+        "alpha:different_ranged",
+        "alpha:reset",
+        "alpha:scale_reset"
 
     ],
     "icon": {

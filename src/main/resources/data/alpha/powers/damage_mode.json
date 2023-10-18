@@ -1,0 +1,38 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "rising_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:higher_damage",
+        "source": "alpha:hunter"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:heavy_shooter",
+        "source": "alpha:hunter"
+      }
+    ]
+  },
+  "falling_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:higher_damage",
+        "source": "alpha:hunter"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:heavy_shooter",
+        "source": "alpha:hunter"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "alpha:toggle_damage_speed"
+  }
+}

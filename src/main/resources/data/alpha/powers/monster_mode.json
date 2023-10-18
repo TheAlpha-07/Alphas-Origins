@@ -1,0 +1,30 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+
+  "rising_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:known_monsters",
+        "source": "alpha:assassin"
+      }
+    ]
+  },
+  "falling_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:known_monsters",
+        "source": "alpha:assassin"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "alpha:toggle_assassin_attack",
+    "inverted": true
+  }
+}

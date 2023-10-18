@@ -2,7 +2,17 @@
   "loading_priority": 1,
   "powers": [
     "alpha:lava_walk",
-    "alpha:nether_spawn"
+    "alpha:fire_immuun",
+    "alpha:warped_food",
+    "alpha:lava_vision",
+    "alpha:lava_boost",
+    "alpha:blood_of_fire",
+    "alpha:blood_of_lava",
+    "alpha:nether_spawn",
+    "alpha:no_fire",
+    "alpha:water_vulnerability_s",
+    "alpha:reset",
+    "alpha:scale_reset"
   ],
   "icon": {
     "item": "minecraft:warped_fungus"

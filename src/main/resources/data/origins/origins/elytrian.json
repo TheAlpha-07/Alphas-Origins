@@ -8,8 +8,7 @@
         "origins:claustrophobia",
         "origins:more_kinetic_damage",
         "alpha:reset",
-        "alpha:scale_reset",
-        "alpha:insomnia"
+        "alpha:scale_reset"
 
     ],
     "icon": {
@@ -21,7 +20,7 @@
     "description": "Often flying around in the winds, Elytrians are uncomfortable when they don't have enough space above their head.",
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "originsvolved:elytrian_evolved",
+        "origin": "originsevolved:elytrian_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

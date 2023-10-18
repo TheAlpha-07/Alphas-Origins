@@ -9,8 +9,7 @@
         "origins:scare_creepers",
         "origins:cat_vision",
         "alpha:reset",
-        "alpha:scale_reset",
-        "alpha:insomnia"
+        "alpha:scale_reset"
 
     ],
     "icon": {
@@ -22,7 +21,7 @@
     "description": "With their cat-like appearance, the Feline scare creepers away. With the dexterity of cats, they always land safely on their feet.",
     "upgrades": {
         "condition": "minecraft:end/kill_dragon",
-        "origin": "originsvolved:merling_evolved",
+        "origin": "originsevolved:merling_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }
