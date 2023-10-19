@@ -1,6 +1,5 @@
 {
   "type": "origins:multiple",
-
   "attacktoggle": {
     "type": "origins:toggle",
     "active_by_default": false,
@@ -8,7 +7,6 @@
       "key": "key.origins.denary_active"
     }
   },
-
   "attackoff": {
     "type": "origins:action_over_time",
     "entity_action": {
@@ -32,7 +30,6 @@
       ]
     }
   },
-
   "attackon": {
     "type": "origins:action_over_time",
     "entity_action": {
@@ -57,7 +54,6 @@
       ]
     }
   },
-
   "huntoff": {
     "type": "origins:action_over_time",
     "entity_action": {
@@ -80,7 +76,6 @@
       ]
     }
   },
-
   "hunton": {
     "type": "origins:action_over_time",
     "entity_action": {
@@ -104,3 +99,4 @@
       ]
     }
   }
+}

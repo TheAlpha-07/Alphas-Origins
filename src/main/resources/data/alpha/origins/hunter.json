@@ -4,6 +4,7 @@
     "alpha:toggle_hunt_attack",
     "alpha:attack_mode",
     "alpha:hunting_mode",
+    "alpha:entity_glow_off",
     "alpha:toggle_damage_speed",
     "alpha:damage_mode",
     "alpha:speed_mode",
