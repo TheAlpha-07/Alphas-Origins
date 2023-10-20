@@ -1,0 +1,18 @@
+{
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "cooldown": 200,
+  "hud_render": {
+    "should_render": false
+  },
+  "type": "origins:swimming",
+  "condition": {
+    "type": "origins:fluid_height",
+    "fluid": "minecraft:lava",
+    "comparison": ">",
+    "compare_to": 0,
+    "inverted": false
+  },
+  "hidden": true
+}

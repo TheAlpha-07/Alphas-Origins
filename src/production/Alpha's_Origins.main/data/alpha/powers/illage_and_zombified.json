@@ -1,0 +1,23 @@
+{
+  "type": "origins:modify_damage_taken",
+  "damage_conditions": [
+    {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:entity_group",
+        "group": "minecraft:undead"
+      }
+    },
+    {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:entity_group",
+        "group": "minecraft:illager"
+      }
+    }
+  ],
+  "modifier": {
+    "operation": "addition",
+    "value": 2
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "powers": [
+    "origins:water_breathing",
+    "origins:water_vision",
+    "originsevolved:aqua_affinity_ev",
+    "origins:swim_speed",
+    "origins:like_water",
+    "originsevolved:trident_ev",
+    "origins:aquatic",
+    "origins:conduit_power_on_land",
+    "origins:air_from_potions",
+    "originsevolved:reinforced_scale_ev",
+    "originsevolved:neptune_blessing_ev",
+    "originsevolved:rain_summoning_ev",
+    "originsevolved:hot_places_ev"
+  ],
+  "icon": {
+    "item": "minecraft:cod"
+  },
+  "unchoosable": true,
+  "order": 11,
+  "impact": 3
+}

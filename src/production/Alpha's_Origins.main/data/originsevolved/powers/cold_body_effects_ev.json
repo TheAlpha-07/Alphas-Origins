@@ -1,0 +1,12 @@
+{
+  "type": "origins:shaking",
+  "condition": {
+    "type": "origins:on_fire",
+    "inverted": true
+  },
+  "cooldown": 100,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 7
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "loading_priority": 1,
+    "powers": [
+        "origins:climbing",
+        "origins:master_of_webs",
+        "origins:carnivore",
+        "origins:fragile",
+        "origins:arthropod",
+        "alpha:reset",
+        "alpha:scale_reset"
+
+
+    ],
+    "icon": {
+        "item": "minecraft:cobweb"
+    },
+    "order": 6,
+    "impact": 1,
+    "upgrades": {
+        "condition": "minecraft:end/kill_dragon",
+        "origin": "originsevolved:arachnid_evolved",
+        "announcement": "Evolving... Evolved!"
+    }
+}

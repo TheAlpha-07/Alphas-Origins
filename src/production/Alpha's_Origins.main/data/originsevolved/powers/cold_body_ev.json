@@ -1,0 +1,35 @@
+{
+  "type": "origins:power",
+  "conditions": [
+    {
+      "type": "origins:biome",
+      "biomes": [
+        "minecraft:basalt_deltas",
+        "minecraft:crimson_forest",
+        "minecraft:nether_wastes",
+        "minecraft:soul_sand_valley",
+        "minecraft:warped_forest"
+      ],
+      "inverted": true
+    },
+    {
+      "type": "origins:in_block",
+      "block": "minecraft:lava"
+    },
+    {
+      "type": "origins:in_block",
+      "block": "minecraft:fire"
+    }
+  ],
+  "shaking": {
+    "frequency": 40,
+    "amplitude": 0.1
+  },
+  "cooldown": 100,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 7
+  }
+}
+
+

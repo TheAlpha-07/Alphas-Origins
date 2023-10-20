@@ -1,0 +1,37 @@
+{
+    "replace": false,
+    "order": 0,
+    "enabled": true,
+    "origins": [
+        "alpha:assassin",
+        "alpha:strider",
+        "alpha:hunter",
+        "alpha:villager",
+        "originsevolved:arachnid_evolved",
+        "originsevolved:avian_evolved",
+        "originsevolved:blazeborn_evolved",
+        "originsevolved:elytrian_evolved",
+        "originsevolved:enderian_evolved",
+        "originsevolved:feline_evolved",
+        "originsevolved:merling_evolved",
+        "originsevolved:phantom_evolved",
+        "originsevolved:shulk_evolved"
+
+    ],
+    "allow_random": true,
+    "exclude_random": [
+        "alpha:thealpha",
+        "origins:human",
+        "originsevolved:arachnid_evolved",
+        "originsevolved:avian_evolved",
+        "originsevolved:blazeborn_evolved",
+        "originsevolved:elytrian_evolved",
+        "originsevolved:enderian_evolved",
+        "originsevolved:feline_evolved",
+        "originsevolved:merling_evolved",
+        "originsevolved:phantom_evolved",
+        "originsevolved:shulk_evolved"
+    ],
+    "allow_random_unchoosable": false,
+    "hidden": false
+}

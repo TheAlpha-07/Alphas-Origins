@@ -1,0 +1,16 @@
+{
+  "powers": [
+
+  ],
+  "icon": {
+    "item": "minecraft:echo_shard"
+  },
+  "upgrades":
+    {
+      "condition": "minecraft:end/kill_dragon",
+      "origin": "",
+      "announcement": "You have evolved"
+    },
+  "order": 2,
+  "impact": 3
+}

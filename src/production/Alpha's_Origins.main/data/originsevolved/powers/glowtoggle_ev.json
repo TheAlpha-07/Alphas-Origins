@@ -1,0 +1,10 @@
+{
+  "type": "origins:toggle",
+  "key": {
+    "continuous": false,
+    "key": "secondary"
+  },
+  "active_by_default": true,
+  "name": "Glow Toggle",
+  "hidden": true
+}
