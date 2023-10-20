@@ -22,6 +22,7 @@
       }
     ]
   },
+
   "condition": {
     "type": "origins:power_active",
     "power": "alpha:toggle_assassin_attack",
