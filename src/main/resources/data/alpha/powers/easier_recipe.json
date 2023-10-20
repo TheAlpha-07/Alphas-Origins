@@ -1,0 +1,23 @@
+{
+  "type": "origins:recipe",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "id": "origins:assassins_crossbow",
+    "pattern": [
+      " # ",
+      "# #",
+      "SSS"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "S": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "minecraft:crossbow"
+    }
+  }
+}
