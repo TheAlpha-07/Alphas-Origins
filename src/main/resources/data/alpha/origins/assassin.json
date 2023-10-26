@@ -2,6 +2,7 @@
     "powers": [
         "alpha:toggle_assassin_attack",
         "alpha:monster_mode",
+        "alpha:origin_mode",
         "alpha:easier_recipe",
         "alpha:different_ranged",
         "alpha:reset",

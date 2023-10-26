@@ -6,7 +6,9 @@
     "type": "origins:and",
     "actions": [
       {
-
+        "type": "origins:grant_power",
+        "power": "alpha:known_origins",
+        "source": "alpha:assassin"
       }
     ]
   },
@@ -14,7 +16,9 @@
     "type": "origins:and",
     "actions": [
       {
-
+        "type": "origins:revoke_power",
+        "power": "alpha:known_origins",
+        "source": "alpha:assassin"
       }
     ]
   },

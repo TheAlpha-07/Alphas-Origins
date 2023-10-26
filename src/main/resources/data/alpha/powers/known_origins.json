@@ -50,7 +50,7 @@
     },
     "modifier": {
       "operation": "addition",
-      "value": 5.0
+      "value": -5.0
     },
 
     "origindmg": {
@@ -97,7 +97,7 @@
       },
       "modifier": {
         "operation": "addition",
-        "value": -5.0
+        "value": 5.0
       }
     }
   }
