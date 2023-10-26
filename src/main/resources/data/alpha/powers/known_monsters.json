@@ -87,11 +87,6 @@
             "type": "origins:origin",
             "origin": "alpha:villager",
             "layer": "origins:origin"
-          },
-          {
-            "type": "origins:origin",
-            "origin": "alpha:assassin",
-            "layer": "origins:origin"
           }
         ]
       },
