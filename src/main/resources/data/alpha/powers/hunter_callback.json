@@ -4,6 +4,9 @@
     "type": "origins:toggle",
     "power": "alpha:toggle_hunt_attack"
   },
-
+  "entity_action_removed": {
+    "type": "origins:toggle",
+    "power": "alpha:toggle_hunt_attack"
+  },
   "execute_chosen_when_orb": false
 }
