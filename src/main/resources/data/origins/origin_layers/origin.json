@@ -3,6 +3,7 @@
     "order": 0,
     "enabled": true,
     "origins": [
+        "alpha:thealpha",
         "alpha:assassin",
         "alpha:strider",
         "alpha:hunter",
@@ -20,7 +21,6 @@
     ],
     "allow_random": true,
     "exclude_random": [
-        "alpha:thealpha",
         "origins:human",
         "originsevolved:arachnid_evolved",
         "originsevolved:avian_evolved",
