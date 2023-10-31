@@ -13,6 +13,21 @@
         "type": "origins:grant_power",
         "power": "alpha:attack_entity_glow",
         "source": "alpha:hunter"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "alpha:assassin_indicator",
+        "change": 4
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\": \"Attack Mode ACTIVATED\", \"color\": \"red\"}",
+        "condition": {
+          "type": "origins:resource",
+          "resource": "alpha:hunter_indicator",
+          "comparison": "==",
+          "compare_to": 4
+        }
       }
     ]
   },

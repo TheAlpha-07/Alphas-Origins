@@ -1,0 +1,22 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 5,
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effects": [
+      {
+        "effect": "minecraft:resistance",
+        "duration": 40,
+        "amplifier": 1
+      },
+      {
+        "effect": "minecraft:slowness",
+        "duration": 40,
+        "amplifier": 1
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:sneaking"
+  }
+}
