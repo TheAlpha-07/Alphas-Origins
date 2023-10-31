@@ -9,6 +9,21 @@
         "type": "origins:grant_power",
         "power": "alpha:known_origins",
         "source": "alpha:assassin"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "alpha:assassin_indicator",
+        "change": 3
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\": \"Origin Mode ACTIVATED\", \"color\": \"red\"}",
+        "condition": {
+          "type": "origins:resource",
+          "resource": "alpha:assassin_indicator",
+          "comparison": "==",
+          "compare_to": 3
+        }
       }
     ]
   },

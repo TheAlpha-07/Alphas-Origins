@@ -1,18 +1,24 @@
 {
   "type": "origins:action_over_time",
   "interval": 20,
+
   "rising_action": {
     "type": "origins:and",
     "actions": [
       {
         "type": "origins:grant_power",
-        "power": "alpha:fast_shooter",
-        "source": "alpha:hunter"
+        "power": "alpha:more_hearts",
+        "source": "alpha:assassin"
       },
       {
         "type": "origins:grant_power",
-        "power": "alpha:bow_sprint",
-        "source": "alpha:hunter"
+        "power": "alpha:resistance_sneak",
+        "source": "alpha:assassin"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:smash_knockback",
+        "source": "alpha:assassin"
       },
       {
         "type": "origins:change_resource",
@@ -21,10 +27,10 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Speed Mode ACTIVATED\", \"color\": \"green\"}",
+        "command": "tellraw @s {\"text\": \"Defensive Mode ACTIVATED\", \"color\": \"green\"}",
         "condition": {
           "type": "origins:resource",
-          "resource": "alpha:hunter_indicator",
+          "resource": "alpha:assassin_indicator",
           "comparison": "==",
           "compare_to": 2
         }
@@ -36,19 +42,25 @@
     "actions": [
       {
         "type": "origins:revoke_power",
-        "power": "alpha:fast_shooter",
-        "source": "alpha:hunter"
+        "power": "alpha:more_hearts",
+        "source": "alpha:assassin"
       },
       {
         "type": "origins:revoke_power",
-        "power": "alpha:bow_sprint",
-        "source": "alpha:hunter"
+        "power": "alpha:resistance_sneak",
+        "source": "alpha:assassin"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:smash_knockback",
+        "source": "alpha:assassin"
       }
     ]
   },
+
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_damage_speed",
+    "power": "alpha:toggle_reckless_defensive",
     "inverted": true
   }
 }

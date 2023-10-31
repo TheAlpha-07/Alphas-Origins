@@ -1,18 +1,24 @@
 {
   "type": "origins:action_over_time",
   "interval": 20,
+
   "rising_action": {
     "type": "origins:and",
     "actions": [
       {
         "type": "origins:grant_power",
-        "power": "alpha:higher_damage",
-        "source": "alpha:hunter"
+        "power": "alpha:less_hearts",
+        "source": "alpha:assassin"
       },
       {
         "type": "origins:grant_power",
-        "power": "alpha:heavy_shooter",
-        "source": "alpha:hunter"
+        "power": "alpha:dash",
+        "source": "alpha:assassin"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:no_shield",
+        "source": "alpha:assassin"
       },
       {
         "type": "origins:change_resource",
@@ -21,10 +27,10 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Damage Mode ACTIVATED\", \"color\": \"green\"}",
+        "command": "tellraw @s {\"text\": \"Reckless Mode ACTIVATED\", \"color\": \"green\"}",
         "condition": {
           "type": "origins:resource",
-          "resource": "alpha:hunter_indicator",
+          "resource": "alpha:assassin_indicator",
           "comparison": "==",
           "compare_to": 1
         }
@@ -36,18 +42,23 @@
     "actions": [
       {
         "type": "origins:revoke_power",
-        "power": "alpha:higher_damage",
-        "source": "alpha:hunter"
+        "power": "alpha:less_hearts",
+        "source": "alpha:assassin"
       },
       {
         "type": "origins:revoke_power",
-        "power": "alpha:heavy_shooter",
-        "source": "alpha:hunter"
+        "power": "alpha:dash",
+        "source": "alpha:assassin"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:no_shield",
+        "source": "alpha:assassin"
       }
     ]
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_damage_speed"
+    "power": "alpha:toggle_reckless_defensive"
   }
 }

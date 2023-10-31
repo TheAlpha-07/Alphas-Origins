@@ -1,0 +1,13 @@
+{
+  "type": "origins:action_on_hit",
+  "bientity_action": {
+    "type": "origins:add_velocity",
+    "z": 0.5
+  },
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:sneaking"
+    }
+  }
+}
