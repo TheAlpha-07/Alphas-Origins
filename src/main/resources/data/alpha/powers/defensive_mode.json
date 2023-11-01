@@ -21,6 +21,11 @@
         "source": "alpha:assassin"
       },
       {
+        "type": "origins:grant_power",
+        "power": "alpha:attack_slow",
+        "source": "alpha:assassin"
+      },
+      {
         "type": "origins:change_resource",
         "resource": "alpha:assassin_indicator",
         "change": 2
@@ -53,6 +58,11 @@
       {
         "type": "origins:revoke_power",
         "power": "alpha:smash_knockback",
+        "source": "alpha:assassin"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:attack_slow",
         "source": "alpha:assassin"
       }
     ]

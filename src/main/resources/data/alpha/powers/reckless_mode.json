@@ -21,6 +21,16 @@
         "source": "alpha:assassin"
       },
       {
+        "type": "origins:grant_power",
+        "power": "alpha:swift_sneak",
+        "source": "alpha:assassin"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:attack_speed",
+        "source": "alpha:assassin"
+      },
+      {
         "type": "origins:change_resource",
         "resource": "alpha:assassin_indicator",
         "change": 1
@@ -53,6 +63,16 @@
       {
         "type": "origins:revoke_power",
         "power": "alpha:no_shield",
+        "source": "alpha:assassin"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:swift_sneak",
+        "source": "alpha:assassin"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:attack_speed",
         "source": "alpha:assassin"
       }
     ]
