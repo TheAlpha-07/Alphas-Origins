@@ -20,7 +20,7 @@
   "upgrades":
     {
       "condition": "minecraft:end/kill_dragon",
-      "origin": "originsevolved:strider_evolved",
+      "origin": "originsevolved:lava_walker",
       "announcement": "You have evolved"
     },
   "order": 2,
