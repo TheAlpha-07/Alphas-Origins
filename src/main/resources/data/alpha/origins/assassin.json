@@ -1,8 +1,9 @@
 {
     "powers": [
         "alpha:toggle_assassin_attack",
-        "alpha:monster_mode",
         "alpha:origin_mode",
+        "alpha:monster_mode",
+        "alpha:unknown_enemies",
         "alpha:toggle_reckless_defensive",
         "alpha:reckless_mode",
         "alpha:defensive_mode",
