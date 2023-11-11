@@ -22,25 +22,19 @@
   - Arachnid Evolved
   - Phantom Evolved
 
-### Work in progress:
-- Origins:
-  - Strider (In progress)
-  - Villager (Not started)
-  - Gravitist (Not started)
-  - Assassin (Not started)
-  - Hunter (Not started)
+### Assassin needed powers:
+- Passive power:
+  - Kill confirmed:
+    - Add XP
+    - Heal: (2 Health)
+- Negative power:
+  - Exhaustion after kill.
+    - Exhaustion
+    - Hunger effect (10 seconds)
 
-- Evolved Origins:
-  - Merling Evolved (In progress)
-  - Phantom Evolved (In progress)
-  - Strider Evolved (Not started)
-  - Magical Villager (Not started)
-  - Gravitist Evolved (Not started)
+### Work in progress:
 
 ### Errors:
-- Evolved origins:
-  - Small Errors: 
-  - 
 
 ### In progress files:
 - Origin files:
@@ -58,15 +52,6 @@
     - "originsevolved:no_water_ev" (Enderian Ev)
 - Other files:
 
-### Hunter:
-- Active powers:
-  - SlowSpeed
-  - ..
-- Passive Powers:
-  - Camouflage
-  - ...
-- Disadvantage powers:
-  - ..
 
 ### Non-Priority List:
 - Power files:
@@ -78,4 +63,5 @@
 This mod is a work in progress or is still being updated, only the owner and creator of this mod is able to see this. If your're not the owner and don't have any known permission to be here, please go away. If you have permission to see this, welcome to be here! You can message the creator if there's something in the code you don't understand.
 
 ### Creator: TheAlpha_07 
-### Credits:
+### Credits: 
+- Code: TheAlpha_07
