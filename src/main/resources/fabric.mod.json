@@ -11,7 +11,7 @@
     "repo": "https://github.com/alfredmeuleman/Alpha's Origins"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/evolved.origins/Alphas-origins1.png",
+  "icon": "assets/alpha_origins/Alphas-origins1.png",
   "environment": "*",
   "entrypoints": {
     "client": [
