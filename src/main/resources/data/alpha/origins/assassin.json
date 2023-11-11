@@ -9,6 +9,7 @@
         "alpha:defensive_mode",
         "alpha:assassin_indicator",
         "alpha:easier_recipe",
+        "alpha:kill_confirmed",
         "alpha:different_ranged",
         "alpha:reset",
         "alpha:scale_reset"
