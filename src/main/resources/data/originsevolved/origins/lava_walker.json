@@ -1,3 +1,30 @@
 {
-
+  "loading_priority": 1,
+  "powers": [
+    "alpha:lava_walk",
+    "alpha:fire_immuun",
+    "alpha:warped_food",
+    "originsevolved:lava_vision_ev",
+    "originsevolved:lava_speed_ev",
+    "originsevolved:lava_boost_ev",
+    "alpha:blood_of_fire",
+    "alpha:blood_of_lava",
+    "alpha:nether_spawn",
+    "alpha:no_fire",
+    "alpha:water_vulnerability_s",
+    "alpha:reset",
+    "alpha:scale_reset"
+  ],
+  "icon": {
+    "item": "minecraft:warped_fungus"
+  },
+  "upgrades":
+  {
+    "condition": "minecraft:end/kill_dragon",
+    "origin": "",
+    "announcement": "You have evolved"
+  },
+  "unchoosable": true,
+  "order": 2,
+  "impact": 2
 }

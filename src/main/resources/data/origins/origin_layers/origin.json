@@ -16,7 +16,8 @@
         "originsevolved:feline_evolved",
         "originsevolved:merling_evolved",
         "originsevolved:phantom_evolved",
-        "originsevolved:shulk_evolved"
+        "originsevolved:shulk_evolved",
+        "originsevolved:lava_walker"
 
     ],
     "allow_random": true,

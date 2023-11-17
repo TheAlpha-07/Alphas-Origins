@@ -1,0 +1,31 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "cooldown": 1500,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 1
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:grant_power",
+        "power": "originsevolved:lava_boost_g_ev",
+        "source": "originsevolved:lava_walker"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 600,
+        "action": {
+          "type": "origins:revoke_power",
+          "power": "originsevolved:lava_boost_g_ev",
+          "source": "originsevolved:lava_walker"
+        }
+      }
+    ]
+  }
+}
