@@ -1,0 +1,19 @@
+{
+  "type": "origins:action_over_time",
+
+  "entity_action": {
+    "type": "origins:damage",
+    "damage_type": "minecraft:freeze",
+    "amount": 2
+  },
+  "interval": 60,
+
+  "condition": {
+    "type": "origins:biome",
+    "condition": {
+      "type": "origins:temperature",
+      "comparison": "<=",
+      "compare_to": 0.0
+    }
+  }
+}

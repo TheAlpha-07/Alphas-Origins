@@ -1,0 +1,10 @@
+{
+  "type": "origins:exhaust",
+  "interval": 20,
+  "exhaustion": 0.712,
+  "condition": {
+    "type": "origins:dimension",
+    "dimension": "minecraft:the_nether",
+    "inverted": true
+  }
+}
