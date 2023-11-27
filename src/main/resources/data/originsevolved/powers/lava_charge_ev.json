@@ -1,0 +1,253 @@
+{
+  "type": "origins:multiple",
+
+  "charge": {
+    "type": "origins:active_self",
+    "key": {
+      "key": "key.origins.nonary_active"
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "cooldown": 60,
+    "entity_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "comparison": "==",
+            "compare_to": 0
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "change": 1
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "change": 2
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "comparison": "==",
+            "compare_to": 2
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "change": 3
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "comparison": "==",
+            "compare_to": 3
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "change": 4
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "comparison": "==",
+            "compare_to": 4
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "change": 4
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:submerged_in",
+      "fluid": "minecraft:lava"
+    }
+  },
+
+  "resource_bar": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "comparison": "==",
+            "compare_to": 0
+          },
+          "action": {
+            "type": "origins:spawn_particles",
+            "particle": {
+              "type": "minecraft:block",
+              "params": "minecraft:redstone_block"
+            },
+            "count": 16,
+            "speed": 0.0,
+            "force": true,
+            "spread": {
+              "x": 3.0,
+              "y": 0.0,
+              "z": 3.0
+            },
+            "hud_render": {
+              "sprite_location": "origins:textures/gui/community/wolf/lava_walker_resource.png",
+              "should_render": true,
+              "bar_index": 4,
+              "condition": {
+                "type": "origins:exists"
+              }
+            }
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:spawn_particles",
+            "particle": {
+              "type": "minecraft:block",
+              "params": "minecraft:redstone_block"
+            },
+            "count": 16,
+            "speed": 0.0,
+            "force": true,
+            "spread": {
+              "x": 3.0,
+              "y": 0.0,
+              "z": 3.0
+            },
+            "hud_render": {
+              "sprite_location": "origins:textures/gui/community/wolf/lava_walker_resource.png",
+              "should_render": true,
+              "bar_index": 3,
+              "condition": {
+                "type": "origins:exists"
+              }
+            }
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "comparison": "==",
+            "compare_to": 2
+          },
+          "action": {
+            "type": "origins:spawn_particles",
+            "particle": {
+              "type": "minecraft:block",
+              "params": "minecraft:redstone_block"
+            },
+            "count": 16,
+            "speed": 0.0,
+            "force": true,
+            "spread": {
+              "x": 3.0,
+              "y": 0.0,
+              "z": 3.0
+            },
+            "hud_render": {
+              "sprite_location": "origins:textures/gui/community/wolf/lava_walker_resource.png",
+              "should_render": true,
+              "bar_index": 2,
+              "condition": {
+                "type": "origins:exists"
+              }
+            }
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "comparison": "==",
+            "compare_to": 3
+          },
+          "action": {
+            "type": "origins:spawn_particles",
+            "particle": {
+              "type": "minecraft:block",
+              "params": "minecraft:redstone_block"
+            },
+            "count": 16,
+            "speed": 0.0,
+            "force": true,
+            "spread": {
+              "x": 3.0,
+              "y": 0.0,
+              "z": 3.0
+            },
+            "hud_render": {
+              "sprite_location": "origins:textures/gui/community/wolf/lava_walker_resource.png",
+              "should_render": true,
+              "bar_index": 1,
+              "condition": {
+                "type": "origins:exists"
+              }
+            }
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:lava_charge_recourse_ev",
+            "comparison": "==",
+            "compare_to": 4
+          },
+          "action": {
+            "type": "origins:spawn_particles",
+            "particle": {
+              "type": "minecraft:block",
+              "params": "minecraft:redstone_block"
+            },
+            "count": 16,
+            "speed": 0.0,
+            "force": true,
+            "spread": {
+              "x": 3.0,
+              "y": 0.0,
+              "z": 3.0
+            },
+            "hud_render": {
+              "sprite_location": "origins:textures/gui/community/wolf/lava_walker_resource.png",
+              "should_render": true,
+              "bar_index": 0,
+              "condition": {
+                "type": "origins:exists"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "interval": 10
+  }
+}

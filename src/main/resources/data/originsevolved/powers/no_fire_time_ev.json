@@ -1,0 +1,9 @@
+{
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "originsevolved:no_fire_delay_ev",
+    "change": 2
+  },
+  "interval": 200
+}
