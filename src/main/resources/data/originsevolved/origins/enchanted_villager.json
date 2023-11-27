@@ -1,5 +1,6 @@
 {
   "powers": [
+    "originsevolved:ored_magic_substract_ev",
     "alpha:brew_speed",
     "alpha:brew_strength",
     "alpha:brew_fireresistance",
@@ -15,7 +16,9 @@
     "alpha:last_ingredient",
     "alpha:last_ingredient_stop",
     "alpha:last_resort",
+    "originsevolved:potion_invulnerability_ev",
     "alpha:illage_and_zombified",
+    "originsevolved:betrayal_ev",
     "alpha:reset",
     "alpha:scale_reset"
   ],

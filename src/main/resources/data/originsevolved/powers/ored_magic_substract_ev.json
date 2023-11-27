@@ -1,0 +1,162 @@
+{
+  "type": "origins:multiple",
+
+  "gold_block": {
+    "type": "origins:action_on_block_use",
+
+    "block_action": {
+      "type": "origins:set_block",
+      "block": "minecraft:air"
+    },
+
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:gold_block"
+    },
+
+    "item_condition": {
+      "type": "origins:enchantment",
+      "enchantment": "minecraft:vanishing_curse"
+    },
+
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:area_of_effect",
+          "radius": 32,
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:wither",
+                "duration": 400,
+                "amplifier": 0
+              }
+            }
+          },
+          "include_target": true
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:damage_indicator"
+          },
+          "count": 16,
+          "speed": 0.0,
+          "force": true
+        }
+      ]
+    }
+  },
+
+  "copper_block": {
+    "type": "origins:action_on_block_use",
+
+    "block_action": {
+      "type": "origins:set_block",
+      "block": "minecraft:air"
+    },
+
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:copper_block"
+    },
+
+    "item_condition": {
+      "type": "origins:enchantment",
+      "enchantment": "minecraft:vanishing_curse"
+    },
+
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:area_of_effect",
+          "radius": 32,
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:slowness",
+                "duration": 600,
+                "amplifier": 3
+              }
+            }
+          },
+          "include_target": true
+        },
+        {
+          "type": "origins:area_of_effect",
+          "radius": 32,
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:execute_command",
+              "command": "/effect clear @s minecraft:speed"
+            }
+          },
+          "include_target": true
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:damage_indicator"
+          },
+          "count": 16,
+          "speed": 0.0,
+          "force": true
+        }
+      ]
+    }
+  },
+
+
+  "lapis_block": {
+    "type": "origins:action_on_block_use",
+
+    "block_action": {
+      "type": "origins:set_block",
+      "block": "minecraft:air"
+    },
+
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:lapis_block"
+    },
+
+    "item_condition": {
+      "type": "origins:enchantment",
+      "enchantment": "minecraft:vanishing_curse"
+    },
+
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:area_of_effect",
+          "radius": 32,
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:execute_command",
+              "command": "/effect clear @s"
+            }
+          },
+          "include_target": true
+        },
+        {
+          "type": "origins:spawn_particles",
+          "particle": {
+            "type": "minecraft:damage_indicator"
+          },
+          "count": 16,
+          "speed": 0.0,
+          "force": true
+        }
+      ]
+    }
+  }
+}
