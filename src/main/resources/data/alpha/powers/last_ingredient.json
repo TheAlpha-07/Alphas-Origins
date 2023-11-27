@@ -56,6 +56,10 @@
           "power": "alpha:invis",
           "source": "alpha:villager"
         }
+      },
+      {
+        "type": "origins:trigger_cooldown",
+        "power": "originsevolved:brew_levitation_ev"
       }
     ]
   },

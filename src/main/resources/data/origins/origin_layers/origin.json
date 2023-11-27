@@ -17,7 +17,8 @@
         "originsevolved:merling_evolved",
         "originsevolved:phantom_evolved",
         "originsevolved:shulk_evolved",
-        "originsevolved:lava_walker"
+        "originsevolved:lava_walker",
+        "originsevolved:enchanted_villager"
 
     ],
     "allow_random": true,
@@ -31,7 +32,9 @@
         "originsevolved:feline_evolved",
         "originsevolved:merling_evolved",
         "originsevolved:phantom_evolved",
-        "originsevolved:shulk_evolved"
+        "originsevolved:shulk_evolved",
+        "originsevolved:lava_walker",
+        "originsevolved:enchanted_villager"
     ],
     "allow_random_unchoosable": false,
     "hidden": false

@@ -11,6 +11,7 @@
     "alpha:brew_instanthealth",
     "alpha:brew_regeneration",
     "alpha:brew_cooldown2",
+    "originsevolved:brew_levitation_ev",
     "alpha:last_ingredient",
     "alpha:last_ingredient_stop",
     "alpha:last_resort",
@@ -21,13 +22,6 @@
   "icon": {
     "item": "minecraft:lectern"
   },
-  "upgrades": [
-    {
-      "condition": "minecraft:end/kill_dragon",
-      "origin": "originsevolved:enchanted_villager",
-      "announcement": "You have evolved"
-    }
-  ],
   "order": 2,
   "impact": 1
 }
