@@ -1,6 +1,8 @@
 {
   "powers": [
     "originsevolved:ored_magic_substract_ev",
+    "originsevolved:ored_magic_resource_work_ev",
+    "originsevolved:ored_magic_resource_ev",
     "alpha:brew_speed",
     "alpha:brew_strength",
     "alpha:brew_fireresistance",

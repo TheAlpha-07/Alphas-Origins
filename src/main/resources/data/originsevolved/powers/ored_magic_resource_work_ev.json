@@ -1,0 +1,17 @@
+{
+  "type": "origins:action_over_time",
+  "condition": {
+    "type": "origins:resource",
+    "resource": "originsevolved:ored_magic_resource_ev",
+    "comparison": "==",
+    "compare_to": 1
+  },
+
+  "entity_action": {
+    "type": "origins:change_resource",
+    "resource": "originsevolved:ored_magic_resource_ev",
+    "change": 0,
+    "operation": "set"
+  },
+  "interval": 600
+}

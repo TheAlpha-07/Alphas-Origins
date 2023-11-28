@@ -3,6 +3,12 @@
 
   "gold_block": {
     "type": "origins:action_on_block_use",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:ored_magic_resource_ev",
+      "comparison": "==",
+      "compare_to": 0
+    },
 
     "block_action": {
       "type": "origins:set_block",
@@ -46,6 +52,11 @@
           "count": 16,
           "speed": 0.0,
           "force": true
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "originsevolved:ored_magic_resource_ev",
+          "change": 1
         }
       ]
     }
@@ -53,6 +64,12 @@
 
   "copper_block": {
     "type": "origins:action_on_block_use",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:ored_magic_resource_ev",
+      "comparison": "==",
+      "compare_to": 0
+    },
 
     "block_action": {
       "type": "origins:set_block",
@@ -108,6 +125,11 @@
           "count": 16,
           "speed": 0.0,
           "force": true
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "originsevolved:ored_magic_resource_ev",
+          "change": 1
         }
       ]
     }
@@ -116,6 +138,12 @@
 
   "lapis_block": {
     "type": "origins:action_on_block_use",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:ored_magic_resource_ev",
+      "comparison": "==",
+      "compare_to": 0
+    },
 
     "block_action": {
       "type": "origins:set_block",
@@ -155,6 +183,11 @@
           "count": 16,
           "speed": 0.0,
           "force": true
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "originsevolved:ored_magic_resource_ev",
+          "change": 1
         }
       ]
     }
