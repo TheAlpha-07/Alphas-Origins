@@ -1,24 +1,51 @@
 {
-  "bientity_condition": {
-    "type": "origins:either",
+  "type": "origins:multiple",
+
+  "daytime": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:speed",
+          "duration": 60,
+          "amplifier": 0
+        },
+        {
+          "effect": "minecraft:strength",
+          "duration": 60,
+          "amplifier": 0
+        }
+      ]
+    },
     "condition": {
       "type": "origins:daytime",
-      "action": {
-        "type": "origins:apply_effect",
-        "effects": [
-          {
-            "effect": "minecraft:strength",
-            "duration": 400,
-            "amplifier": 1
-          },
-          {
-            "effect": "minecraft:speed",
-            "duration": 400,
-            "amplifier": 1
-          }
-        ]
-      }
+      "inverted": true
+    },
+    "interval": 20
+  },
 
-    }
+  "nighttime": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:slowness",
+          "duration": 60,
+          "amplifier": 0
+        },
+        {
+          "effect": "minecraft:weakness",
+          "duration": 60,
+          "amplifier": 0
+        }
+      ]
+    },
+
+    "condition": {
+      "type": "origins:daytime"
+    },
+    "interval": 20
   }
 }

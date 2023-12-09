@@ -1,20 +1,171 @@
 {
-  "type": "origins:power",
-  "conditions": [
-    {
+  "type": "origins:multiple",
+
+  "resource": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 4,
+    "start_value": 0
+  },
+
+  "resource_kill_switch": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": 0,
+      "operation": "set"
+    },
+    "condition": {
       "type": "origins:biome",
       "condition": {
         "type": "origins:temperature",
         "comparison": ">=",
-        "compare_to": 1.8
+        "compare_to": 2,
+        "inverted": true
       }
     }
-  ],
-  "action": {
-    "type": "origins:entity_action",
-    "action": {
-      "type": "origins:trigger_cooldown",
-      "power": "originsevolved:rain_summoning_ev"
+  },
+
+  "resource_0_switch": {
+    "type": "origins:action_over_time",
+    "interval": 100,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": 1,
+      "operation": "set"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "*:*_resource",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        }
+      ]
+    }
+  },
+
+  "resource_1": {
+    "type": "origins:action_over_time",
+    "interval": 15,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "originsevolved:rain_summoning_ev",
+      "change": 20,
+      "operation": "add"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_resource",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+
+  "resource_1_switch": {
+    "type": "origins:action_over_time",
+    "interval": 400,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": 2,
+      "operation": "set"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "*:*_resource",
+          "comparison": "==",
+          "compare_to": 1
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        }
+      ]
+    }
+  },
+
+  "resource_2": {
+    "type": "origins:action_over_time",
+    "interval": 15,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "originsevolved:rain_summoning_ev",
+      "change": 150,
+      "operation": "add"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_resource",
+      "comparison": "==",
+      "compare_to": 2
+    }
+  },
+
+  "resource_2_switch": {
+    "type": "origins:action_over_time",
+    "interval": 700,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": 3,
+      "operation": "set"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "*:*_resource",
+          "comparison": "==",
+          "compare_to": 1
+        },
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": ">=",
+            "compare_to": 2
+          }
+        }
+      ]
+    }
+  },
+
+  "resource_3": {
+    "type": "origins:action_over_time",
+    "interval": 15,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "originsevolved:rain_summoning_ev",
+      "change": 300,
+      "operation": "add"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_resource",
+      "comparison": "==",
+      "compare_to": 3
     }
   }
 }
