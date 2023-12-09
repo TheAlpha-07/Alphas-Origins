@@ -22,19 +22,29 @@
   - Arachnid Evolved
   - Phantom Evolved
 
-### Assassin needed powers:
-- Passive power:
-  - Kill confirmed:
-    - Add XP
-    - Heal: (2 Health)
-- Negative power:
-  - Exhaustion after kill.
-    - Exhaustion
-    - Hunger effect (10 seconds)
 
 ### Work in progress:
 
 ### Errors:
+- Enchanted Villager power:
+  - Ore Substract
+    - Diamond block: Does not deal any damage.
+  - Weak magic resistance
+    - Does deal more damage with magic but does it always, needs to do damage only with resistance effect
+
+### Origins that should be changed (According to impact)
+- Hunter (Should be impact 1), make powers weaker.
+  - Attack <-> Hunter (Add cooldown)
+  - Speed <-> Precision (Add cooldown)
+  - Hunter mode: entity glow, limited distance
+  - Speed mode: Less arrows, (Higher spread?)
+  - Precision mode: Less damage (Less piercing?)
+- Assassin (Should be impact 1), 
+  - .
+- Strider (Should be impact 2),
+  - .
+- Villager (Should be impact 1),
+
 
 ### In progress files:
 - Origin files:
