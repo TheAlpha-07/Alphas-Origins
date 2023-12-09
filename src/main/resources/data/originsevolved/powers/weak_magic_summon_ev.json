@@ -1,0 +1,22 @@
+{
+  "type": "origins:action_over_time",
+
+  "rising_action": {
+    "type": "origins:grant_power",
+    "power": "originsevolved:weak_magic_resistance_ev",
+    "source": "originsevolved:enchanted_villager"
+  },
+
+  "falling_action": {
+    "type": "origins:revoke_power",
+    "power": "originsevolved:weak_magic_resistance_ev",
+    "source": "originsevolved:enchanted_villager"
+  },
+
+  "interval": 10,
+  "condition": {
+    "type": "origins:status_effect",
+    "effect": "minecraft:resistance",
+    "min_amplifier": 0
+  }
+}

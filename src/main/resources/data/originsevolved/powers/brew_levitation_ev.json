@@ -1,6 +1,6 @@
 {
   "type": "origins:active_self",
-  "cooldown": 2400,
+  "cooldown": 7200,
   "hud_render": {
     "should_render": false
   },
