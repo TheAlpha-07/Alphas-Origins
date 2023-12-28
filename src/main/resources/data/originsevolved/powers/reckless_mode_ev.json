@@ -8,26 +8,31 @@
       {
         "type": "origins:grant_power",
         "power": "alpha:less_hearts",
-        "source": "alpha:assassin"
+        "source": "originsevolved:shadow_assassin"
       },
       {
         "type": "origins:grant_power",
-        "power": "alpha:dash",
-        "source": "alpha:assassin"
+        "power": "originsevolved:damage_dash_ev",
+        "source": "originsevolved:shadow_assassin"
       },
       {
         "type": "origins:grant_power",
         "power": "alpha:no_shield",
-        "source": "alpha:assassin"
+        "source": "originsevolved:shadow_assassin"
       },
       {
         "type": "origins:grant_power",
         "power": "alpha:attack_speed",
-        "source": "alpha:assassin"
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "originsevolved:more_kinetic_assassin_ev",
+        "source": "originsevolved:shadow_assassin"
       },
       {
         "type": "origins:change_resource",
-        "resource": "alpha:assassin_indicator",
+        "resource": "originsevolved:assassin_indicator_ev",
         "change": 1
       },
       {
@@ -35,7 +40,7 @@
         "command": "tellraw @s {\"text\": \"Reckless Mode ACTIVATED\", \"color\": \"green\"}",
         "condition": {
           "type": "origins:resource",
-          "resource": "alpha:assassin_indicator",
+          "resource": "originsevolved:assassin_indicator_ev",
           "comparison": "==",
           "compare_to": 1
         }
@@ -48,27 +53,32 @@
       {
         "type": "origins:revoke_power",
         "power": "alpha:less_hearts",
-        "source": "alpha:assassin"
+        "source": "originsevolved:shadow_assassin"
       },
       {
         "type": "origins:revoke_power",
-        "power": "alpha:dash",
-        "source": "alpha:assassin"
+        "power": "originsevolved:damage_dash_ev",
+        "source": "originsevolved:shadow_assassin"
       },
       {
         "type": "origins:revoke_power",
         "power": "alpha:no_shield",
-        "source": "alpha:assassin"
+        "source": "originsevolved:shadow_assassin"
       },
       {
         "type": "origins:revoke_power",
         "power": "alpha:attack_speed",
-        "source": "alpha:assassin"
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "originsevolved:more_kinetic_assassin_ev",
+        "source": "originsevolved:shadow_assassin"
       }
     ]
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_reckless_defensive"
+    "power": "originsevolved:toggle_reckless_defensive_ev"
   }
 }

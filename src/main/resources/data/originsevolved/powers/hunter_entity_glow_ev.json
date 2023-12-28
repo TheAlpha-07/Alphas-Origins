@@ -11,7 +11,7 @@
       {
         "type": "origins:distance",
         "comparison": "<=",
-        "compare_to": 75
+        "compare_to": 100
       }
     ]
   },

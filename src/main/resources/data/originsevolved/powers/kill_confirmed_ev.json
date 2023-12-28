@@ -5,7 +5,7 @@
     "type": "origins:self_action_on_kill",
     "entity_action": {
       "type": "origins:heal",
-      "amount": 6.0
+      "amount": 8.0
     },
     "cooldown": 600,
     "hud_render": {
@@ -33,7 +33,7 @@
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:hunger",
-        "duration": 200,
+        "duration": 300,
         "amplifier": 1
       }
     },

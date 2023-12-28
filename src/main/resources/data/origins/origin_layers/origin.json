@@ -18,7 +18,9 @@
         "originsevolved:phantom_evolved",
         "originsevolved:shulk_evolved",
         "originsevolved:lava_walker",
-        "originsevolved:enchanted_villager"
+        "originsevolved:enchanted_villager",
+        "originsevolved:sharp_hunter",
+        "originsevolved:shadow_assassin"
 
     ],
     "allow_random": true,
@@ -34,7 +36,8 @@
         "originsevolved:phantom_evolved",
         "originsevolved:shulk_evolved",
         "originsevolved:lava_walker",
-        "originsevolved:enchanted_villager"
+        "originsevolved:enchanted_villager",
+        "originsevolved:shadow_assassin"
     ],
     "allow_random_unchoosable": false,
     "hidden": false

@@ -7,25 +7,20 @@
     "actions": [
       {
         "type": "origins:grant_power",
-        "power": "alpha:attack_nightvis",
-        "source": "alpha:hunter"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:attack_entity_glow",
-        "source": "alpha:hunter"
+        "power": "originsevolved:known_monster_ev",
+        "source": "originsevolved:shadow_assassin"
       },
       {
         "type": "origins:change_resource",
-        "resource": "alpha:hunter_indicator",
+        "resource": "originsevolved:assassin_indicator_ev",
         "change": 4
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Attack Mode ACTIVATED\", \"color\": \"red\"}",
+        "command": "tellraw @s {\"text\": \"Monster Mode ACTIVATED\", \"color\": \"red\"}",
         "condition": {
           "type": "origins:resource",
-          "resource": "alpha:hunter_indicator",
+          "resource": "originsevolved:assassin_indicator_ev",
           "comparison": "==",
           "compare_to": 4
         }
@@ -37,19 +32,15 @@
     "actions": [
       {
         "type": "origins:revoke_power",
-        "power": "alpha:attack_nightvis",
-        "source": "alpha:hunter"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:attack_entity_glow",
-        "source": "alpha:hunter"
+        "power": "originsevolved:known_monster_ev",
+        "source": "originsevolved:shadow_assassin"
       }
     ]
   },
+
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_hunt_attack",
+    "power": "originsevolved:toggle_assassin_attack_ev",
     "inverted": true
   }
 }

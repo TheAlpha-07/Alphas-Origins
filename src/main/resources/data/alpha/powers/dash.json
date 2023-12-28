@@ -8,8 +8,23 @@
     "should_render": false
   },
   "entity_action": {
-    "type": "origins:add_velocity",
-    "space": "local",
-    "z": 2
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:exposed_to_sun"
+    },
+    "if_action": {
+      "type": "origins:add_velocity",
+      "space": "local_horizontal_normalized",
+      "z": 2
+    },
+    "else_action": {
+      "type": "origins:add_velocity",
+      "space": "local",
+      "z": 2
+    }
+  },
+
+  "condition": {
+    "type": "origins:on_block"
   }
 }

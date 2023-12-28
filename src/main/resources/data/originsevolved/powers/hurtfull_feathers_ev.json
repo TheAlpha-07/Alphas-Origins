@@ -1,40 +1,23 @@
 {
-  "type": "apoli:modify_falling",
-  "velocity": 0.01,
-  "take_fall_damage": false,
+  "type": "origins:action_over_time",
+
+  "rising_action": {
+    "type": "origins:revoke_power",
+    "power": "origins:slow_falling",
+    "source": "originsevolved:avian_evolved"
+  },
+
+  "falling_action": {
+    "type": "origins:grant_power",
+    "power": "origins:slow_falling",
+    "source": "originsevolved:avian_evolved"
+  },
+  "interval": 20,
+
   "condition": {
-    "type": "origins:and",
-    "conditions": [
-      {
-        "type": "origins:or",
-        "conditions": [
-          {
-            "type": "origins:and",
-            "conditions": [
-              {
-                "type": "origins:sneaking"
-              },
-              {
-                "type": "origins:fall_flying"
-              }
-            ]
-          },
-          {
-            "type": "origins:and",
-            "conditions": [
-              {
-                "type": "origins:sneaking",
-                "inverted": true
-              },
-              {
-                "type": "origins:fall_flying",
-                "inverted": true
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "type": "origins:health",
+    "comparison": "<=",
+    "compare_to": 6
   }
 }
 

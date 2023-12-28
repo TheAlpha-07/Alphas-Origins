@@ -1,0 +1,14 @@
+{
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -4,
+    "operation": "addition"
+  },
+  "tick_rate": 10,
+  "condition": {
+    "type": "origins:dimension",
+    "dimension": "the_nether",
+    "inverted": true
+  }
+}

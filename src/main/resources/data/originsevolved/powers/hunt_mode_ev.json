@@ -7,49 +7,50 @@
     "actions": [
       {
         "type": "origins:grant_power",
-        "power": "alpha:attack_nightvis",
-        "source": "alpha:hunter"
+        "power": "alpha:hunt_camouflage",
+        "source": "originsevolved:sharp_hunter"
       },
       {
         "type": "origins:grant_power",
-        "power": "alpha:attack_entity_glow",
-        "source": "alpha:hunter"
+        "power": "originsevolved:hunter_entity_glow_ev",
+        "source": "originsevolved:sharp_hunter"
       },
       {
         "type": "origins:change_resource",
-        "resource": "alpha:hunter_indicator",
-        "change": 4
+        "resource": "originsevolved:hunter_indicator_ev",
+        "change": 3
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Attack Mode ACTIVATED\", \"color\": \"red\"}",
+        "command": "tellraw @s {\"text\": \"Hunting Mode ACTIVATED\", \"color\": \"red\"}",
         "condition": {
           "type": "origins:resource",
-          "resource": "alpha:hunter_indicator",
+          "resource": "originsevolved:hunter_indicator_ev",
           "comparison": "==",
-          "compare_to": 4
+          "compare_to": 3
         }
       }
     ]
   },
+
   "falling_action": {
     "type": "origins:and",
     "actions": [
       {
         "type": "origins:revoke_power",
-        "power": "alpha:attack_nightvis",
-        "source": "alpha:hunter"
+        "power": "alpha:hunt_camouflage",
+        "source": "originsevolved:sharp_hunter"
       },
       {
         "type": "origins:revoke_power",
-        "power": "alpha:attack_entity_glow",
-        "source": "alpha:hunter"
+        "power": "originsevolved:hunter_entity_glow_ev",
+        "source": "originsevolved:sharp_hunter"
       }
     ]
   },
+
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_hunt_attack",
-    "inverted": true
+    "power": "originsevolved:toggle_hunter_ev"
   }
 }

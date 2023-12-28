@@ -58,7 +58,6 @@
   "reach": {
     "type": "origins:conditioned_attribute",
     "modifier": {
-      "name": "Extra Reach block reach",
       "attribute": "reach-entity-attributes:reach",
       "value": 3,
       "operation": "addition"
@@ -232,5 +231,4 @@
       ]
     }
   }
-
 }

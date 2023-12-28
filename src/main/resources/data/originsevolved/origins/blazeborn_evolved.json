@@ -1,21 +1,22 @@
 {
   "powers": [
+    "originsevolved:inferno_ev",
+    "originsevolved:fireball_ev",
+    "originsevolved:levitate_ev",
+    "originsevolved:levitate_toggle_ev",
     "origins:fire_immunity",
     "origins:nether_spawn",
     "origins:burning_wrath",
     "origins:hotblooded",
-    "origins:water_vulnerability",
-    "origins:flame_particles",
-    "origins:damage_from_snowballs",
-    "origins:damage_from_potions",
     "origins:slow_falling",
     "origins:tailwind",
-    "originsevolved:inferno_ev",
-    "originsevolved:levitate_ev",
-    "originsevolved:levitate_toggle_ev",
-    "originsevolved:fireball_ev",
-   // "originsevolved:cold_body_ev",
-    "originsevolved:cold_body_effects_ev"
+    "origins:flame_particles",
+    "origins:water_vulnerability",
+    "originsevolved:weak_blazeborn_ev",
+    "origins:damage_from_snowballs",
+    "origins:damage_from_potions",
+    "originsevolved:snowball_freeze_ev",
+    "originsevolved:end_damage_ev"
   ],
   "icon": {
     "item": "minecraft:blaze_powder"

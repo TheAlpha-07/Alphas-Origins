@@ -16,7 +16,7 @@
       },
       {
         "type": "origins:change_resource",
-        "resource": "alpha:assassin_indicator",
+        "resource": "alpha:hunter_indicator",
         "change": 1
       },
       {

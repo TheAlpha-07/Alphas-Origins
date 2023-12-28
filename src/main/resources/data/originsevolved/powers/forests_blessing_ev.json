@@ -1,0 +1,30 @@
+{
+  "type": "origins:action_over_time",
+  "interval": "200",
+
+  "rising_action": {
+    "type": "origins:clear_effect",
+    "effects": [
+      {
+        "effect": "minecraft:slowness"
+      },
+      {
+        "effect": "minecraft:weakness"
+      },
+      {
+        "effect": "minecraft:poison"
+      },
+      {
+        "effect": "minecraft:hunger"
+      }
+    ]
+  },
+
+  "condition": {
+    "type": "origins:biome",
+    "condition": {
+      "type": "origins:category",
+      "category": "forest"
+    }
+  }
+}

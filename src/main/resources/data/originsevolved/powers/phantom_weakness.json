@@ -16,7 +16,5 @@
     "type": "origins:power_active",
     "power": "origins:phantomize",
     "inverted": false
-  },
-  "name": "Required Focus",
-  "description": "Phantomizing takes up alot of your energy, causing your attacks to be weaker while phantomized and increase in duration the longer you stay phantomized."
+  }
 }

@@ -1,3 +1,27 @@
 {
-
+  "loading_priority": 1,
+  "powers": [
+    "originsevolved:toggle_hunter_ev",
+    "originsevolved:hunt_mode_ev",
+    "originsevolved:attack_mode_ev",
+    "originsevolved:sword_bow_ev",
+    "originsevolved:entity_glow_off_ev",
+    "alpha:toggle_damage_speed",
+    "alpha:damage_mode",
+    "alpha:speed_mode",
+    "originsevolved:hunter_indicator_ev",
+    "originsevolved:forests_blessing_ev",
+    "alpha:fear_or_be_feared",
+    "alpha:elemental_opponnents",
+    "alpha:to_heavy",
+    "originsevolved:different_ranged_ev",
+    "alpha:callback_delete",
+    "alpha:reset",
+    "alpha:scale_reset"
+  ],
+  "icon": {
+    "item": "minecraft:bow"
+  },
+  "order": 2,
+  "impact": 0
 }

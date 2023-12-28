@@ -1,0 +1,23 @@
+{
+  "type": "origins:freeze",
+  "condition": {
+    "type": "origins:inventory",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:snowball"
+        },
+        {
+          "item": "minecraft:powder_snow_bucket"
+        },
+        {
+          "item": "minecraft:snow"
+        },
+        {
+          "item": "minecraft:snow_block"
+        }
+      ]
+    }
+  }
+}

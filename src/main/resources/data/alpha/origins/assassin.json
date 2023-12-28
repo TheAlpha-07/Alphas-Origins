@@ -21,7 +21,7 @@
     "upgrades":
         {
             "condition": "minecraft:end/kill_dragon",
-            "origin": "",
+            "origin": "originsevolved:shadow_assassin",
             "announcement": "You have evolved"
         },
     "order": 2,

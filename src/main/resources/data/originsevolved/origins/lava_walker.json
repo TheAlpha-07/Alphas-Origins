@@ -17,6 +17,7 @@
     "alpha:water_vulnerability_s",
     "alpha:damage_from_snowballs",
     "originsevolved:cold_biomes_ev",
+    "originsevolved:end_damage_ev",
     "alpha:reset",
     "alpha:scale_reset"
   ],

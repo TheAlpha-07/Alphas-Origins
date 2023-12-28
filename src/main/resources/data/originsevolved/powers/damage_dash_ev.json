@@ -1,0 +1,37 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 300,
+  "key": {
+    "key": "key.origins.denary_active"
+  },
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 11
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:add_velocity",
+        "space": "local_horizontal_normalized",
+        "z": 4
+      },
+      {
+        "type": "origins:area_of_effect",
+        "radius": 5,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:damage",
+            "amount": 8,
+            "damage_type": "minecraft:player_attack"
+          }
+        }
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:on_block"
+  }
+}

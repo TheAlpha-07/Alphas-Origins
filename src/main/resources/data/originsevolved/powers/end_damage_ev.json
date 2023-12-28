@@ -1,0 +1,48 @@
+{
+  "type": "origins:modify_damage_taken",
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:enderman"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:shulker"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:ender_dragon"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:enderian",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:shulk",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "originsevolved:enderian_evolved",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "minecraft:shulk_evolved",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.5
+  }
+}

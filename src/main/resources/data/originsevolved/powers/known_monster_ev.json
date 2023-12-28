@@ -1,0 +1,170 @@
+{
+  "type": "origins:multiple",
+
+  "undeaddmg": {
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:zombie"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:skeleton"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:creeper"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:husk"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:stray"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:spider"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:cave_spider"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:drowned"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:slime"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:phantom"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:piglin"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:zombified_piglin"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:ender_dragon"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:enderman"
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 5.0
+    },
+
+    "origindmg": {
+      "type": "origins:modify_damage_dealt",
+      "target_condition": {
+        "type": "origins:or",
+        "conditions": [
+          {
+            "type": "origins:origin",
+            "origin": "origins:arachnid",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "origins:avian",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "origins:blazeborn",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "origins:elytrian",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "origins:enderian",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "origins:feline",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "origins:merling",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "origins:phantom",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "origins:shulk",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "alpha:villager",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "alpha:strider",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "originsevolved:arachnid_evolved",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "originsevolved:avian_evolved",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "originsevolved:elytrian_evolved",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "originsevolved:enchanted_villager",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "originsevolved:feline_evolved",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "originsevolved:merling_evolved",
+            "layer": "origins:origin"
+          }
+        ]
+      },
+      "modifier": {
+        "operation": "addition",
+        "value": -5.0
+      }
+    }
+  }
+}

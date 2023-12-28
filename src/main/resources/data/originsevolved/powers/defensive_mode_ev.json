@@ -1,0 +1,87 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 20,
+
+  "rising_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:more_hearts",
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:resistance_sneak",
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:smash_knockback",
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:attack_slow",
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "originsevolved:assassin_indicator_ev",
+        "change": 2
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "originsevolved:less_kinetic_assassin_ev",
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\": \"Defensive Mode ACTIVATED\", \"color\": \"green\"}",
+        "condition": {
+          "type": "origins:resource",
+          "resource": "originsevolved:assassin_indicator_ev",
+          "comparison": "==",
+          "compare_to": 2
+        }
+      }
+    ]
+  },
+
+  "falling_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:more_hearts",
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:resistance_sneak",
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:smash_knockback",
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:attack_slow",
+        "source": "originsevolved:shadow_assassin"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "originsevolved:less_kinetic_assassin_ev",
+        "source": "originsevolved:shadow_assassin"
+      }
+    ]
+  },
+
+  "condition": {
+    "type": "origins:power_active",
+    "power": "originsevolved:toggle_reckless_defensive_ev",
+    "inverted": true
+  }
+}
