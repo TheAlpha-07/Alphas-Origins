@@ -19,7 +19,7 @@
         {
           "effect": "minecraft:slowness",
           "duration": 40,
-          "amplifier": 2
+          "amplifier": 1
         }
       ]
     },
@@ -35,7 +35,7 @@
         {
           "effect": "minecraft:slowness",
           "duration": 40,
-          "amplifier": 1
+          "amplifier": 0
         }
       ]
     }

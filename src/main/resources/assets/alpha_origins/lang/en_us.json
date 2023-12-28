@@ -28,7 +28,10 @@
   "power.alpha.reckless_mode.description": "This training made you faster and agile, however, whenever using this you're open for attacks and way easier to kill.",
 
   "power.alpha.defensive_mode.name": "Defensive Training",
-  "power.alpha.defensive_mode.description": "This training made sure you're playing it safe, when crouching you're way more protected against damage and you're able to knock your enemies away, however, using this will make your attacks slow and weak.",
+  "power.alpha.defensive_mode.description": "This training strengthens your defense, when crouching you're way more protected against damage and you're able to knock your enemies away, however, using this will make your attacks slow and weak.",
+
+  "power.alpha.the_light.name": "Keep it a secret",
+  "power.alpha.the_light.description": "Your actions shouldn't reach broad daylight, in the dark you can move freely and your active powers are stronger, but when expoded to light this is the other way around.",
 
   "power.alpha.easier_recipe.name": "Quick and Easy",
   "power.alpha.easier_recipe.description": "You developed a recipe which allows you to craft a crossbow easier and faster with less material cost.",

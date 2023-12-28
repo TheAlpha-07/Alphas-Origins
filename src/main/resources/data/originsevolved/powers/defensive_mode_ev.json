@@ -12,7 +12,7 @@
       },
       {
         "type": "origins:grant_power",
-        "power": "alpha:resistance_sneak",
+        "power": "originsevolved:resistance_sneak_ev",
         "source": "originsevolved:shadow_assassin"
       },
       {

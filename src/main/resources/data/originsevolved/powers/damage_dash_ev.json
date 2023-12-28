@@ -13,19 +13,48 @@
     "type": "origins:and",
     "actions": [
       {
-        "type": "origins:add_velocity",
-        "space": "local_horizontal_normalized",
-        "z": 4
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:exposed_to_sun"
+        },
+        "if_action": {
+          "type": "origins:add_velocity",
+          "space": "local_horizontal_normalized",
+          "z": 3
+        },
+        "else_action": {
+          "type": "origins:add_velocity",
+          "space": "local_horizontal_normalized",
+          "z": 4
+        }
       },
       {
-        "type": "origins:area_of_effect",
-        "radius": 5,
-        "bientity_action": {
-          "type": "origins:target_action",
-          "action": {
-            "type": "origins:damage",
-            "amount": 8,
-            "damage_type": "minecraft:player_attack"
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:exposed_to_sun"
+        },
+        "if_action": {
+          "type": "origins:area_of_effect",
+          "radius": 4,
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:damage",
+              "amount": 6,
+              "damage_type": "minecraft:player_attack"
+            }
+          }
+        },
+        "else_action": {
+          "type": "origins:area_of_effect",
+          "radius": 5,
+          "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:damage",
+              "amount": 8,
+              "damage_type": "minecraft:player_attack"
+            }
           }
         }
       }

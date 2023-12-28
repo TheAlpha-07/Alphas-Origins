@@ -20,7 +20,7 @@
     "else_action": {
       "type": "origins:add_velocity",
       "space": "local",
-      "z": 2
+      "z": 3
     }
   },
 

@@ -7,11 +7,13 @@
     "originsevolved:toggle_reckless_defensive_ev",
     "originsevolved:reckless_mode_ev",
     "originsevolved:defensive_mode_ev",
+    "alpha:the_light",
     "originsevolved:assassin_indicator_ev",
     "originsevolved:higher_ev",
     "alpha:easier_recipe",
     "originsevolved:kill_confirmed_ev",
     "originsevolved:different_ranged_ev",
+    "originsevolved:weird_magic_ev",
     "alpha:reset",
     "alpha:scale_reset"
 
