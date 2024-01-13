@@ -12,10 +12,10 @@
   "power.alpha.toggle_assassin_attack.name": "Known Enemies",
   "power.alpha.toggle_assassin_attack.description": "Those who are known to your knowledge are weakened by your various sorts of poisons.",
 
-  "power.alpha.origin_mode.name": "Origins Poison",
+  "power.alpha.origin_mode.name": "Magical Poison",
   "power.alpha.origin_mode.description": "This poison is special for those you hate the most, those with magic in their blood shall be taken down by your hand and bleed before your eyes.",
 
-  "power.alpha.monster_mode.name": "Monsters Poison",
+  "power.alpha.monster_mode.name": "Nightmare Poison",
   "power.alpha.monster_mode.description": "With this poison on your weapons and arrows you deal way more damage to monsters you know.",
 
   "power.alpha.unknown_enemies.name": "Unknown Enemies",
@@ -24,14 +24,17 @@
   "power.alpha.toggle_reckless_defensive.name": "Specified Training",
   "power.alpha.toggle_reckless_defensive.description": "You trained for specific situations, make sure to use them well.",
 
-  "power.alpha.reckless_mode.name": "Reckless Training",
+  "power.alpha.reckless_mode.name": "Reckless",
   "power.alpha.reckless_mode.description": "This training made you faster and agile, however, whenever using this you're open for attacks and way easier to kill.",
 
-  "power.alpha.defensive_mode.name": "Defensive Training",
+  "power.alpha.defensive_mode.name": "Strong Defense",
   "power.alpha.defensive_mode.description": "This training strengthens your defense, when crouching you're way more protected against damage and you're able to knock your enemies away, however, using this will make your attacks slow and weak.",
 
   "power.alpha.the_light.name": "Keep it a secret",
-  "power.alpha.the_light.description": "Your actions shouldn't reach broad daylight, in the dark you can move freely and your active powers are stronger, but when expoded to light this is the other way around.",
+  "power.alpha.the_light.description": "Your actions shouldn't reach broad daylight, in the dark you can move freely and your active powers are stronger, but when exposed to light this is the other way around.",
+
+  "power.alpha.kill_confirmed.name": "Deaths Smell",
+  "power.alpha.kill_confirmed.description": "The death of others gives a taste of blood, this heals you but makes you lust for blood which makes you hungry.",
 
   "power.alpha.easier_recipe.name": "Quick and Easy",
   "power.alpha.easier_recipe.description": "You developed a recipe which allows you to craft a crossbow easier and faster with less material cost.",
@@ -42,28 +45,25 @@
 
   // Hunter
   "origin.alpha.hunter.name": "Hunter",
-  "origin.alpha.hunter.description": "This human is trained for the hunt, he's ready to take on any challenge that the world him grants.",
+  "origin.alpha.hunter.description": "A human trained for the hunt, ready to take on any challenge that the world grants.",
 
-  "power.alpha.toggle_hunt_attack.name": "Different Methods",
-  "power.alpha.toggle_hunt_attack.description": "Some situations need different ways to be handled, that's what you're trained for.",
+  "power.alpha.toggle_harming_disable.name": "Bow Training",
+  "power.alpha.toggle_harming_disable.description": "There are a lot of ways to use your bow, use those ways effectively.",
 
-  "power.alpha.hunting_mode.name": "The Hunting Method",
-  "power.alpha.hunting_mode.description": "Your eyes reach far and they see sharp, become invisible for your prey when sneaking.",
+  "power.alpha.harming_mode.name": "Harm Arrow",
+  "power.alpha.harming_mode.description": "One powerful arrow, so strong that it explodes in the enemies face. Use this to take your enemies down in one shot, but don't come to close..",
 
-  "power.alpha.attack_mode.name": "The Attack Method",
-  "power.alpha.attack_mode.description": "Take the prey down fast and with all your strength, don't let it escape. Trust your sixth sense to find out where they're hiding.",
+  "power.alpha.disable_mode.name": "Venomous Arrows",
+  "power.alpha.disable_mode.description": "One arrow, two effects. With this arrow you poison your enemies and slow them so you can take them down with the last hits, but watch out for those who are cursed by the undead.",
 
-  "power.alpha.entity_glow_off.name": "Relax",
-  "power.alpha.entity_glow_off.description": "Let your guard down and relax your eyes or your sixth sense, using it to much might be tiring.",
+  "power.alpha.toggle_hunt_sense.name": "Different Methods",
+  "power.alpha.toggle_hunt_sense.description": "Some situations need different ways to be handled, that's what you're trained for.",
 
-  "power.alpha.toggle_damage_speed.name": "Bow Training",
-  "power.alpha.toggle_damage_speed.description": "There are a lot of ways to use your bow, use those ways effectively.",
+  "power.alpha.hunting_mode.name": "The Hunt",
+  "power.alpha.hunting_mode.description": "Focused, watch your prey, watch the wind. Become one with nature.",
 
-  "power.alpha.damage_mode.name": "One Arrow",
-  "power.alpha.damage_mode.description": "One powerful arrow, an arrow no one has survived so far. To make sure such a powerful arrow doesn't knock you down, crouch while using your bow.",
-
-  "power.alpha.speed_mode.name": "Multiple Arrows",
-  "power.alpha.speed_mode.description": "Multiple arrows which set everyone on fire. The speed of shooting those arrows is unbelievable. Crouch while shooting with your bow to make sure every arrow hits.",
+  "power.alpha.sense_mode.name": "Sensitive",
+  "power.alpha.sense_mode.description": "Strengthen your senses, feel the air, sense their presence. No one can escape you.",
 
   "power.alpha.fear_or_be_feared.name": "Fear or be Feared",
   "power.alpha.fear_or_be_feared.description": "Frighten your prey by weakening them, however if you're weak you'll get scared yourself. Make sure the first hit is yours.",
