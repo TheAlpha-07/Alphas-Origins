@@ -4,16 +4,11 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:apply_effect",
-      "effects": [
+      "effect":
         {
           "effect": "minecraft:night_vision",
           "duration": 240
-        },
-        {
-          "effect": "minecraft:speed",
-          "duration": 60
         }
-      ]
     },
     "interval": 20
   }

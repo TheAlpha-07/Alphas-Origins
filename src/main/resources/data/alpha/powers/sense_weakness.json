@@ -1,0 +1,28 @@
+{
+  "type": "origins:multiple",
+
+  "high_sensitive_skin": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "operation": "multiply_total_multiplicative",
+      "value": 0.2
+    }
+  },
+
+  "blinding_damage": {
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:blindness",
+        "duration": 60,
+        "amplifier": 0
+      }
+    },
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">=",
+      "compare_to": 4
+    }
+  }
+}

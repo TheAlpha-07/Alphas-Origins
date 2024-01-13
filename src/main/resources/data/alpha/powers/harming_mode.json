@@ -1,6 +1,6 @@
 {
   "type": "origins:action_over_time",
-  "interval": 20,
+  "interval": 200,
   "rising_action": {
     "type": "origins:and",
     "actions": [
@@ -10,18 +10,13 @@
         "source": "alpha:hunter"
       },
       {
-        "type": "origins:grant_power",
-        "power": "alpha:heavy_shooter",
-        "source": "alpha:hunter"
-      },
-      {
         "type": "origins:change_resource",
         "resource": "alpha:hunter_indicator",
         "change": 1
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Damage Mode ACTIVATED\", \"color\": \"green\"}",
+        "command": "tellraw @s {\"text\": \"Harming Mode ACTIVATED\", \"color\": \"green\"}",
         "condition": {
           "type": "origins:resource",
           "resource": "alpha:hunter_indicator",
@@ -38,16 +33,11 @@
         "type": "origins:revoke_power",
         "power": "alpha:higher_damage",
         "source": "alpha:hunter"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:heavy_shooter",
-        "source": "alpha:hunter"
       }
     ]
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_damage_speed"
+    "power": "alpha:toggle_harming_disable"
   }
 }

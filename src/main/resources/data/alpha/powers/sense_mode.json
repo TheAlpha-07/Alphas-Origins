@@ -1,32 +1,38 @@
 {
   "type": "origins:action_over_time",
-  "interval": 20,
+  "interval": 200,
+
   "rising_action": {
     "type": "origins:and",
     "actions": [
       {
         "type": "origins:grant_power",
-        "power": "alpha:fast_shooter",
+        "power": "alpha:sense_nightvis",
         "source": "alpha:hunter"
       },
       {
         "type": "origins:grant_power",
-        "power": "alpha:bow_sprint",
+        "power": "alpha:sense_entity_glow",
+        "source": "alpha:hunter"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:sense_weakness",
         "source": "alpha:hunter"
       },
       {
         "type": "origins:change_resource",
         "resource": "alpha:hunter_indicator",
-        "change": 2
+        "change": 4
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Speed Mode ACTIVATED\", \"color\": \"green\"}",
+        "command": "tellraw @s {\"text\": \"Sensing Mode ACTIVATED\", \"color\": \"red\"}",
         "condition": {
           "type": "origins:resource",
           "resource": "alpha:hunter_indicator",
           "comparison": "==",
-          "compare_to": 2
+          "compare_to": 4
         }
       }
     ]
@@ -36,19 +42,24 @@
     "actions": [
       {
         "type": "origins:revoke_power",
-        "power": "alpha:fast_shooter",
+        "power": "alpha:sense_nightvis",
         "source": "alpha:hunter"
       },
       {
         "type": "origins:revoke_power",
-        "power": "alpha:bow_sprint",
+        "power": "alpha:sense_entity_glow",
+        "source": "alpha:hunter"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:sense_weakness",
         "source": "alpha:hunter"
       }
     ]
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_damage_speed",
+    "power": "alpha:toggle_hunt_sense",
     "inverted": true
   }
 }

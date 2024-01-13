@@ -1,6 +1,6 @@
 {
   "type": "origins:action_over_time",
-  "interval": 20,
+  "interval": 200,
 
   "rising_action": {
     "type": "origins:and",
@@ -49,6 +49,6 @@
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_hunt_attack"
+    "power": "alpha:toggle_hunt_sense"
   }
 }

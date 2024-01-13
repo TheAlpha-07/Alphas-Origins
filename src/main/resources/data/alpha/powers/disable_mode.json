@@ -1,33 +1,27 @@
 {
   "type": "origins:action_over_time",
-  "interval": 20,
-
+  "interval": 200,
   "rising_action": {
     "type": "origins:and",
     "actions": [
       {
         "type": "origins:grant_power",
-        "power": "alpha:attack_nightvis",
-        "source": "alpha:hunter"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:attack_entity_glow",
+        "power": "alpha:venomous_arrow",
         "source": "alpha:hunter"
       },
       {
         "type": "origins:change_resource",
         "resource": "alpha:hunter_indicator",
-        "change": 4
+        "change": 2
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Attack Mode ACTIVATED\", \"color\": \"red\"}",
+        "command": "tellraw @s {\"text\": \"Disable Mode ACTIVATED\", \"color\": \"green\"}",
         "condition": {
           "type": "origins:resource",
           "resource": "alpha:hunter_indicator",
           "comparison": "==",
-          "compare_to": 4
+          "compare_to": 2
         }
       }
     ]
@@ -37,19 +31,14 @@
     "actions": [
       {
         "type": "origins:revoke_power",
-        "power": "alpha:attack_nightvis",
-        "source": "alpha:hunter"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:attack_entity_glow",
+        "power": "alpha:venomous_arrow",
         "source": "alpha:hunter"
       }
     ]
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_hunt_attack",
+    "power": "alpha:toggle_harming_disable",
     "inverted": true
   }
 }

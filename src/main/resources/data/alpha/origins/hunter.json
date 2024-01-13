@@ -1,14 +1,14 @@
 {
   "loading_priority": 1,
   "powers": [
-    "alpha:toggle_hunt_attack",
+    "alpha:toggle_harming_disable",
+    "alpha:harming_mode",
+    "alpha:disable_mode",
+    "alpha:toggle_hunt_sense",
     "alpha:hunting_mode",
-    "alpha:attack_mode",
-    "alpha:entity_glow_off",
-    "alpha:toggle_damage_speed",
-    "alpha:damage_mode",
-    "alpha:speed_mode",
+    "alpha:sense_mode",
     "alpha:hunter_indicator",
+    "alpha:bow_damage",
     "alpha:fear_or_be_feared",
     "alpha:elemental_opponnents",
     "alpha:to_heavy",
@@ -27,5 +27,5 @@
       "announcement": "You have evolved"
     },
   "order": 2,
-  "impact": 0
+  "impact": 1
 }
