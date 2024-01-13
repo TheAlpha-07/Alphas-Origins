@@ -1,0 +1,11 @@
+{
+  "type": "origins:resource",
+  "min": 0,
+  "max": 3,
+
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "alpha_origins:textures/gui/community/wolf/lava_walker_resource.png",
+    "bar_index": 0
+  }
+}
