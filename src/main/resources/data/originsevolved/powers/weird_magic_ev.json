@@ -1,5 +1,5 @@
 {
-  "type": "origins:and",
+  "type": "origins:multiple",
 
   "good_potions": {
     "type": "origins:modify_status_effect_duration",
@@ -29,7 +29,7 @@
     "status_effects": [
       "minecraft:slowness",
       "minecraft:weakness",
-      "minecraft:potion",
+      "minecraft:poison",
       "minecraft:wither",
       "minecraft:blindness",
       "minecraft:nausea",

@@ -14,7 +14,9 @@
     "alpha:last_ingredient",
     "alpha:last_ingredient_stop",
     "alpha:last_resort",
-    "alpha:illage_and_zombified",
+    "alpha:village_spawn",
+    "alpha:illaged",
+    "alpha:zombified",
     "alpha:reset",
     "alpha:scale_reset"
   ],
