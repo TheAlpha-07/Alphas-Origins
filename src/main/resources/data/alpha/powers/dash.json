@@ -1,12 +1,16 @@
 {
   "type": "origins:active_self",
-  "cooldown": 60,
+  "cooldown": 300,
+
   "key": {
     "key": "key.origins.denary_active"
   },
   "hud_render": {
-    "should_render": false
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+    "bar_index": 5
   },
+
   "entity_action": {
     "type": "origins:if_else",
     "condition": {
