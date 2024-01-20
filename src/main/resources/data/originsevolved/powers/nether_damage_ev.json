@@ -1,0 +1,56 @@
+{
+  "type": "origins:modify_damage_taken",
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:blaze"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:magma_cube"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:ghast"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:wither"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:wither_skeleton"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:blazeborn",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:strider",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "originsevolved:blazeborn_evolved",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "minecraft:lava_walker",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "modifier": {
+    "operation": "multiply_base_multiplicative",
+    "value": 0.5
+  }
+}

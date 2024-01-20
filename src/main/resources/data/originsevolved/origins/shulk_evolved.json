@@ -3,14 +3,15 @@
     "origins:shulker_inventory",
     "origins:strong_arms",
     "origins:strong_arms_break_speed",
-    "origins:no_shield",
-    "origins:more_exhaustion",
     "originsevolved:harder_shell_ev",
     "originsevolved:juggernaut_ev",
     "originsevolved:juggernaut_toggle_ev",
     "originsevolved:juggernaut_slowness_ev",
     "originsevolved:juggernaut_blindness",
-    "originsevolved:choruseat_ev"
+    "originsevolved:choruseat_ev",
+    "origins:no_shield",
+    "origins:more_exhaustion",
+    "originsevolved:nether_damage_ev"
   ],
   "icon": "minecraft:shulker_shell",
   "unchoosable": true,
