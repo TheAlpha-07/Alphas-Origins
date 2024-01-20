@@ -1,10 +1,85 @@
 {
   "type": "origins:multiple",
-  "toggle": {
+  "lavatoggle": {
     "type": "origins:toggle",
     "active_by_default": false,
     "key": {
       "key": "key.origins.primary_active"
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:submerged_in",
+          "fluid": "minecraft:lava",
+          "inverted": true
+        },
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:lava",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+
+  "message1": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "rising_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "alpha:strider_indicator",
+          "change": 1
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tellraw @s {\"text\": \"Lava Walk ACTIVATED\", \"color\": \"gold\"}",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "alpha:strider_indicator",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_lavatoggle"
+    }
+  },
+
+  "message2": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "rising_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "alpha:strider_indicator",
+          "change": 2
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tellraw @s {\"text\": \"Lava Walk DISABLED\", \"color\": \"gold\"}",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "alpha:strider_indicator",
+            "comparison": "==",
+            "compare_to": 2
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_lavatoggle",
+      "inverted": true
     }
   },
 
@@ -13,7 +88,7 @@
     "fluid": "minecraft:lava",
     "condition": {
       "type": "origins:power_active",
-      "power": "*:*_toggle"
+      "power": "*:*_lavatoggle"
     }
   }
 }
