@@ -23,5 +23,6 @@
     "item": "minecraft:bow"
   },
   "order": 2,
-  "impact": 0
+  "impact": 0,
+  "unchoosable": true
 }

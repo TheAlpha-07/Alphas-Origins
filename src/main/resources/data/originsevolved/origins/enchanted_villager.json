@@ -28,5 +28,6 @@
     "item": "minecraft:lectern"
   },
   "order": 2,
-  "impact": 1
+  "impact": 1,
+  "unchoosable": true
 }

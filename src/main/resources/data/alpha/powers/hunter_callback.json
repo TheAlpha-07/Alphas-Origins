@@ -1,26 +1,33 @@
 {
   "type": "origins:action_on_callback",
-  "entity_action_respawned": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:toggle",
-        "power": "alpha:toggle_hunt_attack"
-      }
-    ]
-  },
+
   "entity_action_added": {
     "type": "origins:and",
     "actions": [
       {
         "type": "origins:toggle",
-        "power": "alpha:toggle_hunt_attack"
+        "power": "alpha:toggle_harming_disable"
       },
       {
         "type": "origins:toggle",
-        "power": "alpha:toggle_damage_speed"
+        "power": "alpha:toggle_hunt_sense"
       }
     ]
   },
+
+  "entity_action_respawned": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:toggle",
+        "power": "alpha:toggle_harming_disable"
+      },
+      {
+        "type": "origins:toggle",
+        "power": "alpha:toggle_hunt_sense"
+      }
+    ]
+  },
+
   "execute_chosen_when_orb": false
 }

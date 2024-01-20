@@ -19,22 +19,22 @@
   "power.alpha.monster_mode.description": "With this poison on your weapons and arrows you deal way more damage to monsters you know.",
 
   "power.alpha.unknown_enemies.name": "Unknown Enemies",
-  "power.alpha.unknown_enemies.description": "Those you do not know are not weakened by your poison, only with experience when fighting against those who are not known will make you capable of making the right poisons.",
+  "power.alpha.unknown_enemies.description": "Those you do not know are not weakened by your poison, only with experience when fighting against those will make you capable of making the right poisons.",
 
-  "power.alpha.toggle_reckless_defensive.name": "Specified Training",
+  "power.alpha.toggle_reckless_defensive.name": "Methods for the Fight",
   "power.alpha.toggle_reckless_defensive.description": "You trained for specific situations, make sure to use them well.",
 
   "power.alpha.reckless_mode.name": "Reckless",
-  "power.alpha.reckless_mode.description": "This training made you faster and agile, however, whenever using this you're open for attacks and way easier to kill.",
+  "power.alpha.reckless_mode.description": "This training made you faster and agile, however, erwhenev using this you're open for attacks and way easier to kill.",
 
   "power.alpha.defensive_mode.name": "Strong Defense",
-  "power.alpha.defensive_mode.description": "This training strengthens your defense, when crouching you're way more protected against damage and you're able to knock your enemies away, however, using this will make your attacks slow and weak.",
+  "power.alpha.defensive_mode.description": "This training strengthens your defense, but using this will make your attacks slow and weak.",
 
   "power.alpha.the_light.name": "Keep it a secret",
   "power.alpha.the_light.description": "Your actions shouldn't reach broad daylight, in the dark you can move freely and your active powers are stronger, but when exposed to light this is the other way around.",
 
   "power.alpha.kill_confirmed.name": "Deaths Smell",
-  "power.alpha.kill_confirmed.description": "The death of others gives a taste of blood, this heals you but makes you lust for blood which makes you hungry.",
+  "power.alpha.kill_confirmed.description": "The death of others gives a taste of blood, this heals you but gives you a lust for blood which makes you hungry.",
 
   "power.alpha.easier_recipe.name": "Quick and Easy",
   "power.alpha.easier_recipe.description": "You developed a recipe which allows you to craft a crossbow easier and faster with less material cost.",
@@ -51,7 +51,7 @@
   "power.alpha.toggle_harming_disable.description": "There are a lot of ways to use your bow, use those ways effectively.",
 
   "power.alpha.harming_mode.name": "Harm Arrow",
-  "power.alpha.harming_mode.description": "One powerful arrow, so strong that it explodes in the enemies face. Use this to take your enemies down in one shot, but don't come to close..",
+  "power.alpha.harming_mode.description": "One arrow, harmfull and explosive. Use this to take your enemies down in one shot, but don't come to close...",
 
   "power.alpha.disable_mode.name": "Venomous Arrows",
   "power.alpha.disable_mode.description": "One arrow, two effects. With this arrow you poison your enemies and slow them so you can take them down with the last hits, but watch out for those who are cursed by the undead.",
@@ -60,10 +60,13 @@
   "power.alpha.toggle_hunt_sense.description": "Some situations need different ways to be handled, that's what you're trained for.",
 
   "power.alpha.hunting_mode.name": "The Hunt",
-  "power.alpha.hunting_mode.description": "Focused, watch your prey, watch the wind. Become one with nature.",
+  "power.alpha.hunting_mode.description": "Focus, watch your prey, watch the wind. Become one with nature.",
 
   "power.alpha.sense_mode.name": "Sensitive",
   "power.alpha.sense_mode.description": "Strengthen your senses, feel the air, sense their presence. No one can escape you.",
+
+  "power.alpha.bow_damage.name": "Strong Arms",
+  "power.alpha.bow_damage.description": "Trained with a bow your arms are used to the force of drawing a bow, now you can use your bow at full power and do even more damage.",
 
   "power.alpha.fear_or_be_feared.name": "Fear or be Feared",
   "power.alpha.fear_or_be_feared.description": "Frighten your prey by weakening them, however if you're weak you'll get scared yourself. Make sure the first hit is yours.",
@@ -76,22 +79,28 @@
 
   // Villager
   "origin.alpha.villager.name": "Villager",
-  "origin.alpha.villager.description": "Once you were a normal villager, but the moment you walked into that abandoned house, in that swamp next to your old village, everything changed. Even your diet.",
+  "origin.alpha.villager.description": "Once a normal villager, but not anymore. Magic flows through your blood now like it's always been there",
 
   "power.alpha.brew_cooldown1.name": "Raw Potions",
-  "power.alpha.brew_cooldown1.description": "Talking about a weird diet, when you ate some sugar before, you felt weirdly fast, could this have to do something with that feeling last time? You might want to try some more ingredients to figure that out...",
+  "power.alpha.brew_cooldown1.description": "Magic flows through your blood and now affects potion ingredients.",
 
   "power.alpha.brew_cooldown2.name": "Raw Healing Potions",
-  "power.alpha.brew_cooldown2.description": "The first time eating a glinstering melon, quite tasty but the effect was even better. After eating that sugar you tried some more ingredients, turns out that it wasn't just a coincidence...",
+  "power.alpha.brew_cooldown2.description": "Some potion ingredients are in other categories then the nowadays poisons.",
 
   "power.alpha.last_ingredient.name": "The Last Ingredient",
-  "power.alpha.last_ingredient.description": "Why did you even tried this, even though the outcome was good, it wasn't really tasty. The combination of night vision and fermented spider eye made you the best at hide and seek.",
+  "power.alpha.last_ingredient.description": "A taste of the reversal. Fermented spider eye does reverse the effect even in your body.",
 
   "power.alpha.last_resort.name": "Last Resort",
-  "power.alpha.last_resort.description": "Dying won't be easy now, when your village got attacked you survived and we know why. When close to death your blood strengthens your body so you won't die easy.",
+  "power.alpha.last_resort.description": "The fear of death strengthens the soul, and even your body now.",
 
-  "power.alpha.illage_and_zombified.name": "Illage and Zombifobia",
-  "power.alpha.illage_and_zombified.description": "The people who attacked your village where illagers, just like zombies you have nightmares from them. You rather stay away from them.",
+  "power.alpha.village_spawn.name": "Home sweet home",
+  "power.alpha.village_spawn.description": "You spawn at your home village.",
+
+  "power.alpha.illaged.name": "Illaged",
+  "power.alpha.illaged.description": "The raiders of your home, trained to take down weak and strong do way more damage to you.",
+
+  "power.alpha.zombified.name": "Zombified",
+  "power.alpha.zombified.description": "The undead makes your body shiver, the fear of them makes you lose focus and health.",
 
 
   // Strider
