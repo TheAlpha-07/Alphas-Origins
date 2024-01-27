@@ -1,0 +1,17 @@
+{
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "operation": "addition",
+    "value": 3
+  },
+
+  "bientity_condition": {
+    "type": "origins:target_condition",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:lava_charge_resource_ev",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  }
+}

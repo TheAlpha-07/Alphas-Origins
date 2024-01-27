@@ -10,7 +10,8 @@
     "originsevolved:attack_stop_ev",
     "originsevolved:pounce_ev",
     "originsevolved:feline_resource_ev",
-    "originsevolved:change_feline_resource_ev"
+    "originsevolved:change_feline_resource_ev",
+    "originsevolved:no_wolves_ev"
   ],
   "icon": "minecraft:orange_wool",
   "unchoosable": true,

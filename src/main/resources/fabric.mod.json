@@ -19,10 +19,13 @@
     ],
     "main": [
       "com.thealpha07.alphasorigins.AlphasOrigins"
+    ],
+    "fabric-datagen": [
+      "com.thealpha07.alphasorigins.AlphasOriginsDataGenerator"
     ]
   },
   "mixins": [
-    "OriginsEvolved.mixins.json"
+    "alphasorigins.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.22",

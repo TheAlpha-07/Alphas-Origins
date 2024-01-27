@@ -34,25 +34,10 @@
       "bar_index": 1
     },
     "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:equipped_item",
-          "equipment_slot": "mainhand",
-          "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-              "item": "minecraft:air"
-            }
-          }
-        },
-        {
-          "type": "origins:resource",
-          "resource": "originsevolved:feline_resource_ev",
-          "comparison": "==",
-          "compare_to": 4
-        }
-      ]
+      "type": "origins:resource",
+      "resource": "originsevolved:feline_resource_ev",
+      "comparison": "==",
+      "compare_to": 6
     }
   },
   "reach": {
@@ -63,25 +48,10 @@
       "operation": "addition"
     },
     "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:equipped_item",
-          "equipment_slot": "mainhand",
-          "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-              "item": "minecraft:air"
-            }
-          }
-        },
-        {
-          "type": "origins:resource",
-          "resource": "originsevolved:feline_resource_ev",
-          "comparison": "==",
-          "compare_to": 4
-        }
-      ]
+      "type": "origins:resource",
+      "resource": "originsevolved:feline_resource_ev",
+      "comparison": "==",
+      "compare_to": 6
     }
   },
   "reach2": {
@@ -93,25 +63,10 @@
       "operation": "addition"
     },
     "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:equipped_item",
-          "equipment_slot": "mainhand",
-          "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-              "item": "minecraft:air"
-            }
-          }
-        },
-        {
-          "type": "origins:resource",
-          "resource": "originsevolved:feline_resource_ev",
-          "comparison": "==",
-          "compare_to": 4
-        }
-      ]
+      "type": "origins:resource",
+      "resource": "originsevolved:feline_resource_ev",
+      "comparison": "==",
+      "compare_to": 6
     }
   },
   "damage": {
@@ -122,25 +77,10 @@
       "operation": "addition"
     },
     "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:equipped_item",
-          "equipment_slot": "mainhand",
-          "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-              "item": "minecraft:air"
-            }
-          }
-        },
-        {
-          "type": "origins:resource",
-          "resource": "originsevolved:feline_resource_ev",
-          "comparison": "==",
-          "compare_to": 4
-        }
-      ]
+      "type": "origins:resource",
+      "resource": "originsevolved:feline_resource_ev",
+      "comparison": "==",
+      "compare_to": 6
     }
   },
   "speed": {
@@ -151,53 +91,42 @@
       "operation": "addition"
     },
     "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:equipped_item",
-          "equipment_slot": "mainhand",
-          "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-              "item": "minecraft:air"
-            }
-          }
-        },
-        {
-          "type": "origins:resource",
-          "resource": "originsevolved:feline_resource_ev",
-          "comparison": "==",
-          "compare_to": 4
-        }
-      ]
+      "type": "origins:resource",
+      "resource": "originsevolved:feline_resource_ev",
+      "comparison": "==",
+      "compare_to": 6
+    }
+  },
+  "bloodvision": {
+    "type": "apoli:overlay",
+    "hidden": true,
+    "texture": "minecraft:textures/misc/nausea.png",
+    "red": 0.6,
+    "green": 0,
+    "blue": 0,
+    "strength": 0.7,
+    "draw_mode": "nausea",
+    "draw_phase": "above_hud",
+    "visible_in_third_person": true,
+    "hide_with_hud": true,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:feline_resource_ev",
+      "comparison": "==",
+      "compare_to": 6
     }
   },
   "heal": {
     "type": "origins:self_action_on_hit",
     "entity_action": {
       "type": "origins:heal",
-      "amount": 5.0
+      "amount": 5
     },
     "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:equipped_item",
-          "equipment_slot": "mainhand",
-          "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-              "item": "minecraft:air"
-            }
-          }
-        },
-        {
-          "type": "origins:resource",
-          "resource": "originsevolved:feline_resource_ev",
-          "comparison": "==",
-          "compare_to": 4
-        }
-      ]
+      "type": "origins:resource",
+      "resource": "originsevolved:feline_resource_ev",
+      "comparison": "==",
+      "compare_to": 6
     },
     "cooldown": 0
   },
@@ -206,29 +135,14 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "originsevolved:feline_resource_ev",
-      "change": -4
+      "change": -6
     },
     "cooldown": 0,
     "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:equipped_item",
-          "equipment_slot": "mainhand",
-          "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-              "item": "minecraft:air"
-            }
-          }
-        },
-        {
-          "type": "origins:resource",
-          "resource": "originsevolved:feline_resource_ev",
-          "comparison": "==",
-          "compare_to": 4
-        }
-      ]
+      "type": "origins:resource",
+      "resource": "originsevolved:feline_resource_ev",
+      "comparison": "==",
+      "compare_to": 6
     }
   }
 }

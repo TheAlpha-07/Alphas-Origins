@@ -3,22 +3,23 @@
   "entity_action": {
     "type": "origins:change_resource",
     "resource": "originsevolved:lava_charge_resource_ev",
-    "change": 1,
+    "change": -1,
     "operation": "add"
   },
-  "interval": 30,
+  "interval": 100,
   "condition": {
     "type": "origins:and",
     "conditions": [
       {
         "type": "origins:resource",
         "resource": "originsevolved:lava_charge_resource_ev",
-        "comparison": "<",
-        "compare_to": 40
+        "comparison": ">",
+        "compare_to": 0
       },
       {
-        "type": "origins:submerged_in",
-        "fluid": "minecraft:lava"
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether",
+        "inverted": true
       }
     ]
   }
