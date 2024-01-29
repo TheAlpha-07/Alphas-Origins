@@ -23,6 +23,11 @@
           "type": "origins:dimension",
           "dimension": "minecraft:the_nether",
           "inverted": true
+        },
+        {
+          "type": "origins:submerged_in",
+          "fluid": "minecraft:lava",
+          "inverted": true
         }
       ]
     }
@@ -67,6 +72,30 @@
     "damage_condition": {
       "type": "origins:projectile",
       "projectile": "minecraft:snowball"
+    }
+  },
+
+  "snow_biome_exhaust": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "originsevolved:lava_charge_resource_ev",
+      "change": -1,
+      "operation": "add"
+    },
+    "interval": 100,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:biome",
+          "condition": {
+            "type": "origins:temperature",
+            "comparison": "<=",
+            "compare_to": 0.0
+          }
+        }
+      ]
     }
   }
 }

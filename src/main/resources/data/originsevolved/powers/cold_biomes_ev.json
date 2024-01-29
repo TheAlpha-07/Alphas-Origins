@@ -1,12 +1,10 @@
 {
-  "type": "origins:action_over_time",
-
-  "entity_action": {
-    "type": "origins:damage",
-    "damage_type": "minecraft:freeze",
-    "amount": 2
-  },
+  "type": "origins:damage_over_time",
   "interval": 60,
+  "onset_delay": 1,
+  "damage": 2,
+  "damage_easy": 1,
+  "damage_type": "minecraft:freeze",
 
   "condition": {
     "type": "origins:and",

@@ -110,26 +110,54 @@
   "power.alpha.lava_walk.name": "It's just lava",
   "power.alpha.lava_walk.description": "You can walk over lava if you'd like, toggle to activate or to turn it of.",
 
-  "power.alpha.nether_spawn.name": "Home",
-  "power.alpha.nether_spawn.description": "You will spawn in the nether at a warped forest.",
-
-  "power.alpha.warped_food.name": "Warped Food",
-  "power.alpha.warped_food.description": "You're addicted to that small blue mushroom that spawns at some places in the nether.",
-
-  "power.alpha.lava_boost.name": "Lava Boost",
-  "power.alpha.lava_boost.description": "You gain a massive speed boost in lava and you're able to see through it.",
-
-  "power.alpha.water_vulnerability_s.name": "Water Vulnerability",
-  "power.alpha.water_vulnerability_s.description": "Water hurts you, it almost freezes you.",
-
   "power.alpha.fire_immuun.name": "Fire Immunity",
   "power.alpha.fire_immuun.description":"You are, obviously, immuun to fire damage.",
 
   "power.alpha.blood_of_fire.name": "Blood of Fire",
-  "power.alpha.blood_of_fire.description": "You're genes are made out of lava, without fire you're nothing. When in fire or lava you gain massive buffs.",
+  "power.alpha.blood_of_fire.description": "Your genes are made out of lava, without fire you're nothing. When in fire or lava you gain massive buffs.",
 
-  "power.alpha.no_fire.name": "Cold Dimensions",
+  "power.alpha.lava_boost.name": "Lava Boost",
+  "power.alpha.lava_boost.description": "You gain a massive speed boost in lava and you're able to see through it.",
+
+  "power.alpha.warped_food.name": "Warped Food",
+  "power.alpha.warped_food.description": "You're addicted to that small blue mushroom that spawns at some places in the nether.",
+
+  "power.alpha.nether_spawn.name": "Home",
+  "power.alpha.nether_spawn.description": "You will spawn in the nether at a warped forest.",
+
+  "power.alpha.water_vulnerability_s.name": "Water Vulnerability",
+  "power.alpha.water_vulnerability_s.description": "Water hurts you, it almost freezes you.",
+
+  "power.alpha.no_fire.name": "No Fire",
   "power.alpha.no_fire.description": "When you're not in fire in the nether you're fine, just a little cold, but when you're outside the nether you're freezing and you can barely move.",
+
+  // Strider Evolved.
+  "origin.originsevolved.lava_walker.name": "Lava Walker",
+  "origin.originsevolved.lava_walker.description": "After receiving the magic of destruction your body evolves to a stronger version of yourself, you feel yourself become one with your past.",
+
+  "power.originsevolved.lava_charge_ev.name": "Lava Storage",
+  "power.originsevolved.lava_charge_ev.description": "Your blood is now capable of storing lava inside your body, this way you remain hot even outside the nether.",
+
+  "power.originsevolved.explode_ev.name": "Lava Leakage",
+  "power.originsevolved.explode_ev.description": "Completely lose a great amount of lava which will explode because of the heat.",
+
+  "power.originsevolved.charge_exhaust_ev.name": "Cooling Lava",
+  "power.originsevolved.charge_exhaust_ev.description": "Even lava cools down, when in the overworld or when you get wet you slowly lose lava to the cold outside.",
+
+  "power.originsevolved.lava_boost_ev.name": "Lava Boost+",
+  "power.originsevolved.lava_boost_ev.description": "Your vision in lava is even greater now and you're capable of swimming through lava.",
+
+  "power.originsevolved.lava_speed_ev.name": "Boots of Fire",
+  "power.originsevolved.lava_speed_ev.description": "You're faster in lava.",
+
+  "power.originsevolved.no_fire_ev.name": "No Fire+",
+  "power.originsevolved.no_fire_ev.description": "Even lava freezes, the less lava in your blood the weaker your body gets. You're now even more vulnerable for the cold and get extremely weak without lava.",
+
+  "power.originsevolved.dimension_exhaustion_ev.name": "Different Atmosphere",
+  "power.originsevolved.dimension_exhaustion_ev.description": "You're more hungry in other dimensions.",
+
+  "power.originsevolved.cold_biomes_ev.name": "Cold Biomes",
+  "power.originsevolved.cold_biomes_ev.description": "Now that you're body is more lava than ever, the cold biomes freeze you almost to death now.",
 
   // Arachnid.
   "origin.origins.arachnid.name": "Arachnid",
@@ -299,6 +327,13 @@
 
   "power.originsevolved.juggernaut_toggle_ev.name": "The Juggernaut",
   "power.originsevolved.juggernaut_toggle_ev.description": "Now that your armor is stabilized you're able to use it more efficiently, you can now retreat into your armor and use it as the ultimate defense. Your armor will protect you from much damage at the cost of your vision and your movement.",
+
+  // Nether and Ender.
+  "power.originsevolved.end_damage_ev.name": "",
+  "power.originsevolved.end_damage_ev.description": "",
+
+  "power.originsevolved.nether_damage_ev.name": "",
+  "power.originsevolved.nether_damage_ev.description": "",
 
   // More Keybinds
   "key.origins.denary_active": "Active Power (Third)",
