@@ -1,4 +1,5 @@
 {
+  "hidden": true,
   "type": "origins:swimming",
   "condition": {
     "type": "origins:submerged_in",
