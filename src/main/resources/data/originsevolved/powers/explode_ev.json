@@ -8,7 +8,7 @@
     "actions": [
       {
         "type": "origins:change_resource",
-        "resource": "*:*_cooldown_resource",
+        "resource": "originsevolved:lava_charge_ev_cooldown_resource",
         "change": 0,
         "operation": "set"
       },
@@ -19,7 +19,7 @@
       },
       {
         "type": "origins:explode",
-        "power": 4,
+        "power": 2,
         "destruction_type": "destroy",
         "damage_self": false,
         "create_fire": true
@@ -32,7 +32,7 @@
     "conditions": [
       {
         "type": "origins:resource",
-        "resource": "*:*_cooldown_resource",
+        "resource": "originsevolved:lava_charge_ev_cooldown_resource",
         "comparison": "==",
         "compare_to": 20
       },

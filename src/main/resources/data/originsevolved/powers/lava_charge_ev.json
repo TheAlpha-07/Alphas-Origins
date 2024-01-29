@@ -32,7 +32,6 @@
       ]
     }
   },
-
   "fire_hands_hit": {
     "type": "origins:action_on_hit",
     "bientity_action": {
@@ -63,7 +62,6 @@
       }
     }
   },
-
   "magma_consume": {
     "type": "origins:action_on_block_use",
     "entity_action": {
@@ -86,7 +84,6 @@
         }
       ]
     },
-
     "block_action": {
       "type": "origins:set_block",
       "block": "minecraft:blackstone"
@@ -109,10 +106,6 @@
         }
       ]
     }
-  },
-
-  "water_exhaust": {
-    "type": "origins:action_over_time"
   }
 }
 
