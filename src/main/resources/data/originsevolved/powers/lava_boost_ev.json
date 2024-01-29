@@ -3,12 +3,6 @@
   "key": {
     "key": "key.origins.secondary_active"
   },
-  "cooldown": 1500,
-  "hud_render": {
-    "should_render": true,
-    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-    "bar_index": 1
-  },
   "entity_action": {
     "type": "origins:and",
     "actions": [
@@ -25,6 +19,39 @@
           "power": "originsevolved:lava_boost_g_ev",
           "source": "originsevolved:lava_walker"
         }
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "originsevolved:lava_charge_resource_ev",
+        "change": -5
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "originsevolved:lava_charge_ev_cooldown_resource",
+        "change": 0,
+        "operation": "set"
+      }
+    ]
+  },
+
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "originsevolved:lava_charge_resource_ev",
+        "comparison": "<=",
+        "compare_to": 40
+      },
+      {
+        "type": "origins:resource",
+        "resource": "originsevolved:lava_charge_resource_ev",
+        "comparison": ">",
+        "compare_to": 4
+      },
+      {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:lava"
       }
     ]
   }

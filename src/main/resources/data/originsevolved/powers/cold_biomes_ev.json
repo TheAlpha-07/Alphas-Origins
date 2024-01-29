@@ -9,11 +9,22 @@
   "interval": 60,
 
   "condition": {
-    "type": "origins:biome",
-    "condition": {
-      "type": "origins:temperature",
-      "comparison": "<=",
-      "compare_to": 0.0
-    }
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:biome",
+        "condition": {
+          "type": "origins:temperature",
+          "comparison": "<=",
+          "compare_to": 0.0
+        }
+      },
+      {
+        "type": "origins:resource",
+        "resource": "originsevolved:lava_charge_resource_ev",
+        "comparison": "<",
+        "compare_to": 20
+      }
+    ]
   }
 }
