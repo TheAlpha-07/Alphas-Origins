@@ -43,18 +43,21 @@
   "power.alpha.different_ranged.name": "Differences",
   "power.alpha.different_ranged.description": "As assassin you only use crossbows, as hunter you only use a bow.",
 
+  "power.originsevolved.different_ranged_ev.name": "Differences",
+  "power.originsevolved.different_ranged_ev.description": "The shadow assassin can't use bows, the sharp hunter can't use crossbows.",
+
   // Hunter
   "origin.alpha.hunter.name": "Hunter",
   "origin.alpha.hunter.description": "A human trained for the hunt, ready to take on any challenge that the world grants.",
 
-  "power.alpha.toggle_harming_disable.name": "Bow Training",
+  "power.alpha.toggle_bind_disable.name": "Bow Training",
   "power.alpha.toggle_harming_disable.description": "There are a lot of ways to use your bow, use those ways effectively.",
 
-  "power.alpha.harming_mode.name": "Harm Arrow",
-  "power.alpha.harming_mode.description": "One arrow, harmfull and explosive. Use this to take your enemies down in one shot, but don't come to close...",
+  "power.alpha.bind_mode.name": "Forests Arrow",
+  "power.alpha.bind_mode.description": "One arrow, no prey can run from you when bound by the leaves of the forest.",
 
-  "power.alpha.disable_mode.name": "Venomous Arrows",
-  "power.alpha.disable_mode.description": "One arrow, two effects. With this arrow you poison your enemies and slow them so you can take them down with the last hits, but watch out for those who are cursed by the undead.",
+  "power.alpha.disable_mode.name": "Venomous Arrow",
+  "power.alpha.disable_mode.description": "One arrow, two effects. With this arrow you poison your enemies and make them feel sick, but watch out for those cursed by the undead.",
 
   "power.alpha.toggle_hunt_sense.name": "Different Methods",
   "power.alpha.toggle_hunt_sense.description": "Some situations need different ways to be handled, that's what you're trained for.",
@@ -66,7 +69,7 @@
   "power.alpha.sense_mode.description": "Strengthen your senses, feel the air, sense their presence. No one can escape you.",
 
   "power.alpha.bow_damage.name": "Strong Arms",
-  "power.alpha.bow_damage.description": "Trained with a bow your arms are used to the force of drawing a bow, now you can use your bow at full power and do even more damage.",
+  "power.alpha.bow_damage.description": "Trained with a bow your arms are used to the force of drawing a bow, now you can use your bow with more power and do even more damage.",
 
   "power.alpha.fear_or_be_feared.name": "Fear or be Feared",
   "power.alpha.fear_or_be_feared.description": "Frighten your prey by weakening them, however if you're weak you'll get scared yourself. Make sure the first hit is yours.",
@@ -76,6 +79,37 @@
 
   "power.alpha.to_heavy.name": "A heavy weapon",
   "power.alpha.to_heavy.description": "An axe is not effective while hunting, it's to heavy.",
+
+  // Hunter Evolved
+  "origin.originsevolved.sharp_hunter.name": "Sharp Hunter",
+  "origin.originsevolved.sharp_hunter.description": "After the heavy training in the forest you improved your skills to another level, earths blessing may be with you.",
+
+  "power.originsevolved.toggle_bind_disable_ev.name": "Improved Bow Training",
+  "power.originsevolved.toggle_bind_disable_ev.description": "Your training improved your bow skills to another level, all your special arrows now have stronger effects.",
+
+  "power.originsevolved.bind_mode_ev.name": "Forests Arrow+",
+  "power.originsevolved.bind_mode_ev.description": "The leaves of this arrow are strengthened and bind your enemies even longer now.",
+
+  "power.originsevolved.disable_mode_ev.name": "Venomous Arrow+",
+  "power.originsevolved.disable_mode_ev.description": "One arrow, three effects. Your effects have been improved in strength and duration, with the strength of these effects your prey now also gets blinded.",
+
+  "power.originsevolved.toggle_hunt_sense_ev.name": "Improved Different Methods",
+  "power.originsevolved.toggle_hunt_sense_ev.description": "Your training improved your hunting skills to a higher level than first.",
+
+  "power.originsevolved.hunt_mode_ev.name": "The Hunt+",
+  "power.originsevolved.hunt_mode_ev.description": "You can watch your prey even better now.",
+
+  "power.originsevolved.sense_mode_ev.name": "Sensitive+",
+  "power.originsevolved.sense_mode_ev.description": "Your six sense has strengthened and is now stronger than ever. Now no one can escape from your sight.",
+
+  "power.originsevolved.bow_damage_ev.name": "Strong Arms+",
+  "power.originsevolved.bow_damage_ev.description": "Your arms are stronger and capable of using more force than before, now your bow is the one with limits.",
+
+  "power.originsevolved.forests_blessing_ev.name": "Forests Blessing",
+  "power.originsevolved.forests_blessing_ev.description": "Upon receiving the forests blessing after finishing your training, the forest cures you from your sickness after being with the forest for a while.",
+
+  "power.originsevolved.one_with_the_forest_ev.name": "One with the Forest",
+  "power.originsevolved.one_with_the_forest_ev.description": "The training in the forest gave you the ability to wander easier through the forests leaves than before, now the leaves are like air and stone at the same time.",
 
   // Villager
   "origin.alpha.villager.name": "Villager",
@@ -157,7 +191,7 @@
   "power.originsevolved.dimension_exhaustion_ev.description": "You're more hungry in other dimensions.",
 
   "power.originsevolved.cold_biomes_ev.name": "Cold Biomes",
-  "power.originsevolved.cold_biomes_ev.description": "Now that you're body is more lava than ever, the cold biomes freeze you almost to death now.",
+  "power.originsevolved.cold_biomes_ev.description": "Now that you're body is more lava than ever, the cold biomes freeze you almost to death.",
 
   // Arachnid.
   "origin.origins.arachnid.name": "Arachnid",
@@ -347,5 +381,8 @@
 
 
   // Other.
-  "layer.origins_needed.origin.name": "Origin"
+  "layer.origins_needed.origin.name": "Origin",
+
+  // Tests (Mod case)
+  "effect.test.bind": "Bind"
 }
