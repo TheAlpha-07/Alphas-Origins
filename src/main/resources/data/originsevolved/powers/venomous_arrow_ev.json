@@ -19,15 +19,18 @@
       "effects": [
         {
           "effect": "minecraft:poison",
-          "durations": 100
+          "durations": 100,
+          "amplifier": 1
         },
         {
           "effect": "minecraft:blindness",
-          "duration": 60
+          "duration": 60,
+          "amplifier": 1
         },
         {
           "effect": "minecraft:nausea",
-          "duration": 200
+          "duration": 200,
+          "amplifier": 1
         }
       ]
     }

@@ -6,7 +6,7 @@
     "actions": [
       {
         "type": "origins:grant_power",
-        "power": "alpha:higher_damage",
+        "power": "alpha:binding_arrow",
         "source": "alpha:hunter"
       },
       {
@@ -16,7 +16,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Harming Mode ACTIVATED\", \"color\": \"green\"}",
+        "command": "tellraw @s {\"text\": \"Binding Mode ACTIVATED\", \"color\": \"green\"}",
         "condition": {
           "type": "origins:resource",
           "resource": "alpha:hunter_indicator",
@@ -31,13 +31,13 @@
     "actions": [
       {
         "type": "origins:revoke_power",
-        "power": "alpha:higher_damage",
+        "power": "alpha:binding_arrow",
         "source": "alpha:hunter"
       }
     ]
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_harming_disable"
+    "power": "alpha:toggle_bind_disable"
   }
 }

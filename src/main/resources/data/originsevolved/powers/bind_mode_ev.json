@@ -1,56 +1,43 @@
 {
   "type": "origins:action_over_time",
   "interval": 200,
-
   "rising_action": {
     "type": "origins:and",
     "actions": [
       {
         "type": "origins:grant_power",
-        "power": "alpha:hunt_camouflage",
-        "source": "originsevolved:sharp_hunter"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "originsevolved:hunter_entity_glow_ev",
+        "power": "originsevolved:binding_arrow_ev",
         "source": "originsevolved:sharp_hunter"
       },
       {
         "type": "origins:change_resource",
-        "resource": "originsevolved:hunter_indicator_ev",
-        "change": 3
+        "resource": "oiginsevolved:hunter_indicator_ev",
+        "change": 1
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Hunting Mode ACTIVATED\", \"color\": \"red\"}",
+        "command": "tellraw @s {\"text\": \"Binding Mode ACTIVATED\", \"color\": \"green\"}",
         "condition": {
           "type": "origins:resource",
           "resource": "originsevolved:hunter_indicator_ev",
           "comparison": "==",
-          "compare_to": 3
+          "compare_to": 1
         }
       }
     ]
   },
-
   "falling_action": {
     "type": "origins:and",
     "actions": [
       {
         "type": "origins:revoke_power",
-        "power": "alpha:hunt_camouflage",
-        "source": "originsevolved:sharp_hunter"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "originsevolved:hunter_entity_glow_ev",
+        "power": "originsevolved:binding_arrow_ev",
         "source": "originsevolved:sharp_hunter"
       }
     ]
   },
-
   "condition": {
     "type": "origins:power_active",
-    "power": "originsevolved:toggle_hunt_sense_ev"
+    "power": "originsevolved:toggle_bind_disable_ev"
   }
 }

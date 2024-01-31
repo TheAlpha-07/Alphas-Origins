@@ -1,18 +1,23 @@
 {
   "type": "origins:action_over_time",
-  "interval": 20,
+  "interval": 200,
 
   "rising_action": {
     "type": "origins:and",
     "actions": [
       {
         "type": "origins:grant_power",
-        "power": "alpha:attack_nightvis",
+        "power": "alpha:sense_nightvis",
         "source": "originsevolved:sharp_hunter"
       },
       {
         "type": "origins:grant_power",
-        "power": "originsevolved:attack_entity_glow_ev",
+        "power": "originsevolved:sense_entity_glow_ev",
+        "source": "originsevolved:sharp_hunter"
+      },
+      {
+        "type": "origins:grant_power",
+        "power": "alpha:sense_weakness",
         "source": "originsevolved:sharp_hunter"
       },
       {
@@ -37,19 +42,24 @@
     "actions": [
       {
         "type": "origins:revoke_power",
-        "power": "alpha:attack_nightvis",
+        "power": "alpha:sense_nightvis",
         "source": "originsevolved:sharp_hunter"
       },
       {
         "type": "origins:revoke_power",
-        "power": "originsevolved:attack_entity_glow_ev",
+        "power": "originsevolved:sense_entity_glow_ev",
         "source": "originsevolved:sharp_hunter"
+      },
+      {
+        "type": "origins:revoke_power",
+        "power": "alpha:sense_weakness",
+        "source": "alpha:hunter"
       }
     ]
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "originsevolved:toggle_hunter_ev",
+    "power": "originsevolved:toggle_hunt_sense_ev",
     "inverted": true
   }
 }

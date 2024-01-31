@@ -38,7 +38,7 @@
   },
   "condition": {
     "type": "origins:power_active",
-    "power": "alpha:toggle_harming_disable",
+    "power": "alpha:toggle_bind_disable",
     "inverted": true
   }
 }

@@ -1,6 +1,6 @@
 {
   "type": "origins:action_over_time",
-  "interval": "200",
+  "interval": 200,
 
   "rising_action": {
     "type": "origins:clear_effect",
