@@ -12,7 +12,8 @@
     "alpha:no_fire",
     "alpha:water_vulnerability_s",
     "alpha:reset",
-    "alpha:scale_reset"
+    "alpha:scale_reset",
+    "alpha:advancement_triggers/lava_walk_trigger"
   ],
   "icon": {
     "item": "minecraft:warped_fungus"

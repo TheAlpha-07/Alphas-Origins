@@ -10,15 +10,10 @@
       "type": "origins:or",
       "conditions": [
         {
-          "type": "origins:submerged_in",
-          "fluid": "minecraft:lava",
-          "inverted": true
-        },
-        {
           "type": "origins:fluid_height",
           "fluid": "minecraft:lava",
-          "comparison": "==",
-          "compare_to": 0
+          "comparison": "<=",
+          "compare_to": 0.4
         }
       ]
     }
