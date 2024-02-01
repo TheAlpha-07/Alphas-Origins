@@ -3,8 +3,8 @@
   "cooldown": 300,
   "hud_render": {
     "should_render": true,
-    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-    "bar_index": 2
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 22
   },
   "damage_condition": {
     "type": "origins:projectile",
@@ -16,7 +16,7 @@
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:slowness",
-        "amplifier": 10,
+        "amplifier": 20,
         "duration": 100
       }
     }
