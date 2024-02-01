@@ -206,7 +206,7 @@
       "type": "origins:apply_effect",
       "effect": {
         "effect": "minecraft:resistance",
-        "amplifier": 4,
+        "amplifier": 3,
         "duration": 60
       }
     },

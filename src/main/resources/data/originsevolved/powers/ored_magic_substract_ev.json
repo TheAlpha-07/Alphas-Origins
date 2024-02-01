@@ -7,7 +7,7 @@
       "type": "origins:resource",
       "resource": "originsevolved:ored_magic_resource_ev",
       "comparison": "==",
-      "compare_to": 0
+      "compare_to": 60
     },
 
     "block_action": {
@@ -55,9 +55,15 @@
         {
           "type": "origins:change_resource",
           "resource": "originsevolved:ored_magic_resource_ev",
-          "change": 1
+          "change": 0,
+          "operation": "set"
         }
       ]
+    },
+
+    "held_item_action": {
+      "type": "origins:remove_enchantment",
+      "enchantment": "minecraft:vanishing_curse"
     }
   },
 
@@ -67,7 +73,7 @@
       "type": "origins:resource",
       "resource": "originsevolved:ored_magic_resource_ev",
       "comparison": "==",
-      "compare_to": 0
+      "compare_to": 60
     },
 
     "block_action": {
@@ -126,9 +132,15 @@
         {
           "type": "origins:change_resource",
           "resource": "originsevolved:ored_magic_resource_ev",
-          "change": 1
+          "change": 0,
+          "operation": "set"
         }
       ]
+    },
+
+    "held_item_action": {
+      "type": "origins:remove_enchantment",
+      "enchantment": "minecraft:vanishing_curse"
     }
   },
 
@@ -139,7 +151,7 @@
       "type": "origins:resource",
       "resource": "originsevolved:ored_magic_resource_ev",
       "comparison": "==",
-      "compare_to": 0
+      "compare_to": 60
     },
 
     "block_action": {
@@ -153,8 +165,13 @@
     },
 
     "item_condition": {
-      "type": "origins:enchantment",
-      "enchantment": "minecraft:vanishing_curse"
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:enchantment",
+          "enchantment": "minecraft:vanishing_curse"
+        }
+      ]
     },
 
     "entity_action": {
@@ -184,9 +201,15 @@
         {
           "type": "origins:change_resource",
           "resource": "originsevolved:ored_magic_resource_ev",
-          "change": 1
+          "change": 0,
+          "operation": "set"
         }
       ]
+    },
+
+    "held_item_action": {
+      "type": "origins:remove_enchantment",
+      "enchantment": "minecraft:vanishing_curse"
     }
   },
 
@@ -196,7 +219,7 @@
       "type": "origins:resource",
       "resource": "originsevolved:ored_magic_resource_ev",
       "comparison": "==",
-      "compare_to": 0
+      "compare_to": 60
     },
 
     "block_action": {
@@ -249,9 +272,15 @@
         {
           "type": "origins:change_resource",
           "resource": "originsevolved:ored_magic_resource_ev",
-          "change": 1
+          "change": 0,
+          "operation": "set"
         }
       ]
+    },
+
+    "held_item_action": {
+      "type": "origins:remove_enchantment",
+      "enchantment": "minecraft:binding_curse"
     }
   },
 
@@ -261,7 +290,7 @@
       "type": "origins:resource",
       "resource": "originsevolved:ored_magic_resource_ev",
       "comparison": "==",
-      "compare_to": 0
+      "compare_to": 60
     },
 
     "block_action": {
@@ -300,7 +329,7 @@
               "entity_action": {
                 "type": "origins:damage",
                 "amount": 10,
-                "damage_type": "minecraft:on_fire"
+                "damage_type": "minecraft:out_of_world"
               }
             }
           },
@@ -344,7 +373,7 @@
               ]
             }
           },
-          "include_target": true
+          "include_target": false
         },
         {
           "type": "origins:spawn_particles",
@@ -358,9 +387,15 @@
         {
           "type": "origins:change_resource",
           "resource": "originsevolved:ored_magic_resource_ev",
-          "change": 1
+          "change": 0,
+          "operation": "set"
         }
       ]
+    },
+
+    "held_item_action": {
+      "type": "origins:remove_enchantment",
+      "enchantment": "minecraft:binding_curse"
     }
   }
 }

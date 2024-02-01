@@ -1,17 +1,29 @@
 {
+  "hidden": true,
   "type": "origins:action_over_time",
   "condition": {
-    "type": "origins:resource",
-    "resource": "originsevolved:ored_magic_resource_ev",
-    "comparison": "==",
-    "compare_to": 1
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "originsevolved:ored_magic_resource_ev",
+        "comparison": ">=",
+        "compare_to": 0
+      },
+      {
+        "type": "origins:resource",
+        "resource": "originsevolved:ored_magic_resource_ev",
+        "comparison": "<",
+        "compare_to": 60
+      }
+    ]
   },
 
   "entity_action": {
     "type": "origins:change_resource",
     "resource": "originsevolved:ored_magic_resource_ev",
-    "change": 0,
-    "operation": "set"
+    "change": 1,
+    "operation": "add"
   },
-  "interval": 1200
+  "interval": 20
 }
