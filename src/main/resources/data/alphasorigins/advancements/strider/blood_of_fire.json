@@ -1,0 +1,18 @@
+{
+  "parent": "alphasorigins:strider/root",
+  "display": {
+    "title": "Blood of Fire",
+    "description": "Become on Fire",
+    "icon": {
+      "item": "minecraft:lava_bucket"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

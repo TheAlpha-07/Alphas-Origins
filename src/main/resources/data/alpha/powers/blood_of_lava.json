@@ -1,13 +1,23 @@
 {
   "type": "origins:action_over_time",
   "entity_action": {
-    "type": "origins:apply_effect",
-    "effect": {
-      "effect": "minecraft:regeneration",
-      "duration": 60,
-      "amplifier": 0
-    }
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:regeneration",
+          "duration": 60,
+          "amplifier": 0
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only alphasorigins:strider/blood_of_lava"
+      }
+    ]
   },
+
   "interval": 1,
   "condition": {
     "type": "origins:submerged_in",

@@ -1,0 +1,21 @@
+{
+  "display": {
+    "title": "",
+    "description": "",
+    "icon": {
+      "item": ""
+    },
+    "background": "",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "chose_strider": {
+      "trigger": "origins:chose_origin",
+      "conditions": {
+        "origin": "alpha:hunter"
+      }
+    }
+  }
+}

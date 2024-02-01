@@ -18,6 +18,10 @@
           "duration": 60,
           "amplifier": 0
         }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only alphasorigins:strider/blood_of_fire"
       }
     ]
   },
