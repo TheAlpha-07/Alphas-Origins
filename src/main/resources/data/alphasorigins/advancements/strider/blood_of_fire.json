@@ -1,8 +1,12 @@
 {
   "parent": "alphasorigins:strider/root",
   "display": {
-    "title": "Blood of Fire",
-    "description": "Become on Fire",
+    "title": {
+      "translate": "advancements.strider.blood_of_fire.title"
+    },
+    "description": {
+      "translate": "advancements.strider.blood_of_fire.description"
+    },
     "icon": {
       "item": "minecraft:lava_bucket"
     },

@@ -1,8 +1,12 @@
 {
   "parent": "alphasorigins:strider/blood_of_fire",
   "display": {
-    "title": "Blood of Lava",
-    "description": "Be in Lava",
+    "title": {
+      "translate": "advancements.strider.blood_of_lava.title"
+    },
+    "description": {
+      "translate": "advancements.strider.blood_of_lava.description"
+    },
     "icon": {
       "item": "minecraft:lava_bucket"
     },

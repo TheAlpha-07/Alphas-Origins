@@ -1,8 +1,12 @@
 {
   "parent": "alphasorigins:strider/root",
   "display": {
-    "title": "Lava Boots",
-    "description": "Stand on Lava",
+    "title": {
+      "translate": "advancements.strider.lava_walk.title"
+    },
+    "description": {
+      "translate": "advancements.strider.lava_walk.description"
+    },
     "icon": {
       "item": "minecraft:lava_bucket"
     },
