@@ -240,12 +240,12 @@
   "origin.origins.arachnid.name": "Arachnid",
   "origin.origins.arachnid.description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
 
-  // Arachnid Evolved.
-  "origin.originsevolved.arachnid_evolved.name": "Arachnid Evolved",
-  "origin.originsevolved.arachnid_evolved.description": "The end magic has blessed your existence and made you even more stronger than before, now that you've evolved, the spiders made you their leader.",
+  // Blood Tooth (Arachnid Evolved).
+  "origin.originsevolved.arachnid_evolved.name": "Blood Tooth",
+  "origin.originsevolved.arachnid_evolved.description": "",
 
   "power.originsevolved.master_of_webs_ev.name": "Master of Webs+",
-  "power.originsevolved.master_of_webs_ev.description": "After you've killed the dragon and gained end magic, your instincts got higher than ever before, you gain speed and strength according to the number of cobwebs around you.",
+  "power.originsevolved.master_of_webs_ev.description": "The hunters territory, once the prey is in, they won't get out before you got them.",
 
   "power.originsevolved.cobwebshot_ev.name": "Cobweb Shot",
   "power.originsevolved.cobwebshot_ev.description": "You have the ability to shoot webs at your enemies, allowing you to block your enemies and take them down.",
@@ -253,38 +253,38 @@
   "power.originsevolved.summon_cave_spider_ev.name": "Their leader",
   "power.originsevolved.summon_cave_spider_ev.description": "All spiders are passive towards you unless you hit them. You can now even summon 4 cave spiders to make them fight for you and protect yourself.",
 
-  "power.originsevolved.prey_ev.name": "Prey the weak.",
+  "power.originsevolved.prey_ev.name": "Prey the weak",
   "power.originsevolved.prey_ev.description": "Only the strongest can survive.",
 
   "power.originsevolved.more_health_arach_ev.name": "Less fragile",
   "power.originsevolved.more_health_arach_ev.description": "Not only your extincts have grown better, so did your body, you're now able to withstand more damage than before.",
 
   "power.originsevolved.carnivore_ev.name": "Carnivore+",
-  "power.originsevolved.carnivore_ev.description": "Now that you've evolved the ends magic allows you to eat magic itself, in fact, golden apples, enchanted golden apples and other are seen as food that gives you magical buffs.",
+  "power.originsevolved.carnivore_ev.description": "",
 
   "power.originsevolved.friend_or_foe_ev.name": "Friend or Foe",
   "power.originsevolved.friend_or_foe_ev.description": "As a hunter you're way more flexible and deadly at night, but in daytime you're weak and vulnerable",
 
   // Avian
 
-  // Avian Evolved
-  "origin.originsevolved.avian_evolved.name": "Avian Evolved",
-  "origin.originsevolved.avian_evolved.description": "You killed the Ender Dragon, the Beast of the Sky, you feel pride upon your heart making you evolve into an Evolved Avian",
-
-  "power.originsevolved.absolute_velocity.name": "Absolute Velocity",
-  "power.originsevolved.absolute_velocity.description": "As you sprint, your velocity bar increases. The higher the velocity bar the more movement speed you gain. At maximum movement speed, you take no knockback and will knock up anyone that damages you. Velocity will rapidly decrease while not sprinting.",
-
-  "power.originsevolved.gain_air_ev.name": "Leap of Faith",
-  "power.originsevolved.gain_air_ev.description": "Maybe you can fly now so you try as hard as you can... nope... still can't... At least you're making progress!",
+  // Blood Feather (Avian Evolved)
+  "origin.originsevolved.avian_evolved.name": "Blood Feather",
+  "origin.originsevolved.avian_evolved.description": "After your blood began to warm up you feel your heart race and muscles strengthen, your visions begins to blur and all you see is red. Blood. More blood.",
 
   "power.originsevolved.tailwind_ev.name": "Tailwind+",
-  "power.originsevolved.tailwind_ev.description": "You're slightly faster than before",
+  "power.originsevolved.tailwind_ev.description": "You're faster than before now that you've gained this much power.",
 
-  "power.originsevolved.muscle_power.name": "Speed of the Wind",
-  "power.originsevolved.muscle_power.description": "You can use the wind to increase your speed, but because of your lack of wind magic your power will drain while using it giving you slowness afterwards.",
+  "power.originsevolved.gain_air_ev.name": "",
+  "power.originsevolved.gain_air_ev.description": "Your legs jump higher as ever, never have you roared the sky's like this.",
+
+  "power.originsevolved.absolute_velocity_ev.name": "",
+  "power.originsevolved.absolute_velocity_ev.description": "",
+
+  "power.originsevolved.muscle_power.name": "",
+  "power.originsevolved.muscle_power.description": "",
 
   "power.originsevolved.hurtfull_feathers_ev.name": "Bloody Feathers",
-  "power.originsevolved.hurtfull_feathers_ev.description": "test",
+  "power.originsevolved.hurtfull_feathers_ev.description": "When you're hurt you bleed, not only do your feathers get under blood but they also get torn apart, this way they will malfunction when hurt to badly.",
 
   // Blazeborn
 
@@ -337,7 +337,7 @@
 
   // Feline
 
-  // Feline Evolved
+  // Blood Claw (Feline Evolved)
   "origin.originsevolved.feline_evolved.name": "Feline Evolved",
   "origin.originsevolved.feline_evolved.description": "Now that you've killed that big bird, you take a bite of his flesh. The moment you taste the pure magic in the Ender Dragons flesh you feel the your inner beast awakening making you evolve.",
 
@@ -425,6 +425,23 @@
 
   // Other.
   "layer.origins_needed.origin.name": "Origin",
+
+  // Advancements
+  //Strider Advancements
+  "advancements.strider.root.title": "Lava's Embodiment",
+  "advancements.strider.root.description": "Become the strider.",
+
+  "advancements.strider.blood_of_fire.title": "Blood of Fire",
+  "advancements.strider.blood_of_fire.description": "Become one with fire.",
+
+  "advancements.strider.blood_of_lava.title": "Blood of Lava",
+  "advancements.strider.blood_of_lava.description": "Let the lava flood your body.",
+
+  "advancements.strider.lava_walk.title": "Lava Boots",
+  "advancements.strider.lava_walk.description": "Take a walk on lava.",
+
+
+  // Books
 
   // Tests (Mod case)
   "effect.test.bind": "Bind"

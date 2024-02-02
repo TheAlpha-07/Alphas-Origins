@@ -1,7 +1,11 @@
 {
   "display": {
-    "title": "Lava's Embodiment",
-    "description": "Become the Strider.",
+    "title": {
+      "translate": "advancements.strider.root.title"
+    },
+    "description": {
+      "translate": "advancements.strider.root.description"
+    },
     "icon": {
       "item": "minecraft:lava_bucket"
     },

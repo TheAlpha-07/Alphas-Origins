@@ -14,7 +14,7 @@
     "chose_strider": {
       "trigger": "origins:chose_origin",
       "conditions": {
-        "origin": ""
+        "origin": "alpha:assassin"
       }
     }
   }
