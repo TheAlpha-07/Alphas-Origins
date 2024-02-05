@@ -10,22 +10,17 @@
     },
     "tag": "{Invisible:1b,Invulnerable:1b,Small:1b,Tags:[\"webbomb\"]}",
     "key": {
-      "key": "key.origins.primary_active",
+      "key": "key.origins.denary_active",
       "continuous": true
-    }
-  },
-  "hiss": {
-    "type": "origins:active_self",
-    "entity_action": {
+    },
+
+    "shooter_action": {
       "type": "origins:execute_command",
       "command": "playsound minecraft:entity.spider.ambient master @s",
       "permission_level": 4
-    },
-    "cooldown": 5,
-    "hud_render": {
-      "should_render": false
     }
   },
+
   "cobweb": {
     "type": "origins:action_over_time",
     "interval": 1,

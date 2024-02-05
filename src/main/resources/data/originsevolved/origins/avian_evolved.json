@@ -11,6 +11,8 @@
     "originsevolved:change_avian_resource_ev",
     "originsevolved:absolute_velocity_ev",
     "originsevolved:muscle_power",
+    "originsevolved:drink_blood_ev",
+    "originsevolved:ingest_blood_ev",
     "originsevolved:hurtfull_feathers_ev"
   ],
   "icon": {

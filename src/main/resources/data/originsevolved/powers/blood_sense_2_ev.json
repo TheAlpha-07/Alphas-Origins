@@ -1,0 +1,151 @@
+{
+  "type": "origins:multiple",
+
+  "under_20": {
+    "type": "origins:action_on_hit",
+    "cooldown": 60,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\": \"Target is under 20 HP\", \"color\": \"red\"}"
+      }
+    },
+
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:health",
+            "comparison": "<",
+            "compare_to": 20
+          },
+          {
+            "type": "origins:health",
+            "comparison": ">=",
+            "compare_to": 15
+          }
+        ]
+      }
+    }
+  },
+
+  "under_15": {
+    "type": "origins:action_on_hit",
+    "cooldown": 60,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\": \"Target is under 15 HP\", \"color\": \"red\"}"
+      }
+    },
+
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:health",
+            "comparison": "<",
+            "compare_to": 15
+          },
+          {
+            "type": "origins:health",
+            "comparison": ">=",
+            "compare_to": 10
+          }
+        ]
+      }
+    }
+  },
+
+  "under_10": {
+    "type": "origins:action_on_hit",
+    "cooldown": 60,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\": \"Target is under 10 HP\", \"color\": \"red\"}"
+      }
+    },
+
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:health",
+            "comparison": "<",
+            "compare_to": 10
+          },
+          {
+            "type": "origins:health",
+            "comparison": ">=",
+            "compare_to": 5
+          }
+        ]
+      }
+    }
+  },
+
+  "under_5": {
+    "type": "origins:action_on_hit",
+    "cooldown": 60,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\": \"Target is under 5 HP, KILL IT\", \"color\": \"red\"}"
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:health",
+            "comparison": "<",
+            "compare_to": 5
+          },
+          {
+            "type": "origins:health",
+            "comparison": ">=",
+            "compare_to": 1
+          }
+        ]
+      }
+    }
+  },
+
+  "dead": {
+    "type": "origins:action_on_hit",
+    "cooldown": 60,
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "tellraw @s {\"text\": \"It's Dead\", \"color\": \"red\"}"
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:health",
+            "comparison": "<=",
+            "compare_to": 0
+          }
+        ]
+      }
+    }
+  }
+}
