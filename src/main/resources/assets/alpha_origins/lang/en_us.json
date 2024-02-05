@@ -244,26 +244,26 @@
   "origin.originsevolved.arachnid_evolved.name": "Blood Tooth",
   "origin.originsevolved.arachnid_evolved.description": "",
 
+  "power.originsevolved.cobwebshot_ev.name": "Web Spit",
+  "power.originsevolved.cobwebshot_ev.description": "A compacted spit full of webs, spew it to bind and stop your prey.",
+
   "power.originsevolved.master_of_webs_ev.name": "Master of Webs+",
   "power.originsevolved.master_of_webs_ev.description": "The hunters territory, once the prey is in, they won't get out before you got them.",
 
-  "power.originsevolved.cobwebshot_ev.name": "Cobweb Shot",
-  "power.originsevolved.cobwebshot_ev.description": "You have the ability to shoot webs at your enemies, allowing you to block your enemies and take them down.",
+  "power.originsevolved.summon_cave_spider_ev.name": "Together Strong",
+  "power.originsevolved.summon_cave_spider_ev.description": "In times of need someone your cluster to take down one strong enemy.",
 
-  "power.originsevolved.summon_cave_spider_ev.name": "Their leader",
-  "power.originsevolved.summon_cave_spider_ev.description": "All spiders are passive towards you unless you hit them. You can now even summon 4 cave spiders to make them fight for you and protect yourself.",
-
-  "power.originsevolved.prey_ev.name": "Prey the weak",
-  "power.originsevolved.prey_ev.description": "Only the strongest can survive.",
+  "power.originsevolved.prey_ev.name": "Diner is ready",
+  "power.originsevolved.prey_ev.description": "Apply a little taste to the prey stuck in your web.",
 
   "power.originsevolved.more_health_arach_ev.name": "Less fragile",
   "power.originsevolved.more_health_arach_ev.description": "Not only your extincts have grown better, so did your body, you're now able to withstand more damage than before.",
 
   "power.originsevolved.carnivore_ev.name": "Carnivore+",
-  "power.originsevolved.carnivore_ev.description": "",
+  "power.originsevolved.carnivore_ev.description": "Your blood blessed with magic now allows you to eat food with magic effects.",
 
   "power.originsevolved.friend_or_foe_ev.name": "Friend or Foe",
-  "power.originsevolved.friend_or_foe_ev.description": "As a hunter you're way more flexible and deadly at night, but in daytime you're weak and vulnerable",
+  "power.originsevolved.friend_or_foe_ev.description": "When the day starts your prey is free, but as the night closes in, they better run.",
 
   // Avian
 
@@ -413,14 +413,14 @@
   "power.originsevolved.nether_damage_ev.description": "",
 
   // More Keybinds
-  "key.origins.denary_active": "Active Power (Third)",
-  "key.origins.nonary_active": "Active Power (Fourth)",
-  "key.origins.octonary_active": "Active Power (Fifth)",
-  "key.origins.septenary_active": "Active Power (Sixth)",
-  "key.origins.senary_active": "Active Power (Seventh)",
-  "key.origins.quinary_active": "Active Power (Eight)",
-  "key.origins.quaternary_active": "Active Power (Ninth)",
-  "key.origins.ternary_active": "Active Power (Tenth)",
+  "key.origins.denary_active": "Active Power (3th)",
+  "key.origins.nonary_active": "Active Power (4th)",
+  "key.origins.octonary_active": "Active Power (5th)",
+  "key.origins.septenary_active": "Active Power (6th)",
+  "key.origins.senary_active": "Active Power (7th)",
+  "key.origins.quinary_active": "Active Power (8th)",
+  "key.origins.quaternary_active": "Active Power (9th)",
+  "key.origins.ternary_active": "Active Power (10th)",
 
 
   // Other.
@@ -429,7 +429,7 @@
   // Advancements
   //Strider Advancements
   "advancements.strider.root.title": "Lava's Embodiment",
-  "advancements.strider.root.description": "Become the strider.",
+  "advancements.strider.root.description": "Become the Strider.",
 
   "advancements.strider.blood_of_fire.title": "Blood of Fire",
   "advancements.strider.blood_of_fire.description": "Become one with fire.",
@@ -440,6 +440,13 @@
   "advancements.strider.lava_walk.title": "Lava Boots",
   "advancements.strider.lava_walk.description": "Take a walk on lava.",
 
+  // Hunter Advancements
+  "advancements.hunter.root.title": "Forests Child",
+  "advancements.hunter.root.description": "Become the Hunter.",
+
+  // Asassin Advancements
+  "advancements.assassin.root.title": "A born Weapon",
+  "advancements.assassin.root.description": "Become the Assassin.",
 
   // Books
 

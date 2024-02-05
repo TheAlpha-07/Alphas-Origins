@@ -11,7 +11,7 @@
     "announce_to_chat": true
   },
   "criteria": {
-    "chose_strider": {
+    "chose_villager": {
       "trigger": "origins:chose_origin",
       "conditions": {
         "origin": "alpha:villager"

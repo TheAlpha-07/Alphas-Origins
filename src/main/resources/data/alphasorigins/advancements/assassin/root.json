@@ -1,17 +1,21 @@
 {
   "display": {
-    "title": "",
-    "description": "",
-    "icon": {
-      "item": ""
+    "title": {
+      "translate": "advancements.assassin.root.title"
     },
-    "background": "",
+    "description": {
+      "translate": "advancements.assassin.root.description"
+    },
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "background": "alpha_origins:textures/gui/advancements/backgrounds/assassin_2_background.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "chose_strider": {
+    "chose_assassin": {
       "trigger": "origins:chose_origin",
       "conditions": {
         "origin": "alpha:assassin"
