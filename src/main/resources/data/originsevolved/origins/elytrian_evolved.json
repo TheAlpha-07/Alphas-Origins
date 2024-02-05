@@ -1,9 +1,10 @@
 {
   "powers": [
     "origins:elytra",
-    "origins:launch_into_air",
-    "origins:aerial_combatant",
+    "originsevolved:launch_into_air_ev",
+    "originsevolved:aerial_combatant_ev",
     "originsevolved:boost_ev",
+    "originsevolved:air_palm_ev",
     "originsevolved:medium_armor_ev",
     "originsevolved:less_kinetic_damage_ev",
     "origins:claustrophobia"
@@ -13,3 +14,4 @@
   "order": 11,
   "impact": 1
 }
+

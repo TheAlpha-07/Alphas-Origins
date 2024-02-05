@@ -1,1 +1,8 @@
-{"pack": {"name":"Origins Evolved","id":"originsevolved","pack_format":12, "description":"-"}}
+{
+  "pack": {
+  "name":"Origins the Legends and the Myths",
+  "id":"alphasorigins",
+  "pack_format": 12,
+  "description":"-"
+  }
+}

@@ -7,7 +7,7 @@
     "sprite_location": "origins:textures/gui/resource_bar.png",
     "bar_index": 1
   },
-  "cooldown": 26400,
+  "cooldown": 52800,
   "entity_action": {
     "type": "origins:and",
     "actions": [

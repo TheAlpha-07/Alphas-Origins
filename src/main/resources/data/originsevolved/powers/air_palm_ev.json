@@ -1,0 +1,74 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.denary_active"
+  },
+  "cooldown": 100,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 23
+  },
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": 20,
+    "block": false,
+    "entity": true,
+    "shape_type": "collider",
+    "fluid_handling": "any",
+    "bientity_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:relative_rotation",
+                "actor_rotation": "head",
+                "target_rotation": "body",
+                "comparison": ">=",
+                "compare_to": 1
+              }
+            ]
+          },
+          "action": {
+            "type": "origins:add_velocity",
+            "y": 0.5,
+            "z": 1,
+            "space": "local_horizontal_normalized",
+            "set": true
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:relative_rotation",
+                "actor_rotation": "head",
+                "target_rotation": "body",
+                "comparison": ">=",
+                "compare_to": -1
+              }
+            ]
+          },
+          "action": {
+            "type": "origins:add_velocity",
+            "y": 0.5,
+            "z": 1,
+            "space": "local_horizontal_normalized",
+            "set": true
+          }
+        }
+      ]
+    },
+
+    "before_action": {
+      "type": "origins:swing_hand"
+    },
+    "command_along_ray": "particle minecraft:cloud",
+    "command_step": 1,
+    "command_along_ray_only_on_hit": true
+  }
+}

@@ -20,7 +20,6 @@
         "originsevolved:enchanted_villager",
         "originsevolved:sharp_hunter",
         "originsevolved:shadow_assassin"
-
     ],
     "allow_random": true,
     "exclude_random": [
