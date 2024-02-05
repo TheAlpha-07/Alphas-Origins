@@ -1,0 +1,25 @@
+{
+  "type": "origins:action_on_hit",
+  "bientity_action":{
+    "type": "origins:target_action",
+    "action": {
+      "type": "origins:chance",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect":{
+          "effect": "minecraft:nausea",
+          "amplifier": 2,
+          "duration": 300
+        }
+      },
+      "chance": 0.10
+    }
+  },
+
+  "cooldown": 100,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "bar_index": 5
+  }
+}

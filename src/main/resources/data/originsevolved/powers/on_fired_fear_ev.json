@@ -1,0 +1,16 @@
+{
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:blindness",
+      "amplifier": 1,
+      "duration": 100
+    }
+  },
+  "damage_condition": {
+    "type": "origins:in_tag",
+    "tag": "is_fire"
+  },
+  "cooldown": 1200
+}

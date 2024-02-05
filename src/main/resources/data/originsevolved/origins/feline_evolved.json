@@ -1,5 +1,7 @@
 {
   "powers": [
+    "originsevolved:blood_sense_1_ev",
+    "originsevolved:blood_sense_2_ev",
     "origins:fall_immunity",
     "origins:sprint_jump",
     "origins:nine_lives",
@@ -11,6 +13,8 @@
     "originsevolved:pounce_ev",
     "originsevolved:feline_resource_ev",
     "originsevolved:change_feline_resource_ev",
+    "originsevolved:a_fired_fear_ev",
+    "originsevolved:on_fired_fear_ev",
     "originsevolved:no_wolves_ev"
   ],
   "icon": "minecraft:orange_wool",

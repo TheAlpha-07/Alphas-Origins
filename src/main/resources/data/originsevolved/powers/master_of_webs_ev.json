@@ -100,7 +100,7 @@
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "addition",
-      "value": 0.04,
+      "value": 0.03,
       "name": "Increased sprinting speed"
     },
     "tick_rate": 20,
@@ -121,8 +121,7 @@
     "modifier": {
       "attribute": "minecraft:generic.attack_damage",
       "operation": "addition",
-      "value": 3,
-      "name": "Increased sprinting speed"
+      "value": 3
     },
     "tick_rate": 20,
     "condition": {

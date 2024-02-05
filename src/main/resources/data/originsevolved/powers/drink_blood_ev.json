@@ -1,0 +1,23 @@
+{
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+    "type": "origins:chance",
+    "action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:regeneration",
+        "amplifier":0,
+        "duration": 300
+      }
+    },
+    "chance": 0.8,
+    "fail_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:poison",
+        "amplifier":0,
+        "duration": 300
+      }
+    }
+  }
+}

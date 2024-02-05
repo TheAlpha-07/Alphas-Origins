@@ -1,31 +1,71 @@
 {
   "type": "origins:multiple",
 
-  "daytime": {
+  "nighttime": {
     "type": "origins:action_over_time",
     "entity_action": {
-      "type": "origins:apply_effect",
-      "effects": [
+      "type": "origins:if_else_list",
+      "actions": [
         {
-          "effect": "minecraft:speed",
-          "duration": 60,
-          "amplifier": 0
+          "condition": {
+            "type": "origins:health",
+            "comparison": "<=",
+            "compare_to": 5
+          },
+          "action": {
+            "type": "origins:apply_effect",
+            "effects": [
+              {
+                "effect": "minecraft:speed",
+                "duration": 60,
+                "amplifier": 0
+              }
+            ]
+          }
         },
         {
-          "effect": "minecraft:strength",
-          "duration": 60,
-          "amplifier": 0
+          "condition": {
+            "type": "origins:health",
+            "comparison": ">",
+            "compare_to": 5
+          },
+          "action": {
+            "type": "origins:apply_effect",
+            "effects": [
+              {
+                "effect": "minecraft:speed",
+                "duration": 60,
+                "amplifier": 0
+              },
+              {
+                "effect": "minecraft:strength",
+                "duration": 60,
+                "amplifier": 0
+              }
+            ]
+          }
         }
       ]
     },
+
     "condition": {
-      "type": "origins:daytime",
-      "inverted": true
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:daytime",
+          "inverted": true
+        },
+        {
+          "type": "origins:brightness",
+          "comparison": "<",
+          "compare_to": 0.17948718
+        }
+      ]
     },
     "interval": 20
   },
 
-  "nighttime": {
+  "daytime": {
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:apply_effect",
@@ -44,7 +84,17 @@
     },
 
     "condition": {
-      "type": "origins:daytime"
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:brightness",
+          "comparison": ">=",
+          "compare_to": 0.17948718
+        },
+        {
+          "type": "origins:exposed_to_sun"
+        }
+      ]
     },
     "interval": 20
   }
