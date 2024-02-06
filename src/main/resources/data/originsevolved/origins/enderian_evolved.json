@@ -8,10 +8,9 @@
     "originsevolved:eyes_of_the_end_ev",
     "originsevolved:entity_glow_ev",
     "originsevolved:glowtoggle_ev",
-    "origins:water_vulnerability",
+    "originsevolved:water_vulnerability_e_ev",
     "origins:pumpkin_hate",
     "origins:damage_from_potions",
-    "originsevolved:no_water_ev",
     "originsevolved:nether_damage_ev"
   ],
   "icon": {
