@@ -1,0 +1,7 @@
+{
+  "type": "origins:particle",
+  "particle": "minecraft:rain",
+  "frequency": 4,
+  "count": 2,
+  "hidden": true
+}

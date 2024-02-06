@@ -106,6 +106,18 @@
         }
       ]
     }
+  },
+
+  "lava_particles": {
+    "type": "origins:particle",
+    "particle": "minecraft:flame",
+    "frequency": 4,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:lava_charge_resource_ev",
+      "comparison": ">=",
+      "compare_to": 20
+    }
   }
 }
 

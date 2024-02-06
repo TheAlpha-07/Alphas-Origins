@@ -3,15 +3,19 @@
     "origins:elytra",
     "originsevolved:launch_into_air_ev",
     "originsevolved:aerial_combatant_ev",
+    "originsevolved:ground_combatant_ev",
     "originsevolved:boost_ev",
     "originsevolved:air_palm_ev",
     "originsevolved:medium_armor_ev",
     "originsevolved:less_kinetic_damage_ev",
+    "originsevolved:air_magic_ev",
+    "originsevolved:sky_vulnerability_ev",
     "origins:claustrophobia"
   ],
   "icon": "minecraft:elytra",
   "unchoosable": true,
   "order": 11,
-  "impact": 1
+  "impact": 2
 }
+
 

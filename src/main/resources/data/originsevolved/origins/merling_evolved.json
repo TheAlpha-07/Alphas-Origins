@@ -6,13 +6,12 @@
     "origins:swim_speed",
     "origins:like_water",
     "originsevolved:trident_ev",
-    "originsevolved:trident_delete_ev",
     "origins:aquatic",
     "origins:conduit_power_on_land",
     "origins:air_from_potions",
     "originsevolved:reinforced_scale_ev",
-    "originsevolved:neptune_blessing_ev",
     "originsevolved:rain_summoning_ev",
+    "originsevolved:water_humid_ev",
     "originsevolved:hot_places_ev"
   ],
   "icon": {
