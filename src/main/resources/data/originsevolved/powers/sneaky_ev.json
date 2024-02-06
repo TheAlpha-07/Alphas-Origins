@@ -4,72 +4,175 @@
     "key": "key.origins.secondary_active"
   },
   "hud_render": {
-    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02",
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
     "bar_index": 14
   },
   "cooldown": 400,
   "entity_action": {
-    "type": "origins:and",
+    "type": "origins:if_else_list",
     "actions": [
       {
-        "type": "origins:area_of_effect",
-        "radius": 8,
-        "bientity_action": {
-          "type": "origins:target_action",
-          "actions": {
-            "type": "origins:apply_effect",
-            "effect": {
-              "effect": "minecraft:slowness",
-              "duration": 60,
-              "amplifier": 3,
-              "is_ambient": true,
-              "show_particles": true,
-              "show_icon": false
+        "condition": {
+          "type": "origins:dimension",
+          "dimension": "minecraft:overworld"
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:area_of_effect",
+              "radius": 8,
+              "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:slowness",
+                    "duration": 100,
+                    "amplifier": 2,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "origins:area_of_effect",
+              "radius": 8,
+              "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:weakness",
+                    "duration": 200,
+                    "amplifier": 0,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "origins:area_of_effect",
+              "radius": 8,
+              "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:blindness",
+                    "duration": 100,
+                    "amplifier": 3,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "origins:exhaust",
+              "amount": 1
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "execute at @s run particle minecraft:ash ~ ~1 ~ .4 .4 .4 0 500 normal"
             }
-          }
+          ]
         }
       },
       {
-        "type": "origins:area_of_effect",
-        "radius": 8,
-        "bientity_action": {
-          "type": "origins:target_action",
-          "action": {
-            "type": "origins:apply_effect",
-            "effect": {
-              "effect": "minecraft:weakness",
-              "duration": 60,
-              "amplifier": 3,
-              "is_ambient": true,
-              "show_particles": true,
-              "show_icon": false
+        "condition": {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_nether"
+        },
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:area_of_effect",
+              "radius": 8,
+              "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:slowness",
+                    "duration": 160,
+                    "amplifier": 3,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "origins:area_of_effect",
+              "radius": 8,
+              "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:weakness",
+                    "duration": 200,
+                    "amplifier": 1,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "origins:area_of_effect",
+              "radius": 8,
+              "bientity_action": {
+                "type": "origins:target_action",
+                "action": {
+                  "type": "origins:apply_effect",
+                  "effect": {
+                    "effect": "minecraft:blindness",
+                    "duration": 140,
+                    "amplifier": 4,
+                    "is_ambient": true,
+                    "show_particles": true,
+                    "show_icon": false
+                  }
+                }
+              }
+            },
+            {
+              "type": "origins:exhaust",
+              "amount": 1.5
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "execute at @s run particle minecraft:ash ~ ~1 ~ .4 .4 .4 0 500 normal"
             }
-          }
+          ]
         }
       },
       {
-        "type": "origins:area_of_effect",
-        "radius": 8,
-        "bientity_action": {
-          "type": "origins:target_action",
-          "action": {
-            "type": "origins:apply_effect",
-            "effect": {
-              "effect": "minecraft:blindness",
-              "duration": 60,
-              "amplifier": 3,
-              "is_ambient": true,
-              "show_particles": true,
-              "show_icon": false
-            }
-          }
+        "condition": {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_end"
+        },
+        "action": {
+          "type": "origins:execute_command",
+          "command": "tellraw @s {\"text\": \"It seems that something is blocking your power.\", \"color\": \"black\"}"
         }
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "execute at @s run particle minecraft:ash ~ ~1 ~ .4 .4 .4 0 500 normal"
       }
     ]
+  },
+
+  "condition": {
+    "type": "origins:power_active",
+    "power": "origins:phantomize"
   }
 }
 

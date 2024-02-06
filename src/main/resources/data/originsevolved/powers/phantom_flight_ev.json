@@ -1,6 +1,6 @@
 {
   "type": "origins:multiple",
-  "fly": {
+  "overworld_end_fly": {
     "type": "origins:swimming",
     "condition": {
       "type": "origins:and",
@@ -16,6 +16,43 @@
           "type": "origins:power_active",
           "power": "origins:phantomize",
           "inverted": false
+        },
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:dimension",
+              "dimension": "minecraft:overworld"
+            },
+            {
+              "type": "origins:dimension",
+              "dimension": "minecraft:the_end"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "nether_fly": {
+    "type": "origins:simple"
+  },
+  "end_speed": {
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+      "operation": "addition",
+      "value": 0.025
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "origins:phantomize",
+          "inverted": false
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_end"
         }
       ]
     }
