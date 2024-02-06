@@ -1,0 +1,42 @@
+{
+  "type": "origins:multiple",
+
+  "end_invis": {
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "render_outline": true,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "origins:phantomize"
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_end"
+        }
+      ]
+    }
+  },
+
+  "other_invis": {
+    "type": "origins:invisibility",
+    "render_armor": true,
+    "render_outline": true,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "origins:phantomize"
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_end",
+          "inverted": true
+        }
+      ]
+    }
+  }
+}
