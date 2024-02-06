@@ -39,8 +39,9 @@
   },
 
   "condition": {
-    "type": "origins:power_active",
-    "power": "originsevolved:toggle_assassin_attack_ev",
-    "inverted": true
+    "type": "origins:resource",
+    "resource": "originsevolved:assassin_toggle_rework_ev_assassin_attack_resource",
+    "comparison": "==",
+    "compare_to": 2
   }
 }

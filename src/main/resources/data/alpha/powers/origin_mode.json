@@ -45,7 +45,9 @@
     ]
   },
   "condition": {
-    "type": "origins:power_active",
-    "power": "alpha:toggle_assassin_attack"
+    "type": "origins:resource",
+    "resource": "alpha:assassin_toggle_rework_assassin_attack_resource",
+    "comparison": "==",
+    "compare_to": 1
   }
 }

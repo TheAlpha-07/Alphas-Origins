@@ -16,7 +16,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Binding Mode ACTIVATED\", \"color\": \"green\"}",
+        "command": "tellraw @s {\"text\": \"Binding Mode ACTIVATED\", \"color\": \"red\"}",
         "condition": {
           "type": "origins:resource",
           "resource": "originsevolved:hunter_indicator_ev",
@@ -37,7 +37,9 @@
     ]
   },
   "condition": {
-    "type": "origins:power_active",
-    "power": "originsevolved:toggle_bind_disable_ev"
+    "type": "origins:resource",
+    "resource": "alpha:hunt_toggle_rework_bind_disable_resource",
+    "comparison": "==",
+    "compare_to": 1
   }
 }

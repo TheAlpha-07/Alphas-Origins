@@ -16,7 +16,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Disable Mode ACTIVATED\", \"color\": \"green\"}",
+        "command": "tellraw @s {\"text\": \"Disable Mode ACTIVATED\", \"color\": \"red\"}",
         "condition": {
           "type": "origins:resource",
           "resource": "originsevolved:hunter_indicator_ev",
@@ -37,8 +37,9 @@
     ]
   },
   "condition": {
-    "type": "origins:power_active",
-    "power": "originsevolved:toggle_bind_disable_ev",
-    "inverted": true
+    "type": "origins:resource",
+    "resource": "originsevolved:hunt_toggle_rework_ev_bind_disable_resource",
+    "comparison": "==",
+    "compare_to": 2
   }
 }

@@ -78,7 +78,9 @@
     ]
   },
   "condition": {
-    "type": "origins:power_active",
-    "power": "originsevolved:toggle_reckless_defensive_ev"
+    "type": "origins:resource",
+    "resource": "originsevolved:assassin_toggle_rework_ev_reckless_defensive_resource",
+    "comparison": "==",
+    "compare_to": 1
   }
 }

@@ -16,7 +16,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Disable Mode ACTIVATED\", \"color\": \"green\"}",
+        "command": "tellraw @s {\"text\": \"Disable Mode ACTIVATED\", \"color\": \"red\"}",
         "condition": {
           "type": "origins:resource",
           "resource": "alpha:hunter_indicator",
@@ -37,8 +37,9 @@
     ]
   },
   "condition": {
-    "type": "origins:power_active",
-    "power": "alpha:toggle_bind_disable",
-    "inverted": true
+    "type": "origins:resource",
+    "resource": "alpha:hunt_toggle_rework_bind_disable_resource",
+    "comparison": "==",
+    "compare_to": 2
   }
 }

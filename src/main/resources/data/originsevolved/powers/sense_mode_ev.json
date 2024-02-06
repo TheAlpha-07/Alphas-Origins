@@ -27,7 +27,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Attack Mode ACTIVATED\", \"color\": \"red\"}",
+        "command": "tellraw @s {\"text\": \"Sensing Mode ACTIVATED\", \"color\": \"green\"}",
         "condition": {
           "type": "origins:resource",
           "resource": "originsevolved:hunter_indicator_ev",
@@ -58,8 +58,9 @@
     ]
   },
   "condition": {
-    "type": "origins:power_active",
-    "power": "originsevolved:toggle_hunt_sense_ev",
-    "inverted": true
+    "type": "origins:resource",
+    "resource": "originsevolved:hunt_toggle_rework_ev_hunt_sense_resource",
+    "comparison": "==",
+    "compare_to": 2
   }
 }

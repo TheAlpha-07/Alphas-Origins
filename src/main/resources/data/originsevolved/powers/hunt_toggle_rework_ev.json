@@ -1,0 +1,100 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+
+  "bind_disable_resource": {
+    "type": "origins:resource",
+    "min": 1,
+    "max": 2,
+    "start_value": 1
+  },
+
+  "bind_disable_toggle": {
+    "type": "origins:active_self",
+    "hidden": true,
+    "key": {
+      "key": "key.origins.primary_active"
+    },
+    "entity_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_bind_disable_resource",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_bind_disable_resource",
+            "change": 2,
+            "operation": "set"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_bind_disable_resource",
+            "comparison": "==",
+            "compare_to": 2
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_bind_disable_resource",
+            "change": 1,
+            "operation": "set"
+          }
+        }
+      ]
+    }
+  },
+
+  "hunt_sense_resource": {
+    "type": "origins:resource",
+    "min": 1,
+    "max": 2,
+    "start_value": 1
+  },
+
+  "hunt_sense_toggle": {
+    "type": "origins:active_self",
+    "hidden": true,
+    "key": {
+      "key": "key.origins.secondary_active"
+    },
+    "entity_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_hunt_sense_resource",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_hunt_sense_resource",
+            "change": 2,
+            "operation": "set"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_hunt_sense_resource",
+            "comparison": "==",
+            "compare_to": 2
+          },
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_hunt_sense_resource",
+            "change": 1,
+            "operation": "set"
+          }
+        }
+      ]
+    }
+  }
+}

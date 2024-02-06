@@ -2,6 +2,7 @@
   "loading_priority": 1,
   "powers": [
     "originsevolved:toggle_bind_disable_ev",
+    "originsevolved:hunt_toggle_rework_ev",
     "originsevolved:bind_mode_ev",
     "originsevolved:disable_mode_ev",
     "originsevolved:toggle_hunt_sense_ev",

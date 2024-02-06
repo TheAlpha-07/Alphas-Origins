@@ -2,6 +2,7 @@
   "loading_priority": 1,
   "powers": [
     "alpha:toggle_bind_disable",
+    "alpha:hunt_toggle_rework",
     "alpha:bind_mode",
     "alpha:disable_mode",
     "alpha:toggle_hunt_sense",

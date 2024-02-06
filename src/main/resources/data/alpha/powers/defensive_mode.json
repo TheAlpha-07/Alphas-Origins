@@ -69,8 +69,9 @@
   },
 
   "condition": {
-    "type": "origins:power_active",
-    "power": "alpha:toggle_reckless_defensive",
-    "inverted": true
+    "type": "origins:resource",
+    "resource": "alpha:assassin_toggle_rework_reckless_defensive_resource",
+    "comparison": "==",
+    "compare_to": 2
   }
 }

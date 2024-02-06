@@ -22,7 +22,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Hunting Mode ACTIVATED\", \"color\": \"red\"}",
+        "command": "tellraw @s {\"text\": \"Hunting Mode ACTIVATED\", \"color\": \"green\"}",
         "condition": {
           "type": "origins:resource",
           "resource": "alpha:hunter_indicator",
@@ -48,7 +48,9 @@
     ]
   },
   "condition": {
-    "type": "origins:power_active",
-    "power": "alpha:toggle_hunt_sense"
+    "type": "origins:resource",
+    "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+    "comparison": "==",
+    "compare_to": 1
   }
 }

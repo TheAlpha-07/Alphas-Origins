@@ -1,6 +1,7 @@
 {
   "powers": [
     "originsevolved:toggle_assassin_attack_ev",
+    "originsevolved:assassin_toggle_rework_ev",
     "originsevolved:origin_mode_ev",
     "originsevolved:monster_mode_ev",
     "alpha:unknown_enemies",
