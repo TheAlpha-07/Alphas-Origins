@@ -18,7 +18,7 @@
     "alpha:nether_spawn",
     "originsevolved:no_fire_ev",
     "originsevolved:dimension_exhaustion_ev",
-    "alpha:water_vulnerability_s",
+    "originsevolved:water_vulnerability_s_ev",
     "alpha:damage_from_snowballs",
     "originsevolved:cold_biomes_ev",
     "originsevolved:end_damage_ev",
