@@ -1,0 +1,29 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.lore_start.root.title"
+    },
+    "description": {
+      "translate": "advancements.lore_start.root.description"
+    },
+    "icon": {
+      "item": "minecraft:book"
+    },
+    "background": "alphasorigins:textures/gui/advancements/backgrounds/lore_based.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "alphasorigins:origins_book_recipe"
+    ],
+    "loot": [
+    ]
+  }
+}

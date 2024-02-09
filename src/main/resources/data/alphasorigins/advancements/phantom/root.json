@@ -1,11 +1,15 @@
 {
   "display": {
-    "title": "",
-    "description": "",
-    "icon": {
-      "item": ""
+    "title": {
+      "translate": "advancements.phantom.root.title"
     },
-    "background": "",
+    "description": {
+      "translate": "advancements.phantom.root.description"
+    },
+    "icon": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "background": "alphasorigins:textures/gui/advancements/backgrounds/phantom_background.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

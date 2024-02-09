@@ -9,7 +9,7 @@
     "icon": {
       "item": "minecraft:lava_bucket"
     },
-    "background": "alpha_origins:textures/gui/advancements/backgrounds/strider_advancement_background.png",
+    "background": "alphasorigins:textures/gui/advancements/backgrounds/strider_background.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

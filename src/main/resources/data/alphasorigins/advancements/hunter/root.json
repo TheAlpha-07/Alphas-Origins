@@ -9,7 +9,7 @@
     "icon": {
       "item": "minecraft:bow"
     },
-    "background": "alpha_origins:textures/gui/advancements/backgrounds/hunter_background.png",
+    "background": "alphasorigins:textures/gui/advancements/backgrounds/hunter_background.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

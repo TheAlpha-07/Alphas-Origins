@@ -1,11 +1,15 @@
 {
   "display": {
-    "title": "",
-    "description": "",
-    "icon": {
-      "item": ""
+    "title": {
+      "translate": "advancements.shulk.root.title"
     },
-    "background": "",
+    "description": {
+      "translate": "advancements.shulk.root.description"
+    },
+    "icon": {
+      "item": "minecraft:shulker_shell"
+    },
+    "background": "alphasorigins:textures/gui/advancements/backgrounds/shulker_background.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

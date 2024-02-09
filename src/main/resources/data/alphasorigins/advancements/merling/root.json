@@ -1,11 +1,15 @@
 {
   "display": {
-    "title": "",
-    "description": "",
-    "icon": {
-      "item": ""
+    "title": {
+      "translate": "advancements.merling.root.title"
     },
-    "background": "",
+    "description": {
+      "translate": "advancements.merling.root.description"
+    },
+    "icon": {
+      "item": "minecraft:cod"
+    },
+    "background": "alphasorigins:textures/gui/advancements/backgrounds/merling_background.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

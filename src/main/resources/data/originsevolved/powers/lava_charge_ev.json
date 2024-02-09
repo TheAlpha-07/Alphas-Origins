@@ -7,7 +7,7 @@
     "start_value": 0,
     "hud_render": {
       "should_render": true,
-      "sprite_location": "alpha_origins:textures/gui/community/wolf/resource_bar_002.png",
+      "sprite_location": "alphasorigins:textures/gui/community/wolf/resource_bar_002.png",
       "bar_index": 0
     }
   },

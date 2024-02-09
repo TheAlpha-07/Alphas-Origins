@@ -1,11 +1,15 @@
 {
   "display": {
-    "title": "",
-    "description": "",
-    "icon": {
-      "item": ""
+    "title": {
+      "translate": "advancements.arachnid.root.title"
     },
-    "background": "",
+    "description": {
+      "translate": "advancements.arachnid.root.description"
+    },
+    "icon": {
+      "item": "minecraft:string"
+    },
+    "background": "alpha_origins:textures/gui/advancements/backgrounds/arachnid_background.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

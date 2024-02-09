@@ -1,11 +1,15 @@
 {
   "display": {
-    "title": "",
-    "description": "",
-    "icon": {
-      "item": ""
+    "title": {
+      "translate": "advancements.avian.root.title"
     },
-    "background": "",
+    "description": {
+      "translate": "advancements.avian.root.description"
+    },
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "background": "alphasorigins:textures/gui/advancements/backgrounds/avian_background.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

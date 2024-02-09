@@ -8,7 +8,9 @@
         "origins:no_shield",
         "origins:more_exhaustion",
         "alpha:reset",
-        "alpha:scale_reset"
+        "alpha:scale_reset",
+        "alpha:advancement_triggers/lore_based_story",
+        "alpha:shulks_book"
     ],
     "icon": {
         "item": "minecraft:shulker_shell"

@@ -1,11 +1,15 @@
 {
   "display": {
-    "title": "",
-    "description": "",
-    "icon": {
-      "item": ""
+    "title": {
+      "translate": "advancements.villager.root.title"
     },
-    "background": "",
+    "description": {
+      "translate": "advancements.villager.root.description"
+    },
+    "icon": {
+      "item": "minecraft:lectern"
+    },
+    "background": "alphasorigins:textures/gui/advancements/backgrounds/villager_background.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
