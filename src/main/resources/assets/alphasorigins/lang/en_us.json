@@ -448,7 +448,111 @@
   "advancements.assassin.root.title": "A born Weapon",
   "advancements.assassin.root.description": "Become the Assassin.",
 
+  // Villager Advancements
+  "advancements.villager.root.title": "A Studied Apprentice",
+  "advancements.villager.root.description": "Become the Villager.",
+
+  // Arachnid Advancements
+  "advancements.arachnid.root.title": "The Nightmare",
+  "advancements.arachnid.root.description": "Become the Arachnid",
+
+  // Avian Advancements
+  "advancements.avian.root.title": "A Flyless Bird",
+  "advancements.avian.root.description": "Become the Avian",
+
+  // Blazeborn Advancements
+  "advancements.blazeborn.root.title": "Born from the Fire",
+  "advancements.blazeborn.root.description": "Become the Blazeborn",
+
+  // Elytrian Advancements
+  "advancements.elytrian.root.title": "Sky's Conqueror",
+  "advancements.elytrian.root.description": "Become the Elytrian",
+
+  // Enderian Advancements
+  "advancements.enderian.root.title": "The Void Calls",
+  "advancements.enderian.root.description": "Become the Enderian",
+
+  // Feline Advancements
+  "advancements.feline.root.title": "A Beast beyond the Beauty",
+  "advancements.feline.root.description": "Become the Feline",
+
+  // Merling Advancements
+  "advancements.merling.root.title": "Sea's Chosen",
+  "advancements.merling.root.description": "Become the Merling",
+
+  // Phantom Advancements
+  "advancements.phantom.root.title": "A Mystery Beyond Reach",
+  "advancements.phantom.root.description": "Become the Phantom",
+
+  // Shulk Advancements
+  "advancements.shulk.root.title": "A Fierce Warrior",
+  "advancements.shulk.root.description": "Become the Shulk",
+
+  // Lore Based Advancements
+  "advancements.lore_start.root.title": "Welcome in the world of Miracles",
+  "advancements.lore_start.root.description": "Choose to be Special",
+
   // Books
+  // Origins starter book
+  "item.patchouli:origins_book.name": "Origins Book",
+  "item.patchouli:origins_book.landing": "Origins the Legends and the Myths",
+
+  // No Results
+  "item.patchouli:no_result_book.name": "A Special Notebook",
+  "item.patchouli:no_result_book.landing": "Wait Something went wrong",
+
+  // Arachnid Books
+  "item.patchouli:arachnid_book.name": "Arachnids Book",
+  "item.patchouli:arachnid_book.landing": "Book of the Arachnids",
+
+  // Assassin Books
+  "item.patchouli:assassin_book.name": "Assassins Book",
+  "item.patchouli:assassin_book.landing": "Book of the Assassins",
+
+  // Avian Books
+  "item.patchouli:avian_book.name": "Avians Book",
+  "item.patchouli:avian_book.landing": "Book of the Avians",
+
+  // Blazeborn Books
+  "item.patchouli:blazeborn_book.name": "Blazeborns Book",
+  "item.patchouli:blazeborn_book.landing": "Book of the Blazeborns",
+
+  // Elytrian Books
+  "item.patchouli:elytrian_book.name": "Elytrians Book",
+  "item.patchouli:elytrian_book.landing": "Book of the Elytrians",
+
+  // Enderian Books
+  "item.patchouli:enderian_book.name": "Enderians Book",
+  "item.patchouli:enderian_book.landing": "Book of the Enderians",
+
+  // Feline Books
+  "item.patchouli:feline_book.name": "Felines Book",
+  "item.patchouli:feline_book.landing": "Book of the Felines",
+
+  // Hunter Books
+  "item.patchouli:hunter_book.name": "Hunters Book",
+  "item.patchouli:hunter_book.landing": "Book of the Hunters",
+
+  // Merling Books
+  "item.patchouli:merling_book.name": "Merlings Book",
+  "item.patchouli:merling_book.landing": "Book of the Merlings",
+
+  // Phantom Books
+  "item.patchouli:phantom_book.name": "Phantoms Book",
+  "item.patchouli:phantom_book.landing": "Book of the Phantoms",
+
+  // Shulk Books
+  "item.patchouli:shulk_book.name": "Shulkers Book",
+  "item.patchouli:shulk_book.landing": "Book of the Shulks",
+
+  // Strider Books
+  "item.patchouli:strider_book.name": "Striders Book",
+  "item.patchouli:strider_book.landing": "Book of the Striders",
+
+  // Villager Books
+  "item.patchouli:villager_book.name": "Villagers Book",
+  "item.patchouli:villager_book.landing": "Book of the Villagers",
+
 
   // Tests (Mod case)
   "effect.test.bind": "Bind"
