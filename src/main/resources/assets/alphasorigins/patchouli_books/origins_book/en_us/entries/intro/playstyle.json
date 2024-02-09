@@ -1,0 +1,12 @@
+{
+  "name": "Playstyle",
+  "icon": "minecraft:iron_sword",
+  "category": "alphasorigins:intro",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This mod is of course playable in a single- and multi-player game. However do note that playing in one of these can completely affect your playing experience. In single player some origins can get way more difficult, for example the strider which is a nether origin and spawns in the nether can get out of the nether way more difficult than when in multiplayer. However when in multiplayer some origins powers might hurt your teammates. $(br2) Not only the difficulties change a bit, but also the use of powers, a lot of origins use powers that affect players, for example the assassin which has a toggleable power dat allows him to damage either origins or mobs more than normal, the more damage to origins is useless in single-player and may affect the use of this origin. Some origins also use status effects that for example blind or sicken a player, but blindness and nausea does not affect mobs and could also affect power usefulness, not to worry though, most powers also have other affects than only powers that only affect players."
+    }
+  ]
+}

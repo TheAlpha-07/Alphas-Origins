@@ -10,7 +10,9 @@
         "origins:conduit_power_on_land",
         "origins:air_from_potions",
         "alpha:reset",
-        "alpha:scale_reset"
+        "alpha:scale_reset",
+        "alpha:advancement_triggers/lore_based_story",
+        "alpha:merlings_book"
     ],
     "icon": {
         "item": "minecraft:cod"

@@ -1,0 +1,31 @@
+{
+  "name": "Some Worthy Books",
+  "icon": "minecraft:book_and_quill",
+  "category": "alphasorigins:intro",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Before you start to completely destroy your world, you might want to look into some books available in this world, for example we have the book you're reading now. This books contains info on how to start in this mod, you might want to hold on to this book but if you can't and lose it somehow, here's a recipe."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "alphasorigins:origins_book_recipe"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Your Notebook",
+      "text": "While in this world, you will receive a lot of information, that's why you can craft a notebook to write everything down. This notebook is very important because it will describe your powers and information about you and your past. Only origins can create this book, if you're not an origin but a human, the result will be a no result handbook which does nothing."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Your Notebook",
+      "recipe": "alphasorigins:no_result_recipe"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "An Upgrade",
+      "text": "After a while you've collected all the information about you and your powers, but as an origin you can evolve, how to evolve is described in a special book that can only be crafted when you've discovered all your powers and studied your past. After evolving you can combine your notebook with that book to receive an upgraded version of the notebook. With that upgraded version you can write down even more."
+    }
+  ]
+}

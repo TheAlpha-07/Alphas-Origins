@@ -13,7 +13,9 @@
     "alpha:water_vulnerability_s",
     "alpha:reset",
     "alpha:scale_reset",
-    "alpha:advancement_triggers/lava_walk_trigger"
+    "alpha:advancement_triggers/lore_based_story",
+    "alpha:advancement_triggers/strider_triggers"
+    "alpha:striders_book"
   ],
   "icon": {
     "item": "minecraft:warped_fungus"

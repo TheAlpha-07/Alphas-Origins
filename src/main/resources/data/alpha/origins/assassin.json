@@ -14,7 +14,9 @@
         "alpha:kill_confirmed",
         "alpha:different_ranged",
         "alpha:reset",
-        "alpha:scale_reset"
+        "alpha:scale_reset",
+        "alpha:advancement_triggers/lore_based_story",
+        "alpha:assassins_book"
 
     ],
     "icon": {

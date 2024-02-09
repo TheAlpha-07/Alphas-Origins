@@ -15,7 +15,9 @@
     "alpha:to_heavy",
     "alpha:different_ranged",
     "alpha:reset",
-    "alpha:scale_reset"
+    "alpha:scale_reset",
+    "alpha:advancement_triggers/lore_based_story",
+    "alpha:hunters_book"
   ],
   "icon": {
     "item": "minecraft:bow"

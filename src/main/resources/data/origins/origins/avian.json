@@ -8,7 +8,9 @@
         "origins:lay_eggs",
         "origins:vegetarian",
         "alpha:reset",
-        "alpha:scale_reset"
+        "alpha:scale_reset",
+        "alpha:advancement_triggers/lore_based_story",
+        "alpha:avians_book"
 
 
 

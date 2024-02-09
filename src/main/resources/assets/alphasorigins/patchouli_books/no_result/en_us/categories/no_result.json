@@ -1,0 +1,6 @@
+{
+  "name": "Something went wrong",
+  "description": "If you have this book, either an error has occurred, or you gave yourself this book through comments, or you're not a human and tried to create an origin book. If the last two are not the case, please contact the mod developer and report the bug.",
+  "icon": "minecraft:book",
+  "sortnum": 1
+}

@@ -1,0 +1,8 @@
+{
+  "type": "origins:modify_crafting",
+  "recipe": "alphasorigins:no_result_recipe",
+  "result": {
+    "item": "patchouli:guide_book",
+    "tag": "{\"patchouli:book\":\"alphasorigins:hunter_book\"}"
+  }
+}

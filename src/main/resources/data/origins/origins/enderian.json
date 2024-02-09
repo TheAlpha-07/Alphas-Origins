@@ -8,7 +8,9 @@
         "origins:ender_particles",
         "origins:damage_from_potions",
         "alpha:reset",
-        "alpha:scale_reset"
+        "alpha:scale_reset",
+        "alpha:advancement_triggers/lore_based_story"
+        "alpha:enderians_book"
 
     ],
     "icon": {
