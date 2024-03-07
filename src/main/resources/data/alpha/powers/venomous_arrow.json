@@ -19,7 +19,7 @@
       "effects": [
         {
           "effect": "minecraft:poison",
-          "durations": 100
+          "duration": 100
         },
         {
           "effect": "minecraft:blindness",

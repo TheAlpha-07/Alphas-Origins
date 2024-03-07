@@ -1,6 +1,14 @@
 {
   "type": "origins:multiple",
 
+  "blood_sense_change": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.secondary_active"
+    }
+  },
+
   "under_20": {
     "type": "origins:action_on_hit",
     "cooldown": 60,
@@ -13,22 +21,34 @@
     },
 
     "bientity_condition": {
-      "type": "origins:target_condition",
-      "condition": {
-        "type": "origins:and",
-        "conditions": [
-          {
-            "type": "origins:health",
-            "comparison": "<",
-            "compare_to": 20
-          },
-          {
-            "type": "origins:health",
-            "comparison": ">=",
-            "compare_to": 15
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:health",
+                "comparison": "<",
+                "compare_to": 20
+              },
+              {
+                "type": "origins:health",
+                "comparison": ">=",
+                "compare_to": 15
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "type": "origins:actor_condition",
+          "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_blood_sense_change"
+          }
+        }
+      ]
     }
   },
 
@@ -44,22 +64,34 @@
     },
 
     "bientity_condition": {
-      "type": "origins:target_condition",
-      "condition": {
-        "type": "origins:and",
-        "conditions": [
-          {
-            "type": "origins:health",
-            "comparison": "<",
-            "compare_to": 15
-          },
-          {
-            "type": "origins:health",
-            "comparison": ">=",
-            "compare_to": 10
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:health",
+                "comparison": "<",
+                "compare_to": 15
+              },
+              {
+                "type": "origins:health",
+                "comparison": ">=",
+                "compare_to": 10
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "type": "origins:actor_condition",
+          "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_blood_sense_change"
+          }
+        }
+      ]
     }
   },
 
@@ -75,22 +107,34 @@
     },
 
     "bientity_condition": {
-      "type": "origins:target_condition",
-      "condition": {
-        "type": "origins:and",
-        "conditions": [
-          {
-            "type": "origins:health",
-            "comparison": "<",
-            "compare_to": 10
-          },
-          {
-            "type": "origins:health",
-            "comparison": ">=",
-            "compare_to": 5
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:health",
+                "comparison": "<",
+                "compare_to": 10
+              },
+              {
+                "type": "origins:health",
+                "comparison": ">=",
+                "compare_to": 5
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "type": "origins:actor_condition",
+          "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_blood_sense_change"
+          }
+        }
+      ]
     }
   },
 
@@ -105,22 +149,34 @@
       }
     },
     "bientity_condition": {
-      "type": "origins:target_condition",
-      "condition": {
-        "type": "origins:and",
-        "conditions": [
-          {
-            "type": "origins:health",
-            "comparison": "<",
-            "compare_to": 5
-          },
-          {
-            "type": "origins:health",
-            "comparison": ">=",
-            "compare_to": 1
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:health",
+                "comparison": "<",
+                "compare_to": 5
+              },
+              {
+                "type": "origins:health",
+                "comparison": ">=",
+                "compare_to": 1
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "type": "origins:actor_condition",
+          "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_blood_sense_change"
+          }
+        }
+      ]
     }
   },
 
@@ -135,17 +191,29 @@
       }
     },
     "bientity_condition": {
-      "type": "origins:target_condition",
-      "condition": {
-        "type": "origins:and",
-        "conditions": [
-          {
-            "type": "origins:health",
-            "comparison": "<=",
-            "compare_to": 0
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:health",
+                "comparison": "<=",
+                "compare_to": 0
+              }
+            ]
           }
-        ]
-      }
+        },
+        {
+          "type": "origins:actor_condition",
+          "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_blood_sense_change"
+          }
+        }
+      ]
     }
   }
 }
