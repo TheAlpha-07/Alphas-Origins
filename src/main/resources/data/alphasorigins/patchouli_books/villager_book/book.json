@@ -1,6 +1,6 @@
 {
   "name": "item.patchouli:villager_book.name",
-  "landing_text": "item.patchouli:_book.landing",
+  "landing_text": "item.patchouli:villager_book.landing",
   "version": 1,
   "creative_tab": "minecraft:tools_and_utilities",
   "advancements_tab": "alphasorigins",

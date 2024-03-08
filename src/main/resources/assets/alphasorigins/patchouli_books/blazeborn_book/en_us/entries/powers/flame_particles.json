@@ -1,0 +1,12 @@
+{
+  "name": "Flame Particles",
+  "icon": "minecraft:lava_bucket",
+  "category": "alphasorigins:subcategories/passive_powers",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

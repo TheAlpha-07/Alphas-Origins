@@ -1,0 +1,17 @@
+{
+  "name": "Climbing",
+  "icon": "minecraft:string",
+  "category": "alphasorigins:subcategories/active_powers",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As Arachnid you can climb walls just like ladders. It doesn't matter what is is, as long as it's not any fluid you will be able to climb on it as high as you like."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mechanics",
+      "text": "You can toggle the power by using your primary key ($(k:origins.primary_active)), toggling this off will make you unable to climb anything even when you're climbing at that moment. You can stick yourself to the wall when holding sneak ($(k:sneak))."
+    }
+  ]
+}

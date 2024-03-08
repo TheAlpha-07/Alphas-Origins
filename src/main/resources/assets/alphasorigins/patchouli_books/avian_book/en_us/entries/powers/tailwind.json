@@ -1,0 +1,12 @@
+{
+  "name": "Tailwind",
+  "icon": "minecraft:feather",
+  "category": "alphasorigins:subcategories/passive_powers",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

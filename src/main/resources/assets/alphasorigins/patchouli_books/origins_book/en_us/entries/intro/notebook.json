@@ -1,6 +1,6 @@
 {
   "name": "Some Worthy Books",
-  "icon": "minecraft:book_and_quill",
+  "icon": "minecraft:paper",
   "category": "alphasorigins:intro",
   "sortnum": 1,
   "pages": [

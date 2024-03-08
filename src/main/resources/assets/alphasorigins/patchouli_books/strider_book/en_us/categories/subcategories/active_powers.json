@@ -1,0 +1,7 @@
+{
+  "name": "Active Powers",
+  "description": "All about your Active powers",
+  "icon": "minecraft:green_wool",
+  "parent": "alphasorigins:powers_introduction",
+  "sortnum": 1
+}

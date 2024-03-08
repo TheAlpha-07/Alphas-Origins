@@ -1,0 +1,12 @@
+{
+  "name": "Like Air",
+  "icon": "minecraft:",
+  "category": "alphasorigins:subcategories/passive_powers",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

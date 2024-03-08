@@ -495,7 +495,7 @@
   // Books
   // Origins starter book
   "item.patchouli:origins_book.name": "Origins Book",
-  "item.patchouli:origins_book.landing": "Origins the Legends and the Myths",
+  "item.patchouli:origins_book.landing": "Origins the Legends and the Myths. $(br2) Welcome, and thanks for downloading this mod. This mod will provide origins and books that give information about powers and lore.",
 
   // No Results
   "item.patchouli:no_result_book.name": "A Special Notebook",
@@ -505,54 +505,92 @@
   "item.patchouli:arachnid_book.name": "Arachnids Book",
   "item.patchouli:arachnid_book.landing": "Book of the Arachnids",
 
+  "item.patchouli:arachnid_ev_book.name": "Arachnids ev Book",
+  "item.patchouli:arachnid_ev_book.landing": "Book of the Arachnids",
+
   // Assassin Books
   "item.patchouli:assassin_book.name": "Assassins Book",
   "item.patchouli:assassin_book.landing": "Book of the Assassins",
+
+  "item.patchouli:assassin_ev_book.name": "Assassins ev Book",
+  "item.patchouli:assassin_ev_book.landing": "Book of the Assassins",
 
   // Avian Books
   "item.patchouli:avian_book.name": "Avians Book",
   "item.patchouli:avian_book.landing": "Book of the Avians",
 
+  "item.patchouli:avian_ev_book.name": "Avians ev Book",
+  "item.patchouli:avian_ev_book.landing": "Book of the Avians",
+
   // Blazeborn Books
   "item.patchouli:blazeborn_book.name": "Blazeborns Book",
   "item.patchouli:blazeborn_book.landing": "Book of the Blazeborns",
+
+  "item.patchouli:blazeborn_ev_book.name": "Blazeborns ev Book",
+  "item.patchouli:blazeborn_ev_book.landing": "Book of the Blazeborns",
 
   // Elytrian Books
   "item.patchouli:elytrian_book.name": "Elytrians Book",
   "item.patchouli:elytrian_book.landing": "Book of the Elytrians",
 
+  "item.patchouli:elytrian_ev_book.name": "Elytrians ev Book",
+  "item.patchouli:elytrian_ev_book.landing": "Book of the Elytrians",
+
   // Enderian Books
   "item.patchouli:enderian_book.name": "Enderians Book",
   "item.patchouli:enderian_book.landing": "Book of the Enderians",
+
+  "item.patchouli:enderian_ev_book.name": "Enderians ev Book",
+  "item.patchouli:enderian_ev_book.landing": "Book of the Enderians",
 
   // Feline Books
   "item.patchouli:feline_book.name": "Felines Book",
   "item.patchouli:feline_book.landing": "Book of the Felines",
 
+  "item.patchouli:feline_ev_book.name": "Felines ev Book",
+  "item.patchouli:feline_ev_book.landing": "Book of the Felines",
+
   // Hunter Books
   "item.patchouli:hunter_book.name": "Hunters Book",
   "item.patchouli:hunter_book.landing": "Book of the Hunters",
+
+  "item.patchouli:hunter_ev_book.name": "Hunters ev Book",
+  "item.patchouli:hunter_ev_book.landing": "Book of the Hunters",
 
   // Merling Books
   "item.patchouli:merling_book.name": "Merlings Book",
   "item.patchouli:merling_book.landing": "Book of the Merlings",
 
+  "item.patchouli:merling_ev_book.name": "Merlings ev Book",
+  "item.patchouli:merling_ev_book.landing": "Book of the Merlings",
+
   // Phantom Books
   "item.patchouli:phantom_book.name": "Phantoms Book",
   "item.patchouli:phantom_book.landing": "Book of the Phantoms",
+
+  "item.patchouli:phantom_ev_book.name": "Phantoms ev Book",
+  "item.patchouli:phantom_ev_book.landing": "Book of the Phantoms",
 
   // Shulk Books
   "item.patchouli:shulk_book.name": "Shulkers Book",
   "item.patchouli:shulk_book.landing": "Book of the Shulks",
 
+  "item.patchouli:shulk_ev_book.name": "Shulkers ev Book",
+  "item.patchouli:shulk_ev_book.landing": "Book of the Shulks",
+
   // Strider Books
   "item.patchouli:strider_book.name": "Striders Book",
   "item.patchouli:strider_book.landing": "Book of the Striders",
+
+  "item.patchouli:strider_ev_book.name": "Striders ev Book",
+  "item.patchouli:strider_ev_book.landing": "Book of the Striders",
 
   // Villager Books
   "item.patchouli:villager_book.name": "Villagers Book",
   "item.patchouli:villager_book.landing": "Book of the Villagers",
 
+  "item.patchouli:villager_ev_book.name": "Villagers ev Book",
+  "item.patchouli:villager_ev_book.landing": "Book of the Villagers",
 
   // Tests (Mod case)
   "effect.test.bind": "Bind"

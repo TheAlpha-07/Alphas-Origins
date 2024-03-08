@@ -1,0 +1,12 @@
+{
+  "name": "Carnivore",
+  "icon": "minecraft:string",
+  "category": "alphasorigins:subcategories/negative_powers",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "An Arachnid is a hunter and eats the prey they catch in their webs. However anything else is out of the menu and not accepted as good food. Arachnids can only eat any sort of meat."
+    }
+  ]
+}

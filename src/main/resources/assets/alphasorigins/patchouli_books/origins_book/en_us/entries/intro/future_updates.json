@@ -4,5 +4,19 @@
   "category": "alphasorigins:intro",
   "sortnum": 3,
   "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This book has a version, right now the version is '1', this shows how much of the mod is released so far, in later updates this version will change to 2 etc. However the version in an origins book does not change and will only indicate how much the book is upgraded. Version 1 for being the first book and version 2 for being the upgraded book from the first version."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mod Maintaining",
+      "text": "As stated before, the mod is now on part 1, the mod will have more updates on future parts making you unlock more content in the mod. When more parts are out you will always be able to choose what part you want to play, for example I will maintain and update the part 1 code when part 2 is out. Do note that content is restricted once you play part 1 instead of 2."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mod version",
+      "text": "The main version as of right now is 1.20.1 and above, however I will try to make the mod available for earlier versions, especially 1.19.x, this is but an idea and I cannot promise this but it is high on my priority list as of now."
+    }
   ]
 }

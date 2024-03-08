@@ -1,0 +1,17 @@
+{
+  "name": "Master of Webs (Passive)",
+  "icon": "minecraft:cobweb",
+  "category": "alphasorigins:subcategories/passive_powers",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "As an Arachnnid your movement through webs are flawless, you can easily walk through them and even climb on them using the \"climbing\" power. Your combat through webs is as good as without webs, you're completely capable of hitting entities through webs. $(br2) Any entity - except for arthropods - is glowed for you when in a cobweb close to you."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Facts and Tips",
+      "text": "$(li) Your sense ability for entities in your web works for a distance of around 100 blocks. $(li) When the \"climbing\" power is activated your movement through cobwebs is slower than normal, sprint and speed potions work slightly but you can only run fast through cobweb if the \"climbing\" power is disabled."
+    }
+  ]
+}

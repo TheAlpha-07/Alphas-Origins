@@ -1,0 +1,12 @@
+{
+  "name": "Slow Falling",
+  "icon": "minecraft:feather",
+  "category": "alphasorigins:subcategories/active_powers",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Vegetarian",
+  "icon": "minecraft:",
+  "category": "alphasorigins:subcategories/negative_powers",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

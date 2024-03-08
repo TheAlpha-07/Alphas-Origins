@@ -1,0 +1,12 @@
+{
+  "name": "Lay Eggs",
+  "icon": "minecraft:egg",
+  "category": "alphasorigins:subcategories/passive_powers",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+  ]
+}

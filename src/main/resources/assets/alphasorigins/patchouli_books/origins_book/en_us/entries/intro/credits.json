@@ -4,5 +4,13 @@
   "category": "alphasorigins:intro",
   "sortnum": 4,
   "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li) Creator and Mod Developer: $(li2)TheAlpha_07. $(li)Texture: $(li2)TheAlpha_07. $(li)Support: $(li2)Thanks to all my friends for supporting me so far, because of you all I've gained a lot of inspiration to make this mod and because of you this mod exists in the first place, please support me in the future too!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)Adapted Origins: $(li2)IHasName, $(li3)thanks for the data pack creators from IHasName for making the evolving versions of the base origins public, a lot of powers in this mod are inspired and taken over from this data pack. However before any charges are made, this mod pack was made public and can be found in the IHasName discord server, therefore the credits towards the IHasName team, because of these credits permission is granted to me to take these powers."
+    }
   ]
 }
