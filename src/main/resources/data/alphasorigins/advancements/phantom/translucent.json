@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:phantom/root",
+  "display": {
+    "title": {
+      "translate": "advancements.phantom.translucent.title"
+    },
+    "description": {
+      "translate": "advancements.phantom.translucent.description"
+    },
+    "icon": {
+      "item": "minecraft:seed"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

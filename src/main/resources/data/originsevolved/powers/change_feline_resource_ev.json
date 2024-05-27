@@ -21,27 +21,5 @@
         }
       ]
     }
-  },
-
-  "kill": {
-    "type": "origins:self_action_on_kill",
-    "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "originsevolved:feline_resource_ev",
-      "change": 2,
-      "operation": "add"
-    },
-    "cooldown": 0,
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:resource",
-          "resource": "originsevolved:feline_resource_ev",
-          "comparison": "<",
-          "compare_to": 6
-        }
-      ]
-    }
   }
 }

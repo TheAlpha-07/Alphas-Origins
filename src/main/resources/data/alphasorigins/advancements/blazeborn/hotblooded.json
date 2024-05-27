@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:blazeborn/root",
+  "display": {
+    "title": {
+      "translate": "advancements.blazeborn.hotblooded.title"
+    },
+    "description": {
+      "translate": "advancements.blazeborn.hotblooded.description"
+    },
+    "icon": {
+      "item": "minecraft:blaze_powder"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

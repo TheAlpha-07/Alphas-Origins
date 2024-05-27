@@ -1,16 +1,16 @@
 {
   "powers": [
+    "originsevolved:gain_air_ev",
+    "originsevolved:muscle_power",
     "origins:slow_falling",
     "origins:fresh_air",
-    "originsevolved:tailwind_ev",
+    "origins:like_air",
     "origins:lay_eggs",
     "origins:carnivore",
-    "originsevolved:gain_air_ev",
     "originsevolved:avian_resource_ev",
     "originsevolved:avian_resource_2_ev",
     "originsevolved:change_avian_resource_ev",
     "originsevolved:absolute_velocity_ev",
-    "originsevolved:muscle_power",
     "originsevolved:drink_blood_ev",
     "originsevolved:ingest_blood_ev",
     "originsevolved:hurtfull_feathers_ev"

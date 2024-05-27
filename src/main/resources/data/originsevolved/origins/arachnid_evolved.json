@@ -1,8 +1,9 @@
 {
   "powers": [
     "origins:climbing",
-    "originsevolved:cobwebshot_ev",
     "originsevolved:master_of_webs_ev",
+    "originsevolved:summon_cave_spider_ev",
+    "originsevolved:cobwebshot_ev",
     "originsevolved:prey_ev",
     "originsevolved:blood_anger_ev",
     "originsevolved:blood_vision_ev",
@@ -10,7 +11,6 @@
     "originsevolved:more_health_arach_ev",
     "origins:no_cobweb_slowdown",
     "origins:arthropod",
-    "originsevolved:summon_cave_spider_ev",
     "originsevolved:neutral_spider_ev",
     "originsevolved:neutral_cave_spider_ev",
     "originsevolved:friend_or_foe_ev"

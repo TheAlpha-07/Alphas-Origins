@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:feline/root",
+  "display": {
+    "title": {
+      "translate": "advancements.feline.weak_arms.title"
+    },
+    "description": {
+      "translate": "advancements.feline.weak_arms.description"
+    },
+    "icon": {
+      "item": "minecraft:orange_wool"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

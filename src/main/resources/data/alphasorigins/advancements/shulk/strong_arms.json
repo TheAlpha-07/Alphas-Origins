@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:shulk/root",
+  "display": {
+    "title": {
+      "translate": "advancements.shulk.strong_arms.title"
+    },
+    "description": {
+      "translate": "advancements.shulk.strong_arms.description"
+    },
+    "icon": {
+      "item": "minecraft:seed"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -50,6 +50,12 @@
         "compare_to": 4
       },
       {
+        "type": "origins:resource",
+        "resource": "originsevolved:lava_charge_ev_cooldown_resource",
+        "comparison": "==",
+        "compare_to": 20
+      },
+      {
         "type": "origins:submerged_in",
         "fluid": "minecraft:lava"
       }

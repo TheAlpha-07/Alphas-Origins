@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:villager/root",
+  "display": {
+    "title": {
+      "translate": "advancements.strider..title"
+    },
+    "description": {
+      "translate": "advancements.strider..description"
+    },
+    "icon": {
+      "item": "minecraft:lava_bucket"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

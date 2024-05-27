@@ -7,7 +7,7 @@
       "effect": {
         "effect": "minecraft:regeneration",
         "amplifier":0,
-        "duration": 300
+        "duration": 200
       }
     },
     "chance": 0.8,
