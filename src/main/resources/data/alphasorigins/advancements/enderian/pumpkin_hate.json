@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:enderian/root",
+  "display": {
+    "title": {
+      "translate": "advancements.enderian.pumpkin_hate.title"
+    },
+    "description": {
+      "translate": "advancements.enderian.pumpkin_hate.description"
+    },
+    "icon": {
+      "item": "minecraft:enderpearl"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

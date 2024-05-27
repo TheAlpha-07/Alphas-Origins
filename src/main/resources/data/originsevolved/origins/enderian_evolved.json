@@ -1,15 +1,14 @@
 {
   "powers": [
     "origins:throw_ender_pearl",
+    "originsevolved:water_vulnerability_e_ev",
+    "origins:pumpkin_hate",
     "origins:extra_reach",
     "origins:ender_particles",
-    "origins:strong_arms_break_speed",
     "originsevolved:arrow_immunity_ev",
     "originsevolved:eyes_of_the_end_ev",
     "originsevolved:entity_glow_ev",
     "originsevolved:glowtoggle_ev",
-    "originsevolved:water_vulnerability_e_ev",
-    "origins:pumpkin_hate",
     "origins:damage_from_potions",
     "originsevolved:nether_damage_ev"
 

@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:feline/root",
+  "display": {
+    "title": {
+      "translate": "advancements.feline.scare_creepers.title"
+    },
+    "description": {
+      "translate": "advancements.feline.scare_creepers.description"
+    },
+    "icon": {
+      "item": "minecraft:orange_wool"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

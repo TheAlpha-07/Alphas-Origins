@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:avian/root",
+  "display": {
+    "title": {
+      "translate": "advancements.avian.slow_falling.title"
+    },
+    "description": {
+      "translate": "advancements.avian.slow_falling.description"
+    },
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

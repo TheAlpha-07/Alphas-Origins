@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:elytrian/root",
+  "display": {
+    "title": {
+      "translate": "advancements.elytrian.more_kinetic_damage.title"
+    },
+    "description": {
+      "translate": "advancements.elytrian.more_kinetic_damage.description"
+    },
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

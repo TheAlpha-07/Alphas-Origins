@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:enderian/root",
+  "display": {
+    "title": {
+      "translate": "advancements.enderian.damage_from_potions.title"
+    },
+    "description": {
+      "translate": "advancements.enderian.damage_from_potions.description"
+    },
+    "icon": {
+      "item": "minecraft:enderpearl"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

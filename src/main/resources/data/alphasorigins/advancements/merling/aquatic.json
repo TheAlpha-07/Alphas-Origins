@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:merling/root",
+  "display": {
+    "title": {
+      "translate": "advancements.merling.aquatic.title"
+    },
+    "description": {
+      "translate": "advancements.merling.aquatic.description"
+    },
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
