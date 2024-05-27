@@ -14,7 +14,7 @@
     "alpha:reset",
     "alpha:scale_reset",
     "alpha:advancement_triggers/lore_based_story",
-    "alpha:advancement_triggers/strider_triggers"
+    "alpha:advancement_triggers/strider_triggers",
     "alpha:striders_book"
   ],
   "icon": {

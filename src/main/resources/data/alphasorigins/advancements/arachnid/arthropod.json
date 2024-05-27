@@ -1,0 +1,22 @@
+{
+  "parent": "alphasorigins:arachnid/root",
+  "display": {
+    "title": {
+      "translate": "advancements.arachnid.arthropod.title"
+    },
+    "description": {
+      "translate": "advancements.arachnid.arthropod.description"
+    },
+    "icon": {
+      "item": "minecraft:cobweb"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

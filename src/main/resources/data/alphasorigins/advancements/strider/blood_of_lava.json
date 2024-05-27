@@ -1,5 +1,5 @@
 {
-  "parent": "",
+  "parent": "alphasorigins:strider/blood_of_fire",
   "display": {
     "title": {
       "translate": "advancements.strider.blood_of_lava.title"

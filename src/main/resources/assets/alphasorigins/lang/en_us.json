@@ -456,33 +456,190 @@
   "advancements.arachnid.root.title": "The Nightmare",
   "advancements.arachnid.root.description": "Become the Arachnid",
 
+  "advancements.arachnid.climbing.title": "Sticky Strings",
+  "advancements.arachnid.climbing.description": "Climb on walls with your sticky strings.",
+
+  "advancements.arachnid.master_of_webs.title": "",
+  "advancements.arachnid.master_of_webs.description": "",
+
+  "advancements.arachnid.webbed_walk.title": "",
+  "advancements.arachnid.webbed_walk.description": "",
+
+  "advancements.arachnid.webbed_touch.title": "",
+  "advancements.arachnid.webbed_touch.description": "",
+
+  "advancements.arachnid.fragile.title": "",
+  "advancements.arachnid.fragile.description": "",
+
+  "advancements.arachnid.arthropod.title": "",
+  "advancement.arachnid.arthropod.description": "",
+
   // Avian Advancements
   "advancements.avian.root.title": "A Flyless Bird",
   "advancements.avian.root.description": "Become the Avian",
+
+  "advancements.avian.fresh_air.title": "A Flyless Bird",
+  "advancements.avian.fresh_air.description": "Become the Avian",
+
+  "advancements.avian.lay_eggs.title": "A Flyless Bird",
+  "advancements.avian.lay_eggs.description": "Become the Avian",
+
+  "advancements.avian.like_air.title": "A Flyless Bird",
+  "advancements.avian.like_air.description": "Become the Avian",
+
+  "advancements.avian.slow_falling.title": "A Flyless Bird",
+  "advancements.avian.slow_falling.description": "Become the Avian",
+
+  "advancements.avian.tailwind.title": "A Flyless Bird",
+  "advancements.avian.tailwind.description": "Become the Avian",
+
+  "advancements.avian.vegetarian.title": "A Flyless Bird",
+  "advancements.avian.vegetarian.description": "Become the Avian",
 
   // Blazeborn Advancements
   "advancements.blazeborn.root.title": "Born from the Fire",
   "advancements.blazeborn.root.description": "Become the Blazeborn",
 
+  "advancements.blazeborn.burning_wrath.title": "",
+  "advancements.blazeborn.burning_wrath.description": "",
+
+  "advancements.blazeborn.damage_from_potions.title": "",
+  "advancements.blazeborn.damage_from_potions.description": "",
+
+  "advancements.blazeborn.damage_from_snowballs.title": "",
+  "advancements.blazeborn.damage_from_snowballs.description": "",
+
+  "advancements.blazeborn.fire_immunity.title": "",
+  "advancements.blazeborn.fire_immunity.description": "",
+
+  "advancements.blazeborn.hotblooded.title": "",
+  "advancements.blazeborn.hotblooded.description": "",
+
+  "advancements.blazeborn.nether_spawn.title": "",
+  "advancements.blazeborn.nether_spawn.description": "",
+
+  "advancements.blazeborn.water_vulnerability.title": "",
+  "advancements.blazeborn.water_vulnerability.description": "",
+
   // Elytrian Advancements
   "advancements.elytrian.root.title": "Sky's Conqueror",
   "advancements.elytrian.root.description": "Become the Elytrian",
+
+  "advancements.elytrian.aerial_combatant.title": "",
+  "advancements.elytrian.aerial_combatant.description": "",
+
+  "advancements.elytrian.claustrophobia.title": "",
+  "advancements.elytrian.claustrophobia.description": "",
+
+  "advancements.elytrian.elytra.title": "",
+  "advancements.elytrian.elytra.description": "",
+
+  "advancements.elytrian.launch_into_the_air.title": "",
+  "advancements.elytrian.launch_into_the_air.description": "",
+
+  "advancements.elytrian.light_armor.title": "",
+  "advancements.elytrian.light_armor.description": "",
+
+  "advancements.elytrian.more_kinetic_damage.title": "",
+  "advancements.elytrian.more_kinetic_damage.description": "",
+
 
   // Enderian Advancements
   "advancements.enderian.root.title": "The Void Calls",
   "advancements.enderian.root.description": "Become the Enderian",
 
+  "advancements.enderian.damage_from_potions.title": "",
+  "advancements.enderian.damage_from_potions.description": "",
+
+  "advancements.enderian.extra_reach.title": "",
+  "advancements.enderian.extra_reach.description": "",
+
+  "advancements.enderian.pumpkin_hate.title": "",
+  "advancements.enderian.pumpkin_hate.description": "",
+
+  "advancements.enderian.throw_enderpearl.title": "",
+  "advancements.enderian.throw_enderpearl.description": "",
+
+  "advancements.enderian.water_vulnerability.title": "",
+  "advancements.enderian.water_vulnerability.description": "",
+
   // Feline Advancements
   "advancements.feline.root.title": "A Beast beyond the Beauty",
   "advancements.feline.root.description": "Become the Feline",
+
+  "advancements.feline.cat_vision.title": "",
+  "advancements.feline.cat_vision.description": "",
+
+  "advancements.feline.fall_immunity.title": "",
+  "advancements.feline.fall_immunity.description": "",
+
+  "advancements.feline.nine_lives.title": "",
+  "advancements.feline.nine_lives.description": "",
+
+  "advancements.feline.scare_creepers.title": "",
+  "advancements.feline.scare_creepers.description": "",
+
+  "advancements.feline.sprint_jump.title": "",
+  "advancements.feline.sprint_jump.description": "",
+
+  "advancements.feline.velvet_paws.title": "",
+  "advancements.feline.velvet_paws.description": "",
+
+  "advancements.feline.weak_arms.title": "",
+  "advancements.feline.weak_arms.description": "",
 
   // Merling Advancements
   "advancements.merling.root.title": "Sea's Chosen",
   "advancements.merling.root.description": "Become the Merling",
 
+  "advancements.merling.air_from_potions.title": "",
+  "advancements.merling.air_from_potions.description": "",
+
+  "advancements.merling.aqua_affinity.title": "",
+  "advancements.merling.aqua_affinity.description": "",
+
+  "advancements.merling.aquatic.title": "",
+  "advancements.merling.aquatic.description": "",
+
+  "advancements.merling.conduit_power_on_land.title": "",
+  "advancements.merling.conduit_power_on_land.description": "",
+
+  "advancements.merling.like_water.title": "",
+  "advancements.merling.like_water.description": "",
+
+  "advancements.merling.swim_speed.title": "",
+  "advancements.merling.swim_speed.description": "",
+
+  "advancements.merling.water_breathing.title": "",
+  "advancements.merling.water_breathing.description": "",
+
+  "advancements.merling.water_vision.title": "",
+  "advancements.merling.water_vision.description": "",
+
   // Phantom Advancements
   "advancements.phantom.root.title": "A Mystery Beyond Reach",
   "advancements.phantom.root.description": "Become the Phantom",
+
+  "advancements.phantom.burn_in_daylight.title": "",
+  "advancements.phantom.burn_in_daylight.description": "",
+
+  "advancements.phantom.fragile.title": "",
+  "advancements.phantom.fragile.description": "",
+
+  "advancements.phantom.hunger_over_time.title": "",
+  "advancements.phantom.hunger_over_time.description": "",
+
+  "advancements.phantom.invisibility.title": "",
+  "advancements.phantom.invisibility.description": "",
+
+  "advancements.phantom.phantomize.title": "",
+  "advancements.phantom.phantomize.description": "",
+
+  "advancements.phantom.phasing.title": "",
+  "advancements.phantom.phasing.description": "",
+
+  "advancements.phantom.translucent.title": "",
+  "advancements.phantom.translucent.description": "",
 
   // Shulk Advancements
   "advancements.shulk.root.title": "A Fierce Warrior",
