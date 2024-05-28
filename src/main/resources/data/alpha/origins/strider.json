@@ -12,10 +12,7 @@
     "alpha:no_fire",
     "alpha:water_vulnerability_s",
     "alpha:reset",
-    "alpha:scale_reset",
-    "alpha:advancement_triggers/lore_based_story",
-    "alpha:advancement_triggers/strider_triggers",
-    "alpha:striders_book"
+    "alpha:scale_reset"
   ],
   "icon": {
     "item": "minecraft:warped_fungus"

@@ -18,9 +18,7 @@
     "alpha:illaged",
     "alpha:zombified",
     "alpha:reset",
-    "alpha:scale_reset",
-    "alpha:advancement_triggers/lore_based_story",
-    "alpha:villagers_book"
+    "alpha:scale_reset"
   ],
   "icon": {
     "item": "minecraft:lectern"

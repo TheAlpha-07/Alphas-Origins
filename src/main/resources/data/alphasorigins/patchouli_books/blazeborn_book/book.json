@@ -1,8 +1,0 @@
-{
-  "name": "item.patchouli:blazeborn_book.name",
-  "landing_text": "item.patchouli:blazeborn_book.landing",
-  "version": 1,
-  "creative_tab": "minecraft:tools_and_utilities",
-  "advancements_tab": "alphasorigins",
-  "use_resource_pack": true
-}

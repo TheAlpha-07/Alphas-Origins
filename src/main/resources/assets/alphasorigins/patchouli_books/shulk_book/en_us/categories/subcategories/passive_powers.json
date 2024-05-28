@@ -1,7 +1,0 @@
-{
-  "name": "Passive Powers",
-  "description": "All about your Passive powers",
-  "icon": "minecraft:orange_wool",
-  "parent": "alphasorigins:powers_introduction",
-  "sortnum": 1
-}

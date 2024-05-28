@@ -7,11 +7,7 @@
         "origins:fragile",
         "origins:arthropod",
         "alpha:reset",
-        "alpha:scale_reset",
-        "alpha:advancement_triggers/arachnid_triggers",
-        "alpha:advancement_triggers/lore_based_story",
-        "alpha:arachnids_book"
-
+        "alpha:scale_reset"
 
     ],
     "icon": {

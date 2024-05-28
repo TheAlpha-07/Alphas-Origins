@@ -1,7 +1,0 @@
-{
-  "name": "Negative Powers",
-  "description": "All about your Negative powers",
-  "icon": "minecraft:red_wool",
-  "parent": "alphasorigins:powers_introduction",
-  "sortnum": 3
-}
