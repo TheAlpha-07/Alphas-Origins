@@ -295,5 +295,10 @@
   "key.origins.quaternary_active": "Active Power (9th)",
   "key.origins.ternary_active": "Active Power (10th)",
   // Other.
-  "layer.origins_needed.origin.name": "Origin"
+  "layer.origins_needed.origin.name": "Origin",
+
+  // Mod Items
+  "itemgroup.evolutions": "Evolutions",
+
+  "item.alphasorigins.arachnidevolution": "."
 }

@@ -2,26 +2,26 @@
   "schemaVersion": 1,
   "id": "alphasorigins",
   "version": "${version}",
-  "name": "Alpha's Origins",
-  "description": "Alpha's origins is an addon for the original origins mod. Alpha's origins adds new origins in part 1. Alpha's origins also adds an evolution system in part 1.",
+  "name": "Origins: The Legends and the Myths",
+  "description": "Origins: LaM is an addon for the original origins mod. It adds new origins in part 1. It also adds an evolution system in part 1.",
   "authors": [
     "TheAlpha_07"
   ],
   "contact": {
     "repo": "https://github.com/TheAlpha-07/Alphas-Origins"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/alphasorigins/Alphas-origins1.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.thealpha07.alphasorigins.AlphasOriginsClient"
+      "com.thealpha07.alphasorigins.AdaptableOriginsClient"
     ],
     "main": [
-      "com.thealpha07.alphasorigins.AlphasOrigins"
+      "com.thealpha07.alphasorigins.AdaptableOrigins"
     ],
     "fabric-datagen": [
-      "com.thealpha07.alphasorigins.AlphasOriginsDataGenerator"
+      "com.thealpha07.alphasorigins.AdaptableOriginsDataGenerator"
     ]
   },
   "mixins": [
