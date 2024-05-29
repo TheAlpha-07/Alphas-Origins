@@ -12,14 +12,14 @@
     "alpha:no_fire",
     "alpha:water_vulnerability_s",
     "alpha:reset",
-    "alpha:scale_reset"
+    "alpha:evolutions"
   ],
   "icon": {
     "item": "minecraft:warped_fungus"
   },
   "upgrades":
     {
-      "condition": "minecraft:end/kill_dragon",
+      "condition": "alphasorigins:evolutions/the_evolution",
       "origin": "originsevolved:lava_walker",
       "announcement": "You have evolved"
     },

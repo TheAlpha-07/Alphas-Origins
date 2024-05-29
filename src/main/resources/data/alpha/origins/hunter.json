@@ -15,14 +15,14 @@
     "alpha:to_heavy",
     "alpha:different_ranged",
     "alpha:reset",
-    "alpha:scale_reset"
+    "alpha:evolutions"
   ],
   "icon": {
     "item": "minecraft:bow"
   },
   "upgrades":
     {
-      "condition": "minecraft:end/kill_dragon",
+      "condition": "alphasorigins:evolutions/the_evolution",
       "origin": "originsevolved:sharp_hunter",
       "announcement": "You have evolved"
     },

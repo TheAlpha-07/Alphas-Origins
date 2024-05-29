@@ -297,8 +297,25 @@
   // Other.
   "layer.origins_needed.origin.name": "Origin",
 
+  // Advancements
+  "advancements.evolutions.root.title": "A powerful accomplishment",
+  "advancements.evolutions.root.description": "Evolve to a stronger version of what you once were.",
+
   // Mod Items
   "itemgroup.evolutions": "Evolutions",
 
-  "item.alphasorigins.arachnidevolution": "."
+  "item.alphasorigins.arachnidevolution": ".",
+  "item.alphasorigins.avianevolution": ".",
+  "item.alphasorigins.blazebornevolution": ".",
+  "item.alphasorigins.elytrianevolution": ".",
+  "item.alphasorigins.enderianevolution": ".",
+  "item.alphasorigins.felineevolution": ".",
+  "item.alphasorigins.merlingevolution": "Suppressed Magic Pearl",
+  "item.alphasorigins.phantomevolution": ".",
+  "item.alphasorigins.shulkevolution": ".",
+  "item.alphasorigins.assassinevolution": ".",
+  "item.alphasorigins.hunterevolution": ".",
+  "item.alphasorigins.striderevolution": ".",
+  "item.alphasorigins.villagerevolution": "."
+
 }

@@ -9,8 +9,8 @@
         "origins:aquatic",
         "origins:conduit_power_on_land",
         "origins:air_from_potions",
-        "alpha:reset",
-        "alpha:scale_reset"
+        "alpha:scale_reset",
+        "alpha:evolutions"
     ],
     "icon": {
         "item": "minecraft:cod"
@@ -20,7 +20,7 @@
     "name": "Merling",
     "description": "These natural inhabitants of the ocean are not used to being out of the water for too long.",
     "upgrades": {
-        "condition": "minecraft:end/kill_dragon",
+        "condition": "alphasorigins:evolutions/the_evolution",
         "origin": "originsevolved:merling_evolved",
         "announcement": "Evolving... Evolved!"
     }

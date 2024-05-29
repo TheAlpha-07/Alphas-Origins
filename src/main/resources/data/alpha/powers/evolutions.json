@@ -1,0 +1,628 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+
+  "avian": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:avianevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:avian",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "arachnid": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:arachnidevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:arachnid",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "blazeborn": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:blazebornevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:blazeborn",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "elytrian": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:elytrianevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:elytrian",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "enderian": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:enderianevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:enderian",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "feline": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:felineevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:feline",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "merling": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:merlingevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:merling",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "phantom": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:phantomevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:phantom",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "shulk": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:shulkevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:shulk",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "assassin": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:assassinevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "alpha:assassin",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "hunter": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:hunterevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "alpha:hunter",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "strider": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:striderevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "alpha:strider",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  },
+
+  "villager": {
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:grant_advancement",
+          "advancement": "alphasorigins:evolutions/the_evolution"
+        }
+      ]
+    },
+    "hud_render": {
+      "should_render": false
+    },
+    "key": {
+      "key": "key.use",
+      "continuous": false
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "alphasorigins:villagerevolution"
+            }
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "alpha:villager",
+          "layer": "origins:origin"
+        }
+      ]
+    }
+  }
+}

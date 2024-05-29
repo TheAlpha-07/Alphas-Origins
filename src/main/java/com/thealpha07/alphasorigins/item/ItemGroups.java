@@ -15,6 +15,19 @@ public class ItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.evolutions"))
                     .icon(() -> new ItemStack(EvolutionItems.ARACHNIDEVOLUTION)).entries((displayContext, entries) -> {
                         entries.add(EvolutionItems.ARACHNIDEVOLUTION);
+                        entries.add(EvolutionItems.AVIANEVOLUTION);
+                        entries.add(EvolutionItems.BLAZEBORNEVOLUTION);
+                        entries.add(EvolutionItems.ELYTRIANEVOLUTION);
+                        entries.add(EvolutionItems.ENDERIANEVOLUTION);
+                        entries.add(EvolutionItems.FELINEEVOLUTION);
+                        entries.add(EvolutionItems.MERLINGEVOLUTION);
+                        entries.add(EvolutionItems.PHANTOMEVOLUTION);
+                        entries.add(EvolutionItems.SHULKEVOLUTION);
+                        entries.add(EvolutionItems.ASSASSINEVOLUTION);
+                        entries.add(EvolutionItems.HUNTEREVOLUTION);
+                        entries.add(EvolutionItems.STRIDEREVOLUTION);
+                        entries.add(EvolutionItems.VILLAGEREVOLUTION);
+
                     }).build());
     public static void registerItemGroups() {
         AdaptableOrigins.LOGGER.info("Registering Item Groups");

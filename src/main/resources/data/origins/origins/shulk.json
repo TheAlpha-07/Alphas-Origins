@@ -8,7 +8,7 @@
         "origins:no_shield",
         "origins:more_exhaustion",
         "alpha:reset",
-        "alpha:scale_reset"
+        "alpha:evolutions"
     ],
     "icon": {
         "item": "minecraft:shulker_shell"
@@ -18,7 +18,7 @@
     "name": "Shulk",
     "description": "Related to Shulkers, the bodies of the Shulk are outfitted with a protective shell-like skin.",
     "upgrades": {
-        "condition": "minecraft:end/kill_dragon",
+        "condition": "alphasorigins:evolutions/the_evolution",
         "origin": "originsevolved:shulk_evolved",
         "announcement": "Evolving... Evolved!"
     }

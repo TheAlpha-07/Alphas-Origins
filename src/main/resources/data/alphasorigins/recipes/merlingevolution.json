@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DPD",
+    "POP",
+    "KTK"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "K": {
+      "item": "minecraft:dried_kelp_block"
+    },
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "T": {
+      "item": "minecraft:trident"
+    },
+    "O": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "alphasorigins:merlingevolution"
+  }
+}

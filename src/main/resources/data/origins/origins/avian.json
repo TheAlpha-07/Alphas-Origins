@@ -8,7 +8,7 @@
         "origins:lay_eggs",
         "origins:vegetarian",
         "alpha:reset",
-        "alpha:scale_reset"
+        "alpha:evolutions"
 
 
 
@@ -21,7 +21,7 @@
     "name": "Avian",
     "description": "The Avian race has lost their ability to fly a long time ago. Now these peaceful creatures can be seen gliding from one place to another.",
     "upgrades": {
-        "condition": "minecraft:end/kill_dragon",
+        "condition": "alphasorigins:evolution/the_evolutions",
         "origin": "originsevolved:avian_evolved",
         "announcement": "Evolving... Evolved!"
     }

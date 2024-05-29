@@ -1,31 +1,31 @@
 {
-    "powers": [
-        "alpha:toggle_assassin_attack",
-        "alpha:assassin_toggle_rework",
-        "alpha:origin_mode",
-        "alpha:monster_mode",
-        "alpha:unknown_enemies",
-        "alpha:toggle_reckless_defensive",
-        "alpha:reckless_mode",
-        "alpha:defensive_mode",
-        "alpha:the_light",
-        "alpha:assassin_indicator",
-        "alpha:easier_recipe",
-        "alpha:kill_confirmed",
-        "alpha:different_ranged",
-        "alpha:reset",
-        "alpha:scale_reset"
+  "powers": [
+    "alpha:toggle_assassin_attack",
+    "alpha:assassin_toggle_rework",
+    "alpha:origin_mode",
+    "alpha:monster_mode",
+    "alpha:unknown_enemies",
+    "alpha:toggle_reckless_defensive",
+    "alpha:reckless_mode",
+    "alpha:defensive_mode",
+    "alpha:the_light",
+    "alpha:assassin_indicator",
+    "alpha:easier_recipe",
+    "alpha:kill_confirmed",
+    "alpha:different_ranged",
+    "alpha:reset",
+    "alpha:evolutions"
 
-    ],
-    "icon": {
+  ],
+  "icon": {
         "item": "minecraft:iron_sword"
-    },
-    "upgrades":
-        {
-            "condition": "minecraft:end/kill_dragon",
+  },
+  "upgrades":
+    {
+            "condition": "alphasorigins:evolutions/the_evolution",
             "origin": "originsevolved:shadow_assassin",
             "announcement": "You have evolved"
-        },
-    "order": 2,
-    "impact": 1
+    },
+  "order": 2,
+  "impact": 1
 }

@@ -18,14 +18,14 @@
     "alpha:illaged",
     "alpha:zombified",
     "alpha:reset",
-    "alpha:scale_reset"
+    "alpha:evolutions"
   ],
   "icon": {
     "item": "minecraft:lectern"
   },
   "upgrades": [
     {
-      "condition": "minecraft:end/kill_dragon",
+      "condition": "alphasorigins:evolutions/the_evolution",
       "origin": "originsevolved:enchanted_villager",
       "announcement": "You have evolved"
     }

@@ -8,7 +8,7 @@
         "origins:ender_particles",
         "origins:damage_from_potions",
         "alpha:reset",
-        "alpha:scale_reset"
+        "alpha:evolutions"
 
     ],
     "icon": {
@@ -19,7 +19,7 @@
     "name": "Enderian",
     "description": "Born as sons and daughters of the Ender Dragon, Enderians are capable of teleporting but are vulnerable to water.",
     "upgrades": {
-        "condition": "minecraft:end/kill_dragon",
+        "condition": "alphasorigins:evolutions/the_evolution",
         "origin": "originsevolved:enderian_evolved",
         "announcement": "Evolving... Evolved!"
     }
