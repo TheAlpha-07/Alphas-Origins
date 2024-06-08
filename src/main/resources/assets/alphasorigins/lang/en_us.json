@@ -335,14 +335,14 @@
   "power.originsevolved.nether_damage_ev.description": "",
 
   // More Keybinds
-  "key.origins.denary_active": "Active Power (3th)",
-  "key.origins.nonary_active": "Active Power (4th)",
-  "key.origins.octonary_active": "Active Power (5th)",
-  "key.origins.septenary_active": "Active Power (6th)",
-  "key.origins.senary_active": "Active Power (7th)",
-  "key.origins.quinary_active": "Active Power (8th)",
-  "key.origins.quaternary_active": "Active Power (9th)",
-  "key.origins.ternary_active": "Active Power (10th)",
+  "key.origins.denary_active": "Active Power (Denary)",
+  "key.origins.nonary_active": "Active Power (Nonary)",
+  "key.origins.octonary_active": "Active Power (Octonary)",
+  "key.origins.septenary_active": "Active Power (Septenary)",
+  "key.origins.senary_active": "Active Power (Senary)",
+  "key.origins.quinary_active": "Active Power (Quinary)",
+  "key.origins.quaternary_active": "Active Power (Quaternary)",
+  "key.origins.ternary_active": "Active Power (Ternary)",
 
   // Other.
   "layer.origins_needed.origin.name": "Origin",
