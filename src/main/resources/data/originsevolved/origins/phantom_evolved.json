@@ -3,6 +3,8 @@
     "origins:phantomize",
     "originsevolved:phantom_flight_ev",
     "originsevolved:sneaky_ev",
+    "originsevolved:backstab_ev",
+    "originsevolved:light_and_dark_ev",
     "originsevolved:more_translucent_ev",
     "originsevolved:phasing_ev",
     "originsevolved:invisibility_ev",
@@ -11,7 +13,6 @@
     "originsevolved:heal_delay_ev",
     "origins:phantomize_overlay",
     "origins:fragile",
-    "originsevolved:stacking_effect_ev",
     "originsevolved:hell_fire_ev"
 
   ],
@@ -19,6 +20,5 @@
     "item": "minecraft:phantom_membrane"
   },
   "unchoosable": true,
-  "order": 11,
   "impact": 3
 }

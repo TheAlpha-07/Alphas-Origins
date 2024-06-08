@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DCD",
+    "CFC",
+    "SES"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "C": {
+      "item": "minecraft:chorus_flower"
+    },
+    "F": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    },
+    "E": {
+      "item": "minecraft:ender_chest"
+    }
+  },
+  "result": {
+    "item": "alphasorigins:shulkevolution"
+  }
+}

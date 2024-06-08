@@ -13,7 +13,6 @@
     "alpha:easier_recipe",
     "alpha:kill_confirmed",
     "alpha:different_ranged",
-    "alpha:reset",
     "alpha:evolutions"
 
   ],
@@ -22,10 +21,9 @@
   },
   "upgrades":
     {
-            "condition": "alphasorigins:evolutions/the_evolution",
-            "origin": "originsevolved:shadow_assassin",
-            "announcement": "You have evolved"
+      "condition": "alphasorigins:evolutions/the_evolution",
+      "origin": "originsevolved:shadow_assassin",
+      "announcement": "You have evolved"
     },
-  "order": 2,
-  "impact": 1
+  "impact": 2
 }

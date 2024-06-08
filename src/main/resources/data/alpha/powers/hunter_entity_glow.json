@@ -12,6 +12,13 @@
         "type": "origins:distance",
         "comparison": "<=",
         "compare_to": 75
+      },
+      {
+        "type": "origins:target_condition",
+        "condition": {
+          "type": "origins:invisible",
+          "inverted": true
+        }
       }
     ]
   },

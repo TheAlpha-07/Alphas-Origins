@@ -1,9 +1,9 @@
 {
   "powers": [
     "origins:shulker_inventory",
-    "origins:strong_arms",
-    "origins:strong_arms_break_speed",
     "originsevolved:harder_shell_ev",
+    "originsevolved:strong_arms_ev",
+    "origins:strong_arms_break_speed",
     "originsevolved:juggernaut_ev",
     "originsevolved:juggernaut_toggle_ev",
     "originsevolved:juggernaut_slowness_ev",
@@ -15,6 +15,5 @@
   ],
   "icon": "minecraft:shulker_shell",
   "unchoosable": true,
-  "order": 11,
   "impact": 1
 }

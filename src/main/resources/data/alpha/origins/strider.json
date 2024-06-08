@@ -7,11 +7,12 @@
     "alpha:blood_of_lava",
     "alpha:lava_boost",
     "alpha:lava_vision",
+    "alpha:rideable",
+    "alpha:throw_off",
     "alpha:warped_food",
     "alpha:nether_spawn",
     "alpha:no_fire",
     "alpha:water_vulnerability_s",
-    "alpha:reset",
     "alpha:evolutions"
   ],
   "icon": {
@@ -23,6 +24,5 @@
       "origin": "originsevolved:lava_walker",
       "announcement": "You have evolved"
     },
-  "order": 2,
   "impact": 2
 }

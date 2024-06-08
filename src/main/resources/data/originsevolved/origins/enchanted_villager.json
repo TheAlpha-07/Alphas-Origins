@@ -22,14 +22,11 @@
     "originsevolved:mythical_language_ev",
     "originsevolved:betrayal_ev",
     "alpha:illaged",
-    "alpha:zombified",
-    "alpha:reset",
-    "alpha:scale_reset"
+    "alpha:zombified"
   ],
   "icon": {
     "item": "minecraft:lectern"
   },
-  "order": 2,
   "impact": 1,
   "unchoosable": true
 }

@@ -1,0 +1,107 @@
+{
+  "type": "origins:action_over_time",
+  "interval": 5,
+  "hidden": true,
+
+  "entity_action": {
+    "type": "origins:if_else_list",
+    "actions": [
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:resource",
+              "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+              "comparison": "==",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:resource",
+              "resource": "alpha:entity_glow_off_resource_resource",
+              "comparison": "==",
+              "compare_to": 0
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:grant_power",
+          "power": "alpha:hunter_entity_glow",
+          "source": "alpha:hunter"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:resource",
+              "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+              "comparison": "==",
+              "compare_to": 1
+            },
+            {
+              "type": "origins:resource",
+              "resource": "alpha:entity_glow_off_resource_resource",
+              "comparison": "==",
+              "compare_to": 1
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:revoke_power",
+          "power": "alpha:hunter_entity_glow",
+          "source": "alpha:hunter"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:resource",
+              "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+              "comparison": "==",
+              "compare_to": 2
+            },
+            {
+              "type": "origins:resource",
+              "resource": "alpha:entity_glow_off_resource_resource",
+              "comparison": "==",
+              "compare_to": 0
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:grant_power",
+          "power": "alpha:sense_entity_glow",
+          "source": "alpha:hunter"
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:resource",
+              "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+              "comparison": "==",
+              "compare_to": 2
+            },
+            {
+              "type": "origins:resource",
+              "resource": "alpha:entity_glow_off_resource_resource",
+              "comparison": "==",
+              "compare_to": 1
+            }
+          ]
+        },
+        "action": {
+          "type": "origins:revoke_power",
+          "power": "alpha:sense_entity_glow",
+          "source": "alpha:hunter"
+        }
+      }
+    ]
+  }
+}

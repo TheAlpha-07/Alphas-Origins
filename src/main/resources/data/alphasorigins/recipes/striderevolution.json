@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DBD",
+    "BWB",
+    "NLN"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "B": {
+      "item": "minecraft:lava_bucket"
+    },
+    "W": {
+      "item": "minecraft:warped_fungus"
+    },
+    "L": {
+      "item": "minecraft:lodestone"
+    },
+    "N": {
+      "item": "minecraft:warped_nylium"
+    }
+  },
+  "result": {
+    "item": "alphasorigins:striderevolution"
+  }
+}

@@ -8,7 +8,6 @@
         "origins:weak_arms",
         "origins:scare_creepers",
         "origins:cat_vision",
-        "alpha:reset",
         "alpha:evolutions"
 
     ],
@@ -21,7 +20,7 @@
     "description": "With their cat-like appearance, the Feline scare creepers away. With the dexterity of cats, they always land safely on their feet.",
     "upgrades": {
         "condition": "alphasorigins:evolutions/the_evolution",
-        "origin": "originsevolved:merling_evolved",
+        "origin": "originsevolved:feline_evolved",
         "announcement": "Evolving... Evolved!"
     }
 }

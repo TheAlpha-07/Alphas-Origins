@@ -1,0 +1,29 @@
+{
+  "type": "origins:action_on_hit",
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 17
+  },
+
+  "bientity_action": {
+    "type": "origins:actor_action",
+    "action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:absorption",
+        "duration": 300,
+        "amplifier": 0
+      }
+    }
+  },
+
+  "bientity_condition": {
+    "type": "origins:relative_rotation",
+    "actor_rotation": "head",
+    "target_rotation": "body",
+    "comparison": ">=",
+    "compare_to": 0.4
+  }
+}

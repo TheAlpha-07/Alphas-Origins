@@ -24,8 +24,8 @@
         },
         "else_action": {
           "type": "origins:add_velocity",
-          "space": "local_horizontal_normalized",
-          "z": 4
+          "space": "local",
+          "z": 2
         }
       },
       {

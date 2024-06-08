@@ -1,0 +1,15 @@
+{
+  "type": "origins:active_self",
+  "hidden": true,
+  "key": {
+    "key": "key.sneak"
+  },
+  "action": {
+    "type": "origins:passenger_action",
+    "bientity_action": {
+      "type": "origins:mount",
+      "inverted": true
+    },
+    "recursive": true
+  }
+}

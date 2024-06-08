@@ -5,5 +5,6 @@
     "ingredient": {
       "tag": "alpha:shields"
     }
-  }
+  },
+  "name": "No Shield"
 }

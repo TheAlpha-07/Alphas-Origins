@@ -14,7 +14,6 @@
     "alpha:elemental_opponnents",
     "alpha:to_heavy",
     "alpha:different_ranged",
-    "alpha:reset",
     "alpha:evolutions"
   ],
   "icon": {
@@ -26,6 +25,5 @@
       "origin": "originsevolved:sharp_hunter",
       "announcement": "You have evolved"
     },
-  "order": 2,
   "impact": 1
 }

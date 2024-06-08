@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphasorigins:item/elytrianevolution"
+    "layer0": "alphasorigins:item/dragon_boosted_elytra"
   }
 }

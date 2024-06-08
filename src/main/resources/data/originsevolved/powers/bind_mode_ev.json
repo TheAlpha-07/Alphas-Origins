@@ -38,7 +38,7 @@
   },
   "condition": {
     "type": "origins:resource",
-    "resource": "alpha:hunt_toggle_rework_bind_disable_resource",
+    "resource": "originsevolved:hunt_toggle_rework_ev_bind_disable_resource",
     "comparison": "==",
     "compare_to": 1
   }

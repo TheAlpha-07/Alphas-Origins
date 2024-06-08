@@ -14,7 +14,6 @@
   ],
   "icon": "minecraft:elytra",
   "unchoosable": true,
-  "order": 11,
   "impact": 2
 }
 

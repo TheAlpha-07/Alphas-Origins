@@ -1,15 +1,29 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "parents": [
-    "###",
-    "###",
-    "###"
+  "pattern": [
+    "DFD",
+    "FSF",
+    "UNU"
   ],
   "key": {
-    "": {
-      "item": ""
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "S": {
+      "item": "minecraft:spider_eye"
+    },
+    "F": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "U": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
     }
   },
-  "result": "evolutionitems:evolution"
+  "result": {
+    "item": "alphasorigins:arachnidevolution"
+  }
 }

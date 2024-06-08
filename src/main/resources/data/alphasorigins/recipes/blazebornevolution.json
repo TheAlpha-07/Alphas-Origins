@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DGD",
+    "GBG",
+    "FLF"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+    "G": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "L": {
+      "item": "minecraft:lodestone"
+    },
+    "F": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "result": {
+    "item": "alphasorigins:blazebornevolution"
+  }
+}

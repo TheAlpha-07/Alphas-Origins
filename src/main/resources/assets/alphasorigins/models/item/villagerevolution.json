@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "alphasorigins:item/villagerevolution"
+    "layer0": "alphasorigins:item/ender_fused_star"
   }
 }

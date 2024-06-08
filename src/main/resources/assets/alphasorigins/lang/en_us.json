@@ -12,10 +12,10 @@
   "power.alpha.monster_mode.description": "With this poison on your weapons and arrows you deal way more damage to monsters you know.",
   "power.alpha.unknown_enemies.name": "Unknown Enemies",
   "power.alpha.unknown_enemies.description": "Those you do not know are not weakened by your poison, only with experience when fighting against those will make you capable of making the right poisons.",
-  "power.alpha.toggle_reckless_defensive.name": "Methods for the Fight",
+  "power.alpha.toggle_reckless_defensive.name": "Fight Methods",
   "power.alpha.toggle_reckless_defensive.description": "You trained for specific situations, make sure to use them well.",
   "power.alpha.reckless_mode.name": "Reckless",
-  "power.alpha.reckless_mode.description": "This training made you faster and agile, however, erwhenev using this you're open for attacks and way easier to kill.",
+  "power.alpha.reckless_mode.description": "This training made you faster and agile, however, whenever using this you're open for attacks and way easier to kill.",
   "power.alpha.defensive_mode.name": "Strong Defense",
   "power.alpha.defensive_mode.description": "This training strengthens your defense, but using this will make your attacks slow and weak.",
   "power.alpha.the_light.name": "Keep it a Secret",
@@ -24,9 +24,10 @@
   "power.alpha.kill_confirmed.description": "The death of others gives a taste of blood, this heals you but gives you a lust for blood which makes you hungry.",
   "power.alpha.easier_recipe.name": "Quick and Easy",
   "power.alpha.easier_recipe.description": "You developed a recipe which allows you to craft a crossbow easier and faster with less material cost.",
+
   // Shadow Assassin
   "origin.originsevolved.shadow_assassin.name": "Shadow Assassin",
-  "origin.originsevolved.shadow_assassin.description": "Due to your experience you've grown stronger and fiercer, but not only that, the blood curse has grown in your body.",
+  "origin.originsevolved.shadow_assassin.description": "The Teachings of the Shadows taught you so much, you already improved by just reading it. The magic put inside the book does not affect you but affects the book itself showing you what you really wanted to know. Now that your knowledge has increased the book fades and you smile as you grab your sword, ready for a new fight.",
   "power.originsevolved.toggle_assassin_attack_ev.name": "Known Enemies",
   "power.originsevolved.toggle_assassin_attack_ev.description": "Due to experience you found out that there where more enemies than you first thought.",
   "power.originsevolved.origin_mode_ev.name": "Magical Poison+",
@@ -42,14 +43,16 @@
   "power.originsevolved.higher_ev.name": "Agile Body",
   "power.originsevolved.higher_ev.description": "You can now jump higher than before.",
   "power.originsevolved.kill_confirmed_ev.name": "Deaths Smell+",
-  "power.originsevolved.kill_confirmed_ev.description": "Due to the strengthening of the curse you now heal more at a death, but your blood lust has also gotten stronger.",
+  "power.originsevolved.kill_confirmed_ev.description": "Without noticing the magic book strengthened your blood curse, the healing have become way stronger, but so has the lust of blood...",
   "power.originsevolved.weird_magic_ev.name": "Weird Magic",
   "power.originsevolved.weird_magic_ev.description": "The curse interferes with magic and completely messes up every magic effect entering your body.",
+
   // Hunter + Assassin.
   "power.alpha.different_ranged.name": "Differences",
   "power.alpha.different_ranged.description": "As assassin you only use crossbows, as hunter you only use a bow.",
   "power.originsevolved.different_ranged_ev.name": "Differences",
   "power.originsevolved.different_ranged_ev.description": "The shadow assassin can't use bows, the sharp hunter can't use crossbows.",
+
   // Hunter.
   "origin.alpha.hunter.name": "Hunter",
   "origin.alpha.hunter.description": "A human trained for the hunt, ready to take on any challenge that the world grants.",
@@ -71,18 +74,19 @@
   "power.alpha.fear_or_be_feared.description": "Frighten your prey by weakening them, however if you're weak you'll get scared yourself. Make sure the first hit is yours.",
   "power.alpha.elemental_opponnents.name": "Elemental Opponents",
   "power.alpha.elemental_opponnents.description": "You don't have any magic inside your blood, however, as a hunter you worship the Element of the Earth, but the elements of Ice and Fire are a danger to you. Fire makes you unable to use your bow and Ice slows you down.",
-  "power.alpha.to_heavy.name": "A heavy weapon",
+  "power.alpha.to_heavy.name": "A Heavy Weapon",
   "power.alpha.to_heavy.description": "An axe is not effective while hunting, it's to heavy.",
+
   // Sharp Hunter (Hunter Evolved).
   "origin.originsevolved.sharp_hunter.name": "Sharp Hunter",
-  "origin.originsevolved.sharp_hunter.description": "After the heavy training in the forest you improved your skills to another level, earths blessing may be with you.",
-  "power.originsevolved.toggle_bind_disable_ev.name": "Bow Training (Improved)",
+  "origin.originsevolved.sharp_hunter.description": "Through the Teachings of the Hunt the Element of Earth teaches you what you need to know, after becoming way stronger the book fades away leaving you prepared for the newest challenges on your path. May Earths blessing be with you.",
+  "power.originsevolved.toggle_bind_disable_ev.name": "Bow Training",
   "power.originsevolved.toggle_bind_disable_ev.description": "Your training improved your bow skills to another level, all your special arrows now have stronger effects.",
   "power.originsevolved.bind_mode_ev.name": "Forests Arrow+",
   "power.originsevolved.bind_mode_ev.description": "The leaves of this arrow are strengthened and bind your enemies even longer now.",
   "power.originsevolved.disable_mode_ev.name": "Venomous Arrow+",
   "power.originsevolved.disable_mode_ev.description": "One arrow, three effects. Your effects have been improved in strength and duration, with the strength of these effects your prey now also gets blinded.",
-  "power.originsevolved.toggle_hunt_sense_ev.name": "Different Methods (Improved)",
+  "power.originsevolved.toggle_hunt_sense_ev.name": "Different Methods",
   "power.originsevolved.toggle_hunt_sense_ev.description": "Your training improved your hunting skills to a higher level than first.",
   "power.originsevolved.hunt_mode_ev.name": "The Hunt+",
   "power.originsevolved.hunt_mode_ev.description": "You can watch your prey even better now.",
@@ -94,9 +98,10 @@
   "power.originsevolved.forests_blessing_ev.description": "Upon receiving the forests blessing after finishing your training, the forest cures you from your sickness after being with the forest for a while.",
   "power.originsevolved.one_with_the_forest_ev.name": "One with the Forest",
   "power.originsevolved.one_with_the_forest_ev.description": "The training in the forest gave you the ability to wander easier through the forests leaves than before, now the leaves are like air and stone at the same time.",
+
   // Villager.
   "origin.alpha.villager.name": "Villager",
-  "origin.alpha.villager.description": "Once a normal villager, but not anymore. Magic flows through your body now like it's always been there",
+  "origin.alpha.villager.description": "Once a normal villager, but not anymore. Magic flows through your body now like it's always been there.",
   "power.alpha.brew_cooldown1.name": "Raw Potions",
   "power.alpha.brew_cooldown1.description": "Magic flows through your blood and now affects potion ingredients.",
   "power.alpha.brew_cooldown2.name": "Raw Healing Potions",
@@ -111,9 +116,10 @@
   "power.alpha.illaged.description": "The raiders of your home, trained to take down weak and strong, they do way more damage to you.",
   "power.alpha.zombified.name": "Zombified",
   "power.alpha.zombified.description": "The undead makes your body shiver, the fear of them makes you lose focus and health.",
+
   // Enchanted Villager (Villager Evolved)
   "origin.originsevolved.enchanted_villager.name": "Enchanted Villager",
-  "origin.originsevolved.enchanted_villager.description": "The magical core inside you has increased a lot, your powers have strengthened, could it be that you have evolved?",
+  "origin.originsevolved.enchanted_villager.description": "The Ender Fused Star released an all mighty power and swiftly became part of you. As you feel your magic grow you can't help but wonder, when will the barrier between your combined powers break?",
   "power.originsevolved.brew_levitation_ev.name": "A small addition",
   "power.originsevolved.brew_levitation_ev.description": "Your magical ingredients have been increased by one, a strong yet dangerous addition, you might want to do something against the possible fall damage.",
   "power.originsevolved.ored_magic_attract_ev.name": "Magic Cores Attract",
@@ -122,6 +128,7 @@
   "power.originsevolved.ored_magic_substract_ev.description": "The magic cores give a lot of options, the cores of compacted ores are so strong that there magic can be twisted in certain ways, however only curses can do this.",
   "power.originsevolved.betrayal_ev.name": "Betrayal",
   "power.originsevolved.betrayal_ev.description": "Wandering villagers are seen as those who left their villages behind for the better of them, you see them as selfish people and do not want to interact with them.",
+
   // Strider.
   "origin.alpha.strider.name": "Strider",
   "origin.alpha.strider.description": "One of Nethers creatures, the only creature which is capable of using lava for their advantage.",
@@ -133,6 +140,8 @@
   "power.alpha.blood_of_fire.description": "Your genes are made out of lava, without fire you're nothing. When in fire or lava you gain massive buffs.",
   "power.alpha.lava_boost.name": "Lava Boost",
   "power.alpha.lava_boost.description": "You gain a massive speed boost in lava and you're able to see through it.",
+  "power.alpha.rideable.name": "Rideable",
+  "power.alpha.rideable.description": "People have the ability to ride on you, you however have the ability to throw them of if you need too by sneaking.",
   "power.alpha.warped_food.name": "Warped Food",
   "power.alpha.warped_food.description": "You're addicted to that small blue mushroom that spawns at some places in the nether.",
   "power.alpha.nether_spawn.name": "Home",
@@ -141,9 +150,10 @@
   "power.alpha.water_vulnerability_s.description": "Water hurts you, it almost freezes you.",
   "power.alpha.no_fire.name": "No Fire",
   "power.alpha.no_fire.description": "When you're not on fire in the nether you're fine, just a little cold, but when you're outside the nether you're freezing and you can barely move.",
+
   // Lava Walker (Strider Evolved).
   "origin.originsevolved.lava_walker.name": "Lava Walker",
-  "origin.originsevolved.lava_walker.description": "After receiving the magic of destruction your body evolves to a stronger version of yourself, you feel yourself become one with your past.",
+  "origin.originsevolved.lava_walker.description": "You never expected that you could fade by eating a tiny mushroom. But you did, after eating that mushroom the power inside you stronger so fast in so much force that it felt like you would be destroyed by it, now however you have woken up stronger and reborn.",
   "power.originsevolved.lava_charge_ev.name": "Lava Storage",
   "power.originsevolved.lava_charge_ev.description": "Your blood is now capable of storing lava inside your body, this way you remain hot even outside the nether.",
   "power.originsevolved.explode_ev.name": "Lava Leakage",
@@ -163,128 +173,167 @@
   // Arachnid.
   "origin.origins.arachnid.name": "Arachnid",
   "origin.origins.arachnid.description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
-  // Blood Tooth (Arachnid Evolved).
-  "origin.originsevolved.arachnid_evolved.name": "Blood Tooth",
-  "origin.originsevolved.arachnid_evolved.description": "",
-  "power.originsevolved.cobwebshot_ev.name": "Web Spit",
-  "power.originsevolved.cobwebshot_ev.description": "A compacted spit full of webs, spew it to bind and stop your prey.",
+
+  // Blood Arachnid (Arachnid Evolved).
+  "origin.originsevolved.arachnid_evolved.name": "Blood Arachnid",
+  "origin.originsevolved.arachnid_evolved.description": "Once you pressed the eye with dripping ender magic onto your eye you felt your body change and rapidly adapt to the end magic flowing through your body. The end magic however fastly leaving your body still leaves a strong power inside you.",
   "power.originsevolved.master_of_webs_ev.name": "Master of Webs+",
   "power.originsevolved.master_of_webs_ev.description": "The hunters territory, once the prey is in, they won't get out before you got them.",
   "power.originsevolved.summon_cave_spider_ev.name": "Together Strong",
-  "power.originsevolved.summon_cave_spider_ev.description": "In times of need someone your cluster to take down one strong enemy.",
+  "power.originsevolved.summon_cave_spider_ev.description": "In times of need summon your cluster to take down one strong enemy.",
   "power.originsevolved.prey_ev.name": "Diner is ready",
   "power.originsevolved.prey_ev.description": "Apply a little taste to the prey stuck in your web.",
+  "power.originsevolved.blood_anger_ev.name": "Blood Anger",
+  "power.originsevolved.blood_anger_ev.description": "You are not affected by blood from others, you are affected by blood from yourself. Once you start to bleed real bad and start to get below 5 health you become so angry that people become afraid of you and get weakness on hit.",
   "power.originsevolved.more_health_arach_ev.name": "Less fragile",
   "power.originsevolved.more_health_arach_ev.description": "Not only your extincts have grown better, so did your body, you're now able to withstand more damage than before.",
   "power.originsevolved.carnivore_ev.name": "Carnivore+",
   "power.originsevolved.carnivore_ev.description": "Your blood blessed with magic now allows you to eat food with magic effects.",
   "power.originsevolved.friend_or_foe_ev.name": "Friend or Foe",
-  "power.originsevolved.friend_or_foe_ev.description": "When the day starts your prey is free, but as the night closes in, they better run.",
+  "power.originsevolved.friend_or_foe_ev.description": "When the day starts your prey can roam free, but as the night closes in, they better hide.",
   // Avian
 
-  // Blood Feather (Avian Evolved)
-  "origin.originsevolved.avian_evolved.name": "Blood Feather",
-  "origin.originsevolved.avian_evolved.description": "After your blood began to warm up you feel your heart race and muscles strengthen, your visions begins to blur and all you see is red. Blood. More blood.",
+  // Blood Avian (Avian Evolved)
+  "origin.originsevolved.avian_evolved.name": "Blood Avian",
+  "origin.originsevolved.avian_evolved.description": "Once you eat the blessed magic flesh your body starts to change, your mind starts to waver and your blood starts to boil, you feel your heart race and your muscles strengthen, your visions starts to blur and all you see is red. Blood. More Blood.",
   "power.originsevolved.tailwind_ev.name": "Tailwind+",
   "power.originsevolved.tailwind_ev.description": "You're faster than before now that you've gained this much power.",
-  "power.originsevolved.gain_air_ev.name": "",
-  "power.originsevolved.gain_air_ev.description": "Your legs jump higher as ever, never have you roared the sky's like this.",
-  "power.originsevolved.absolute_velocity_ev.name": "",
-  "power.originsevolved.absolute_velocity_ev.description": "",
-  "power.originsevolved.muscle_power.name": "",
-  "power.originsevolved.muscle_power.description": "",
+  "power.originsevolved.gain_air_ev.name": "Strengthened Muscles",
+  "power.originsevolved.gain_air_ev.description": "Your legs jump higher than ever, never have you roared the sky's like this.",
+  "power.originsevolved.absolute_velocity_ev.name": "As fast as the Wind",
+  "power.originsevolved.absolute_velocity_ev.description": "You are able to combined your muscles and feathers together to become almost weightless yet able to run faster than any creature alive.",
+  "power.originsevolved.muscle_power.name": "The Sprint",
+  "power.originsevolved.muscle_power.description": "Run even faster than you already could, of course you can combine this with your already fast running speed.",
+  "power.originsevolved.drink_blood.name": "The taste of Blood",
+  "power.originsevolved.drink_blood.description": "You love drinking blood and whenever there's a chance you drink as much as you can giving you regeneration. There are however risks, you have a 20% chance to become blood poisoned and receive poisson instant of regeneration.",
+  "power.originsevolved.ingest_blood.name": "Blood Donation",
+  "power.originsevolved.ingest_blood.description": "Since you are a deadly killer now that eats and hunts everything in sight, you are never clean of blood. Your whole body is covered with it but especially your teeth and weapons. Creatures or people can have a 10% chance to get blood ingested and will receive nausea III.",
   "power.originsevolved.hurtfull_feathers_ev.name": "Bloody Feathers",
   "power.originsevolved.hurtfull_feathers_ev.description": "When you're hurt you bleed, not only do your feathers get under blood but they also get torn apart, this way they will malfunction when hurt to badly.",
   // Blazeborn
 
   // Blazeborn Evolved
   "origin.originsevolved.blazeborn_evolved.name": "Blazeborn Evolved",
-  "origin.originsevolved.blazeborn_evolved.description": "After killing the Beast of the End you feel a part of the End magic combine with your Nether magic. This power feels strong and powerful like pure fire, this power makes you evolve into an Evolved Blazeborn.",
+  "origin.originsevolved.blazeborn_evolved.description": "After you release the magic rod you feel the ender magic fight against the nether magic inside your blood, unable to win due to a missing source the ender magic admits defeat leaving a fragment of its power inside your body.",
   "power.originsevolved.inferno_ev.name": "Inferno",
   "power.originsevolved.inferno_ev.description": "Now that the evolution is completed, the nether magic inside you is awakened even more. Now set your enemies in fire and make them suffer, burn everything around you, this power is almost unstoppable.",
   "power.originsevolved.levitate_toggle_ev.name": "Levitation",
   "power.originsevolved.levitate_toggle_ev.description": "Fly like a blaze, well.. sort of..",
-  "power.originsevolved.cold_body_ev.name": "Cold Body",
-  "power.originsevolved.cold_body_ev.description": "You're a purer form of the blaze you once were, you need to keep your body warmth once in a while.",
-  "power.originsevolved.cold_body_effects_ev.name": "Cold Body test",
-  "power.originsevolved.cold_body_effects_ev.description": "test",
+  "power.originsevolved.weak_blazeborn_ev.name": "Different Atmospheres",
+  "power.originsevolved.weak_blazeborn_ev.description": "Not used to the different heat and the humid air you feel yourself weaker in other dimensions than the nether.",
+  "power.originsevolved.freezing_death_ev.name": "Freezing Blood",
+  "power.originsevolved.freezing_death_ev.description": "The atmosphere around you affects your body in your health, your blood however is vital for you and once it gets to cold you will freeze to death. Any snow or ice object inside your inventory will freeze and eventually kill you if not removed.",
+
+
   // Elytrian
 
   // Elytrian Evolved
   "origin.originsevolved.elytrian_evolved.name": "Elytrian Evolved",
-  "origin.originsevolved.elytrian_evolved.description": "Now that you've killed the Ender Dragon, you're the Master of the Skies. You feel a part of your wind magic awaken inside you, evolving you into an Evolved Elytrian",
+  "origin.originsevolved.elytrian_evolved.description": "The dragons magic combined with the elytra of the end gives you a tool stronger than you could ever imagine. No its not a tool for flying. This tools unseals a part of your magic seal giving you a small part from the powers your ancestors once had.",
   "power.originsevolved.medium_armor_ev.name": "Need For Mobility+",
   "power.originsevolved.medium_armor_ev.description": "You are able to wear slightly heavier armor now, with the value of iron and a diamond helmet.",
   "power.originsevolved.less_kinetic_damage_ev.name": "Less Kinetic Damage",
-  "power.originsevolved.less_kinetic_damage_ev.description": "You take less kinetic damage than you used to do, but it's still a danger..",
+  "power.originsevolved.less_kinetic_damage_ev.description": "You take less kinetic damage than you used to do, but it's still a danger...",
   "power.originsevolved.boost_ev.name": "Air Control",
-  "power.originsevolved.boost_ev.description": "You're now able to control the air currents around you and give yourself a boost while flying.",
+  "power.originsevolved.boost_ev.description": "Through the small part of your broken seal you feel air magic slightly flowing through your body. You're now able to control the air currents around you and give yourself a boost while flying.",
+  "power.originsevolved.aerial_combatant_ev.name": "Aerial Combatant+",
+  "power.originsevolved.aerial_combatant_ev.description": "Your experience with multiple battles has made you hone your skills even more and you are now a lot better at fighting in the air than before and do even more damage than you did before.",
+  "power.originsevolved.ground_combatant_ev.name": "Ground Combatant",
+  "power.originsevolved.ground_combatant_ev.description": "While honing your abilities to fight in the air, you forgot to hone your abilities to fight on the ground enough. You feel weaker than before and do less damage than you would have done before.",
+  "power.originsevolved.air_palm_ev.name": "Air Palm",
+  "power.originsevolved.air_palm_ev.description": "Not only can you boost yourself through the air, you can also boosts others, or even other things. You are able to launch an entity back on hit. Missing however does not result in any effect.",
+  "power.originsevolved.sky_vulnerability_ev.name": "Easy Target",
+  "power.originsevolved.sky_vulnerability_ev.description": "When flowing through the air you are way less flexible when walking or running, mobs and players can take advantage of this and shoot you when you are vulnerable making them deal more damage.",
+
+
+
   // Enderian
 
   // Enderian Evolved
   "origin.originsevolved.enderian_evolved.name": "Enderian Evolved",
-  "origin.originsevolved.enderian_evolved.description": "After killing the monster your ancestors had to hold in the end, you are awarded with their grace, you feel a power rising inside of you, evolving you into an Evolved Enderian.",
+  "origin.originsevolved.enderian_evolved.description": "Touching the eye magical eye already gave you the chills. Now trying to unleash the magic feels even worse, but then, the eye breaks, you feel a mysterious power run through your body and unleash the ender magic inside you making your power way stronger.",
+  "power.originsevolved.water_vulnerability_e_ev.name": "Hydrophobia",
+  "power.originsevolved.water_vulnerability_e_ev.description": "Now that you are starting to become more like an ender man water protection magic is way less effective, would there even be a way to withstand the water once your ender powers evolve once more?",
   "power.originsevolved.arrow_immunity_ev.name": "Arrow Immunity",
-  "power.originsevolved.arrow_immunity_ev.description": "Now that you've evolved into a stronger version of yourself, you're more like a real enderman. Now no arrows can hit you.",
-  "power.originsevolved.eyes_of_the_end_ev.name": "Ender Eyes",
-  "power.originsevolved.eyes_of_the_end_ev.description": "Your already good eyes got even better, even though you are now more like an enderman, even normal enderman can't see this good. You are now able to see your enemies from afar and see through the night.",
-  "power.originsevolved.no_water_ev.name": "No Water",
-  "power.originsevolved.no_water_ev.description": "No potions",
+  "power.originsevolved.arrow_immunity_ev.description": "Stronger than the ender man species you don't even have to master the skill of dodging arrows, your ender magic is able to reverse the arrows power making it look like the bounce of you. However this might not work on special magical projectile types.",
+  "power.originsevolved.glowtoggle_ev.name": "Ender Eyes",
+  "power.originsevolved.glowtoggle_ev.description": "The sight of the end is now yours, your ender magic lets you look into the void without hurting your eyes. You are now able to see entities from far away even if they are hidden.",
+
+
   // Feline
 
-  // Blood Claw (Feline Evolved)
-  "origin.originsevolved.feline_evolved.name": "Feline Evolved",
-  "origin.originsevolved.feline_evolved.description": "Now that you've killed that big bird, you take a bite of his flesh. The moment you taste the pure magic in the Ender Dragons flesh you feel the your inner beast awakening making you evolve.",
+  // Blood Feline (Feline Evolved)
+  "origin.originsevolved.feline_evolved.name": "Blood Feline",
+  "origin.originsevolved.feline_evolved.description": "The tasty fish looked ruin dressed in all that dragon spit, but after taking a bite you don't regret it for one second. So much power in your body at once. You feel your blood cook and look around you, and all you see is not creatures, no, all you see is food.",
   "power.originsevolved.freehand_ev.name": "Tiger Claws",
-  "power.originsevolved.freehand_ev.description": "After evolving your claws got sharper and tougher, you're now able to do a significant amount of damage with just your fists,",
+  "power.originsevolved.freehand_ev.description": "After evolving your claws got sharper and tougher, you're now able to do a significant amount of damage with just your fists.",
   "power.originsevolved.faster_attacks_ev.name": "Fast Attacks",
-  "power.originsevolved.faster_attacks_ev.description": "The magic from the Ender Dragon flesh makes you attack faster with only your claws.",
-  "power.originsevolved.pounce_ev.name": "Dragon's Rage",
-  "power.originsevolved.pounce_ev.description": "The magic from the Ender Dragon's flesh also gives you a taste of his hate, his rage. This makes you bloodthirsty, giving you bloodlust, with 4 stacks of bloodlust you become faster, gives you increased range and your next attack makes you jump towards your enemy doing more damage than usual. After that the blood you got heals you and your bloodlust will fade.",
-  "power.originsevolved.natural_enemy_ev.name": "Natural Enemy",
-  "power.originsevolved.natural_enemy_ev.description": "Wolves don't really like you.",
+  "power.originsevolved.faster_attacks_ev.description": "When only using your claws you are able to attack way faster.",
+  "power.originsevolved.pounce_ev.name": "Blood Rage",
+  "power.originsevolved.pounce_ev.description": "Your ability to suppress your blood lust is strong but once you start to hit creatures your blood lust raises until you can't suppress it anymore and jump into your enemy dealing high damage. After this you will return to normal.",
+  "power.originsevolved.no_wolves_ev.name": "Natural Enemy",
+  "power.originsevolved.no_wolves_ev.description": "Wolves don't really like you.",
+  "power.originsevolved.blood_sense_1_ev.name": "Blood Sensing",
+  "power.originsevolved.blood_sense_1_ev.description": "When focusing you are able to sense blood around you, you will be able to see the blood glowing around you if that a creature is close.",
+  "power.originsevolved.blood_sense_2_ev.name": "Strong Nose",
+  "power.originsevolved.blood_sense_2_ev.description": "Your smell for blood is so good, you are able to smell how much health a creature still has. Although it's still a wild guess you are always really close, this is your best ability in combat.",
+  "power.originsevolved.a_fired_fear_ev.name": "Fired Fear",
+  "power.originsevolved.a_fired_fear_ev.description": "You hate fire, when close to big amount of fire or lava you start to become slower.",
+  "power.originsevolved.on_fired_fear_ev.name": "On Fired Fear",
+  "power.originsevolved.on_fired_fear_ev.description": "As you hate fire you obviously don't want to be on fire. When on fire you become blinded for 5 seconds but once that happened you are able to withstand your fear for a long period.",
+
   // Merling
 
   // Merling Evolved
   "origin.originsevolved.merling_evolved.name": "Merling Evolved",
-  "origin.originsevolved.merling_evolved.description": "End magic rushed through your blood and stroke down into the locked pool of water magic deep inside you, you now feel the seal break a little and are able to use a little of the water magic your ancestors once used.",
+  "origin.originsevolved.merling_evolved.description": "Releasing the sealed magic in the pearl made the end magic flow into your body. The end magic flowed through your body and stroke down into the locked pool of water magic deep inside you, you now feel the seal break a little and are able to use a little of the water magic your ancestors once used.",
   "power.originsevolved.reinforced_scale_ev.name": "Tougher Scales",
-  "power.originsevolved.reinforced_scale_ev.description": "Not only your teeth got tougher, your scales also got a small upgrade. ",
-  "power.originsevolved.neptune_blessing_ev.name": "Reversal Water",
-  "power.originsevolved.neptune_blessing_ev.description": "Like before your system works quite different than the other, you're almost litterly reversed. Now that you've gained more experience from the outside world, you used the dragons magic to make the enchantments reverse, or give you buffs. If you use the Water Breathing enchantment you will gain dolphins grace. If you use an turtle helmet you will gain water breathing when above water.",
+  "power.originsevolved.reinforced_scale_ev.description": "Based on the environment your evolution triggered a defensive mechanism inside your body and gives you tougher scales.",
   "power.originsevolved.rain_summoning_ev.name": "Rain summoning",
-  "power.originsevolved.rain_summoning_ev.description": "The dragons magic has awakened the elemental power inside you, you're now able to summon water in the form of rain.",
+  "power.originsevolved.rain_summoning_ev.description": "Your magic being unsealed is a big step towards the future. You can however only trigger the rain to follow your aid, although a strong force this power is not as dangerous for others yet, but it can be used as great advantage.",
   "power.originsevolved.hot_places_ev.name": "Hot Places",
   "power.originsevolved.hot_places_ev.description": "There's no rain in places like the desert or the badlands, it's way to dry around there, because of this you're not able to use your rain summoning power.",
   "power.originsevolved.trident_ev.name": "The first trident",
-  "power.originsevolved.trident_ev.description": "Long ago the water elementals used the trident as their weapon which was the best choice according to their power. Now whenever you hit someone a trident in the form of water will fall down from the sky",
+  "power.originsevolved.trident_ev.description": "Long ago the water elementals used the trident as their weapon which was the best choice according to their power. You who now feels a strong connection towards the trident deals way more damage using it.",
   // Phantom
 
   // Phantom Evolved
   "origin.originsevolved.phantom_evolved.name": "Phantom Evolved",
-  "origin.originsevolved.phantom_evolved.description": "An interesting conquer, you slayed the greatest darkness you've ever seen, not even within yourself, but wait... Now you feel the darkness rising inside you, increasing your power.",
-  "power.originsevolved.phantom_flight_ev.name": "Dragon's Flight",
-  "power.originsevolved.phantom_flight_ev.description": "After you slayed the dragon the end magic gave you more darkness in your abilities, when phantomized you're able to fly through the skies.",
-  "power.originsevolved.sneaky_ev.name": "Jumpscare",
-  "power.originsevolved.sneaky_ev.description": "After some experiments and drinking all sorts of poisons, this end magic was the last ingredient to this magnificent power, you're able to make others feel your existence when you're phantomized, you can do this whenever you want to making others scared whenever doing this.",
+  "origin.originsevolved.phantom_evolved.description": "As the infected totem releases its magic, you start to feel dizzy and sick, your vision becomes black but then suddenly you feel awoken, you feel like you are born again. The ender power strengthening your barrier between Light and Dark becomes even stronger making you - as long as you are phantomized - capable of using these separate from each other.",
+  "power.originsevolved.phantom_flight_ev.name": "Lights Flight",
+  "power.originsevolved.phantom_flight_ev.description": "Capable of using the power of Light separate from Dark you can now fly while in phantomized mode. Attracted towards the Light your flight ability is faster in the end, on top of that your light aura is stronger in the end and you are capable of hiding you and your armor now.",
+  "power.originsevolved.sneaky_ev.name": "Shadows Bite",
+  "power.originsevolved.sneaky_ev.description": "The power of the Dark now separated from the Light forms a new strong power that can weaken the enemy. In a radius of 8 blocks anyone that gets scared by this power gets slowness, weakness and blindness. Being attracted to the Dark this power is stronger in the nether. In the nether these effects and the radius are greatly increased",
+  "power.originsevolved.backstab_ev.name": "Shadowed Strike",
+  "power.originsevolved.backstab_ev.description": "Strike from behind to deal a shadow strike and gain absorption.",
+  "power.originsevolved.more_translucent_ev.name": "Translucent+",
+  "power.originsevolved.more_translucent_ev.description": "Through all the changes the power of light had in your body you now are way more translucent then before.",
+  "power.originsevolved.heal_delay_ev.name": "Delayed Heal",
+  "power.originsevolved.heal_delay_ev.description": "The Dark power affecting your body has affected your ability to heal with 20%.",
+  "power.originsevolved.light_and_dark_ev.name": "The Light and the Dark",
+  "power.originsevolved.light_and_dark_ev.description": "Through the End and the Nether your body changes from its attraction towards Light and Dark. Light powers are now unusable in the Nether, Dark powers are now unusable in the End.",
   "power.originsevolved.hell_fire_ev.name": "Hell Fire",
-  "power.originsevolved.hell_fire_ev.description": "Fire 2x damage",
+  "power.originsevolved.hell_fire_ev.description": "Scared of the the dark side of your the power of Light increased your damage in fire by 50%.",
   // Shulk
 
   // Shulk Evolved
   "origin.originsevolved.shulk_evolved.name": "Shulk Evolved",
-  "origin.originsevolved.shulk_evolved.description": "As the warden of the end city and creature of the end, after killing the monster in your dimension you gain a little from his end magic which makes you evolve into a stronger version of yourself.",
+  "origin.originsevolved.shulk_evolved.description": "Through eating the magical chorus fruit you feel more alive than ever. Your blood is strengthened and your body feels lighter, but stronger. You feel like a newborn warrior.",
+  "power.originsevolved.natural_stone_ev.name": "Strong Arms+",
+  "power.originsevolved.natural_stone_ev.descriptions": "Now that you are stronger you can also mine ores that only need a stone pickaxe - as long as these ores are from the overworld - to be obtained.",
   "power.originsevolved.harder_shell_ev.name": "Natural Armor+",
-  "power.originsevolved.harder_shell_ev.description": "The end magic that you gained stabilizes your already strong armor, now more durability is added gibing you more armor.",
+  "power.originsevolved.harder_shell_ev.description": "The end magic that you gained stabilizes your already strong armor, now more durability is added giving you more protection.",
   "power.originsevolved.choruseat_ev.name": "Food of the End",
-  "power.originsevolved.choruseat_ev.description": "You're now able to eat chorusfruit, normally you will teleport away, but because you're now very heavy with your new armor, whenever you crouch and eat it you will receive a little health.",
+  "power.originsevolved.choruseat_ev.description": "You're now able to eat chorus fruit, normally you will teleport away, but because you're now very heavy with your new armor, whenever you crouch and eat it you will receive a little health.",
   "power.originsevolved.juggernaut_toggle_ev.name": "The Juggernaut",
   "power.originsevolved.juggernaut_toggle_ev.description": "Now that your armor is stabilized you're able to use it more efficiently, you can now retreat into your armor and use it as the ultimate defense. Your armor will protect you from much damage at the cost of your vision and your movement.",
+
   // Nether and Ender.
   "power.originsevolved.end_damage_ev.name": "",
   "power.originsevolved.end_damage_ev.description": "",
   "power.originsevolved.nether_damage_ev.name": "",
   "power.originsevolved.nether_damage_ev.description": "",
+
   // More Keybinds
   "key.origins.denary_active": "Active Power (3th)",
   "key.origins.nonary_active": "Active Power (4th)",
@@ -294,28 +343,31 @@
   "key.origins.quinary_active": "Active Power (8th)",
   "key.origins.quaternary_active": "Active Power (9th)",
   "key.origins.ternary_active": "Active Power (10th)",
+
   // Other.
   "layer.origins_needed.origin.name": "Origin",
 
   // Advancements
-  "advancements.evolutions.root.title": "A powerful accomplishment",
-  "advancements.evolutions.root.description": "Evolve to a stronger version of what you once were.",
+  "advancements.evolutions.root.title": "Survival of the Fittest",
+  "advancements.evolutions.root.description": "Welcome in the world of origins, a world where everyone has has a hunter and a prey.",
 
+  "advancements.evolutions.the_evolution.title": "",
+  "advancements.evolutions.the_evolution.description": "",
   // Mod Items
   "itemgroup.evolutions": "Evolutions",
 
-  "item.alphasorigins.arachnidevolution": ".",
-  "item.alphasorigins.avianevolution": ".",
-  "item.alphasorigins.blazebornevolution": ".",
-  "item.alphasorigins.elytrianevolution": ".",
-  "item.alphasorigins.enderianevolution": ".",
-  "item.alphasorigins.felineevolution": ".",
+  "item.alphasorigins.arachnidevolution": "Magic Dripping Eye",
+  "item.alphasorigins.avianevolution": "Magical Restored Meat",
+  "item.alphasorigins.blazebornevolution": "Ender Reinforced Rod",
+  "item.alphasorigins.elytrianevolution": "Dragon Boosted Elytra",
+  "item.alphasorigins.enderianevolution": "Magic Crying Eye",
+  "item.alphasorigins.felineevolution": "Ender Magic Feast",
   "item.alphasorigins.merlingevolution": "Suppressed Magic Pearl",
-  "item.alphasorigins.phantomevolution": ".",
-  "item.alphasorigins.shulkevolution": ".",
-  "item.alphasorigins.assassinevolution": ".",
-  "item.alphasorigins.hunterevolution": ".",
-  "item.alphasorigins.striderevolution": ".",
-  "item.alphasorigins.villagerevolution": "."
+  "item.alphasorigins.phantomevolution": "Ender Infected Totem",
+  "item.alphasorigins.shulkevolution": "Fruit of the End",
+  "item.alphasorigins.assassinevolution": "Teachings of the Shadows",
+  "item.alphasorigins.hunterevolution": "Teachings of the Hunt",
+  "item.alphasorigins.striderevolution": "Fried Ender Fungus",
+  "item.alphasorigins.villagerevolution": "Ender Fused Star"
 
 }

@@ -85,6 +85,11 @@
           },
           {
             "type": "origins:origin",
+            "origin": "origins:enderian",
+            "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
             "origin": "alpha:villager",
             "layer": "origins:origin"
           }

@@ -7,10 +7,25 @@
     "sprite_location": "origins:textures/gui/resource_bar.png",
     "bar_index": 7
   },
-  "cooldown": 100,
+  "cooldown": 400,
   "entity_action": {
     "type": "origins:and",
     "actions": [
+      {
+        "type": "origins:area_of_effect",
+        "radius": 5,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:set_on_fire",
+            "duration": 5
+          }
+        }
+      },
+      {
+        "type": "origins:set_on_fire",
+        "duration": 20
+      },
       {
         "type": "origins:execute_command",
         "command": "execute at @p as @e[distance=..5,type=!player] run particle minecraft:smoke ~ ~1 ~ .4 .4 .4 0 1000 normal"

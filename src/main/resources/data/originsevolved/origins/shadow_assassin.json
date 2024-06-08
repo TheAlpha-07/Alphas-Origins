@@ -14,15 +14,12 @@
     "alpha:easier_recipe",
     "originsevolved:kill_confirmed_ev",
     "originsevolved:weird_magic_ev",
-    "originsevolved:different_ranged_ev",
-    "alpha:reset",
-    "alpha:scale_reset"
+    "originsevolved:different_ranged_ev"
 
   ],
   "icon": {
     "item": "minecraft:iron_sword"
   },
-  "order": 2,
-  "impact": 1,
+  "impact": 2,
   "unchoosable": true
 }

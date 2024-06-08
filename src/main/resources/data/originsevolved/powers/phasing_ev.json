@@ -1,5 +1,6 @@
 {
   "type": "origins:phasing",
+  "hidden": true,
   "blacklist": true,
   "render_type": "blindness",
   "view_distance": 20,

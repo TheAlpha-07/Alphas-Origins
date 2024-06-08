@@ -158,6 +158,11 @@
             "type": "origins:origin",
             "origin": "originsevolved:merling_evolved",
             "layer": "origins:origin"
+          },
+          {
+            "type": "origins:origin",
+            "origin": "originsevolved:enderian_evolved",
+            "layer": "origins:origin"
           }
         ]
       },

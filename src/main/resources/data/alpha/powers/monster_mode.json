@@ -2,13 +2,6 @@
   "type": "origins:action_over_time",
   "interval": 200,
 
-  "badges": [
-    {
-      "sprite": "origins:textures/gui/badge/info.png",
-      "text": "The ultimate poison against the undead."
-    }
-  ],
-
   "rising_action": {
     "type": "origins:and",
     "actions": [

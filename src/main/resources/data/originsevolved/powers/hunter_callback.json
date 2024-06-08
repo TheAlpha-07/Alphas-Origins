@@ -1,0 +1,10 @@
+{
+  "type": "origins:action_on_callback",
+  "hidden": true,
+  "entity_action_respawned": {
+    "type": "origins:change_resource",
+    "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+    "change": 0,
+    "operation": "add"
+  }
+}

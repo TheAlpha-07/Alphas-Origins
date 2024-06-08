@@ -9,7 +9,6 @@
         "origins:hunger_over_time",
         "origins:fragile",
         "origins:phantomize_overlay",
-        "alpha:scale_reset",
         "alpha:evolutions"
 
     ],
@@ -21,7 +20,7 @@
     "name": "Phantom",
     "description": "As half-human and half-phantom offspring, these creatures can switch between a Phantom and a normal form.",
     "upgrades": {
-        "condition": "alphaorigins:evolutions/the_evolution",
+        "condition": "alphasorigins:evolutions/the_evolution",
         "origin": "originsevolved:phantom_evolved",
         "announcement": "Evolving... Evolved!"
     }

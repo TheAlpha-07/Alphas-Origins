@@ -17,7 +17,6 @@
     "alpha:village_spawn",
     "alpha:illaged",
     "alpha:zombified",
-    "alpha:reset",
     "alpha:evolutions"
   ],
   "icon": {
@@ -30,6 +29,5 @@
       "announcement": "You have evolved"
     }
   ],
-  "order": 2,
   "impact": 1
 }

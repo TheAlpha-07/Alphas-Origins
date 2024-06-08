@@ -14,6 +14,8 @@
     "originsevolved:lava_boost_ev",
     "originsevolved:lava_vision_ev",
     "originsevolved:lava_speed_ev",
+    "alpha:rideable",
+    "alpha:throw_off",
     "alpha:warped_food",
     "alpha:nether_spawn",
     "originsevolved:no_fire_ev",
@@ -21,20 +23,11 @@
     "originsevolved:water_vulnerability_s_ev",
     "alpha:damage_from_snowballs",
     "originsevolved:cold_biomes_ev",
-    "originsevolved:end_damage_ev",
-    "alpha:reset",
-    "alpha:scale_reset"
+    "originsevolved:end_damage_ev"
   ],
   "icon": {
     "item": "minecraft:warped_fungus"
   },
-  "upgrades":
-  {
-    "condition": "minecraft:end/kill_dragon",
-    "origin": "",
-    "announcement": "You have evolved"
-  },
   "unchoosable": true,
-  "order": 2,
   "impact": 2
 }

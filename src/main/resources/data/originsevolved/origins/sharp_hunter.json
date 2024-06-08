@@ -16,14 +16,11 @@
     "alpha:elemental_opponnents",
     "alpha:to_heavy",
     "originsevolved:different_ranged_ev",
-    "alpha:callback_delete",
-    "alpha:reset",
-    "alpha:scale_reset"
+    "alpha:callback_delete"
   ],
   "icon": {
     "item": "minecraft:bow"
   },
-  "order": 2,
   "impact": 1,
   "unchoosable": true
 }
