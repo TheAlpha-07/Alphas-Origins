@@ -335,14 +335,14 @@
   "power.originsevolved.nether_damage_ev.description": "",
 
   // More Keybinds
-  "key.origins.denary_active": "Active Power (Denary)",
-  "key.origins.nonary_active": "Active Power (Nonary)",
-  "key.origins.octonary_active": "Active Power (Octonary)",
-  "key.origins.septenary_active": "Active Power (Septenary)",
-  "key.origins.senary_active": "Active Power (Senary)",
-  "key.origins.quinary_active": "Active Power (Quinary)",
-  "key.origins.quaternary_active": "Active Power (Quaternary)",
-  "key.origins.ternary_active": "Active Power (Ternary)",
+  "key.origins.denary_active": "Active Power (Denary, 3th)",
+  "key.origins.nonary_active": "Active Power (Nonary, 4th)",
+  "key.origins.octonary_active": "Active Power (Octonary, 5th)",
+  "key.origins.septenary_active": "Active Power (Septenary, 6th)",
+  "key.origins.senary_active": "Active Power (Senary, 7th)",
+  "key.origins.quinary_active": "Active Power (Quinary, 8th)",
+  "key.origins.quaternary_active": "Active Power (Quaternary, 9th)",
+  "key.origins.ternary_active": "Active Power (Ternary, 10th)",
 
   // Other.
   "layer.origins_needed.origin.name": "Origin",
@@ -351,8 +351,8 @@
   "advancements.evolutions.root.title": "Survival of the Fittest",
   "advancements.evolutions.root.description": "Welcome in the world of origins, a world where everyone has has a hunter and a prey.",
 
-  "advancements.evolutions.the_evolution.title": "",
-  "advancements.evolutions.the_evolution.description": "",
+  "advancements.evolutions.the_evolution.title": "The Evolution",
+  "advancements.evolutions.the_evolution.description": "Evolve successfully.",
   // Mod Items
   "itemgroup.evolutions": "Evolutions",
 
@@ -368,6 +368,9 @@
   "item.alphasorigins.assassinevolution": "Teachings of the Shadows",
   "item.alphasorigins.hunterevolution": "Teachings of the Hunt",
   "item.alphasorigins.striderevolution": "Fried Ender Fungus",
-  "item.alphasorigins.villagerevolution": "Ender Fused Star"
+  "item.alphasorigins.villagerevolution": "Ender Fused Star",
+
+  // Effects
+  "effect.alphasorigins.strangled": "Strangled"
 
 }

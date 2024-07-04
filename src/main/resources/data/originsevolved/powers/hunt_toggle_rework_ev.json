@@ -26,10 +26,14 @@
             "compare_to": 1
           },
           "action": {
-            "type": "origins:change_resource",
-            "resource": "*:*_bind_disable_resource",
-            "change": 2,
-            "operation": "set"
+            "type": "origins:delay",
+            "ticks": 200,
+            "action": {
+              "type": "origins:change_resource",
+              "resource": "*:*_bind_disable_resource",
+              "change": 2,
+              "operation": "set"
+            }
           }
         },
         {
@@ -40,10 +44,14 @@
             "compare_to": 2
           },
           "action": {
-            "type": "origins:change_resource",
-            "resource": "*:*_bind_disable_resource",
-            "change": 1,
-            "operation": "set"
+            "type": "origins:delay",
+            "ticks": 200,
+            "action": {
+              "type": "origins:change_resource",
+              "resource": "*:*_bind_disable_resource",
+              "change": 1,
+              "operation": "set"
+            }
           }
         }
       ]
@@ -74,10 +82,14 @@
             "compare_to": 1
           },
           "action": {
-            "type": "origins:change_resource",
-            "resource": "*:*_hunt_sense_resource",
-            "change": 2,
-            "operation": "set"
+            "type": "origins:delay",
+            "ticks": 200,
+            "action": {
+              "type": "origins:change_resource",
+              "resource": "*:*_hunt_sense_resource",
+              "change": 2,
+              "operation": "set"
+            }
           }
         },
         {
@@ -88,10 +100,14 @@
             "compare_to": 2
           },
           "action": {
-            "type": "origins:change_resource",
-            "resource": "*:*_hunt_sense_resource",
-            "change": 1,
-            "operation": "set"
+            "type": "origins:delay",
+            "ticks": 200,
+            "action": {
+              "type": "origins:change_resource",
+              "resource": "*:*_hunt_sense_resource",
+              "change": 1,
+              "operation": "set"
+            }
           }
         }
       ]

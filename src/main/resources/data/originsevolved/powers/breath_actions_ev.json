@@ -1,0 +1,140 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+
+  "hit": {
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "originsevolved:breath_resource_ev",
+      "change": 1,
+      "operation": "add"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "originsevolved:breath_resource_ev",
+          "comparison": "<",
+          "compare_to": 7
+        }
+      ]
+    },
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">=",
+      "compare_to": 3
+    }
+  },
+  "interval": {
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "change": -1,
+            "operation": "add"
+          },
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "comparison": "==",
+            "compare_to": 2
+          }
+        },
+        {
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "change": -1,
+            "operation": "add"
+          },
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "comparison": "==",
+            "compare_to": 3
+          }
+        },
+        {
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "change": -1,
+            "operation": "add"
+          },
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "comparison": "==",
+            "compare_to": 4
+          }
+        },
+        {
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "change": -1,
+            "operation": "add"
+          },
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "comparison": "==",
+            "compare_to": 5
+          }
+        },
+        {
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "change": -1,
+            "operation": "add"
+          },
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "comparison": "==",
+            "compare_to": 6
+          }
+        },
+        {
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "change": -1,
+            "operation": "add"
+          },
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:breath_resource_ev",
+            "comparison": "==",
+            "compare_to": 7
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "originsevolved:breath_resource_ev",
+          "comparison": "<=",
+          "compare_to": 7
+        },
+        {
+          "type": "origins:resource",
+          "resource": "originsevolved:breath_resource_ev",
+          "comparison": ">",
+          "compare_to": 1
+        }
+      ]
+    }
+  }
+}

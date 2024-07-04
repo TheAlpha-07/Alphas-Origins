@@ -1,6 +1,8 @@
 {
   "powers": [
     "origins:shulker_inventory",
+    "originsevolved:impregnable_shields_ev",
+    "originsevolved:impregnable_defense_ev",
     "originsevolved:harder_shell_ev",
     "originsevolved:strong_arms_ev",
     "origins:strong_arms_break_speed",

@@ -1,0 +1,91 @@
+{
+  "type": "origins:multiple",
+
+  "actions": {
+    "type": "origins:active_self",
+    "key": {
+      "key": "key.origins.nonary_active",
+      "continuous": true
+    },
+    "cooldown": 60,
+    "entity_action": {
+      "type": "origins:raycast",
+      "distance": 50,
+      "block": false,
+      "entity": true,
+      "shape_type": "collider",
+      "fluid_handling": "any",
+      "bientity_action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:damage",
+              "amount": 1,
+              "damage_type": "minecraft:drown"
+            }
+          },
+          {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:apply_effect",
+              "effects": [
+                {
+                  "effect": "minecraft:slowness",
+                  "duration": 100
+                },
+                {
+                  "effect": "minecraft:weakness",
+                  "duration": 100
+                }
+              ]
+            }
+          },
+          {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:clear_effect",
+              "effect": "minecraft:water_breathing"
+            }
+          },
+          {
+            "type": "origins:actor_action",
+            "action": {
+              "type": "origins:gain_air",
+              "value": 100
+            }
+          },
+          {
+            "type": "origins:actor_action",
+            "action": {
+              "type": "origins:change_resource",
+              "resource": "originsevolved:water_mana_ev_resource",
+              "change": -1200,
+              "operation": "add"
+            }
+          }
+        ]
+      },
+
+      "before_action": {
+        "type": "origins:swing_hand"
+      },
+      "command_along_ray": "particle minecraft:bubble",
+      "command_step": 1,
+      "command_along_ray_only_on_hit": true
+    },
+
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "originsevolved:water_mana_ev_resource",
+          "compare_to": 1200,
+          "comparison": ">="
+        }
+      ]
+    }
+  }
+}

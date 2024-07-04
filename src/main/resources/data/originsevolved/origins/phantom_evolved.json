@@ -1,15 +1,16 @@
 {
   "powers": [
     "origins:phantomize",
-    "originsevolved:phantom_flight_ev",
     "originsevolved:sneaky_ev",
     "originsevolved:backstab_ev",
+    "originsevolved:weakened_opponent_ev",
     "originsevolved:light_and_dark_ev",
     "originsevolved:more_translucent_ev",
     "originsevolved:phasing_ev",
     "originsevolved:invisibility_ev",
+    "originsevolved:phantom_speed_ev",
     "origins:burn_in_daylight",
-    "origins:hunger_over_time",
+    "originsevolved:hunger_over_time_ev",
     "originsevolved:heal_delay_ev",
     "origins:phantomize_overlay",
     "origins:fragile",

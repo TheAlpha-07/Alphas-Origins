@@ -3,11 +3,6 @@
   "key": {
     "key": "key.origins.secondary_active"
   },
-  "hud_render": {
-    "sprite_location": "origins:textures/gui/resource_bar.png",
-    "bar_index": 1
-  },
-  "cooldown": 52800,
   "entity_action": {
     "type": "origins:and",
     "actions": [
@@ -18,7 +13,20 @@
       {
         "type": "origins:execute_command",
         "command": "/weather rain"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "originsevolved:water_mana_ev_resource",
+        "change": -24000,
+        "operation": "add"
       }
     ]
+  },
+
+  "condition": {
+    "type": "origins:resource",
+    "resource": "originsevolved:water_mana_ev_resource",
+    "compare_to": 24000,
+    "comparison": "=="
   }
 }

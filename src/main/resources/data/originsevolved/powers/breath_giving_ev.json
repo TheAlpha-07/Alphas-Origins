@@ -1,0 +1,48 @@
+{
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.origins.denary_active"
+  },
+
+  "cooldown": 400,
+
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:area_of_effect",
+        "radius": 15,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:water_breathing",
+              "duration": 3600
+            }
+          }
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:water_breathing",
+          "duration": 2400
+        }
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "originsevolved:water_mana_ev_resource",
+        "change": -6000,
+        "operation": "add"
+      }
+    ]
+  },
+
+  "condition": {
+    "type": "origins:resource",
+    "resource": "originsevolved:water_mana_ev_resource",
+    "compare_to": 6000,
+    "comparison": ">="
+  }
+}

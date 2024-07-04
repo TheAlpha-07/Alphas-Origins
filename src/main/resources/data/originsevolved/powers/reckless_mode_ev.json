@@ -1,86 +1,110 @@
 {
-  "type": "origins:action_over_time",
-  "interval": 200,
+  "type": "origins:multiple",
+  "more_hearts": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": -2,
+      "operation": "addition"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:assassin_toggle_rework_ev_reckless_defensive_resource",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
 
-  "rising_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:less_hearts",
-        "source": "originsevolved:shadow_assassin"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "originsevolved:damage_dash_ev",
-        "source": "originsevolved:shadow_assassin"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:no_shield",
-        "source": "originsevolved:shadow_assassin"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:attack_speed",
-        "source": "originsevolved:shadow_assassin"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "originsevolved:more_kinetic_assassin_ev",
-        "source": "originsevolved:shadow_assassin"
-      },
-      {
-        "type": "origins:change_resource",
-        "resource": "originsevolved:assassin_indicator_ev",
-        "change": 1
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Reckless Mode ACTIVATED\", \"color\": \"green\"}",
-        "condition": {
-          "type": "origins:resource",
-          "resource": "originsevolved:assassin_indicator_ev",
-          "comparison": "==",
-          "compare_to": 1
+  "no_shield": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "alpha:shields"
+      }
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:assassin_toggle_rework_ev_reckless_defensive_resource",
+      "comparison": "==",
+      "compare_to": 1
+    },
+    "name": "No Shield"
+  },
+
+  "attack_speed": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": 0.5,
+      "operation": "addition"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:assassin_toggle_rework_ev_reckless_defensive_resource",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+
+  "more_kinetic": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "value": 0.3,
+      "operation": "multiply_base"
+    },
+    "damage_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:name",
+          "name": "fall"
+        },
+        {
+          "type": "origins:name",
+          "name": "flyIntoWall"
         }
+      ]
+    },
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:resource",
+        "resource": "originsevolved:assassin_toggle_rework_ev_reckless_defensive_resource",
+        "comparison": "==",
+        "compare_to": 1
       }
-    ]
+    }
   },
-  "falling_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:less_hearts",
-        "source": "originsevolved:shadow_assassin"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "originsevolved:damage_dash_ev",
-        "source": "originsevolved:shadow_assassin"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:no_shield",
-        "source": "originsevolved:shadow_assassin"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:attack_speed",
-        "source": "originsevolved:shadow_assassin"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "originsevolved:more_kinetic_assassin_ev",
-        "source": "originsevolved:shadow_assassin"
-      }
-    ]
-  },
-  "condition": {
-    "type": "origins:resource",
-    "resource": "originsevolved:assassin_toggle_rework_ev_reckless_defensive_resource",
-    "comparison": "==",
-    "compare_to": 1
+
+  "message": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "rising_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "originsevolved:assassin_indicator_ev",
+          "change": 1
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tellraw @s {\"text\": \"Reckless Mode ACTIVATED\", \"color\": \"green\"}",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:assassin_indicator_ev",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:assassin_toggle_rework_ev_reckless_defensive_resource",
+      "comparison": "==",
+      "compare_to": 1
+    }
   }
 }

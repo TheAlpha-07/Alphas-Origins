@@ -6,7 +6,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "item": "minecraft:crossbow"
+        "tag": "alpha:crossbows"
       }
     },
     "condition": {
@@ -20,7 +20,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "item": "minecraft:bow"
+        "tag": "alpha:bows"
       }
     },
     "condition": {

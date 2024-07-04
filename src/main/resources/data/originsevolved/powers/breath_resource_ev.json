@@ -1,0 +1,12 @@
+{
+  "hidden": true,
+  "type": "origins:resource",
+  "min": 0,
+  "max": 7,
+  "start_value": 1,
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "alphasorigins:textures/gui/community/wolf/resource_points_001.png",
+    "bar_index": 0
+  }
+}

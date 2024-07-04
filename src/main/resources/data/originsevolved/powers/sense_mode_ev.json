@@ -1,66 +1,140 @@
 {
-  "type": "origins:action_over_time",
-  "interval": 200,
+  "type": "origins:multiple",
+  "hidden": true,
 
-  "rising_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:sense_nightvis",
-        "source": "originsevolved:sharp_hunter"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "originsevolved:sense_entity_glow_ev",
-        "source": "originsevolved:sharp_hunter"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:sense_weakness",
-        "source": "originsevolved:sharp_hunter"
-      },
-      {
-        "type": "origins:change_resource",
-        "resource": "originsevolved:hunter_indicator_ev",
-        "change": 4
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Sensing Mode ACTIVATED\", \"color\": \"green\"}",
-        "condition": {
+  "toggle": {
+    "type": "origins:toggle",
+    "key": {
+      "continuous": false,
+      "key": "key.origins.denary_active"
+    },
+    "active_by_default": true,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:hunt_toggle_rework_ev_hunt_sense_resource",
+      "comparison": "==",
+      "compare_to": 2
+    }
+  },
+
+  "glow": {
+    "type": "origins:entity_glow",
+
+    "bientity_condition": {
+      "type": "origins:distance",
+      "comparison": "<=",
+      "compare_to": 20
+    },
+
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "*:*_toggle"
+        },
+        {
           "type": "origins:resource",
-          "resource": "originsevolved:hunter_indicator_ev",
+          "resource": "originsevolved:hunt_toggle_rework_ev_hunt_sense_resource",
           "comparison": "==",
-          "compare_to": 4
+          "compare_to": 2
         }
-      }
-    ]
+      ]
+    },
+
+    "use_teams": false,
+    "red": 1.0,
+    "green": 0.0,
+    "blue": 0.0
   },
-  "falling_action": {
-    "type": "origins:and",
-    "actions": [
+
+  "nightvision": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect":
       {
-        "type": "origins:revoke_power",
-        "power": "alpha:sense_nightvis",
-        "source": "originsevolved:sharp_hunter"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "originsevolved:sense_entity_glow_ev",
-        "source": "originsevolved:sharp_hunter"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:sense_weakness",
-        "source": "alpha:hunter"
+        "effect": "minecraft:night_vision",
+        "duration": 240
       }
-    ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:hunt_toggle_rework_ev_hunt_sense_resource",
+      "comparison": "==",
+      "compare_to": 2
+    },
+    "interval": 20
   },
-  "condition": {
-    "type": "origins:resource",
-    "resource": "originsevolved:hunt_toggle_rework_ev_hunt_sense_resource",
-    "comparison": "==",
-    "compare_to": 2
+
+  "high_sensitive_skin": {
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+      "operation": "multiply_total_multiplicative",
+      "value": 0.3
+    },
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:resource",
+        "resource": "originsevolved:hunt_toggle_rework_ev_hunt_sense_resource",
+        "comparison": "==",
+        "compare_to": 2
+      }
+    }
+  },
+
+  "blinding_damage": {
+    "type": "origins:action_when_damage_taken",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:blindness",
+        "duration": 60,
+        "amplifier": 0
+      }
+    },
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">=",
+      "compare_to": 6
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:hunt_toggle_rework_ev_hunt_sense_resource",
+      "comparison": "==",
+      "compare_to": 2
+    }
+  },
+
+  "message": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "rising_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "originsevolved:hunter_indicator_ev",
+          "change": 4
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tellraw @s {\"text\": \"Sensing Mode ACTIVATED\", \"color\": \"red\"}",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "originsevolved:hunter_indicator_ev",
+            "comparison": "==",
+            "compare_to": 4
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:hunt_toggle_rework_ev_hunt_sense_resource",
+      "comparison": "==",
+      "compare_to": 2
+    }
   }
 }

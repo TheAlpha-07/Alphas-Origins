@@ -4,11 +4,12 @@
   "key": {
     "key": "key.sneak"
   },
-  "action": {
+  "entity_action": {
     "type": "origins:passenger_action",
     "bientity_action": {
-      "type": "origins:mount",
-      "inverted": true
+      "type": "origins:add_velocity",
+      "space": "local",
+      "z": 2
     },
     "recursive": true
   }

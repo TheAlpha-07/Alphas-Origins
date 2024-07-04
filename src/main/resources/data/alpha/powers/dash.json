@@ -1,7 +1,7 @@
 {
   "type": "origins:active_self",
   "cooldown": 300,
-
+  "hidden": true,
   "key": {
     "key": "key.origins.denary_active"
   },
@@ -29,6 +29,17 @@
   },
 
   "condition": {
-    "type": "origins:on_block"
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:on_block"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "alpha:assassin_toggle_rework_reckless_defensive_resource",
+        "comparison": "==",
+        "compare_to": 1
+      }
+    ]
   }
 }

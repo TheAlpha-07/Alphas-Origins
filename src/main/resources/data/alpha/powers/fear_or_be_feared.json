@@ -2,19 +2,25 @@
   "type": "origins:multiple",
 
   "actor": {
-    "type": "origins:self_action_when_hit",
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "minecraft:slowness",
-        "amplifier": 0,
-        "duration": 400
+    "type": "origins:action_when_hit",
+    "bientity_action": {
+      "type": "origins:actor_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "amplifier": 0,
+          "duration": 400
+        }
       }
     },
-    "damage_condition": {
-      "type": "origins:amount",
-      "comparison": "<=",
-      "compare_to": 6.0
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:health",
+        "comparison": "<=",
+        "compare_to": 6.0
+      }
     }
   },
 

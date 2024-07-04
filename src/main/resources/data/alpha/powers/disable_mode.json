@@ -1,45 +1,79 @@
 {
-  "type": "origins:action_over_time",
-  "interval": 200,
-  "rising_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:venomous_arrow",
-        "source": "alpha:hunter"
-      },
-      {
-        "type": "origins:change_resource",
-        "resource": "alpha:hunter_indicator",
-        "change": 2
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Disable Mode ACTIVATED\", \"color\": \"red\"}",
-        "condition": {
-          "type": "origins:resource",
+  "type": "origins:multiple",
+
+  "arrow": {
+    "type": "origins:action_on_hit",
+    "cooldown": 300,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+      "bar_index": 21
+    },
+
+    "damage_condition": {
+      "type": "origins:projectile",
+      "projectile": "minecraft:arrow"
+    },
+
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effects": [
+          {
+            "effect": "minecraft:poison",
+            "duration": 100
+          },
+          {
+            "effect": "minecraft:blindness",
+            "duration": 60
+          },
+          {
+            "effect": "minecraft:nausea",
+            "duration": 200
+          }
+        ]
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:resource",
+        "resource": "alpha:hunt_toggle_rework_bind_disable_resource",
+        "comparison": "==",
+        "compare_to": 2
+      }
+    }
+  },
+
+  "message": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "rising_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
           "resource": "alpha:hunter_indicator",
-          "comparison": "==",
-          "compare_to": 2
+          "change": 2
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tellraw @s {\"text\": \"Disable Mode ACTIVATED\", \"color\": \"green\"}",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "alpha:hunter_indicator",
+            "comparison": "==",
+            "compare_to": 2
+          }
         }
-      }
-    ]
-  },
-  "falling_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:venomous_arrow",
-        "source": "alpha:hunter"
-      }
-    ]
-  },
-  "condition": {
-    "type": "origins:resource",
-    "resource": "alpha:hunt_toggle_rework_bind_disable_resource",
-    "comparison": "==",
-    "compare_to": 2
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "alpha:hunt_toggle_rework_bind_disable_resource",
+      "comparison": "==",
+      "compare_to": 2
+    }
   }
 }

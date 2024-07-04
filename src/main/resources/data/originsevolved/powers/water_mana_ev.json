@@ -1,0 +1,24 @@
+{
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 24000,
+    "start_value": 0,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/resource_bar.png",
+      "bar_index": 1
+    }
+  },
+
+  "mana_replenish": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": 1,
+      "operation": "add"
+    }
+  }
+}

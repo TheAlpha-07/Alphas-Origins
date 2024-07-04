@@ -1,45 +1,68 @@
 {
-  "type": "origins:action_over_time",
-  "interval": 200,
-  "rising_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:binding_arrow",
-        "source": "alpha:hunter"
-      },
-      {
-        "type": "origins:change_resource",
-        "resource": "alpha:hunter_indicator",
-        "change": 1
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Binding Mode ACTIVATED\", \"color\": \"red\"}",
-        "condition": {
-          "type": "origins:resource",
-          "resource": "alpha:hunter_indicator",
-          "comparison": "==",
-          "compare_to": 1
+  "type": "origins:multiple",
+
+  "arrow": {
+    "type": "origins:action_on_hit",
+    "cooldown": 300,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 22
+    },
+    "damage_condition": {
+      "type": "origins:projectile",
+      "projectile": "minecraft:arrow"
+    },
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "amplifier": 20,
+          "duration": 100
         }
       }
-    ]
-  },
-  "falling_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:binding_arrow",
-        "source": "alpha:hunter"
+    },
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:resource",
+        "resource": "alpha:hunt_toggle_rework_bind_disable_resource",
+        "comparison": "==",
+        "compare_to": 1
       }
-    ]
+    }
   },
-  "condition": {
-    "type": "origins:resource",
-    "resource": "alpha:hunt_toggle_rework_bind_disable_resource",
-    "comparison": "==",
-    "compare_to": 1
+
+  "message": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "rising_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "alpha:hunter_indicator",
+          "change": 1
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tellraw @s {\"text\": \"Binding Mode ACTIVATED\", \"color\": \"green\"}",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "alpha:hunter_indicator",
+            "comparison": "==",
+            "compare_to": 1
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "alpha:hunt_toggle_rework_bind_disable_resource",
+      "comparison": "==",
+      "compare_to": 1
+    }
   }
 }

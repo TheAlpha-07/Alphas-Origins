@@ -6,6 +6,7 @@
   "mixins": [
   ],
   "client": [
+    "AdaptableOriginsMixin",
     "ApoliClientAccessor"
   ],
   "injectors": {

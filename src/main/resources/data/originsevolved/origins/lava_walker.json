@@ -9,6 +9,7 @@
     "originsevolved:lava_charge_resource_ev",
     "originsevolved:charge_resource_proces_ev",
     "originsevolved:charge_exhaust_ev",
+    "originsevolved:charged_projectiles_ev",
     "originsevolved:explode_ev",
     "originsevolved:weak_body_ev",
     "originsevolved:lava_boost_ev",

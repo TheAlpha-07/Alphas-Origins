@@ -1,0 +1,31 @@
+{
+  "type": "origins:multiple",
+
+  "hit": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "multiply_base_multiplicative",
+      "value": 0.2
+    }
+  },
+
+  "lose": {
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:revoke_power",
+      "power": "originsevolved:rush_assassination_ev",
+      "source": "originsevolved:shadow_assassin"
+    }
+  },
+
+  "no_resource": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "originsevolved:targets_ev",
+      "change": 0,
+      "operation": "set"
+    }
+  }
+}

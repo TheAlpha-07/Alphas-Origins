@@ -24,16 +24,7 @@
       "type": "origins:ingredient",
       "ingredient": [
         {
-          "item": "minecraft:iron_axe"
-        },
-        {
-          "item": "minecraft:golden_axe"
-        },
-        {
-          "item": "minecraft:diamond_axe"
-        },
-        {
-          "item": "minecraft:netherite_axe"
+          "tag": "alpha:heavy_axes"
         }
       ]
     }

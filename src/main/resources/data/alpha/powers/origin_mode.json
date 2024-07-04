@@ -1,46 +1,153 @@
 {
-  "type": "origins:action_over_time",
-  "interval": 200,
-
-  "rising_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:known_origins",
-        "source": "alpha:assassin"
-      },
-      {
-        "type": "origins:change_resource",
-        "resource": "alpha:assassin_indicator",
-        "change": 3
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Origin Mode ACTIVATED\", \"color\": \"red\"}",
-        "condition": {
-          "type": "origins:resource",
-          "resource": "alpha:assassin_indicator",
-          "comparison": "==",
-          "compare_to": 3
+  "type": "origins:multiple",
+  "undeaddmg": {
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:zombie"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:skeleton"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:creeper"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:husk"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:stray"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:spider"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:cave_spider"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:drowned"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:slime"
+        },
+        {
+          "type": "origins:entity_type",
+          "entity_type": "minecraft:phantom"
         }
+      ]
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": -5.0
+    },
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:resource",
+        "resource": "alpha:assassin_toggle_rework_assassin_attack_resource",
+        "comparison": "==",
+        "compare_to": 1
       }
-    ]
+    }
   },
-  "falling_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:known_origins",
-        "source": "alpha:assassin"
+
+  "origindmg": {
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:origin",
+          "origin": "origins:arachnid",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:avian",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:elytrian",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:feline",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:merling",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:enderian",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "alpha:villager",
+          "layer": "origins:origin"
+        }
+      ]
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 5.0
+    },
+
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:resource",
+        "resource": "alpha:assassin_toggle_rework_assassin_attack_resource",
+        "comparison": "==",
+        "compare_to": 1
       }
-    ]
+    }
   },
-  "condition": {
-    "type": "origins:resource",
-    "resource": "alpha:assassin_toggle_rework_assassin_attack_resource",
-    "comparison": "==",
-    "compare_to": 1
+
+  "message": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "rising_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "alpha:assassin_indicator",
+          "change": 3
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tellraw @s {\"text\": \"Origin Mode ACTIVATED\", \"color\": \"red\"}",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "alpha:assassin_indicator",
+            "comparison": "==",
+            "compare_to": 3
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "alpha:assassin_toggle_rework_assassin_attack_resource",
+      "comparison": "==",
+      "compare_to": 1
+    }
   }
 }

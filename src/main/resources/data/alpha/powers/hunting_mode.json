@@ -1,56 +1,151 @@
 {
-  "type": "origins:action_over_time",
-  "interval": 200,
+  "type": "origins:multiple",
+  "hidden": true,
 
-  "rising_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:hunt_camouflage",
-        "source": "alpha:hunter"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:hunter_entity_glow",
-        "source": "alpha:hunter"
-      },
-      {
-        "type": "origins:change_resource",
-        "resource": "alpha:hunter_indicator",
-        "change": 3
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Hunting Mode ACTIVATED\", \"color\": \"green\"}",
-        "condition": {
-          "type": "origins:resource",
-          "resource": "alpha:hunter_indicator",
-          "comparison": "==",
-          "compare_to": 3
+  "toggle": {
+    "type": "origins:toggle",
+    "key": {
+      "continuous": false,
+      "key": "key.origins.denary_active"
+    },
+    "active_by_default": true,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+
+  "glow": {
+    "type": "origins:entity_glow",
+    "bientity_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:can_see",
+          "shape_type": "visual",
+          "fluid_handling": "any"
+        },
+        {
+          "type": "origins:distance",
+          "comparison": "<=",
+          "compare_to": 75
+        },
+        {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:invisible",
+            "inverted": true
+          }
         }
-      }
-    ]
+      ]
+    },
+
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "*:*_toggle"
+        },
+        {
+          "type": "origins:resource",
+          "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+          "comparison": "==",
+          "compare_to": 1
+        }
+      ]
+    },
+
+    "use_teams": false,
+    "red": 0.0,
+    "green": 0.0,
+    "blue": 1.0
   },
-  "falling_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:hunt_camouflage",
-        "source": "alpha:hunter"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:hunter_entity_glow",
-        "source": "alpha:hunter"
-      }
-    ]
+
+  "invisible1": {
+    "type": "origins:invisibility",
+    "render_armor": false,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:resource",
+          "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+          "comparison": "==",
+          "compare_to": 1
+        }
+      ]
+    }
   },
-  "condition": {
-    "type": "origins:resource",
-    "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
-    "comparison": "==",
-    "compare_to": 1
+
+  "invisible2": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:invisibility",
+          "duration": 60,
+          "show_particles": true
+        },
+        {
+          "effect": "minecraft:slowness",
+          "duration": 60,
+          "show_particles": true,
+          "amplifier": 0
+        }
+      ]
+    },
+    "interval": 10,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:resource",
+          "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+          "comparison": "==",
+          "compare_to": 1
+        }
+      ]
+    }
+  },
+
+  "message": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "rising_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "alpha:hunter_indicator",
+          "change": 3
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tellraw @s {\"text\": \"Hunting Mode ACTIVATED\", \"color\": \"red\"}",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "alpha:hunter_indicator",
+            "comparison": "==",
+            "compare_to": 3
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "alpha:hunt_toggle_rework_hunt_sense_resource",
+      "comparison": "==",
+      "compare_to": 1
+    }
   }
 }

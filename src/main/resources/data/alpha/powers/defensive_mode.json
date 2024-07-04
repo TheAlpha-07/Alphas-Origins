@@ -1,77 +1,153 @@
 {
-  "type": "origins:action_over_time",
-  "interval": 200,
+  "type": "origins:multiple",
+  "more_hearts": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2,
+      "operation": "addition"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "alpha:assassin_toggle_rework_reckless_defensive_resource",
+      "comparison": "==",
+      "compare_to": 2
+    }
+  },
 
-  "rising_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:more_hearts",
-        "source": "alpha:assassin"
+  "resistance_sneak": {
+    "type": "origins:action_over_time",
+    "interval": 5,
+
+    "entity_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:exposed_to_sun"
       },
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:resistance_sneak",
-        "source": "alpha:assassin"
+
+      "if_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+          {
+            "effect": "minecraft:resistance",
+            "duration": 40,
+            "amplifier": 0
+          },
+          {
+            "effect": "minecraft:slowness",
+            "duration": 40,
+            "amplifier": 2
+          }
+        ]
       },
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:smash_knockback",
-        "source": "alpha:assassin"
-      },
-      {
-        "type": "origins:grant_power",
-        "power": "alpha:attack_slow",
-        "source": "alpha:assassin"
-      },
-      {
-        "type": "origins:change_resource",
-        "resource": "alpha:assassin_indicator",
-        "change": 2
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "tellraw @s {\"text\": \"Defensive Mode ACTIVATED\", \"color\": \"green\"}",
-        "condition": {
+
+      "else_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+          {
+            "effect": "minecraft:resistance",
+            "duration": 40,
+            "amplifier": 0
+          },
+          {
+            "effect": "minecraft:slowness",
+            "duration": 40,
+            "amplifier": 1
+          }
+        ]
+      }
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
           "type": "origins:resource",
-          "resource": "alpha:assassin_indicator",
+          "resource": "alpha:assassin_toggle_rework_reckless_defensive_resource",
           "comparison": "==",
           "compare_to": 2
         }
-      }
-    ]
-  },
-  "falling_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:more_hearts",
-        "source": "alpha:assassin"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:resistance_sneak",
-        "source": "alpha:assassin"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:smash_knockback",
-        "source": "alpha:assassin"
-      },
-      {
-        "type": "origins:revoke_power",
-        "power": "alpha:attack_slow",
-        "source": "alpha:assassin"
-      }
-    ]
+      ]
+    }
   },
 
-  "condition": {
-    "type": "origins:resource",
-    "resource": "alpha:assassin_toggle_rework_reckless_defensive_resource",
-    "comparison": "==",
-    "compare_to": 2
+  "attack_slow": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_speed",
+      "value": -0.5,
+      "operation": "addition"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "alpha:assassin_toggle_rework_reckless_defensive_resource",
+      "comparison": "==",
+      "compare_to": 2
+    }
+  },
+
+  "smash_knockback": {
+    "type": "origins:action_on_hit",
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 0
+    },
+
+    "bientity_action": {
+      "type": "origins:add_velocity",
+      "z": 0.5
+    },
+    "bientity_condition": {
+      "type": "origins:actor_condition",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:sneaking"
+          },
+          {
+            "type": "origins:resource",
+            "resource": "alpha:assassin_toggle_rework_reckless_defensive_resource",
+            "comparison": "==",
+            "compare_to": 2
+          }
+        ]
+      }
+    }
+  },
+
+  "message": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "rising_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:change_resource",
+          "resource": "alpha:assassin_indicator",
+          "change": 1
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "tellraw @s {\"text\": \"Defensive Mode ACTIVATED\", \"color\": \"green\"}",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "alpha:assassin_indicator",
+            "comparison": "==",
+            "compare_to": 2
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "alpha:assassin_toggle_rework_reckless_defensive_resource",
+      "comparison": "==",
+      "compare_to": 2
+    }
   }
 }

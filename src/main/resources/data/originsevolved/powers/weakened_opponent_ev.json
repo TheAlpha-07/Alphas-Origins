@@ -1,0 +1,198 @@
+{
+  "type": "origins:action_on_hit",
+  "bientity_action": {
+    "type": "origins:if_else_list",
+    "actions": [
+      {
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:actor_action",
+              "action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                  "effect": "minecraft:speed",
+                  "duration": 200
+                }
+              }
+            },
+            {
+              "type": "origins:target_action",
+              "action": {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:slowness"
+              }
+            }
+          ]
+        },
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:target_condition",
+              "condition": {
+                "type": "origins:status_effect",
+                "effect": "minecraft:slowness"
+              }
+            },
+            {
+              "type": "origins:actor_condition",
+              "condition": {
+                "type": "origins:dimension",
+                "dimension": "minecraft:the_nether",
+                "inverted": true
+              }
+            },
+            {
+              "type": "origins:actor_condition",
+              "condition": {
+                "type": "origins:dimension",
+                "dimension": "minecraft:the_end",
+                "inverted": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:actor_action",
+              "action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                  "effect": "minecraft:strength",
+                  "duration": 200
+                }
+              }
+            },
+            {
+              "type": "origins:target_action",
+              "action": {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:weakness"
+              }
+            }
+          ]
+        },
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:target_condition",
+              "condition": {
+                "type": "origins:status_effect",
+                "effect": "minecraft:weakness"
+              }
+            },
+            {
+              "type": "origins:actor_condition",
+              "condition": {
+                "type": "origins:dimension",
+                "dimension": "minecraft:the_nether",
+                "inverted": true
+              }
+            },
+            {
+              "type": "origins:actor_condition",
+              "condition": {
+                "type": "origins:dimension",
+                "dimension": "minecraft:the_end",
+                "inverted": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:actor_action",
+            "action": {
+              "type": "origins:apply_effect",
+              "effect": {
+                "effect": "minecraft:speed",
+                "duration": 300
+              }
+            }
+          },
+          {
+            "type": "origins:target_action",
+            "action": {
+              "type": "origins:clear_effect",
+              "effect": "minecraft:slowness"
+            }
+          }
+        ]
+      },
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:target_condition",
+              "condition": {
+                "type": "origins:status_effect",
+                "effect": "minecraft:weakness"
+              }
+            },
+            {
+              "type": "origins:actor_condition",
+              "condition": {
+                "type": "origins:dimension",
+                "dimension": "minecraft:the_end"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "action": {
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:actor_action",
+              "action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                  "effect": "minecraft:strength",
+                  "duration": 300
+                }
+              }
+            },
+            {
+              "type": "origins:target_action",
+              "action": {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:weakness"
+              }
+            }
+          ]
+        },
+        "condition": {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:target_condition",
+              "condition": {
+                "type": "origins:status_effect",
+                "effect": "minecraft:weakness"
+              }
+            },
+            {
+              "type": "origins:actor_condition",
+              "condition": {
+                "type": "origins:dimension",
+                "dimension": "minecraft:the_end"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

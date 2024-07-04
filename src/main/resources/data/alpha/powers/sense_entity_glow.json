@@ -1,13 +1,31 @@
 {
-  "type": "origins:entity_glow",
-
-  "bientity_condition": {
-    "type": "origins:distance",
-    "comparison": "<=",
-    "compare_to": 15
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "key": {
+      "continuous": false,
+      "key": "key.origins.denary_active"
+    },
+    "active_by_default": true
   },
-  "use_teams": false,
-  "red": 1.0,
-  "green": 0.0,
-  "blue": 0.0
+
+  "glow": {
+    "type": "origins:entity_glow",
+
+    "bientity_condition": {
+      "type": "origins:distance",
+      "comparison": "<=",
+      "compare_to": 15
+    },
+
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    },
+
+    "use_teams": false,
+    "red": 1.0,
+    "green": 0.0,
+    "blue": 0.0
+  }
 }

@@ -1,0 +1,59 @@
+{
+  "type": "origins:action_on_hit",
+  "bientity_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:actor_condition",
+        "condition": {
+          "type": "origins:on_fire"
+        }
+      },
+      {
+        "type": "origins:target_condition",
+        "condition": {
+          "type": "origins:on_fire"
+        }
+      }
+    ]
+  },
+  "bientity_action": {
+    "type": "origins:if_else_list",
+    "actions": [
+      {
+        "condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:fire_resistance"
+          }
+        },
+        "action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:clear_effect",
+            "effect": "minecraft:fire_resistance"
+          }
+        }
+      },
+      {
+        "condition": {
+          "type": "origins:target_condition",
+          "condition": {
+            "type": "origins:status_effect",
+            "effect": "minecraft:fire_resistance",
+            "inverted": true
+          }
+        },
+        "action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:damage",
+            "amount": 6,
+            "damage_type": "minecraft:on_fire"
+          }
+        }
+      }
+    ]
+  }
+}
