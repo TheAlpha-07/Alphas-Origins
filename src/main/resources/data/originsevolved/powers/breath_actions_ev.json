@@ -2,6 +2,14 @@
   "type": "origins:multiple",
   "hidden": true,
 
+  "dragon_breath_invulnerability": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "dragonBreath"
+    }
+  },
+
   "hit": {
     "type": "origins:self_action_on_hit",
     "entity_action": {

@@ -1,7 +1,6 @@
 {
   "powers": [
-    "originsevolved:inferno_ev",
-    "originsevolved:fireball_ev",
+    "originsevolved:inferno_rework_ev",
     "originsevolved:levitate_ev",
     "originsevolved:levitate_toggle_ev",
     "origins:fire_immunity",
