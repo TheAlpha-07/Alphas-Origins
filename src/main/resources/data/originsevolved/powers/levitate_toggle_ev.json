@@ -1,9 +1,62 @@
 {
-  "type": "origins:toggle",
-  "hidden": false,
-  "key": {
-    "continuous": false,
-    "key": "primary"
+  "type": "origins:multiple",
+
+  "resource": {
+    "type": "origins:resource",
+    "min": 1,
+    "max": 15,
+    "start_value": 15,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+      "bar_index": 3
+    }
   },
-  "active_by_default": false
+
+  "lose_resource": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": -1,
+      "operation": "add"
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+
+  "gain_resource": {
+    "type": "origins:action_over_time",
+    "interval": 40,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_resource",
+      "change": 1,
+      "operation": "add"
+    },
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle",
+      "inverted": true
+    }
+  },
+
+  "toggle": {
+    "type": "origins:toggle",
+    "hidden": false,
+    "retain_state": false,
+    "active_by_default": false,
+    "key": {
+      "continuous": false,
+      "key": "primary"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_resource",
+      "comparison": ">",
+      "compare_to": 1
+    }
+  }
 }

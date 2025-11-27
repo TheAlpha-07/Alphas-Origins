@@ -22,7 +22,7 @@
             "type": "origins:target_action",
             "action": {
               "type": "origins:damage",
-              "amount": 1,
+              "amount": 2,
               "damage_type": "minecraft:drown"
             }
           },
@@ -47,13 +47,6 @@
             "action": {
               "type": "origins:clear_effect",
               "effect": "minecraft:water_breathing"
-            }
-          },
-          {
-            "type": "origins:actor_action",
-            "action": {
-              "type": "origins:gain_air",
-              "value": 100
             }
           },
           {

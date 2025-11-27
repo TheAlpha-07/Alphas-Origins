@@ -117,7 +117,8 @@
               "type": "origins:apply_effect",
               "effect": {
                 "effect": "minecraft:speed",
-                "duration": 300
+                "duration": 200,
+                "amplifier": 1
               }
             }
           },
@@ -160,7 +161,8 @@
                 "type": "origins:apply_effect",
                 "effect": {
                   "effect": "minecraft:strength",
-                  "duration": 300
+                  "duration": 200,
+                  "amplifier": 1
                 }
               }
             },

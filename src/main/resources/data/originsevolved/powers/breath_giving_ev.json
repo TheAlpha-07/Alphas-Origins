@@ -1,18 +1,21 @@
 {
   "type": "origins:active_self",
   "key": {
-    "key": "key.origins.denary_active"
+    "key": "key.origins.denary_active",
+    "continuous": true
   },
-
   "cooldown": 400,
-
   "entity_action": {
-    "type": "origins:and",
-    "actions": [
-      {
-        "type": "origins:area_of_effect",
-        "radius": 15,
-        "bientity_action": {
+    "type": "origins:raycast",
+    "distance": 50,
+    "block": false,
+    "entity": true,
+    "shape_type": "collider",
+    "fluid_handling": "any",
+    "bientity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
           "type": "origins:target_action",
           "action": {
             "type": "origins:apply_effect",
@@ -21,28 +24,36 @@
               "duration": 3600
             }
           }
+        },
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "originsevolved:water_mana_ev_resource",
+            "change": -6000,
+            "operation": "add"
+          }
         }
-      },
-      {
-        "type": "origins:apply_effect",
-        "effect": {
-          "effect": "minecraft:water_breathing",
-          "duration": 2400
-        }
-      },
-      {
-        "type": "origins:change_resource",
-        "resource": "originsevolved:water_mana_ev_resource",
-        "change": -6000,
-        "operation": "add"
-      }
-    ]
+      ]
+    },
+
+    "before_action": {
+      "type": "origins:swing_hand"
+    },
+    "command_along_ray": "particle minecraft:bubble",
+    "command_step": 1,
+    "command_along_ray_only_on_hit": true
   },
 
   "condition": {
-    "type": "origins:resource",
-    "resource": "originsevolved:water_mana_ev_resource",
-    "compare_to": 6000,
-    "comparison": ">="
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "originsevolved:water_mana_ev_resource",
+        "compare_to": 6000,
+        "comparison": ">="
+      }
+    ]
   }
 }

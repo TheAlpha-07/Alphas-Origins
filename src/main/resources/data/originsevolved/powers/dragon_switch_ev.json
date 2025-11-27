@@ -1,0 +1,98 @@
+{
+  "type": "origins:active_self",
+  "key": "key.origins.denary_active",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": 15,
+    "block": true,
+    "entity": true,
+    "shape_type": "visual",
+    "fluid_handling": "any",
+    "bientity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:execute_command",
+            "command": "summon minecraft:armor_stand ~ ~ ~ {Invisible:true,Invulnerable:true,DisabledSlots:63,Tags:[\"EnderianTeleport\"]}"
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:delay",
+            "ticks": 2,
+            "action": {
+              "type": "origins:execute_command",
+              "command": "data modify entity @e[type=minecraft:armor_stand,tag=EnderianTeleport,limit=1] Rotation set from entity @e[distance=0] Rotation"
+            }
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:delay",
+            "ticks": 4,
+            "action": {
+              "type": "origins:execute_command",
+              "command": "teleport @e[distance=0] @e[tag=PlayerTeleport,limit=1]"
+            }
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:delay",
+            "ticks": 6,
+            "action": {
+              "type": "origins:execute_command",
+              "command": "kill @e[tag=EnderianTeleport]"
+            }
+          }
+        },
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:execute_command",
+            "command": "summon minecraft:armor_stand ~ ~ ~ {Invisible:true,Invulnerable:true,DisabledSlots:63,Tags:[\"PlayerTeleport\"]}"
+          }
+        },
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:delay",
+            "ticks": 2,
+            "action": {
+              "type": "origins:execute_command",
+              "command": "data modify entity @e[type=minecraft:armor_stand,tag=PlayerTeleport,limit=1] Rotation set from entity @s Rotation"
+            }
+          }
+        },
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:delay",
+            "ticks": 4,
+            "action": {
+              "type": "origins:execute_command",
+              "command": "teleport @s @e[tag=EnderianTeleport,limit=1]"
+            }
+          }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:delay",
+            "ticks": 6,
+            "action": {
+              "type": "origins:execute_command",
+              "command": "kill @e[tag=PlayerTeleport]"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "cooldown": 0
+}

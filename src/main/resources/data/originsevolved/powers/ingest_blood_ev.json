@@ -6,11 +6,18 @@
       "type": "origins:chance",
       "action": {
         "type": "origins:apply_effect",
-        "effect":{
-          "effect": "minecraft:nausea",
-          "amplifier": 2,
-          "duration": 300
-        }
+        "effects":[
+          {
+            "effect": "minecraft:nausea",
+            "amplifier": 2,
+            "duration": 150
+          },
+          {
+            "effect": "minecraft:poison",
+            "amplifier": 0,
+            "duration": 150
+          }
+        ]
       },
       "chance": 0.10
     }

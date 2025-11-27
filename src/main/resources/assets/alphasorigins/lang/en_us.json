@@ -174,11 +174,11 @@
   "origin.origins.arachnid.name": "Arachnid",
   "origin.origins.arachnid.description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
 
-  // Blood Arachnid (Arachnid Evolved).
-  "origin.originsevolved.arachnid_evolved.name": "Blood Arachnid",
-  "origin.originsevolved.arachnid_evolved.description": "Once you pressed the eye with dripping ender magic onto your eye you felt your body change and rapidly adapt to the end magic flowing through your body. The end magic however fastly leaving your body still leaves a strong power inside you.",
+  // Arachnid of Blood (Arachnid Evolved).
+  "origin.originsevolved.arachnid_evolved.name": "Arachnid of Blood",
+  "origin.originsevolved.arachnid_evolved.description": "Once you pressed the eye with dripping ender magic onto your eye, you felt your body change and rapidly adapt to the end magic flowing through your body. The end magic fastly left your body, while leaving a stronger power inside you.",
   "power.originsevolved.master_of_webs_ev.name": "Master of Webs+",
-  "power.originsevolved.master_of_webs_ev.description": "The hunters territory, once the prey is in, they won't get out before you got them.",
+  "power.originsevolved.master_of_webs_ev.description": "The hunters territory, once the prey is in, they won't get out before you take them out.",
   "power.originsevolved.summon_cave_spider_ev.name": "Together Strong",
   "power.originsevolved.summon_cave_spider_ev.description": "In times of need summon your cluster to take down one strong enemy.",
   "power.originsevolved.prey_ev.name": "Diner is ready",
@@ -193,32 +193,36 @@
   "power.originsevolved.friend_or_foe_ev.description": "When the day starts your prey can roam free, but as the night closes in, they better hide.",
   // Avian
 
-  // Blood Avian (Avian Evolved)
-  "origin.originsevolved.avian_evolved.name": "Blood Avian",
+  // Avian of BLood (Avian Evolved)
+  "origin.originsevolved.avian_evolved.name": "Avian of Blood",
   "origin.originsevolved.avian_evolved.description": "Once you eat the blessed magic flesh your body starts to change, your mind starts to waver and your blood starts to boil, you feel your heart race and your muscles strengthen, your visions starts to blur and all you see is red. Blood. More Blood.",
   "power.originsevolved.tailwind_ev.name": "Tailwind+",
   "power.originsevolved.tailwind_ev.description": "You're faster than before now that you've gained this much power.",
   "power.originsevolved.gain_air_ev.name": "Strengthened Muscles",
   "power.originsevolved.gain_air_ev.description": "Your legs jump higher than ever, never have you roared the sky's like this.",
   "power.originsevolved.absolute_velocity_ev.name": "As fast as the Wind",
-  "power.originsevolved.absolute_velocity_ev.description": "You are able to combined your muscles and feathers together to become almost weightless yet able to run faster than any creature alive.",
+  "power.originsevolved.absolute_velocity_ev.description": "You are able to combine your muscles and feathers together to become almost weightless yet able to run faster than any creature alive.",
   "power.originsevolved.muscle_power.name": "The Sprint",
   "power.originsevolved.muscle_power.description": "Run even faster than you already could, of course you can combine this with your already fast running speed.",
-  "power.originsevolved.drink_blood.name": "The taste of Blood",
-  "power.originsevolved.drink_blood.description": "You love drinking blood and whenever there's a chance you drink as much as you can giving you regeneration. There are however risks, you have a 20% chance to become blood poisoned and receive poisson instant of regeneration.",
-  "power.originsevolved.ingest_blood.name": "Blood Donation",
-  "power.originsevolved.ingest_blood.description": "Since you are a deadly killer now that eats and hunts everything in sight, you are never clean of blood. Your whole body is covered with it but especially your teeth and weapons. Creatures or people can have a 10% chance to get blood ingested and will receive nausea III.",
+  "power.originsevolved.drink_blood_ev.name": "The taste of Blood",
+  "power.originsevolved.drink_blood_ev.description": "You love drinking blood and whenever there's a chance you drink as much as you can giving you regeneration. There are however risks, you have a 20% chance to become blood poisoned and receive poisson instant of regeneration.",
+  "power.originsevolved.ingest_blood_ev.name": "Blood Donation",
+  "power.originsevolved.ingest_blood_ev.description": "Since you are a deadly killer now that eats and hunts everything in sight, you are never clean of blood. Your whole body is covered with it but especially your teeth and weapons. Creatures or people can have a 10% chance to get blood ingested and will receive nausea III.",
   "power.originsevolved.hurtfull_feathers_ev.name": "Bloody Feathers",
-  "power.originsevolved.hurtfull_feathers_ev.description": "When you're hurt you bleed, not only do your feathers get under blood but they also get torn apart, this way they will malfunction when hurt to badly.",
+  "power.originsevolved.hurtfull_feathers_ev.description": "When you're hurt you bleed, not only do your feathers get bloody, but they also get torn apart, this way they will malfunction when hurt to badly.",
   // Blazeborn
 
-  // Blazeborn Evolved
-  "origin.originsevolved.blazeborn_evolved.name": "Blazeborn Evolved",
-  "origin.originsevolved.blazeborn_evolved.description": "After you release the magic rod you feel the ender magic fight against the nether magic inside your blood, unable to win due to a missing source the ender magic admits defeat leaving a fragment of its power inside your body.",
+  // Fiery Blazeborn
+  "origin.originsevolved.blazeborn_evolved.name": "Fiery Blazeborn",
+  "origin.originsevolved.blazeborn_evolved.description": "After you release the magic rod you feel the ender magic fight against the nether magic inside your blood, unable to win due to a missing source, the ender magic admits defeat leaving a fragment of its power inside your body.",
+  "power.originsevolved.inferno_rework_ev.name": "Inferno",
+  "power.originsevolved.inferno_rework_ev.description": "Now that the evolution is completed, the nether magic inside you is awakened even more. Now set your enemies in fire and make them suffer, burn everything around you, this power is almost unstoppable.",
   "power.originsevolved.inferno_ev.name": "Inferno",
   "power.originsevolved.inferno_ev.description": "Now that the evolution is completed, the nether magic inside you is awakened even more. Now set your enemies in fire and make them suffer, burn everything around you, this power is almost unstoppable.",
   "power.originsevolved.levitate_toggle_ev.name": "Levitation",
   "power.originsevolved.levitate_toggle_ev.description": "Fly like a blaze, well.. sort of..",
+  "power.originsevolved.inflicting_fire_ev.name": "Inflicting Fire",
+  "power.originsevolved.inflicting_fire_ev.description": "Your fire is so strong, it even burns the soul. Any enemy already on fire will feel your wrath, and any protection they have against your powers will be burned out.",
   "power.originsevolved.weak_blazeborn_ev.name": "Different Atmospheres",
   "power.originsevolved.weak_blazeborn_ev.description": "Not used to the different heat and the humid air you feel yourself weaker in other dimensions than the nether.",
   "power.originsevolved.freezing_death_ev.name": "Freezing Blood",
@@ -228,22 +232,24 @@
   // Elytrian
 
   // Elytrian Evolved
-  "origin.originsevolved.elytrian_evolved.name": "Elytrian Evolved",
-  "origin.originsevolved.elytrian_evolved.description": "The dragons magic combined with the elytra of the end gives you a tool stronger than you could ever imagine. No its not a tool for flying. This tools unseals a part of your magic seal giving you a small part from the powers your ancestors once had.",
+  "origin.originsevolved.elytrian_evolved.name": "Elytrian of the Winds",
+  "origin.originsevolved.elytrian_evolved.description": "The dragons magic combined with the elytra of the end gives you a tool stronger than you could ever imagine. No its not a tool for flying. This tools unseals a part of your magic seal, giving you a small amount of power that your ancestors once had.",
+  "power.originsevolved.launch_into_air_ev.name": "Wind Jump",
+  "power.originsevolved.launch_into_air_ev.description": "You feel the current around you like feel the breeze of the wind. With that feeling you're able to slightly modify them. Use your air control to change those currents and boost yourself up in the air.",
   "power.originsevolved.medium_armor_ev.name": "Need For Mobility+",
   "power.originsevolved.medium_armor_ev.description": "You are able to wear slightly heavier armor now, with the value of iron and a diamond helmet.",
   "power.originsevolved.less_kinetic_damage_ev.name": "Less Kinetic Damage",
   "power.originsevolved.less_kinetic_damage_ev.description": "You take less kinetic damage than you used to do, but it's still a danger...",
-  "power.originsevolved.boost_ev.name": "Air Control",
-  "power.originsevolved.boost_ev.description": "Through the small part of your broken seal you feel air magic slightly flowing through your body. You're now able to control the air currents around you and give yourself a boost while flying.",
+  "power.originsevolved.boost_ev.name": "Wind Boost",
+  "power.originsevolved.boost_ev.description": "You're able to use currents to boost yourself up, why not boost yourself forwards?",
   "power.originsevolved.aerial_combatant_ev.name": "Aerial Combatant+",
-  "power.originsevolved.aerial_combatant_ev.description": "Your experience with multiple battles has made you hone your skills even more and you are now a lot better at fighting in the air than before and do even more damage than you did before.",
+  "power.originsevolved.aerial_combatant_ev.description": "Your experience from fighting in the air gave you a lot of experience, your precision while flying has improved a lot and you're not able to hit weak spots of the enemy, delaing more damage.",
   "power.originsevolved.ground_combatant_ev.name": "Ground Combatant",
-  "power.originsevolved.ground_combatant_ev.description": "While honing your abilities to fight in the air, you forgot to hone your abilities to fight on the ground enough. You feel weaker than before and do less damage than you would have done before.",
-  "power.originsevolved.air_palm_ev.name": "Air Palm",
+  "power.originsevolved.ground_combatant_ev.description": "Being unable to protect yourself long enough while on the ground, your ability to fight on the ground has greatly weakened. You might as well stay up now.",
+  "power.originsevolved.air_palm_ev.name": "Wind Palm",
   "power.originsevolved.air_palm_ev.description": "Not only can you boost yourself through the air, you can also boosts others, or even other things. You are able to launch an entity back on hit. Missing however does not result in any effect.",
   "power.originsevolved.sky_vulnerability_ev.name": "Easy Target",
-  "power.originsevolved.sky_vulnerability_ev.description": "When flowing through the air you are way less flexible when walking or running, mobs and players can take advantage of this and shoot you when you are vulnerable making them deal more damage.",
+  "power.originsevolved.sky_vulnerability_ev.description": "When flying through the air you are way less flexible than you're when walking or running, mobs and players can take advantage of this and shoot you when you are vulnerable making them deal more damage.",
 
 
 
@@ -263,10 +269,10 @@
   // Feline
 
   // Blood Feline (Feline Evolved)
-  "origin.originsevolved.feline_evolved.name": "Blood Feline",
-  "origin.originsevolved.feline_evolved.description": "The tasty fish looked ruin dressed in all that dragon spit, but after taking a bite you don't regret it for one second. So much power in your body at once. You feel your blood cook and look around you, and all you see is not creatures, no, all you see is food.",
+  "origin.originsevolved.feline_evolved.name": "Feline of Blood",
+  "origin.originsevolved.feline_evolved.description": "The tasty fish looked ruined dressed in all that dragon spit, but after taking a bite you don't regret it for one second. So much power in your body at once. You feel your blood cook and look around you, and all you see is not creatures, no, all you see is food.",
   "power.originsevolved.freehand_ev.name": "Tiger Claws",
-  "power.originsevolved.freehand_ev.description": "After evolving your claws got sharper and tougher, you're now able to do a significant amount of damage with just your fists.",
+  "power.originsevolved.freehand_ev.description": "After evolving your claws got sharper and tougher, you're now able to do a significant amount of damage.",
   "power.originsevolved.faster_attacks_ev.name": "Fast Attacks",
   "power.originsevolved.faster_attacks_ev.description": "When only using your claws you are able to attack way faster.",
   "power.originsevolved.pounce_ev.name": "Blood Rage",
@@ -274,7 +280,7 @@
   "power.originsevolved.no_wolves_ev.name": "Natural Enemy",
   "power.originsevolved.no_wolves_ev.description": "Wolves don't really like you.",
   "power.originsevolved.blood_sense_1_ev.name": "Blood Sensing",
-  "power.originsevolved.blood_sense_1_ev.description": "When focusing you are able to sense blood around you, you will be able to see the blood glowing around you if that a creature is close.",
+  "power.originsevolved.blood_sense_1_ev.description": "When focusing you are able to sense blood around you, you will be able to see the blood glowing around you if a creature is close.",
   "power.originsevolved.blood_sense_2_ev.name": "Strong Nose",
   "power.originsevolved.blood_sense_2_ev.description": "Your smell for blood is so good, you are able to smell how much health a creature still has. Although it's still a wild guess you are always really close, this is your best ability in combat.",
   "power.originsevolved.a_fired_fear_ev.name": "Fired Fear",
@@ -285,8 +291,16 @@
   // Merling
 
   // Merling Evolved
-  "origin.originsevolved.merling_evolved.name": "Merling Evolved",
+  "origin.originsevolved.merling_evolved.name": "Merling of the Seas",
   "origin.originsevolved.merling_evolved.description": "Releasing the sealed magic in the pearl made the end magic flow into your body. The end magic flowed through your body and stroke down into the locked pool of water magic deep inside you, you now feel the seal break a little and are able to use a little of the water magic your ancestors once used.",
+  "power.originsevolved.water_mana_ev.name": "Water Mana",
+  "power.originsevolved.water_mana_ev.description": "Now that your water magic inside you has triggered, you gain mana. This mana can be used for various powers.",
+  "power.originsevolved.breath_giving_ev.name": "Breath Giving",
+  "power.originsevolved.breath_giving_ev.description": "Strengthen the lungs of creature for a period of time.",
+  "power.originsevolved.breath_taking_ev.name": "Breath Taking",
+  "power.originsevolved.breath_taking_ev.description": "Take the breath of your enemy with the kiss of water, drown them while you're at it.",
+  "power.originsevolved.aqua_affinity_ev.name": "Aqua Affinity+",
+  "power.originsevolved.aqua_affinity_ev.description": "You're able to break blocks, under water, even faster than before!",
   "power.originsevolved.reinforced_scale_ev.name": "Tougher Scales",
   "power.originsevolved.reinforced_scale_ev.description": "Based on the environment your evolution triggered a defensive mechanism inside your body and gives you tougher scales.",
   "power.originsevolved.rain_summoning_ev.name": "Rain summoning",
@@ -294,11 +308,11 @@
   "power.originsevolved.hot_places_ev.name": "Hot Places",
   "power.originsevolved.hot_places_ev.description": "There's no rain in places like the desert or the badlands, it's way to dry around there, because of this you're not able to use your rain summoning power.",
   "power.originsevolved.trident_ev.name": "The first trident",
-  "power.originsevolved.trident_ev.description": "Long ago the water elementals used the trident as their weapon which was the best choice according to their power. You who now feels a strong connection towards the trident deals way more damage using it.",
+  "power.originsevolved.trident_ev.description": "Long ago the water elementals used the trident as their weapon which was the best choice according to their power. You, who now feels a strong connection towards the trident, are faster en deal way more damage using it.",
   // Phantom
 
   // Phantom Evolved
-  "origin.originsevolved.phantom_evolved.name": "Phantom Evolved",
+  "origin.originsevolved.phantom_evolved.name": "Spiritual Phantom",
   "origin.originsevolved.phantom_evolved.description": "As the infected totem releases its magic, you start to feel dizzy and sick, your vision becomes black but then suddenly you feel awoken, you feel like you are born again. The ender power strengthening your barrier between Light and Dark becomes even stronger making you - as long as you are phantomized - capable of using these separate from each other.",
   "power.originsevolved.phantom_flight_ev.name": "Lights Flight",
   "power.originsevolved.phantom_flight_ev.description": "Capable of using the power of Light separate from Dark you can now fly while in phantomized mode. Attracted towards the Light your flight ability is faster in the end, on top of that your light aura is stronger in the end and you are capable of hiding you and your armor now.",
@@ -308,12 +322,18 @@
   "power.originsevolved.backstab_ev.description": "Strike from behind to deal a shadow strike and gain absorption.",
   "power.originsevolved.more_translucent_ev.name": "Translucent+",
   "power.originsevolved.more_translucent_ev.description": "Through all the changes the power of light had in your body you now are way more translucent then before.",
+  "power.originsevolved.weakened_opponent_ev.name": "Light Transfer",
+  "power.originsevolved.weakened_opponent_ev.description": "Hit an opponent with weakness or slowness to remove their effect and gain the opposite.",
   "power.originsevolved.heal_delay_ev.name": "Delayed Heal",
   "power.originsevolved.heal_delay_ev.description": "The Dark power affecting your body has affected your ability to heal with 20%.",
   "power.originsevolved.light_and_dark_ev.name": "The Light and the Dark",
   "power.originsevolved.light_and_dark_ev.description": "Through the End and the Nether your body changes from its attraction towards Light and Dark. Light powers are now unusable in the Nether, Dark powers are now unusable in the End.",
+  "power.originsevolved.phantom_speed_ev.name": "Light Speed",
+  "power.originsevolved.phantom_speed_ev.description": "Run as fast as the light! Your running speed has greatly increased when phased.",
+  "power.originsevolved.hunger_over_time_ev.name": "Fast Metabolism-",
+  "power.originsevolved.hunger_over_time_ev.description": "Your difference in powers are difficult to control, your energy comes at the cost. Your hunger goes even faster while in phasing mode.",
   "power.originsevolved.hell_fire_ev.name": "Hell Fire",
-  "power.originsevolved.hell_fire_ev.description": "Scared of the the dark side of your the power of Light increased your damage in fire by 50%.",
+  "power.originsevolved.hell_fire_ev.description": "Scared of the the dark side of your power, the power of Light increased your damage from fire by 50%.",
   // Shulk
 
   // Shulk Evolved
@@ -353,6 +373,7 @@
 
   "advancements.evolutions.the_evolution.title": "The Evolution",
   "advancements.evolutions.the_evolution.description": "Evolve successfully.",
+
   // Mod Items
   "itemgroup.evolutions": "Evolutions",
 

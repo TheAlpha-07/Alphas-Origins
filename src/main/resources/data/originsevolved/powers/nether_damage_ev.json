@@ -42,7 +42,7 @@
         },
         {
           "type": "origins:origin",
-          "origin": "minecraft:lava_walker",
+          "origin": "originsevolved:lava_walker",
           "layer": "origins:origin"
         }
       ]

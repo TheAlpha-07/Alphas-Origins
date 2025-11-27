@@ -156,16 +156,6 @@
       "type": "origins:and",
       "actions": [
         {
-          "type": "origins:change_resource",
-          "resource": "originsevolved:impregnable_shields_ev",
-          "change": 0,
-          "operation": "set"
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "execute at @s run particle minecraft:dripping_obsidian_tear ~ ~1 ~ .4 .4 .4 0 10 normal"
-        },
-        {
           "type": "origins:if_else_list",
           "actions": [
             {
@@ -276,6 +266,16 @@
               }
             }
           ]
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "originsevolved:impregnable_shields_ev",
+          "change": 0,
+          "operation": "set"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "execute at @s run particle minecraft:dripping_obsidian_tear ~ ~1 ~ .4 .4 .4 0 10 normal"
         }
       ]
     }

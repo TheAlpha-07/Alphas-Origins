@@ -12,8 +12,13 @@
     "show_icon": false
   },
   "condition": {
-    "type": "origins:power_active",
-    "power": "*:levitate_toggle_ev"
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:power_active",
+        "power": "*:levitate_toggle_ev_toggle"
+      }
+    ]
   },
   "name": "Levitate",
   "description": "This makes you levitate while it's toggled.",

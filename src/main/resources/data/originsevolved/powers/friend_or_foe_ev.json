@@ -52,13 +52,8 @@
       "type": "origins:or",
       "conditions": [
         {
-          "type": "origins:daytime",
+          "type": "origins:exposed_to_sun",
           "inverted": true
-        },
-        {
-          "type": "origins:brightness",
-          "comparison": "<",
-          "compare_to": 0.17948718
         }
       ]
     },
@@ -86,11 +81,6 @@
     "condition": {
       "type": "origins:or",
       "conditions": [
-        {
-          "type": "origins:brightness",
-          "comparison": ">=",
-          "compare_to": 0.17948718
-        },
         {
           "type": "origins:exposed_to_sun"
         }

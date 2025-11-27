@@ -18,6 +18,27 @@
       "value": 1.15
     }
   },
+
+  "trident_speed": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_speed",
+      "operation": "addition",
+      "value": 0.5
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:trident"
+        }
+      }
+    }
+  },
+
   "trident_thrown": {
     "type": "origins:modify_damage_dealt",
     "damage_condition": {
@@ -26,7 +47,7 @@
     },
     "modifier": {
       "operation": "multiply_base",
-      "value": 1.2
+      "value": 1.3
     }
   }
 }

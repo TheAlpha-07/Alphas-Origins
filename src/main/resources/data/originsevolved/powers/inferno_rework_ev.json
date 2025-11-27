@@ -1,0 +1,50 @@
+{
+  "type": "origins:multiple",
+
+  "charges": {
+    "type": "origins:resource",
+    "min": 1,
+    "max": 3,
+    "start_value": 3,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/resource_bar.png",
+      "bar_index": 7
+    }
+  },
+
+  "charge_charges": {
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_charges",
+      "change": 1,
+      "operation": "add"
+    }
+  },
+
+  "fire_fireball": {
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:small_fireball",
+    "cooldown": 0,
+    "divergence": 10.0,
+    "speed": 0.5,
+    "count": 3,
+    "key": {
+      "key": "key.origins.secondary_active",
+      "continuous": true
+    },
+    "shooter_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_charges",
+      "change": -1,
+      "operation": "add"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_charges",
+      "comparison": ">",
+      "compare_to": 1
+    }
+  }
+}

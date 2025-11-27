@@ -7,7 +7,7 @@
     "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
     "bar_index": 14
   },
-  "cooldown": 400,
+  "cooldown": 600,
   "entity_action": {
     "type": "origins:if_else_list",
     "actions": [
