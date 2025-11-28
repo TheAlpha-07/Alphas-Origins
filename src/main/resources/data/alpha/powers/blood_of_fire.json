@@ -7,7 +7,7 @@
         "type": "origins:apply_effect",
         "effect": {
           "id": "minecraft:speed",
-          "duration": 60,
+          "duration": 20,
           "amplifier": 1
         }
       },
@@ -15,7 +15,7 @@
         "type": "origins:apply_effect",
         "effect": {
           "id": "minecraft:strength",
-          "duration": 60,
+          "duration": 20,
           "amplifier": 0
         }
       }

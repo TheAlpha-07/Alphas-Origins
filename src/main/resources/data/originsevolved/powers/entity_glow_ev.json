@@ -1,9 +1,18 @@
 {
   "type": "origins:entity_glow",
-  "inverted": true,
-  "condition": {
-    "type": "origins:power_active",
-    "power": "*:glowtoggle_ev"
+  "entity_condition": {
+    "type": "origins:entity_type",
+    "entity_type": "minecraft:armor_stand",
+    "inverted": true
+  },
+
+
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:glowtoggle_ev"
+    }
   },
   "hidden": true
 }

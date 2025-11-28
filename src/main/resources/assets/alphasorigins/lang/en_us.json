@@ -164,12 +164,17 @@
   "power.originsevolved.lava_boost_ev.description": "Your vision in lava is even greater now and you're capable of swimming through lava.",
   "power.originsevolved.lava_speed_ev.name": "Boots of Fire",
   "power.originsevolved.lava_speed_ev.description": "You're faster in lava.",
+  "power.originsevolved.charged_projectiles_ev.name": "Rail-gun",
+  "power.originsevolved.charged_projectiles_ev.description": "Shoot fire instead of projectiles. Any item that can shoot a projectile now gives you the ability to shoot low damage dealing fire bolts at your enemy.",
+  "power.originsevolved.water_vulnerability_s_ev.name": "Vaporize",
+  "power.originsevolved.water_vulnerability_s_ev.description":"When in water your core gets vaporized and cold, you get damage as long as you stay in there. However, if you've gained enough heat you might be able to stay in there for a while.",
   "power.originsevolved.no_fire_ev.name": "No Fire+",
   "power.originsevolved.no_fire_ev.description": "Even lava freezes, the less lava in your blood the weaker your body gets. You're now even more vulnerable for the cold and get extremely weak without lava.",
   "power.originsevolved.dimension_exhaustion_ev.name": "Different Atmosphere",
   "power.originsevolved.dimension_exhaustion_ev.description": "You're more hungry in other dimensions.",
   "power.originsevolved.cold_biomes_ev.name": "Cold Biomes",
-  "power.originsevolved.cold_biomes_ev.description": "Now that you're body is more lava than ever, the cold biomes freeze you almost to death.",
+  "power.originsevolved.cold_biomes_ev.description": "Now that you're body is more lava than ever, the cold biomes freeze you almost to death. Make sure to cary enough heat to prevent this.",
+
   // Arachnid.
   "origin.origins.arachnid.name": "Arachnid",
   "origin.origins.arachnid.description": "Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.",
@@ -257,7 +262,9 @@
 
   // Enderian Evolved
   "origin.originsevolved.enderian_evolved.name": "Enderian Evolved",
-  "origin.originsevolved.enderian_evolved.description": "Touching the eye magical eye already gave you the chills. Now trying to unleash the magic feels even worse, but then, the eye breaks, you feel a mysterious power run through your body and unleash the ender magic inside you making your power way stronger.",
+  "origin.originsevolved.enderian_evolved.description": "Touching the magical dripping eye already gave you the chills. Now trying to unleash the magic feels even worse, but then, the eye breaks, you feel a mysterious power run through your body and unleash the ender magic inside you making your power way stronger.",
+  "power.originsevolved.dragon_switch_ev.name": "Reverse Teleportation",
+  "power.originsevolved.dragon_switch_ev.description": "The ender magic, now actively flowing through your body, touched your teleportation core. The power it unleashed gave you a new power. You are now able to switch with any entity within a thirty block distance.",
   "power.originsevolved.water_vulnerability_e_ev.name": "Hydrophobia",
   "power.originsevolved.water_vulnerability_e_ev.description": "Now that you are starting to become more like an ender man water protection magic is way less effective, would there even be a way to withstand the water once your ender powers evolve once more?",
   "power.originsevolved.arrow_immunity_ev.name": "Arrow Immunity",
@@ -349,10 +356,10 @@
   "power.originsevolved.juggernaut_toggle_ev.description": "Now that your armor is stabilized you're able to use it more efficiently, you can now retreat into your armor and use it as the ultimate defense. Your armor will protect you from much damage at the cost of your vision and your movement.",
 
   // Nether and Ender.
-  "power.originsevolved.end_damage_ev.name": "",
-  "power.originsevolved.end_damage_ev.description": "",
-  "power.originsevolved.nether_damage_ev.name": "",
-  "power.originsevolved.nether_damage_ev.description": "",
+  "power.originsevolved.end_damage_ev.name": "..",
+  "power.originsevolved.end_damage_ev.description": "..",
+  "power.originsevolved.nether_damage_ev.name": "..",
+  "power.originsevolved.nether_damage_ev.description": "..",
 
   // More Keybinds
   "key.origins.denary_active": "Active Power (Denary, 3th)",

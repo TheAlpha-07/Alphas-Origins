@@ -1,13 +1,24 @@
 {
   "type": "origins:active_self",
   "key": "key.origins.denary_active",
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+    "bar_index": 0
+  },
   "entity_action": {
     "type": "origins:raycast",
-    "distance": 15,
-    "block": true,
+    "distance": 30,
+    "block": false,
     "entity": true,
     "shape_type": "visual",
     "fluid_handling": "any",
+    "miss_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*",
+      "change": 600,
+      "operation": "set"
+    },
     "bientity_action": {
       "type": "origins:and",
       "actions": [
@@ -33,10 +44,10 @@
           "type": "origins:target_action",
           "action": {
             "type": "origins:delay",
-            "ticks": 8,
+            "ticks": 4,
             "action": {
               "type": "origins:execute_command",
-              "command": "teleport @e[distance=0] @e[tag=PlayerTeleport,limit=1]"
+              "command": "teleport @e[sort=nearest,limit=1] @e[tag=PlayerTeleport,limit=1]"
             }
           }
         },
@@ -44,7 +55,7 @@
           "type": "origins:target_action",
           "action": {
             "type": "origins:delay",
-            "ticks": 10,
+            "ticks": 5,
             "action": {
               "type": "origins:execute_command",
               "command": "kill @e[tag=EnderianTeleport]"
@@ -73,7 +84,7 @@
           "type": "origins:actor_action",
           "action": {
             "type": "origins:delay",
-            "ticks": 8,
+            "ticks": 4,
             "action": {
               "type": "origins:execute_command",
               "command": "teleport @s @e[tag=EnderianTeleport,limit=1]"
@@ -84,15 +95,31 @@
           "type": "origins:target_action",
           "action": {
             "type": "origins:delay",
-            "ticks": 10,
+            "ticks": 5,
             "action": {
               "type": "origins:execute_command",
               "command": "kill @e[tag=PlayerTeleport]"
             }
           }
+        },
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effects": [
+              {
+                "id": "minecraft:blindness",
+                "duration": 100
+              },
+              {
+                "id": "minecraft:weakness",
+                "duration": 100
+              }
+            ]
+          }
         }
       ]
     }
   },
-  "cooldown": 0
+  "cooldown": 600
 }
