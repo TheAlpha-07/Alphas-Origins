@@ -43,9 +43,10 @@
   "reach": {
     "type": "origins:conditioned_attribute",
     "modifier": {
-      "attribute": "reach-entity-attributes:reach",
-      "value": 3,
-      "operation": "addition"
+      "id": "*:*",
+      "attribute": "minecraft:player.block_interaction_range",
+      "amount": 3,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -57,10 +58,10 @@
   "reach2": {
     "type": "origins:conditioned_attribute",
     "modifier": {
-      "name": "Extra Reach entity reach",
-      "attribute": "reach-entity-attributes:attack_range",
-      "value": 1.5,
-      "operation": "addition"
+      "id": "*:*",
+      "attribute": "minecraft:player.entity_interaction_range",
+      "amount": 1.5,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -72,9 +73,10 @@
   "damage": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.attack_damage",
-      "value": 10,
-      "operation": "addition"
+      "amount": 10,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -86,9 +88,10 @@
   "speed": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.movement_speed",
-      "value": 0.025,
-      "operation": "addition"
+      "amount": 0.025,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",

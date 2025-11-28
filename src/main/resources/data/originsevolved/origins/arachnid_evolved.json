@@ -15,7 +15,7 @@
 
   ],
   "icon": {
-    "item": "minecraft:cobweb"
+    "id": "minecraft:cobweb"
   },
   "unchoosable": true,
   "impact": 1

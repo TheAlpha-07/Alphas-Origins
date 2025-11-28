@@ -20,7 +20,7 @@
     ],
     "modifier": {
       "operation": "multiply_base_multiplicative",
-      "value": -0.25
+      "amount": -0.25
     }
   },
 
@@ -38,7 +38,7 @@
       ],
     "modifier": {
       "operation": "multiply_base_multiplicative",
-      "value": 0.25
+      "amount": 0.25
     }
   }
 }

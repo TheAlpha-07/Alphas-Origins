@@ -5,7 +5,7 @@
     "action": {
       "type": "origins:apply_effect",
       "effect": {
-        "effect": "minecraft:weakness",
+        "id": "minecraft:weakness",
         "amplifier": 0,
         "duration": 100
       }

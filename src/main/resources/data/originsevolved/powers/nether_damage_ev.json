@@ -42,7 +42,7 @@
         },
         {
           "type": "origins:origin",
-          "origin": "minecraft:lava_walker",
+          "origin": "originsevolved:lava_walker",
           "layer": "origins:origin"
         }
       ]
@@ -51,6 +51,6 @@
 
   "modifier": {
     "operation": "multiply_base_multiplicative",
-    "value": 0.5
+    "amount": 0.5
   }
 }

@@ -1,7 +1,7 @@
 {
   "powers": [
     "origins:throw_ender_pearl",
-    "originsevolved:dragon_flash_ev",
+    "originsevolved:dragon_switch_ev",
     "originsevolved:breath_resource_ev",
     "originsevolved:breath_actions_ev",
     "originsevolved:glowtoggle_ev",
@@ -14,10 +14,9 @@
     "origins:ender_particles",
     "origins:damage_from_potions",
     "originsevolved:nether_damage_ev"
-
   ],
   "icon": {
-    "item": "minecraft:ender_pearl"
+    "id": "minecraft:ender_pearl"
   },
   "unchoosable": true,
   "impact": 2

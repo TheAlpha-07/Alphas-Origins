@@ -32,7 +32,7 @@
     "entity_action": {
       "type": "origins:apply_effect",
       "effect": {
-        "effect": "minecraft:hunger",
+        "id": "minecraft:hunger",
         "duration": 200,
         "amplifier": 1
       }

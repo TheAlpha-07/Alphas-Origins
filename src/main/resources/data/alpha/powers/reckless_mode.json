@@ -3,9 +3,10 @@
   "more_hearts": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.max_health",
-      "value": -2,
-      "operation": "addition"
+      "amount": -2,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -35,9 +36,10 @@
   "attack_speed": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.attack_speed",
-      "value": 0.5,
-      "operation": "addition"
+      "amount": 0.5,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",

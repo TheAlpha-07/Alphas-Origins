@@ -17,7 +17,9 @@
     "originsevolved:feline_resource_ev",
     "originsevolved:change_feline_resource_ev"
   ],
-  "icon": "minecraft:orange_wool",
+  "icon": {
+    "id": "minecraft:orange_wool"
+  },
   "unchoosable": true,
   "impact": 2
 }

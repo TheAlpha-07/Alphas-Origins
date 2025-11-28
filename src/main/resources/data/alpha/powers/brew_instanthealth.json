@@ -36,7 +36,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:instant_health",
+          "id": "minecraft:instant_health",
           "amplifier": 1
         }
       },

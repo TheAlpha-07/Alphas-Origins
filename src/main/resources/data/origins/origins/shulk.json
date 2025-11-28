@@ -10,7 +10,7 @@
         "alpha:evolutions"
     ],
     "icon": {
-        "item": "minecraft:shulker_shell"
+        "id": "minecraft:shulker_shell"
     },
     "order": 9,
     "impact": 1,

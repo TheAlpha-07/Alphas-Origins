@@ -1,13 +1,72 @@
 {
-  "type": "origins:conditioned_attribute",
-  "modifier": {
-    "attribute": "minecraft:generic.movement_speed",
-    "operation": "addition",
-    "value": 0.01
+  "type": "origins:multiple",
+  "overworld": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "id": "*:*",
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "ADD_VALUE",
+      "amount": 0.02
+    },
+    "tick_rate": 5,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "origins:phantomize"
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "minecraft:overworld"
+        }
+      ]
+    }
   },
-  "tick_rate": 20,
-  "condition": {
-    "type": "origins:power_active",
-    "power": "origins:phantomize"
+  "end": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "id": "*:*",
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "ADD_VALUE",
+      "amount": 0.04
+    },
+    "tick_rate": 5,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "origins:phantomize"
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_end"
+        }
+      ]
+    }
+  },
+  "nether": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "id": "*:*",
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "ADD_VALUE",
+      "amount": -0.02
+    },
+    "tick_rate": 5,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "origins:phantomize"
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_nether"
+        }
+      ]
+    }
   }
 }

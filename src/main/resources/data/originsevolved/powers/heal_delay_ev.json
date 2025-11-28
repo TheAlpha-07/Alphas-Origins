@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_healing",
   "modifier": {
-    "operation": "multiply_total",
-    "value": -0.20
+    "operation": "multiply_total_multiplicative",
+    "amount": -0.20
   }
 }

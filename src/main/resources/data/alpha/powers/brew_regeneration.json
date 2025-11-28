@@ -36,7 +36,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:regeneration",
+          "id": "minecraft:regeneration",
           "duration": 2400,
           "amplifier": 0
         }

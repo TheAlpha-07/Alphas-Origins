@@ -2,8 +2,8 @@
   "hidden": true,
   "type": "origins:modify_damage_taken",
   "modifier": {
-    "operation": "addition",
-    "value": 3
+    "operation": "add_total_early",
+    "amount": 3
   },
 
   "bientity_condition": {

@@ -3,12 +3,12 @@
   "entity_action": {
     "type": "origins:apply_effect",
     "effect": {
-      "effect": "minecraft:resistance",
-      "duration": 100,
-      "amplifier": 1
+      "id": "minecraft:resistance",
+      "duration": 40,
+      "amplifier": 0
     }
   },
-  "interval": 20,
+  "interval": 5,
   "condition": {
     "type": "origins:relative_health",
     "comparison": "<=",

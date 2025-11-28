@@ -89,12 +89,12 @@
       "type": "origins:apply_effect",
       "effects": [
         {
-          "effect": "minecraft:invisibility",
+          "id": "minecraft:invisibility",
           "duration": 60,
           "show_particles": true
         },
         {
-          "effect": "minecraft:slowness",
+          "id": "minecraft:slowness",
           "duration": 60,
           "show_particles": true,
           "amplifier": 0

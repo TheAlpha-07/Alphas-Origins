@@ -8,7 +8,7 @@
       "action": {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:slowness",
+          "id": "minecraft:slowness",
           "amplifier": 0,
           "duration": 400
         }
@@ -41,7 +41,7 @@
       "action": {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:slowness",
+          "id": "minecraft:slowness",
           "duration": 600,
           "amplifier": 0
         }

@@ -15,11 +15,10 @@
     "alpha:fear_or_be_feared",
     "alpha:elemental_opponnents",
     "alpha:to_heavy",
-    "originsevolved:different_ranged_ev",
-    "alpha:callback_delete"
+    "originsevolved:different_ranged_ev"
   ],
   "icon": {
-    "item": "minecraft:bow"
+    "id": "minecraft:bow"
   },
   "impact": 1,
   "unchoosable": true

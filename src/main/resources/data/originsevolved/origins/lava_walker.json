@@ -27,7 +27,7 @@
     "originsevolved:end_damage_ev"
   ],
   "icon": {
-    "item": "minecraft:warped_fungus"
+    "id": "minecraft:warped_fungus"
   },
   "unchoosable": true,
   "impact": 2

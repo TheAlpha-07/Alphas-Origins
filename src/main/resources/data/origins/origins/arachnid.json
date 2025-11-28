@@ -10,7 +10,7 @@
 
     ],
     "icon": {
-        "item": "minecraft:cobweb"
+        "id": "minecraft:cobweb"
     },
     "order": 6,
     "impact": 1,

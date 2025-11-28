@@ -7,7 +7,7 @@
     "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
     "bar_index": 14
   },
-  "cooldown": 400,
+  "cooldown": 600,
   "entity_action": {
     "type": "origins:if_else_list",
     "actions": [
@@ -27,7 +27,7 @@
                 "action": {
                   "type": "origins:apply_effect",
                   "effect": {
-                    "effect": "minecraft:slowness",
+                    "id": "minecraft:slowness",
                     "duration": 100,
                     "amplifier": 2,
                     "is_ambient": true,
@@ -45,7 +45,7 @@
                 "action": {
                   "type": "origins:apply_effect",
                   "effect": {
-                    "effect": "minecraft:weakness",
+                    "id": "minecraft:weakness",
                     "duration": 200,
                     "amplifier": 0,
                     "is_ambient": true,
@@ -82,7 +82,7 @@
                 "action": {
                   "type": "origins:apply_effect",
                   "effect": {
-                    "effect": "minecraft:slowness",
+                    "id": "minecraft:slowness",
                     "duration": 160,
                     "amplifier": 3,
                     "is_ambient": true,
@@ -100,7 +100,7 @@
                 "action": {
                   "type": "origins:apply_effect",
                   "effect": {
-                    "effect": "minecraft:weakness",
+                    "id": "minecraft:weakness",
                     "duration": 200,
                     "amplifier": 1,
                     "is_ambient": true,
@@ -139,4 +139,5 @@
     "power": "origins:phantomize"
   }
 }
+
 

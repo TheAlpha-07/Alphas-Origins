@@ -2,8 +2,9 @@
   "hidden": true,
   "type": "origins:modify_lava_speed",
   "modifier": {
-    "operation": "addition",
-    "value": 0.4
+    "id": "*:*",
+    "operation": "ADD_VALUE",
+    "amount": 0.4
   },
   "hud_render": {
     "should_render": true,

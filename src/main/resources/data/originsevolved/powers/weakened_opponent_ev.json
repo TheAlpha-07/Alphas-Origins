@@ -12,7 +12,7 @@
               "action": {
                 "type": "origins:apply_effect",
                 "effect": {
-                  "effect": "minecraft:speed",
+                  "id": "minecraft:speed",
                   "duration": 200
                 }
               }
@@ -64,7 +64,7 @@
               "action": {
                 "type": "origins:apply_effect",
                 "effect": {
-                  "effect": "minecraft:strength",
+                  "id": "minecraft:strength",
                   "duration": 200
                 }
               }
@@ -109,27 +109,28 @@
       },
       {
         "action": {
-        "type": "origins:and",
-        "actions": [
-          {
-            "type": "origins:actor_action",
-            "action": {
-              "type": "origins:apply_effect",
-              "effect": {
-                "effect": "minecraft:speed",
-                "duration": 300
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:actor_action",
+              "action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                  "id": "minecraft:speed",
+                  "duration": 200,
+                  "amplifier": 1
+                }
+              }
+            },
+            {
+              "type": "origins:target_action",
+              "action": {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:slowness"
               }
             }
-          },
-          {
-            "type": "origins:target_action",
-            "action": {
-              "type": "origins:clear_effect",
-              "effect": "minecraft:slowness"
-            }
-          }
-        ]
-      },
+          ]
+        },
         "condition": {
           "type": "origins:and",
           "conditions": [
@@ -159,8 +160,9 @@
               "action": {
                 "type": "origins:apply_effect",
                 "effect": {
-                  "effect": "minecraft:strength",
-                  "duration": 300
+                  "id": "minecraft:strength",
+                  "duration": 200,
+                  "amplifier": 1
                 }
               }
             },

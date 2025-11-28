@@ -3,12 +3,12 @@
   "bientity_condition": {
     "type": "origins:actor_condition",
     "condition": {
-      "type": "origins:entity_group",
-      "group": "undead"
+      "type": "origins:in_tag",
+      "tag": "minecraft:undead"
     }
   },
   "modifier": {
-    "operation": "multiply_total",
-    "value": 0.5
+    "operation": "multiply_total_multiplicative",
+    "amount": 0.5
   }
 }

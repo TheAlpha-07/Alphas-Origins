@@ -43,7 +43,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:invisibility",
+          "id": "minecraft:invisibility",
           "duration": 2400,
           "show_particles": false
         }

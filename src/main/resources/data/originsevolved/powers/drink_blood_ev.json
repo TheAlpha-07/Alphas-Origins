@@ -2,10 +2,10 @@
   "type": "origins:self_action_on_kill",
   "entity_action": {
     "type": "origins:chance",
-    "action": {
+    "success_action": {
       "type": "origins:apply_effect",
       "effect": {
-        "effect": "minecraft:regeneration",
+        "id": "minecraft:regeneration",
         "amplifier":0,
         "duration": 200
       }
@@ -14,7 +14,7 @@
     "fail_action": {
       "type": "origins:apply_effect",
       "effect": {
-        "effect": "minecraft:poison",
+        "id": "minecraft:poison",
         "amplifier":0,
         "duration": 300
       }

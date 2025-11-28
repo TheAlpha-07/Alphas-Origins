@@ -32,11 +32,11 @@
               "type": "origins:apply_effect",
               "effects": [
                 {
-                  "effect": "minecraft:slowness",
+                  "id": "minecraft:slowness",
                   "duration": 100
                 },
                 {
-                  "effect": "minecraft:weakness",
+                  "id": "minecraft:weakness",
                   "duration": 100
                 }
               ]

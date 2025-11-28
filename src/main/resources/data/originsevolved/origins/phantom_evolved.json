@@ -18,7 +18,7 @@
 
   ],
   "icon": {
-    "item": "minecraft:phantom_membrane"
+    "id": "minecraft:phantom_membrane"
   },
   "unchoosable": true,
   "impact": 3

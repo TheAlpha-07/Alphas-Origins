@@ -36,7 +36,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:night_vision",
+          "id": "minecraft:night_vision",
           "duration": 2400,
           "amplifier": 0
         }

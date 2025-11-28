@@ -12,7 +12,7 @@
         "alpha:evolutions"
     ],
     "icon": {
-        "item": "minecraft:cod"
+        "id": "minecraft:cod"
     },
     "order": 7,
     "impact": 3,

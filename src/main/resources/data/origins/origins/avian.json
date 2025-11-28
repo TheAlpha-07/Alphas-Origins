@@ -13,7 +13,7 @@
 
     ],
     "icon": {
-        "item": "minecraft:feather"
+        "id": "minecraft:feather"
     },
     "order": 5,
     "impact": 1,

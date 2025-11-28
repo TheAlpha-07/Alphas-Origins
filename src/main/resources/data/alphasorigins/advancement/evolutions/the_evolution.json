@@ -1,0 +1,26 @@
+{
+  "parent": "alphasorigins:evolutions/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": {
+      "translate": "advancements.evolutions.the_evolution.title",
+      "color": "yellow",
+      "bold": true
+    },
+    "description": {
+      "translate": "advancements.evolutions.the_evolution.description",
+      "color": "white",
+      "italic": true
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "non": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

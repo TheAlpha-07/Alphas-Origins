@@ -42,7 +42,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:speed",
+          "id": "minecraft:speed",
           "duration": 400,
           "amplifier": 1
         }
@@ -50,7 +50,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:strength",
+          "id": "minecraft:strength",
           "duration": 400,
           "amplifier": 0
         }
@@ -58,7 +58,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:night_vision",
+          "id": "minecraft:night_vision",
           "duration": 400,
           "amplifier": 0
         }

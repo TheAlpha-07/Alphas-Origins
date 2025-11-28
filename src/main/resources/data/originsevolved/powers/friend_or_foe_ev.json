@@ -16,7 +16,7 @@
             "type": "origins:apply_effect",
             "effects": [
               {
-                "effect": "minecraft:speed",
+                "id": "minecraft:speed",
                 "duration": 60,
                 "amplifier": 0
               }
@@ -33,12 +33,12 @@
             "type": "origins:apply_effect",
             "effects": [
               {
-                "effect": "minecraft:speed",
+                "id": "minecraft:speed",
                 "duration": 60,
                 "amplifier": 0
               },
               {
-                "effect": "minecraft:strength",
+                "id": "minecraft:strength",
                 "duration": 60,
                 "amplifier": 0
               }
@@ -52,13 +52,8 @@
       "type": "origins:or",
       "conditions": [
         {
-          "type": "origins:daytime",
+          "type": "origins:exposed_to_sun",
           "inverted": true
-        },
-        {
-          "type": "origins:brightness",
-          "comparison": "<",
-          "compare_to": 0.17948718
         }
       ]
     },
@@ -71,12 +66,12 @@
       "type": "origins:apply_effect",
       "effects": [
         {
-          "effect": "minecraft:slowness",
+          "id": "minecraft:slowness",
           "duration": 60,
           "amplifier": 0
         },
         {
-          "effect": "minecraft:weakness",
+          "id": "minecraft:weakness",
           "duration": 60,
           "amplifier": 0
         }
@@ -86,11 +81,6 @@
     "condition": {
       "type": "origins:or",
       "conditions": [
-        {
-          "type": "origins:brightness",
-          "comparison": ">=",
-          "compare_to": 0.17948718
-        },
         {
           "type": "origins:exposed_to_sun"
         }

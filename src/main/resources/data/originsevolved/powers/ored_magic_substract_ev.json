@@ -36,7 +36,7 @@
             "action": {
               "type": "origins:apply_effect",
               "effect": {
-                "effect": "minecraft:wither",
+                "id": "minecraft:wither",
                 "duration": 400,
                 "amplifier": 0
               }
@@ -102,7 +102,7 @@
             "action": {
               "type": "origins:apply_effect",
               "effect": {
-                "effect": "minecraft:slowness",
+                "id": "minecraft:slowness",
                 "duration": 600,
                 "amplifier": 3
               }
@@ -343,7 +343,7 @@
             "action": {
               "type": "origins:apply_effect",
               "effect": {
-                "effect": "minecraft:weakness",
+                "id": "minecraft:weakness",
                 "duration": -1
               }
             }

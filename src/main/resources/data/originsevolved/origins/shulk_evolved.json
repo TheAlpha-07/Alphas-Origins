@@ -15,7 +15,9 @@
     "origins:more_exhaustion",
     "originsevolved:nether_damage_ev"
   ],
-  "icon": "minecraft:shulker_shell",
+  "icon": {
+    "id": "minecraft:shulker_shell"
+  },
   "unchoosable": true,
   "impact": 1
 }

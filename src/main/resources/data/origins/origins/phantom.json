@@ -13,7 +13,7 @@
 
     ],
     "icon": {
-        "item": "minecraft:phantom_membrane"
+        "id": "minecraft:phantom_membrane"
     },
     "order": 8,
     "impact": 3,

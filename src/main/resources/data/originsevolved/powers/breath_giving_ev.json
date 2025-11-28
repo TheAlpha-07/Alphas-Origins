@@ -20,7 +20,7 @@
           "action": {
             "type": "origins:apply_effect",
             "effect": {
-              "effect": "minecraft:water_breathing",
+              "id": "minecraft:water_breathing",
               "duration": 3600
             }
           }

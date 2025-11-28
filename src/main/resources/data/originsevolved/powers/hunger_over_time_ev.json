@@ -4,6 +4,6 @@
   "exhaustion": 1,
   "condition": {
     "type": "origins:power_active",
-    "power": "originsevolved:phantomize"
+    "power": "origins:phantomize"
   }
 }

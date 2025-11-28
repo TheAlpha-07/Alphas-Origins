@@ -6,7 +6,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:speed",
+          "id": "minecraft:speed",
           "duration": 200,
           "amplifier": 3,
           "show_particles": false
@@ -22,7 +22,7 @@
         "action": {
           "type": "origins:apply_effect",
           "effect": {
-            "effect": "minecraft:slowness",
+            "id": "minecraft:slowness",
             "amplifier": 4,
             "duration": 60,
             "show particles": false

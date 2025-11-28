@@ -3,9 +3,10 @@
   "speed1": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.movement_speed",
-      "value": 0.005,
-      "operation": "addition"
+      "amount": 0.005,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -17,9 +18,10 @@
   "speed2": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.movement_speed",
-      "value": 0.005,
-      "operation": "addition"
+      "amount": 0.005,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -31,9 +33,10 @@
   "speed3": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.movement_speed",
-      "value": 0.01,
-      "operation": "addition"
+      "amount": 0.01,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -45,9 +48,10 @@
   "speed4": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.movement_speed",
-      "value": 0.01,
-      "operation": "addition"
+      "amount": 0.01,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -59,9 +63,10 @@
   "speed5": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.movement_speed",
-      "value": 0.02,
-      "operation": "addition"
+      "amount": 0.02,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -73,9 +78,10 @@
   "noknockback": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.knockback_resistance",
-      "value": 1.0,
-      "operation": "addition"
+      "amount": 1.0,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",

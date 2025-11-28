@@ -10,7 +10,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -59,7 +59,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -130,7 +130,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -138,7 +138,7 @@
         {
           "type": "origins:apply_effect",
           "effect": {
-            "effect": "minecraft:resistance",
+            "id": "minecraft:resistance",
             "duration": 200,
             "amplifier": 20
           }
@@ -232,7 +232,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -281,7 +281,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -289,7 +289,7 @@
         {
           "type": "origins:apply_effect",
           "effect": {
-            "effect": "minecraft:resistance",
+            "id": "minecraft:resistance",
             "duration": 200,
             "amplifier": 20
           }
@@ -366,7 +366,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -415,7 +415,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -426,7 +426,7 @@
           "action": {
             "type": "origins:apply_effect",
             "effect": {
-              "effect": "minecraft:resistance",
+              "id": "minecraft:resistance",
               "duration": 200,
               "amplifier": 20
             }
@@ -581,7 +581,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -589,7 +589,7 @@
         {
           "type": "origins:apply_effect",
           "effect": {
-            "effect": "minecraft:resistance",
+            "id": "minecraft:resistance",
             "duration": 200,
             "amplifier": 20
           }
@@ -706,7 +706,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -714,7 +714,7 @@
         {
           "type": "origins:apply_effect",
           "effect": {
-            "effect": "minecraft:resistance",
+            "id": "minecraft:resistance",
             "duration": 200,
             "amplifier": 20
           }
@@ -783,7 +783,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -791,7 +791,7 @@
         {
           "type": "origins:apply_effect",
           "effect": {
-            "effect": "minecraft:resistance",
+            "id": "minecraft:resistance",
             "duration": 200,
             "amplifier": 20
           }
@@ -892,7 +892,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -900,7 +900,7 @@
         {
           "type": "origins:apply_effect",
           "effect": {
-            "effect": "minecraft:resistance",
+            "id": "minecraft:resistance",
             "duration": 200,
             "amplifier": 20
           }
@@ -969,7 +969,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }
@@ -977,7 +977,7 @@
         {
           "type": "origins:apply_effect",
           "effect": {
-            "effect": "minecraft:resistance",
+            "id": "minecraft:resistance",
             "duration": 200,
             "amplifier": 20
           }
@@ -1087,7 +1087,7 @@
         {
           "type": "origins:equipped_item_action",
           "equipment_slot": "mainhand",
-          "action": {
+          "item_action": {
             "type": "origins:consume",
             "amount": 1
           }

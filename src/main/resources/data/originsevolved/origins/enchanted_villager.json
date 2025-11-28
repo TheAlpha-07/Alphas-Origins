@@ -25,7 +25,7 @@
     "alpha:zombified"
   ],
   "icon": {
-    "item": "minecraft:lectern"
+    "id": "minecraft:lectern"
   },
   "impact": 1,
   "unchoosable": true

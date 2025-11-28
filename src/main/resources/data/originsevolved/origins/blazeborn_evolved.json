@@ -18,7 +18,7 @@
     "originsevolved:end_damage_ev"
   ],
   "icon": {
-    "item": "minecraft:blaze_powder"
+    "id": "minecraft:blaze_powder"
   },
   "unchoosable": true,
   "impact": 3

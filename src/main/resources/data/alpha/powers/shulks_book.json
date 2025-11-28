@@ -2,7 +2,7 @@
   "type": "origins:modify_crafting",
   "recipe": "alphasorigins:no_result_recipe",
   "result": {
-    "item": "patchouli:guide_book",
+    "id": "patchouli:guide_book",
     "tag": "{\"patchouli:book\":\"alphasorigins:shulks_book\"}"
   }
 }

@@ -16,7 +16,7 @@
     "originsevolved:hurtfull_feathers_ev"
   ],
   "icon": {
-    "item": "minecraft:feather"
+    "id": "minecraft:feather"
   },
   "unchoosable": true,
   "impact": 1

@@ -7,7 +7,7 @@
     }
   },
   "modifier": {
-    "operation": "multiply_total",
-    "value": 0.85
+    "operation": "multiply_total_multiplicative",
+    "amount": 0.85
   }
 }

@@ -1,26 +1,8 @@
 {
   "type": "origins:prevent_item_use",
   "item_condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
-      {
-        "type": "origins:or",
-        "conditions": [
-          {
-            "type": "origins:ingredient",
-            "ingredient": {
-              "tag": "origins:meat"
-            }
-          },
-          {
-            "type": "origins:meat"
-          }
-        ],
-        "inverted": true
-      },
-      {
-        "type": "origins:food"
-      },
       {
         "type": "origins:ingredient",
         "ingredient": {
@@ -29,7 +11,11 @@
         "inverted": true
       },
       {
-        "type": "origins:food"
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:meat"
+        },
+        "inverted": true
       },
       {
         "type": "origins:ingredient",
@@ -37,6 +23,9 @@
           "tag": "alpha:carnivore_allowed"
         },
         "inverted": true
+      },
+      {
+        "type": "origins:food"
       }
     ]
   }

@@ -3,19 +3,23 @@
   "interval": 200,
 
   "rising_action": {
-    "type": "origins:clear_effect",
-    "effects": [
+    "type": "origins:and",
+    "actions": [
       {
-        "effect": "minecraft:slowness"
+        "type": "origins:clear_effect",
+        "id": "minecraft:slowness"
       },
       {
-        "effect": "minecraft:weakness"
+        "type": "origins:clear_effect",
+        "id": "minecraft:weakness"
       },
       {
-        "effect": "minecraft:poison"
+        "type": "origins:clear_effect",
+        "id": "minecraft:poison"
       },
       {
-        "effect": "minecraft:hunger"
+        "type": "origins:clear_effect",
+        "id": "minecraft:hunger"
       }
     ]
   },
@@ -23,8 +27,8 @@
   "condition": {
     "type": "origins:biome",
     "condition": {
-      "type": "origins:category",
-      "category": "forest"
+      "type": "origins:in_tag",
+      "tag": "minecraft:is_forest"
     }
   }
 }

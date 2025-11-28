@@ -18,15 +18,15 @@
       "type": "origins:apply_effect",
       "effects": [
         {
-          "effect": "minecraft:poison",
+          "id": "minecraft:poison",
           "duration": 100
         },
         {
-          "effect": "minecraft:blindness",
+          "id": "minecraft:blindness",
           "duration": 60
         },
         {
-          "effect": "minecraft:nausea",
+          "id": "minecraft:nausea",
           "duration": 200
         }
       ]

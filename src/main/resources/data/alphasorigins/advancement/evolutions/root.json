@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": {
+      "translate": "advancements.evolutions.root.title",
+      "color": "dark_purple",
+      "bold": true
+    },
+    "description": {
+      "translate": "advancements.evolutions.root.description",
+      "color": "white",
+      "italic": true
+    },
+    "icon": {
+      "id": "minecraft:ominous_trial_key"
+    },
+    "background": "alphasorigins:textures/gui/advancements/backgrounds/enderian_background.png",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

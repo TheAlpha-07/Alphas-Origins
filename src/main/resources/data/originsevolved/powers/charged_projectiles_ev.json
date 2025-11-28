@@ -59,10 +59,15 @@
       {
         "type": "origins:using_item",
         "item_condition": {
-          "type": "origins:ingredient",
-          "ingredient": {
-            "tag": "alpha:ranged_weapons"
-          }
+          "type": "origins:all_of",
+          "conditions": [
+            {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "tag": "alpha:ranged_weapons"
+              }
+            }
+          ]
         }
       }
     ]

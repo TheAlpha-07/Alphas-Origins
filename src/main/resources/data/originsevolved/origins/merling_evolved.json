@@ -18,7 +18,7 @@
     "originsevolved:hot_places_ev"
   ],
   "icon": {
-    "item": "minecraft:cod"
+    "id": "minecraft:cod"
   },
   "unchoosable": true,
   "impact": 3

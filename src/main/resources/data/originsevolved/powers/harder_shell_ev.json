@@ -1,8 +1,9 @@
 {
   "type": "origins:attribute",
   "modifier": {
+    "id": "*:*",
     "attribute": "minecraft:generic.armor",
-    "value": 10,
-    "operation": "addition"
+    "amount": 10,
+    "operation": "ADD_VALUE"
   }
 }

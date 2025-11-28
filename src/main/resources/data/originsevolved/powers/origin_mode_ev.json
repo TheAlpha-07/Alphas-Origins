@@ -64,8 +64,8 @@
       ]
     },
     "modifier": {
-      "operation": "addition",
-      "value": -5.0
+      "operation": "add_total_early",
+      "amount": -5.0
     },
     "bientity_condition": {
       "type": "origins:actor_condition",
@@ -176,8 +176,8 @@
       ]
     },
     "modifier": {
-      "operation": "addition",
-      "value": 5.0
+      "operation": "add_total_early",
+      "amount": 5.0
     },
 
     "bientity_condition": {

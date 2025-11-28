@@ -36,7 +36,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:fire_resistance",
+          "id": "minecraft:fire_resistance",
           "duration": 2400,
           "amplifier": 0
         }

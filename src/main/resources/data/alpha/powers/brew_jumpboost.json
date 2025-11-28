@@ -36,7 +36,7 @@
       {
         "type": "origins:apply_effect",
         "effect": {
-          "effect": "minecraft:jump_boost",
+          "id": "minecraft:jump_boost",
           "duration": 2400,
           "amplifier": 1
         }

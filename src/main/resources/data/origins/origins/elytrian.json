@@ -11,7 +11,7 @@
 
     ],
     "icon": {
-        "item": "minecraft:elytra"
+        "id": "minecraft:elytra"
     },
     "order": 3,
     "impact": 2,

@@ -11,7 +11,7 @@
       },
       {
         "type": "origins:change_resource",
-        "resource": "oiginsevolved:hunter_indicator_ev",
+        "resource": "originsevolved:hunter_indicator_ev",
         "change": 1
       },
       {

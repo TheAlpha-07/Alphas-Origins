@@ -20,7 +20,7 @@
     "alpha:evolutions"
   ],
   "icon": {
-    "item": "minecraft:lectern"
+    "id": "minecraft:lectern"
   },
   "upgrades": [
     {
@@ -29,5 +29,6 @@
       "announcement": "You have evolved"
     }
   ],
-  "impact": 1
+  "impact": 1,
+  "order": 1
 }

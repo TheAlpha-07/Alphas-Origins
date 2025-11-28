@@ -12,7 +12,9 @@
     "originsevolved:sky_vulnerability_ev",
     "origins:claustrophobia"
   ],
-  "icon": "minecraft:elytra",
+  "icon": {
+    "id": "minecraft:elytra"
+  },
   "unchoosable": true,
   "impact": 2
 }

@@ -3,9 +3,10 @@
   "more_hearts": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.max_health",
-      "value": 2,
-      "operation": "addition"
+      "amount": 2,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -29,12 +30,12 @@
         "type": "origins:apply_effect",
         "effects": [
           {
-            "effect": "minecraft:resistance",
+            "id": "minecraft:resistance",
             "duration": 40,
             "amplifier": 0
           },
           {
-            "effect": "minecraft:slowness",
+            "id": "minecraft:slowness",
             "duration": 40,
             "amplifier": 1
           }
@@ -45,12 +46,12 @@
         "type": "origins:apply_effect",
         "effects": [
           {
-            "effect": "minecraft:resistance",
+            "id": "minecraft:resistance",
             "duration": 40,
             "amplifier": 1
           },
           {
-            "effect": "minecraft:slowness",
+            "id": "minecraft:slowness",
             "duration": 40,
             "amplifier": 0
           }
@@ -76,9 +77,10 @@
   "attack_slow": {
     "type": "origins:conditioned_attribute",
     "modifier": {
+      "id": "*:*",
       "attribute": "minecraft:generic.attack_speed",
-      "value": -0.5,
-      "operation": "addition"
+      "amount": -0.5,
+      "operation": "ADD_VALUE"
     },
     "condition": {
       "type": "origins:resource",
@@ -153,8 +155,8 @@
   "less_kinetic": {
     "type": "origins:modify_damage_taken",
     "modifier": {
-      "value": -0.3,
-      "operation": "multiply_base"
+      "amount": -0.3,
+      "operation": "multiply_base_multiplicative"
     },
     "damage_condition": {
       "type": "origins:or",

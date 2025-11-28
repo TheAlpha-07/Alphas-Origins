@@ -1,9 +1,10 @@
 {
   "type": "origins:conditioned_attribute",
   "modifier": {
+    "id": "*:*",
     "attribute": "minecraft:generic.attack_speed",
-    "operation": "addition",
-    "value": 20
+    "operation": "ADD_VALUE",
+    "amount": 20
   },
   "tick_rate": 20,
   "condition": {
