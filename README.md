@@ -8,6 +8,11 @@
 5. Work on books and textures. (...)
 6. Test mod. (...)
 
+## Needs to be Changes:
+Merling of the seas:
+- Water mana check,
+- Breath taking cooldown
+
 ### Origins:
 Human Origins:
 - Assassin + Shadow Assassin (Blood Cursed) (Not fixed)
