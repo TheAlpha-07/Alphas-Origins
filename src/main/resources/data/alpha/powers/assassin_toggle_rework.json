@@ -27,7 +27,7 @@
           },
           "action": {
             "type": "origins:delay",
-            "ticks": 200,
+            "ticks": 1,
             "action": {
               "type": "origins:change_resource",
               "resource": "*:*_assassin_attack_resource",
@@ -45,7 +45,7 @@
           },
           "action": {
             "type": "origins:delay",
-            "ticks": 200,
+            "ticks": 1,
             "action": {
               "type": "origins:change_resource",
               "resource": "*:*_assassin_attack_resource",
@@ -83,7 +83,7 @@
           },
           "action": {
             "type": "origins:delay",
-            "ticks": 200,
+            "ticks": 1,
             "action": {
               "type": "origins:change_resource",
               "resource": "*:*_reckless_defensive_resource",
@@ -101,7 +101,7 @@
           },
           "action": {
             "type": "origins:delay",
-            "ticks": 200,
+            "ticks": 1,
             "action": {
               "type": "origins:change_resource",
               "resource": "*:*_reckless_defensive_resource",

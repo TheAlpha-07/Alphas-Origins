@@ -14,7 +14,7 @@ public class EffectRegistry implements ModInitializer {
     public static final RegistryEntry<StatusEffect> STRANGLED;
 
     static {
-        STRANGLED = Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of("adaptable_origins",
+        STRANGLED = Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of("upgradable_origins",
                         "strangle_effect"),
                 new StrangleEffect());
     }
@@ -22,6 +22,7 @@ public class EffectRegistry implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        StrangleEffect.initialize();
     }
 }
 

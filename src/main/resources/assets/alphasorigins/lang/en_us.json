@@ -381,30 +381,30 @@
   "layer.origins_needed.origin.name": "Origin",
 
   // Advancements
-  "advancements.evolutions.root.title": "Survival of the Fittest",
-  "advancements.evolutions.root.description": "Welcome in the world of origins, a world where everyone has has a hunter and a prey.",
+  "advancements.upgrades.root.title": "Survival of the Fittest",
+  "advancements.upgrades.root.description": "Welcome in the world of origins, a world where everyone has has a hunter and a prey.",
 
-  "advancements.evolutions.the_evolution.title": "Ender Forged",
-  "advancements.evolutions.the_evolution.description": "Gain magic from the ender dragons blood and let your powers be reborn!",
+  "advancements.upgrades.upgraded.title": "Ender Forged",
+  "advancements.upgrades.upgraded.description": "Gain magic from the ender dragons blood and let your powers be reborn!",
 
   // Mod Items
-  "itemgroup.evolutions": "Evolutions",
+  "itemgroup.upgrades": "Upgrades",
 
-  "item.alphasorigins.arachnidevolution": "Magic Dripping Eye",
-  "item.alphasorigins.avianevolution": "Magical Restored Meat",
-  "item.alphasorigins.blazebornevolution": "Ender Reinforced Rod",
-  "item.alphasorigins.elytrianevolution": "Dragon Boosted Elytra",
-  "item.alphasorigins.enderianevolution": "Magic Crying Eye",
-  "item.alphasorigins.felineevolution": "Ender Magic Feast",
-  "item.alphasorigins.merlingevolution": "Suppressed Magic Pearl",
-  "item.alphasorigins.phantomevolution": "Ender Infected Totem",
-  "item.alphasorigins.shulkevolution": "Fruit of the End",
-  "item.alphasorigins.assassinevolution": "Teachings of the Shadows",
-  "item.alphasorigins.hunterevolution": "Teachings of the Hunt",
-  "item.alphasorigins.striderevolution": "Fried Ender Fungus",
-  "item.alphasorigins.villagerevolution": "Ender Fused Star",
+  "item.alphasorigins.arachnidupgrade": "Magic Dripping Eye",
+  "item.alphasorigins.avianupgrade": "Magical Restored Meat",
+  "item.alphasorigins.blazebornupgrade": "Ender Reinforced Rod",
+  "item.alphasorigins.elytrianupgrade": "Dragon Boosted Elytra",
+  "item.alphasorigins.enderianupgrade": "Magic Crying Eye",
+  "item.alphasorigins.felineupgrade": "Ender Magic Feast",
+  "item.alphasorigins.merlingupgrade": "Suppressed Magic Pearl",
+  "item.alphasorigins.phantomupgrade": "Ender Infected Totem",
+  "item.alphasorigins.shulkupgrade": "Fruit of the End",
+  "item.alphasorigins.assassinupgrade": "Teachings of the Shadows",
+  "item.alphasorigins.hunterupgrade": "Teachings of the Hunt",
+  "item.alphasorigins.striderupgrade": "Fried Ender Fungus",
+  "item.alphasorigins.villagerupgrade": "Ender Fused Star",
 
   // Effects
-  "effect.alphasorigins.strangled": "Strangled"
+  "effect.upgradable_origins.strangle_effect": "Strangled"
 
 }

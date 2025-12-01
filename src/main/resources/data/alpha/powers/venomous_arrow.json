@@ -1,5 +1,6 @@
 {
   "type": "origins:action_on_hit",
+  "hidden": true,
   "cooldown": 300,
   "hud_render": {
     "should_render": true,

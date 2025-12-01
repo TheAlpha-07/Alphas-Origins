@@ -100,6 +100,28 @@
     }
   },
 
+  "blazeborn_resource": {
+    "hidden": true,
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1,
+    "start_value": 0
+  },
+
+  "blazeborn_work": {
+    "type": "origins:action_over_time",
+    "rising_action": {
+      "type": "origins:set_on_fire",
+      "duration": 20
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_blazeborn_resource",
+      "compare_to": 1,
+      "comparison": "=="
+    }
+  },
+
   "blazeborn": {
     "type": "origins:active_self",
     "entity_action": {
@@ -114,8 +136,57 @@
           }
         },
         {
+          "type": "origins:apply_effect",
+          "effect": {
+            "id": "minecraft:resistance",
+            "duration": 200,
+            "amplifier": 20
+          }
+        },
+        {
           "type": "origins:delay",
-          "ticks": 1,
+          "ticks": 20,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"A Fire\",\"color\":\"#ffc04c\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 60,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"Is Blazing\",\"color\":\"#ffa500\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 80,
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_blazeborn_resource",
+            "change": 1,
+            "operation": "set"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 90,
+          "action": {
+            "type": "origins:area_of_effect",
+            "radius": 20,
+            "bientity_action": {
+              "type": "origins:target_action",
+              "action": {
+                "type": "origins:set_on_fire",
+                "duration": 30
+              }
+            }
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 200,
           "action": {
             "type": "origins:grant_advancement",
             "advancement": "alphasorigins:upgrades/upgraded"
@@ -216,8 +287,40 @@
           }
         },
         {
+          "type": "origins:apply_effect",
+          "effect": {
+            "id": "minecraft:resistance",
+            "duration": 200,
+            "amplifier": 20
+          }
+        },
+        {
           "type": "origins:delay",
-          "ticks": 1,
+          "ticks": 20,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"The Eyes\",\"color\":\"#660066\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 60,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"Have Awakened\",\"color\":\"#f2e5f2\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 80,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "spreadplayers ~ ~ 0 100 false @a"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 200,
           "action": {
             "type": "origins:grant_advancement",
             "advancement": "alphasorigins:upgrades/upgraded"
@@ -319,7 +422,120 @@
         },
         {
           "type": "origins:delay",
-          "ticks": 1,
+          "ticks": 10,
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "id": "minecraft:resistance",
+              "duration": 200,
+              "amplifier": 20
+            }
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 5,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "effect clear @s"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 20,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"A Flood\",\"color\":\"#6666ff\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 60,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"Is Rising\",\"color\":\"#3232ff\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 80,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "weather rain"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 85,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "effect give @e slowness 30 4"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 86,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "effect clear @s"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 160,
+          "action": {
+            "type": "origins:block_action_at",
+            "block_action": {
+              "type": "origins:area_of_effect",
+              "radius": 5,
+              "shape": "sphere",
+              "block_action": {
+                "type": "origins:set_block",
+                "block": "minecraft:packed_ice"
+              }
+            },
+
+            "block_condition": {
+              "type": "origins:and",
+              "conditions": [
+                {
+                  "type": "origins:block",
+                  "block": "minecraft:bedrock",
+                  "inverted": true
+                },
+                {
+                  "type": "origins:block",
+                  "block": "minecraft:obsidian",
+                  "inverted": true
+                },
+                {
+                  "type": "origins:block",
+                  "block": "minecraft:crying_obsidian",
+                  "inverted": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 200,
+          "action": {
+            "type": "origins:block_action_at",
+            "block_action": {
+              "type": "origins:area_of_effect",
+              "radius": 5,
+              "shape": "sphere",
+              "block_action": {
+                "type": "origins:set_block",
+                "block": "minecraft:air"
+              }
+            }
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 200,
           "action": {
             "type": "origins:grant_advancement",
             "advancement": "alphasorigins:upgrades/upgraded"
@@ -371,8 +587,80 @@
           }
         },
         {
+          "type": "origins:apply_effect",
+          "effect": {
+            "id": "minecraft:resistance",
+            "duration": 200,
+            "amplifier": 20
+          }
+        },
+        {
           "type": "origins:delay",
-          "ticks": 1,
+          "ticks": 20,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"A Dark Night\",\"color\":\"#353935\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 60,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"Has Begun\",\"color\":\"#c50000\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 80,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "effect give @a minecraft:wither 10 0 "
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 80,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "effect give @e minecraft:blindness 20 3"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 80,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "effect give @e minecraft:slowness 10 2"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 81,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "effect clear @s minecraft:wither"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 81,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "effect clear @s minecraft:slowness"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 81,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "effect clear @s minecraft:blindness"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 200,
           "action": {
             "type": "origins:grant_advancement",
             "advancement": "alphasorigins:upgrades/upgraded"
@@ -424,8 +712,32 @@
           }
         },
         {
+          "type": "origins:apply_effect",
+          "effect": {
+            "id": "minecraft:resistance",
+            "duration": 200,
+            "amplifier": 20
+          }
+        },
+        {
           "type": "origins:delay",
-          "ticks": 1,
+          "ticks": 20,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"A Fierce Warrior\",\"color\":\"#bf7fbf\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 60,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"Has Been Knighted\",\"color\":\"#993299\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 200,
           "action": {
             "type": "origins:grant_advancement",
             "advancement": "alphasorigins:upgrades/upgraded"
@@ -477,8 +789,64 @@
           }
         },
         {
+          "type": "origins:apply_effect",
+          "effect": {
+            "id": "minecraft:resistance",
+            "duration": 200,
+            "amplifier": 20
+          }
+        },
+        {
           "type": "origins:delay",
-          "ticks": 1,
+          "ticks": 20,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"The Knife\",\"color\":\"#c0c0c0\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 60,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"Becomes Hungry\",\"color\":\"#660000\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 80,
+          "action": {
+            "type": "origins:area_of_effect",
+            "radius": 10,
+            "bientity_action": {
+              "type": "origins:target_action",
+              "action": {
+                "type": "origins:damage",
+                "amount": 8,
+                "damage_type": "minecraft:indirect_magic"
+              }
+            }
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 90,
+          "action": {
+            "type": "origins:area_of_effect",
+            "radius": 50,
+            "bientity_action": {
+              "type": "origins:target_action",
+              "action": {
+                "type": "origins:damage",
+                "amount": 4,
+                "damage_type": "minecraft:indirect_magic"
+              }
+            }
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 200,
           "action": {
             "type": "origins:grant_advancement",
             "advancement": "alphasorigins:upgrades/upgraded"
@@ -530,8 +898,32 @@
           }
         },
         {
+          "type": "origins:apply_effect",
+          "effect": {
+            "id": "minecraft:resistance",
+            "duration": 200,
+            "amplifier": 20
+          }
+        },
+        {
           "type": "origins:delay",
-          "ticks": 1,
+          "ticks": 20,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"The Forrest\",\"color\":\"#007300\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 60,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"Gave Her Blessing\",\"color\":\"#004000\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 200,
           "action": {
             "type": "origins:grant_advancement",
             "advancement": "alphasorigins:upgrades/upgraded"
@@ -583,8 +975,73 @@
           }
         },
         {
+          "type": "origins:apply_effect",
+          "effect": {
+            "id": "minecraft:resistance",
+            "duration": 200,
+            "amplifier": 20
+          }
+        },
+        {
           "type": "origins:delay",
-          "ticks": 1,
+          "ticks": 20,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"The Lava\",\"color\":\"#ffa500\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 60,
+          "action": {
+            "type": "origins:execute_command",
+            "command": "title @a title {\"text\":\"Is Boiling\",\"color\":\"#ff8000\",\"bold\":false,\"italic\":true,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}"
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 160,
+          "action": {
+            "type": "origins:block_action_at",
+            "block_action": {
+              "type": "origins:area_of_effect",
+              "radius": 5,
+              "shape": "sphere",
+              "block_action": {
+                "type": "origins:set_block",
+                "block": "minecraft:lava"
+              },
+              "block_condition": {
+                "type": "origins:and",
+                "conditions": [
+                  {
+                    "type": "origins:block",
+                    "block": "minecraft:air",
+                    "inverted": true
+                  },
+                  {
+                    "type": "origins:block",
+                    "block": "minecraft:bedrock",
+                    "inverted": true
+                  },
+                  {
+                    "type": "origins:block",
+                    "block": "minecraft:obsidian",
+                    "inverted": true
+                  },
+                  {
+                    "type": "origins:block",
+                    "block": "minecraft:crying_obsidian",
+                    "inverted": true
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "origins:delay",
+          "ticks": 200,
           "action": {
             "type": "origins:grant_advancement",
             "advancement": "alphasorigins:upgrades/upgraded"

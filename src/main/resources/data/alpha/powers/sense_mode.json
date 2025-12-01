@@ -54,7 +54,7 @@
       "type": "origins:apply_effect",
       "effect": {
         "id": "minecraft:night_vision",
-        "duration": 240
+        "duration": 100
       }
     },
     "condition": {
@@ -108,7 +108,7 @@
 
   "message": {
     "type": "origins:action_over_time",
-    "interval": 20,
+    "interval": 5,
     "rising_action": {
       "type": "origins:and",
       "actions": [

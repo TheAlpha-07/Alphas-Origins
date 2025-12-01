@@ -23,4 +23,7 @@ public class StrangleEffect extends StatusEffect {
         return true;
     }
 
+    public static void initialize() {
+    }
+
 }

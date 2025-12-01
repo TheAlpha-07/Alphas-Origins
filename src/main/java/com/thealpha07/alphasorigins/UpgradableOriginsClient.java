@@ -5,7 +5,7 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 
 @Environment(EnvType.CLIENT)
-public class AdaptableOriginsClient implements ClientModInitializer {
+public class UpgradableOriginsClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

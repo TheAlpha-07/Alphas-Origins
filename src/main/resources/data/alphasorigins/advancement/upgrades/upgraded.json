@@ -1,16 +1,16 @@
 {
-  "parent": "alphasorigins:evolutions/root",
+  "parent": "alphasorigins:upgrades/root",
   "display": {
     "icon": {
       "id": "minecraft:dragon_breath"
     },
     "title": {
-      "translate": "advancements.evolutions.the_evolution.title",
+      "translate": "advancements.upgrades.upgraded.title",
       "color": "yellow",
       "bold": true
     },
     "description": {
-      "translate": "advancements.evolutions.the_evolution.description",
+      "translate": "advancements.upgrades.upgraded.description",
       "color": "white",
       "italic": true
     },

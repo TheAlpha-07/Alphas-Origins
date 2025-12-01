@@ -1,5 +1,6 @@
 {
   "type": "origins:multiple",
+  "hidden": true,
 
   "arrow": {
     "type": "origins:action_on_hit",
@@ -48,7 +49,7 @@
 
   "message": {
     "type": "origins:action_over_time",
-    "interval": 20,
+    "interval": 5,
     "rising_action": {
       "type": "origins:and",
       "actions": [

@@ -15,13 +15,13 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "com.thealpha07.alphasorigins.AdaptableOriginsClient"
+      "com.thealpha07.alphasorigins.UpgradableOriginsClient"
     ],
     "main": [
-      "com.thealpha07.alphasorigins.AdaptableOrigins"
+      "com.thealpha07.alphasorigins.UpgradableOrigins"
     ],
     "fabric-datagen": [
-      "com.thealpha07.alphasorigins.AdaptableOriginsDataGenerator"
+      "com.thealpha07.alphasorigins.UpgrdableOriginsDataGenerator"
     ]
   },
   "mixins": [
