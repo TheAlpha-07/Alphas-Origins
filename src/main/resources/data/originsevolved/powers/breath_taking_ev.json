@@ -7,7 +7,7 @@
       "key": "key.origins.nonary_active",
       "continuous": true
     },
-    "cooldown": 60,
+    "cooldown": 300,
     "entity_action": {
       "type": "origins:raycast",
       "distance": 50,
@@ -54,7 +54,7 @@
             "action": {
               "type": "origins:change_resource",
               "resource": "originsevolved:water_mana_ev_resource",
-              "change": -1200,
+              "change": -360,
               "operation": "add"
             }
           }
@@ -75,7 +75,7 @@
         {
           "type": "origins:resource",
           "resource": "originsevolved:water_mana_ev_resource",
-          "compare_to": 1200,
+          "compare_to": 360,
           "comparison": ">="
         }
       ]

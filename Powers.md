@@ -90,30 +90,29 @@ Water Mana:
 -	Power type: Passive (Self)
 -	Cooldown: None
 -	Details: Source of mana for all water magic powers:
-•	Needs to be fixed first. (Charging takes either way to long or abilities need to much mana)
-•	24000 Seconds of mana (1 mana recharges every second)
+•	3600 seconds worth of mana, every second gain 1 mana.
 
 Breath Giving:
 -	Power: New
 -	Power type: Active (Other)
--	Cooldown: 20 Seconds
+-	Cooldown: 30 Seconds
 -	Details: Give entities breathing.
 •	Cast distance: 50 blocks
 •	Will go through fluids, will stop at collision.
 •	Give target 180 seconds worth of water breathing.
-•	Lose 300 seconds worth of water mana. (Might be changed)
+•	Lose 360 seconds worth of water mana.
 
 Breath Taking:
 -	Power: New
 -	Power type: Active (Other)
--	Cooldown: 3 Seconds (Will be changed)
+-	Cooldown: 15 Seconds (Will be changed)
 -	Details: Weaken entities.
 •	Cast distance: 50 blocks
 •	Will go through any fluid, will stop at collision.
 •	Take away target water breathing
 •	Deal 2 drowning damage
 •	Give 5 seconds slowness and weakness
-•	Lose 60 seconds worth of mana. 
+•	Lose 360 seconds worth of mana. 
 
 Aqua Affinity+:
 -	Power: Upgraded (Aqua Affinity)
@@ -140,20 +139,20 @@ Tougher Scales:
 
 Rain Summoning:
 -	Power: New
--	Power type: Active (Seld)
+-	Power type: Active (Self)
 -	Cooldown: None
 -	Details: Summon rain based on mana.
-•	Lose 12000 seconds worth of mana. (Might be changed)
+•	Lose 3600 seconds worth of mana.
 
-Hot Places: (Power needs to be fixed, incorrect resource).
+Hot Places:
 -	Power: New
 -	Power type: Negative (Self)
 -	Cooldown: None
 -	Details: Lose mana when in hot places.
 •	The longer in a hot biome (Any biome with a temperature of 2+), the more mana lost.
 •	After 5 seconds, 1 second of mana will be lost every second for 20 seconds long.
-•	Then for 15 seconds long, 7,5 second of mana will be lost every second.
-•	Then 15 seconds of mana will be lost till out of the hot biome.
+•	Then for 15 seconds long, 2 seconds of mana will be lost every second.
+•	Then 3 seconds of mana will be lost till out of the hot biome.
 
 Special Effects:
 -	You have water particles flowing around you.

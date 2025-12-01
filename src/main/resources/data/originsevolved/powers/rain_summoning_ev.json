@@ -17,7 +17,7 @@
       {
         "type": "origins:change_resource",
         "resource": "originsevolved:water_mana_ev_resource",
-        "change": -24000,
+        "change": -3600,
         "operation": "add"
       }
     ]
@@ -26,7 +26,7 @@
   "condition": {
     "type": "origins:resource",
     "resource": "originsevolved:water_mana_ev_resource",
-    "compare_to": 24000,
+    "compare_to": 3600,
     "comparison": "=="
   }
 }

@@ -60,10 +60,10 @@
 
   "resource_1": {
     "type": "origins:action_over_time",
-    "interval": 15,
+    "interval": 20,
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "originsevolved:rain_summoning_ev",
+      "resource": "originsevolved:water_mana_ev",
       "change": 20,
       "operation": "add"
     },
@@ -107,11 +107,11 @@
 
   "resource_2": {
     "type": "origins:action_over_time",
-    "interval": 15,
+    "interval": 20,
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "originsevolved:rain_summoning_ev",
-      "change": 150,
+      "resource": "originsevolved:water_mana_ev",
+      "change": 2,
       "operation": "add"
     },
     "condition": {
@@ -154,11 +154,11 @@
 
   "resource_3": {
     "type": "origins:action_over_time",
-    "interval": 15,
+    "interval": 20,
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "originsevolved:rain_summoning_ev",
-      "change": 300,
+      "resource": "originsevolved:water_mana_ev",
+      "change": 3,
       "operation": "add"
     },
     "condition": {
