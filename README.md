@@ -8,10 +8,7 @@
 5. Work on books and textures. (...)
 6. Test mod. (...)
 
-## Needs to be Changes:
-Merling of the seas:
-- Water mana check,
-- Breath taking cooldown
+## Needs to be Changed:
 
 ### Origins:
 Human Origins:
@@ -44,7 +41,6 @@ End creatures:
 ### Not started yet:
 - Assassin + Shadow Assassin
 - Hunter + Sharp Hunter
-- Shulk Guardian 
 - Enchanting Witch
 
 ### Stress testing:
@@ -57,7 +53,6 @@ End creatures:
 - Enchanted Villager (Will be reworked to the witch, special ingredient interactions will be added and more effects will be added to the collection).
 
 ### Origins that need to be checked:
-- Shulk Guardian,
 - Assassin > Shadow Assassin,
 - Hunter > Sharp hunter, 
 

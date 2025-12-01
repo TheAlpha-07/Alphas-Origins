@@ -266,5 +266,43 @@ Hell Fire:
 
 ## End Creatures
 ### Shulk Guardian
+Impregnable Defense:
+-	Power: New
+-	Power type: Passive (Self), Active (Self, Other)
+-	Cooldown: None
+-	Details: 
+- Less damage when shields available, resistance on activate.
+     • Every 10 seconds the Shulk Guardian gains 1 shield with a max of 5 shields.
+     • When gaining any damage 1 shield goes away. Every shield negates more damage. When the Shulk Guardian has 5 
+     shields he will only gain 50% damage, when he has 4 shields he will only gain 40% damage and that all the way 
+     to 0 shields.
+- The Shulk Guardian can active this ability to give everyone in a radius of 10 blocks 10 seconds of resistance, he 
+  will then lose his shields accordingly: When 5 shields: resistance 4, when 4 shields: resistance 3, when 3 
+  shields: resistance 2, when 1 or 2 shields: resistance 1.
+
+Natural Armor+:
+- Power: Upgraded (Natural Armor)
+- Power type: Passive (Self)
+- Cooldown: None
+- Details: 10 extra armor points (5 armor bars)
+
+The Juggernaut:
+- Power: New
+- Power type: Active (self)
+- Cooldown: None
+- Details: Gain resistance 2 (1 second), slowness 5 (1 second), blindness 4 (1 second) as long as this power is 
+  toggled. 
+
+Levitation Shot:
+- Power: New
+- Power type: Active (Other)
+- Cooldown: 20 seconds
+- Details: On hit with a normal arrow, give the creature 5 seconds of levitation 1.
+
+No Enderpearls:
+- Power: New
+- Power type: Negative (Self)
+- Cooldown: None
+- Details: Unable to use enderpearls
 
 ### Dimensional Enderian

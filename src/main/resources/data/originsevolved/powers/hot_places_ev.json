@@ -63,7 +63,7 @@
     "interval": 20,
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "originsevolved:water_mana_ev",
+      "resource": "originsevolved:water_mana_ev_resource",
       "change": 20,
       "operation": "add"
     },
@@ -110,7 +110,7 @@
     "interval": 20,
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "originsevolved:water_mana_ev",
+      "resource": "originsevolved:water_mana_ev_resource",
       "change": 2,
       "operation": "add"
     },
@@ -157,7 +157,7 @@
     "interval": 20,
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "originsevolved:water_mana_ev",
+      "resource": "originsevolved:water_mana_ev_resource",
       "change": 3,
       "operation": "add"
     },

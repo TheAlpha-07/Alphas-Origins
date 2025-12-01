@@ -117,8 +117,8 @@
   "power.alpha.zombified.name": "Zombified",
   "power.alpha.zombified.description": "The undead makes your body shiver, the fear of them makes you lose focus and health.",
 
-  // Enchanted Villager (Villager Evolved)
-  "origin.originsevolved.enchanted_villager.name": "Enchanted Villager",
+  // Enchanted Witch (Villager Evolved)
+  "origin.originsevolved.enchanted_villager.name": "Enchanted Witch",
   "origin.originsevolved.enchanted_villager.description": "The Ender Fused Star released an all mighty power and swiftly became part of you. As you feel your magic grow you can't help but wonder, when will the barrier between your combined powers break?",
   "power.originsevolved.brew_levitation_ev.name": "A small addition",
   "power.originsevolved.brew_levitation_ev.description": "Your magical ingredients have been increased by one, a strong yet dangerous addition, you might want to do something against the possible fall damage.",
@@ -198,7 +198,7 @@
   "power.originsevolved.friend_or_foe_ev.description": "When the day starts your prey can roam free, but as the night closes in, they better hide.",
   // Avian
 
-  // Avian of BLood (Avian Evolved)
+  // Avian of Blood (Avian Evolved)
   "origin.originsevolved.avian_evolved.name": "Avian of Blood",
   "origin.originsevolved.avian_evolved.description": "Once you eat the blessed magic flesh your body starts to change, your mind starts to waver and your blood starts to boil, you feel your heart race and your muscles strengthen, your visions starts to blur and all you see is red. Blood. More Blood.",
   "power.originsevolved.tailwind_ev.name": "Tailwind+",
@@ -215,10 +215,11 @@
   "power.originsevolved.ingest_blood_ev.description": "Since you are a deadly killer now that eats and hunts everything in sight, you are never clean of blood. Your whole body is covered with it but especially your teeth and weapons. Creatures or people can have a 10% chance to get blood ingested and will receive nausea III.",
   "power.originsevolved.hurtfull_feathers_ev.name": "Bloody Feathers",
   "power.originsevolved.hurtfull_feathers_ev.description": "When you're hurt you bleed, not only do your feathers get bloody, but they also get torn apart, this way they will malfunction when hurt to badly.",
+
   // Blazeborn
 
-  // Fiery Blazeborn
-  "origin.originsevolved.blazeborn_evolved.name": "Fiery Blazeborn",
+  // Blazed Guardian
+  "origin.originsevolved.blazeborn_evolved.name": "Blazed Guardian",
   "origin.originsevolved.blazeborn_evolved.description": "After you release the magic rod you feel the ender magic fight against the nether magic inside your blood, unable to win due to a missing source, the ender magic admits defeat leaving a fragment of its power inside your body.",
   "power.originsevolved.inferno_rework_ev.name": "Inferno",
   "power.originsevolved.inferno_rework_ev.description": "Now that the evolution is completed, the nether magic inside you is awakened even more. Now set your enemies in fire and make them suffer, burn everything around you, this power is almost unstoppable.",
@@ -236,7 +237,7 @@
 
   // Elytrian
 
-  // Elytrian Evolved
+  // Elytrian of the Winds
   "origin.originsevolved.elytrian_evolved.name": "Elytrian of the Winds",
   "origin.originsevolved.elytrian_evolved.description": "The dragons magic combined with the elytra of the end gives you a tool stronger than you could ever imagine. No its not a tool for flying. This tools unseals a part of your magic seal, giving you a small amount of power that your ancestors once had.",
   "power.originsevolved.launch_into_air_ev.name": "Wind Jump",
@@ -260,8 +261,8 @@
 
   // Enderian
 
-  // Enderian Evolved
-  "origin.originsevolved.enderian_evolved.name": "Enderian Evolved",
+  // Dimensional Enderian
+  "origin.originsevolved.enderian_evolved.name": "Diemensional Enderian",
   "origin.originsevolved.enderian_evolved.description": "Touching the magical dripping eye already gave you the chills. Now trying to unleash the magic feels even worse, but then, the eye breaks, you feel a mysterious power run through your body and unleash the ender magic inside you making your power way stronger.",
   "power.originsevolved.dragon_switch_ev.name": "Reverse Teleportation",
   "power.originsevolved.dragon_switch_ev.description": "The ender magic, now actively flowing through your body, touched your teleportation core. The power it unleashed gave you a new power. You are now able to switch with any entity within a thirty block distance.",
@@ -275,7 +276,7 @@
 
   // Feline
 
-  // Blood Feline (Feline Evolved)
+  // Feline of Blood (Feline Evolved)
   "origin.originsevolved.feline_evolved.name": "Feline of Blood",
   "origin.originsevolved.feline_evolved.description": "The tasty fish looked ruined dressed in all that dragon spit, but after taking a bite you don't regret it for one second. So much power in your body at once. You feel your blood cook and look around you, and all you see is not creatures, no, all you see is food.",
   "power.originsevolved.freehand_ev.name": "Tiger Claws",
@@ -297,7 +298,7 @@
 
   // Merling
 
-  // Merling Evolved
+  // Merling of the Seas
   "origin.originsevolved.merling_evolved.name": "Merling of the Seas",
   "origin.originsevolved.merling_evolved.description": "Releasing the sealed magic in the pearl made the end magic flow into your body. The end magic flowed through your body and stroke down into the locked pool of water magic deep inside you, you now feel the seal break a little and are able to use a little of the water magic your ancestors once used.",
   "power.originsevolved.water_mana_ev.name": "Water Mana",
@@ -318,7 +319,7 @@
   "power.originsevolved.trident_ev.description": "Long ago the water elementals used the trident as their weapon which was the best choice according to their power. You, who now feels a strong connection towards the trident, are faster en deal way more damage using it.",
   // Phantom
 
-  // Phantom Evolved
+  // Spiritual Phantom
   "origin.originsevolved.phantom_evolved.name": "Spiritual Phantom",
   "origin.originsevolved.phantom_evolved.description": "As the infected totem releases its magic, you start to feel dizzy and sick, your vision becomes black but then suddenly you feel awoken, you feel like you are born again. The ender power strengthening your barrier between Light and Dark becomes even stronger making you - as long as you are phantomized - capable of using these separate from each other.",
   "power.originsevolved.phantom_flight_ev.name": "Lights Flight",
@@ -341,25 +342,30 @@
   "power.originsevolved.hunger_over_time_ev.description": "Your difference in powers are difficult to control, your energy comes at the cost. Your hunger goes even faster while in phasing mode.",
   "power.originsevolved.hell_fire_ev.name": "Hell Fire",
   "power.originsevolved.hell_fire_ev.description": "Scared of the the dark side of your power, the power of Light increased your damage from fire by 50%.",
+
   // Shulk
 
-  // Shulk Evolved
-  "origin.originsevolved.shulk_evolved.name": "Shulk Evolved",
+  // Shulk Guardian
+  "origin.originsevolved.shulk_evolved.name": "Shulk Guardian",
   "origin.originsevolved.shulk_evolved.description": "Through eating the magical chorus fruit you feel more alive than ever. Your blood is strengthened and your body feels lighter, but stronger. You feel like a newborn warrior.",
-  "power.originsevolved.strong_arms.name": "Strong Arms+",
-  "power.originsevolved.natural_stone_ev.descriptions": "Now that you are stronger you can also mine ores that only need a stone pickaxe - as long as these ores are from the overworld - to be obtained.",
+  "power.originsevolved.impregnable_defense_ev.name": "Impregnable Defense",
+  "power.originsevolved.impregnable_defense_ev.description": "The end magic you gained stabilized your armor and granted you more progression, you can now protect yourself more or protect others around you.",
+  "power.originsevolved.strong_arms_ev.name": "Strong Arms+",
+  "power.originsevolved.strong_arms_ev.descriptions": "Now that you are stronger you can also mine ores that only need a stone pickaxe - as long as these ores are from the overworld - to be obtained.",
   "power.originsevolved.harder_shell_ev.name": "Natural Armor+",
-  "power.originsevolved.harder_shell_ev.description": "The end magic that you gained stabilizes your already strong armor, now more durability is added giving you more protection.",
-  "power.originsevolved.choruseat_ev.name": "Food of the End",
-  "power.originsevolved.choruseat_ev.description": "You're now able to eat chorus fruit, normally you will teleport away, but because you're now very heavy with your new armor, whenever you crouch and eat it you will receive a little health.",
+  "power.originsevolved.harder_shell_ev.description": "Through the stabilization your armor has increased even more.",
+  "power.originsevolved.levitation_shot.name": "Levitation Shot",
+  "power.originsevolved.levitation_shot.description": "You're able to replicate the shulkers levitation shot just a bit. When hitting someone with an arrow they will levitate up.",
+  "power.originsevolved.no_enderpearls.name": "No Enderpearls",
+  "power.originsevolved.no_enderpearls.description": "You are to heavy to be teleported by an enderpearl, your only way is chorusfruit.",
   "power.originsevolved.juggernaut_toggle_ev.name": "The Juggernaut",
   "power.originsevolved.juggernaut_toggle_ev.description": "Now that your armor is stabilized you're able to use it more efficiently, you can now retreat into your armor and use it as the ultimate defense. Your armor will protect you from much damage at the cost of your vision and your movement.",
 
   // Nether and Ender.
-  "power.originsevolved.end_damage_ev.name": "..",
-  "power.originsevolved.end_damage_ev.description": "..",
-  "power.originsevolved.nether_damage_ev.name": "..",
-  "power.originsevolved.nether_damage_ev.description": "..",
+  "power.originsevolved.end_damage_ev.name": "Natural Foes",
+  "power.originsevolved.end_damage_ev.description": "You strongly hate creatures from the end, their attacks drained in ender magic deals way more damage too you.",
+  "power.originsevolved.nether_damage_ev.name": "Natural Foes",
+  "power.originsevolved.nether_damage_ev.description": "You strongly hate creatures from the nether, their attacks drained in nether magic deals way more damage.",
 
   // More Keybinds
   "key.origins.denary_active": "Active Power (Denary, 3th)",

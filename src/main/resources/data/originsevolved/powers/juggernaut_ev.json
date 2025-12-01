@@ -2,7 +2,7 @@
   "type": "origins:stacking_status_effect",
   "effect": {
     "id": "minecraft:resistance",
-    "duration": 100,
+    "duration": 20,
     "amplifier": 1,
     "is_ambient": true,
     "show_particles": false,

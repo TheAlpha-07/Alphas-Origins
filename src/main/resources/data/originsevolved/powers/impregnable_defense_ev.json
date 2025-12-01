@@ -30,7 +30,7 @@
 
   "restore": {
     "type": "origins:action_over_time",
-    "interval": 300,
+    "interval": 200,
     "condition": {
       "type": "origins:and",
       "conditions": [
