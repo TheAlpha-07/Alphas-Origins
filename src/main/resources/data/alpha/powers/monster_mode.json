@@ -79,6 +79,11 @@
         },
         {
           "type": "origins:origin",
+          "origin": "origins:blazeborn",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
           "origin": "origins:elytrian",
           "layer": "origins:origin"
         },
@@ -99,7 +104,22 @@
         },
         {
           "type": "origins:origin",
+          "origin": "origins:phantom",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins:shulk",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
           "origin": "alpha:villager",
+          "layer": "origins:origin"
+        },
+        {
+          "type": "origins:origin",
+          "origin": "alpha:strider",
           "layer": "origins:origin"
         }
       ]

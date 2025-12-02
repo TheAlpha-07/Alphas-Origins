@@ -40,7 +40,7 @@
             "type": "origins:target_action",
             "action": {
               "type": "origins:damage",
-              "amount": 6,
+              "amount": 7,
               "damage_type": "minecraft:player_attack"
             }
           }
@@ -52,7 +52,7 @@
             "type": "origins:target_action",
             "action": {
               "type": "origins:damage",
-              "amount": 8,
+              "amount": 9,
               "damage_type": "minecraft:player_attack"
             }
           }
@@ -65,13 +65,6 @@
     "conditions": [
       {
         "type": "origins:on_block"
-      },
-      {
-        "type": "origins:resource",
-        "resource": "originsevolved:targets_ev",
-        "compare_to": 5,
-        "comparison": "==",
-        "inverted": true
       },
       {
         "type": "origins:resource",

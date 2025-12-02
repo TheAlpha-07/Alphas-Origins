@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
 
-  "hit": {
+  "add_resource": {
     "type": "origins:self_action_on_hit",
     "entity_action": {
       "type": "origins:change_resource",
@@ -27,30 +27,28 @@
     }
   },
 
-  "replace": {
-    "key": {
-      "key": "key.origins.denary_active"
+  "hit": {
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "operation": "multiply_total_multiplicative",
+      "amount": 0.2
     },
-    "cooldown": 200,
-    "type": "origins:active_self",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "originsevolved:targets_ev",
+      "compare_to": 5,
+      "comparison": "=="
+    }
+  },
+
+  "lose_resource": {
+    "type": "origins:self_action_on_hit",
+    "interval": 10,
     "entity_action": {
-      "type": "origins:and",
-      "actions": [
-        {
-          "type": "origins:grant_power",
-          "power": "originsevolved:rush_assassination_ev",
-          "source": "originsevolved:shadow_assassin"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 200,
-          "action": {
-            "type": "origins:revoke_power",
-            "power": "originsevolved:rush_assassination_ev",
-            "source": "originsevolved:shadow_assassin"
-          }
-        }
-      ]
+      "type": "origins:change_resource",
+      "resource": "originsevolved:targets_ev",
+      "change": 0,
+      "operation": "set"
     },
     "condition": {
       "type": "origins:resource",

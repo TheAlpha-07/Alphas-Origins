@@ -22,9 +22,8 @@
   },
   "upgrades":
     {
-      "condition": "alphasorigins:evolutions/the_evolution",
-      "origin": "originsevolved:shadow_assassin",
-      "announcement": "You have evolved"
+      "condition": "alphasorigins:upgrades/upgraded",
+      "origin": "originsevolved:shadow_assassin"
     },
   "impact": 2
 }
