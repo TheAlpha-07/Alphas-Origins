@@ -20,9 +20,8 @@
   },
   "upgrades":
     {
-      "condition": "alphasorigins:evolutions/the_evolution",
-      "origin": "originsevolved:lava_walker",
-      "announcement": "You have evolved"
+      "condition": "alphasorigins:upgrades/upgraded",
+      "origin": "originsevolved:lava_walker"
     },
   "impact": 2
 }

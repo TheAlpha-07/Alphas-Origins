@@ -20,8 +20,7 @@
     "name": "Avian",
     "description": "The Avian race has lost their ability to fly a long time ago. Now these peaceful creatures can be seen gliding from one place to another.",
     "upgrades": {
-        "condition": "alphasorigins:evolutions/the_evolution",
-        "origin": "originsevolved:avian_evolved",
-        "announcement": "Evolving... Evolved!"
+        "condition": "alphasorigins:upgrades/upgraded",
+        "origin": "originsevolved:avian_evolved"
     }
 }

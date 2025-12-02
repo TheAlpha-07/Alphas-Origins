@@ -18,8 +18,7 @@
     "name": "Elytrian",
     "description": "Often flying around in the winds, Elytrians are uncomfortable when they don't have enough space above their head.",
     "upgrades": {
-        "condition": "alphasorigins:evolutions/the_evolution",
-        "origin": "originsevolved:elytrian_evolved",
-        "announcement": "Evolving... Evolved!"
+        "condition": "alphasorigins:upgrades/upgraded",
+        "origin": "originsevolved:elytrian_evolved"
     }
 }

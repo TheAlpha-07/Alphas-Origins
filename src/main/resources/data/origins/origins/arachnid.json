@@ -15,8 +15,7 @@
     "order": 6,
     "impact": 1,
     "upgrades": {
-        "condition": "alphasorigins:evolutions/the_evolution",
-        "origin": "originsevolved:arachnid_evolved",
-        "announcement": "Evolving... Evolved!"
+        "condition": "alphasorigins:upgrades/upgraded",
+        "origin": "originsevolved:arachnid_evolved"
     }
 }

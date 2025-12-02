@@ -20,8 +20,7 @@
     "name": "Phantom",
     "description": "As half-human and half-phantom offspring, these creatures can switch between a Phantom and a normal form.",
     "upgrades": {
-        "condition": "alphasorigins:evolutions/the_evolution",
-        "origin": "originsevolved:phantom_evolved",
-        "announcement": "Evolving... Evolved!"
+        "condition": "alphasorigins:upgrades/upgraded",
+        "origin": "originsevolved:phantom_evolved"
     }
 }

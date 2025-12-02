@@ -24,9 +24,8 @@
   },
   "upgrades": [
     {
-      "condition": "alphasorigins:evolutions/the_evolution",
-      "origin": "originsevolved:enchanted_villager",
-      "announcement": "You have evolved"
+      "condition": "alphasorigins:upgrades/upgraded",
+      "origin": "originsevolved:enchanted_villager"
     }
   ],
   "impact": 1,

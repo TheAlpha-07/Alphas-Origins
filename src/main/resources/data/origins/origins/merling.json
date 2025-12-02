@@ -19,8 +19,7 @@
     "name": "Merling",
     "description": "These natural inhabitants of the ocean are not used to being out of the water for too long.",
     "upgrades": {
-        "condition": "alphasorigins:evolutions/the_evolution",
-        "origin": "originsevolved:merling_evolved",
-        "announcement": "Evolving... Evolved!"
+        "condition": "alphasorigins:upgrades/upgraded",
+        "origin": "originsevolved:merling_evolved"
     }
 }

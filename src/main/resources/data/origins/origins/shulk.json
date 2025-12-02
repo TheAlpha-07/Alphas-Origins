@@ -17,9 +17,8 @@
     "name": "Shulk",
     "description": "Related to Shulkers, the bodies of the Shulk are outfitted with a protective shell-like skin.",
     "upgrades": {
-        "condition": "alphasorigins:evolutions/the_evolution",
-        "origin": "originsevolved:shulk_evolved",
-        "announcement": "Evolving... Evolved!"
+        "condition": "alphasorigins:upgrades/upgraded",
+        "origin": "originsevolved:shulk_evolved"
     }
 }
 

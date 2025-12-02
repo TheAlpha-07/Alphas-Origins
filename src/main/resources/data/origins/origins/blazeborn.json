@@ -21,8 +21,7 @@
     "name": "Blazeborn",
     "description": "Late descendants of the Blaze, the Blazeborn are naturally immune to the perils of the Nether.",
     "upgrades": {
-        "condition": "alphasorigins:evolutions/the_evolution",
-        "origin": "originsevolved:blazeborn_evolved",
-        "announcement": "Evolving... Evolved!"
+        "condition": "alphasorigins:upgrades/upgraded",
+        "origin": "originsevolved:blazeborn_evolved"
     }
 }
