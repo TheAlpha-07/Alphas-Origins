@@ -21,9 +21,8 @@
   },
   "upgrades":
     {
-      "condition": "alphasorigins:evolutions/the_evolution",
-      "origin": "originsevolved:sharp_hunter",
-      "announcement": "You have evolved"
+      "condition": "alphasorigins:upgrades/upgraded",
+      "origin": "originsevolved:sharp_hunter"
     },
   "impact": 1
 }

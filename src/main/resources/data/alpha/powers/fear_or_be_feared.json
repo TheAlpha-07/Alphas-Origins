@@ -8,9 +8,9 @@
       "action": {
         "type": "origins:apply_effect",
         "effect": {
-          "id": "minecraft:slowness",
+          "id": "minecraft:weakness",
           "amplifier": 0,
-          "duration": 400
+          "duration": 100
         }
       }
     },
@@ -41,8 +41,8 @@
       "action": {
         "type": "origins:apply_effect",
         "effect": {
-          "id": "minecraft:slowness",
-          "duration": 600,
+          "id": "minecraft:weakness",
+          "duration": 100,
           "amplifier": 0
         }
       }

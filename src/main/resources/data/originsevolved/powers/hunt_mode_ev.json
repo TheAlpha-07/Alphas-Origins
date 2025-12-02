@@ -66,7 +66,7 @@
 
   "invisible1": {
     "type": "origins:invisibility",
-    "render_armor": false,
+    "render_armor": true,
     "condition": {
       "type": "origins:and",
       "conditions": [
@@ -90,14 +90,14 @@
       "effects": [
         {
           "id": "minecraft:invisibility",
-          "duration": 60,
+          "duration": 20,
           "show_particles": true
         },
         {
           "id": "minecraft:slowness",
-          "duration": 60,
+          "duration": 40,
           "show_particles": true,
-          "amplifier": 0
+          "amplifier": 1
         }
       ]
     },

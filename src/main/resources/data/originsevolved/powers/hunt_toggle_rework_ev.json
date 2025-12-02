@@ -27,7 +27,7 @@
           },
           "action": {
             "type": "origins:delay",
-            "ticks": 1,
+            "ticks": 20,
             "action": {
               "type": "origins:change_resource",
               "resource": "*:*_bind_disable_resource",
@@ -45,7 +45,7 @@
           },
           "action": {
             "type": "origins:delay",
-            "ticks": 1,
+            "ticks": 20,
             "action": {
               "type": "origins:change_resource",
               "resource": "*:*_bind_disable_resource",
@@ -83,7 +83,7 @@
           },
           "action": {
             "type": "origins:delay",
-            "ticks": 1,
+            "ticks": 20,
             "action": {
               "type": "origins:change_resource",
               "resource": "*:*_hunt_sense_resource",
@@ -101,7 +101,7 @@
           },
           "action": {
             "type": "origins:delay",
-            "ticks": 1,
+            "ticks": 20,
             "action": {
               "type": "origins:change_resource",
               "resource": "*:*_hunt_sense_resource",

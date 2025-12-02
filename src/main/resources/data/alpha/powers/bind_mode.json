@@ -21,7 +21,7 @@
         "effect": {
           "id": "minecraft:slowness",
           "amplifier": 20,
-          "duration": 100
+          "duration": 60
         }
       }
     },
