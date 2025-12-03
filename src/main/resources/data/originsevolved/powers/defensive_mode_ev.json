@@ -90,68 +90,6 @@
     }
   },
 
-  "smash_knockback": {
-    "type": "origins:action_on_hit",
-    "cooldown": 200,
-    "hud_render": {
-      "should_render": true,
-      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-      "bar_index": 0
-    },
-
-    "bientity_action": {
-      "type": "origins:if_else",
-      "condition": {
-        "type": "origins:actor_condition",
-        "condition": {
-          "type": "origins:resource",
-          "resource": "originsevolved:targets_ev",
-          "compare_to": 5,
-          "comparison": "=="
-        }
-      },
-      "if_action": {
-        "type": "origins:and",
-        "actions": [
-          {
-            "type": "origins:add_velocity",
-            "z": 1
-          },
-          {
-            "type": "origins:actor_action",
-            "action": {
-              "type": "origins:change_resource",
-              "resource": "originsevolved:targets_ev",
-              "change": 0,
-              "operation": "set"
-            }
-          }
-        ]
-      },
-      "else_action": {
-        "type": "origins:add_velocity",
-        "z": 0.5
-      }
-    },
-    "bientity_condition": {
-      "type": "origins:actor_condition",
-      "condition": {
-        "type": "origins:and",
-        "conditions": [
-          {
-            "type": "origins:sneaking"
-          },
-          {
-            "type": "origins:resource",
-            "resource": "originsevolved:assassin_toggle_rework_ev_reckless_defensive_resource",
-            "comparison": "==",
-            "compare_to": 2
-          }
-        ]
-      }
-    }
-  },
-
   "less_kinetic": {
     "type": "origins:modify_damage_taken",
     "modifier": {

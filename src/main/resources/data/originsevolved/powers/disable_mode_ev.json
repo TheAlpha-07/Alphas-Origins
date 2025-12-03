@@ -1,6 +1,5 @@
 {
   "type": "origins:multiple",
-  "hidden": true,
 
   "arrow": {
     "type": "origins:action_on_hit",

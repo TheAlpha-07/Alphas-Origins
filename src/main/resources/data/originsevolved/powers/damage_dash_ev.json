@@ -1,5 +1,6 @@
 {
   "type": "origins:active_self",
+  "hidden": true,
   "cooldown": 300,
   "key": {
     "key": "key.origins.denary_active"

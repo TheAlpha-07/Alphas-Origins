@@ -5,7 +5,7 @@
     "type": "origins:self_action_on_kill",
     "entity_action": {
       "type": "origins:heal",
-      "amount": 8.0
+      "amount": 4.0
     },
     "cooldown": 600,
     "hud_render": {

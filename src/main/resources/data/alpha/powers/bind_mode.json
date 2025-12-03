@@ -1,6 +1,5 @@
 {
   "type": "origins:multiple",
-  "hidden": true,
 
   "arrow": {
     "type": "origins:action_on_hit",
@@ -15,15 +14,29 @@
       "projectile": "minecraft:arrow"
     },
     "bientity_action": {
-      "type": "origins:target_action",
-      "action": {
-        "type": "origins:apply_effect",
-        "effect": {
-          "id": "minecraft:slowness",
-          "amplifier": 20,
-          "duration": 60
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effect": {
+              "id": "minecraft:slowness",
+              "amplifier": 20,
+              "duration": 60
+            }
+          }
+        },
+        {
+          "type": "origins:actor_action",
+          "action": {
+            "type": "origins:change_resource",
+            "resource": "alpha:disable_mode_arrow",
+            "change": 0,
+            "operation": "set"
+          }
         }
-      }
+      ]
     },
     "bientity_condition": {
       "type": "origins:actor_condition",
